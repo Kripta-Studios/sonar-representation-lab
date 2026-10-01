@@ -44,6 +44,8 @@ Use official COCO annotations and pycocotools bounding-box evaluator. AP50 prima
 
 After freezing, download only grayscale `channel.tar`, verify it, evaluate all fixed candidate models in one held-out evaluation block and save predictions and full evaluator state. Do not select or repair models based on Channel. This is one held-out location, not the full CFC benchmark.
 
+Channel structural metadata was read before training solely to reserve compute: 69 clips, 13,090 frames in its official v1.1 file list (the older clip metadata totals 13,159). No Channel pixel or model score was viewed. Optional fraction pairs require measured train/validation runtime plus a conservative reservation for all fixed Channel models to fit inside 23.8 hours, with admission also stopping at 20 hours already charged. This is runtime-based admission, never AP-based selection.
+
 ## Resources and reproducibility
 
 Windows private `.venv`, pinned dependencies and official source revision; one training process. Keep owned RAM below 22 GiB and GPU usage below 10 GiB, account for existing desktop GPU usage. Record per-run elapsed GPU-active process hours (including profiling, inference and failures), GPU allocated/reserved peaks, process RSS and child RSS, step losses/LR, checkpoints, raw detections and metrics. User reported 100 GPU-hours remain overall; initial block cap stays 24 local GPU-hours and is deducted from that balance. No cloud purchase or public deployment. Abort before exhausting limits and preserve resume state. Ordinary training has no LLM-signature dependency.

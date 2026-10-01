@@ -20,6 +20,8 @@ Pinned official backbone source (inspected before execution):
 ```powershell
 git clone https://github.com/facebookresearch/dinov2.git vendor/dinov2
 git -C vendor/dinov2 checkout 7764ea0f912e53c92e82eb78a2a1631e92725fc8
+New-Item -ItemType Directory -Force -Path artifacts/pretrained | Out-Null
+Invoke-WebRequest -Uri https://dl.fbaipublicfiles.com/dinov2/dinov2_vits14/dinov2_vits14_reg4_pretrain.pth -OutFile artifacts/pretrained/dinov2_vits14_reg4_pretrain.pth
 ```
 
 Official checkpoint: [dinov2_vits14_reg4_pretrain.pth](https://dl.fbaipublicfiles.com/dinov2/dinov2_vits14/dinov2_vits14_reg4_pretrain.pth), saved as `artifacts/pretrained/dinov2_vits14_reg4_pretrain.pth`. SHA-256: `f433177089a681826f849f194ece3bb48f4d63fb38d32fc837e3dc7a4e5641fb`. The factory validates source revision and checkpoint identity. No remote installation script is used. `requirements-lock.txt` records the actual private environment; reinstall with `uv pip install --python .venv/Scripts/python.exe -r requirements-lock.txt --extra-index-url https://download.pytorch.org/whl/cu128`.

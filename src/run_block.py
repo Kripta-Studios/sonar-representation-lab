@@ -2,6 +2,7 @@
 
 import argparse
 import json
+import statistics
 import subprocess
 import sys
 from pathlib import Path
@@ -18,6 +19,39 @@ def hours():
     if not path.exists():
         return 0.0
     return sum(json.loads(s).get("charged_gpu_hours", 0) for s in path.read_text().splitlines())
+
+
+def extension_fits():
+    """Admission based only on measured runtime and public frame counts, never AP."""
+    directories = list((PROJECT / "artifacts").glob("det-*"))
+    train_hours = [
+        json.loads((d / "resources.json").read_text())["charged_gpu_hours"]
+        for d in directories
+        if (d / "resources.json").exists() and ("published" in d.name or "adapted" in d.name)
+    ]
+    val_hours = [
+        json.loads((d / "val/resources.json").read_text())["charged_gpu_hours"]
+        for d in directories
+        if (d / "val/resources.json").exists()
+    ]
+    if not train_hours or not val_hours:
+        return False, {"reason": "missing measured runtime"}
+    channel_frames = sum(
+        bool(s.strip())
+        for s in (ROOT / "metadata/file_lists_v1.1/kenai-channel.txt").read_text().splitlines()
+    )
+    val_frames = len(json.loads((ROOT / "manifests/val.json").read_text())["images"])
+    heldout = (len(directories) + 2) * channel_frames / val_frames * max(val_hours) * 1.5 + 0.1
+    pair = 2 * (max(train_hours) + max(val_hours)) * 1.25
+    forecast = hours() + pair + heldout
+    return forecast <= 23.8 and hours() < 20, {
+        "charged_hours": hours(),
+        "pair_hours_upper_estimate": pair,
+        "heldout_hours_reserved": heldout,
+        "projected_block_hours": forecast,
+        "median_validation_hours": statistics.median(val_hours),
+        "channel_frames": channel_frames,
+    }
 
 
 def call(script, arguments, log):
@@ -132,8 +166,20 @@ def main():
         for seed in [7, 13, 23]:
             for fraction in [1, 100]:
                 # Extensions are conditional on measured budget; preserve remaining evaluation time.
-                if hours() > 20:
-                    print("FRACTION_EXTENSION_OMITTED_BUDGET", fraction, seed, hours(), flush=True)
+                fits, forecast = extension_fits()
+                if not fits:
+                    save_json(
+                        PROJECT / "artifacts/fraction_budget_stop.json",
+                        {
+                            "next_fraction": fraction,
+                            "next_seed": seed,
+                            "reason": "preserve initial allocation for fixed held-out evaluation",
+                            "runtime_forecast": forecast,
+                        },
+                    )
+                    print(
+                        "FRACTION_EXTENSION_OMITTED_BUDGET", fraction, seed, json.dumps(forecast), flush=True
+                    )
                     return
                 detector_run("published", seed, fraction)
                 detector_run("adapted", seed, fraction, ssl(seed))
