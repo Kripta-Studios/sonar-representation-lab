@@ -1,0 +1,149 @@
+"""Summarize only executed saved detection results and draw learning curves."""
+
+import argparse
+import csv
+import json
+import statistics
+from collections import defaultdict
+from pathlib import Path
+
+import matplotlib
+
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
+
+from acquire import ROOT, save_json
+from evaluate import iou_xywh
+
+
+def size_errors(directory):
+    gt = json.loads((ROOT / "manifests/val.json").read_text())
+    predictions = json.loads((directory / "val/predictions.json").read_text())
+    by_image = defaultdict(list)
+    for p in predictions:
+        if p["score"] >= 0.5:
+            by_image[p["image_id"]].append(p)
+    annotations = defaultdict(list)
+    for a in gt["annotations"]:
+        annotations[a["image_id"]].append(a)
+    buckets = {
+        name: {"objects": 0, "matched": 0, "missed": 0} for name in ["<4px", "4-8px", "8-16px", ">=16px"]
+    }
+    for image in gt["images"]:
+        anns = annotations[image["id"]]
+        found = set()
+        for p in sorted(by_image[image["id"]], key=lambda p: -p["score"]):
+            pairs = [(iou_xywh(p["bbox"], a["bbox"]), j) for j, a in enumerate(anns) if j not in found]
+            overlap, index = max(pairs, default=(0, -1))
+            if overlap >= 0.5:
+                found.add(index)
+        scale = 448 / max(image["width"], image["height"])
+        for j, a in enumerate(anns):
+            side = min(a["bbox"][2:]) * scale
+            name = "<4px" if side < 4 else "4-8px" if side < 8 else "8-16px" if side < 16 else ">=16px"
+            buckets[name]["objects"] += 1
+            buckets[name]["matched" if j in found else "missed"] += 1
+    for value in buckets.values():
+        value["recall"] = value["matched"] / max(1, value["objects"])
+    save_json(
+        directory / "val/errors_by_resized_short_side.json",
+        {"score_threshold": 0.5, "iou": 0.5, "bins_use_pre_rounding_resize_scale": True, "buckets": buckets},
+    )
+
+
+def curves(directory):
+    path = directory / "curve.jsonl"
+    if not path.exists():
+        return
+    rows = [json.loads(s) for s in path.read_text().splitlines()]
+    if not rows:
+        return
+    fig, axes = plt.subplots(1, 2, figsize=(10, 3.5))
+    x = [r["step"] for r in rows]
+    axes[0].plot(x, [r.get("loss", sum(r.get("losses", {}).values())) for r in rows])
+    axes[0].set(xlabel="Successful optimizer updates", ylabel="Training loss", title=directory.name)
+    if "teacher_entropy" in rows[0]:
+        axes[1].plot(x, [r["teacher_entropy"] for r in rows], label="Teacher entropy")
+        axes[1].plot(x, [r["batch_marginal_entropy"] for r in rows], label="Batch marginal entropy")
+        axes[1].legend()
+        axes[1].set(xlabel="Successful optimizer updates", ylabel="Entropy (nats)")
+    else:
+        for key in rows[0]["losses"]:
+            axes[1].plot(x, [r["losses"][key] for r in rows], label=key)
+        axes[1].legend(fontsize=7)
+        axes[1].set(xlabel="Successful optimizer updates", ylabel="Loss component")
+    fig.tight_layout()
+    fig.savefig(directory / "learning_curves.png", dpi=160)
+    plt.close(fig)
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--errors", action="store_true")
+    args = parser.parse_args()
+    results = []
+    for directory in sorted(Path("artifacts").glob("det-*")):
+        config = json.loads((directory / "config.json").read_text())
+        curves(directory)
+        for split in ["val", "channel"]:
+            path = directory / split / "metrics.json"
+            if path.exists():
+                metric = json.loads(path.read_text())
+                results.append(
+                    {
+                        "run": directory.name,
+                        "kind": config["kind"],
+                        "seed": config["seed"],
+                        "fraction": config["fraction"],
+                        "split": split,
+                        **{
+                            k: metric[k]
+                            for k in [
+                                "AP50",
+                                "AP50:95",
+                                "precision",
+                                "recall",
+                                "false_positives_per_negative_frame",
+                                "fraction_negative_frames_with_fp",
+                            ]
+                        },
+                    }
+                )
+        if (
+            args.errors
+            and config["seed"] == 7
+            and config["fraction"] == 10
+            and (directory / "val/predictions.json").exists()
+        ):
+            size_errors(directory)
+    for directory in Path("artifacts").glob("ssl-A-s*"):
+        curves(directory)
+    if not results:
+        raise RuntimeError("No executed saved detector evaluation exists")
+    with Path("artifacts/results.csv").open("w", encoding="utf8", newline="") as stream:
+        writer = csv.DictWriter(stream, fieldnames=list(results[0]))
+        writer.writeheader()
+        writer.writerows(results)
+    groups = defaultdict(list)
+    for row in results:
+        groups[(row["kind"], row["fraction"], row["split"])].append(row)
+    summaries = []
+    for (kind, fraction, split), rows in sorted(groups.items()):
+        summaries.append(
+            {
+                "kind": kind,
+                "fraction": fraction,
+                "split": split,
+                "seeds": [r["seed"] for r in rows],
+                "n": len(rows),
+                "AP50_mean": statistics.mean(r["AP50"] for r in rows),
+                "AP50_sample_std": statistics.stdev(r["AP50"] for r in rows) if len(rows) > 1 else None,
+                "AP50:95_mean": statistics.mean(r["AP50:95"] for r in rows),
+            }
+        )
+    save_json(Path("artifacts/results_summary.json"), summaries)
+    print(json.dumps({"per_seed": results, "summary": summaries}, indent=2))
+
+
+if __name__ == "__main__":
+    main()
