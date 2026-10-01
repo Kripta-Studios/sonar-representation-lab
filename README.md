@@ -5,10 +5,9 @@ New CFC v1.1 grayscale fish detection study of DINOv2 self-supervised sonar adap
 Windows private environment:
 
 ```powershell
-uv python install 3.12
-uv venv --python 3.12 .venv
-uv pip install --python .venv/Scripts/python.exe torch torchvision --index-url https://download.pytorch.org/whl/cu128
-uv pip install --python .venv/Scripts/python.exe pycocotools psutil pytest ruff matplotlib
+uv python install 3.12.13
+uv venv --python 3.12.13 .venv
+uv pip install --python .venv/Scripts/python.exe -r requirements-lock.txt --extra-index-url https://download.pytorch.org/whl/cu128
 .venv/Scripts/python.exe src/acquire.py metadata --extract
 .venv/Scripts/python.exe src/acquire.py kenai --extract
 ```
