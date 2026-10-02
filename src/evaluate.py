@@ -137,7 +137,7 @@ def score_predictions(gt, predictions, out=None):
                     if row is not None
                     else None
                 )
-                json.dump(serial, stream, default=lambda value: value.tolist())
+                stream.write(json.dumps(serial, default=lambda value: value.tolist()))
             stream.write("]")
         temporary.replace(target)
         save_json(

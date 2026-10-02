@@ -63,10 +63,17 @@ def test_failed_evaluator_write_does_not_publish_metrics(tmp_path, monkeypatch):
         "annotations": [],
     }
 
-    def disk_full(*args, **kwargs):
-        raise OSError("Simulated full output disk")
+    class FullDisk:
+        def __enter__(self):
+            return self
 
-    monkeypatch.setattr(evaluate.json, "dump", disk_full)
+        def __exit__(self, *args):
+            return False
+
+        def write(self, *args):
+            raise OSError("Simulated full output disk")
+
+    monkeypatch.setattr(evaluate.gzip, "open", lambda *args, **kwargs: FullDisk())
     with pytest.raises(OSError, match="Simulated full output disk"):
         score_predictions(truth, [], tmp_path)
     assert not (tmp_path / "metrics.json").exists()
