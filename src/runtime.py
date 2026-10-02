@@ -185,13 +185,21 @@ class Resources:
         suspended = min(elapsed, suspended_overlap(self.start_epoch, time.time(), self.suspend_events))
         return elapsed, suspended, max(0, elapsed - suspended)
 
+    def observe_owned_ram(self):
+        process = psutil.Process()
+        memory = process.memory_info()
+        child_rss = sum(
+            child.memory_info().rss for child in process.children(recursive=True) if child.is_running()
+        )
+        rss = memory.rss + child_rss
+        # Windows peak_wset retains CPU evaluator peaks between sampled checks.
+        native_peak = max(memory.rss, getattr(memory, "peak_wset", memory.rss)) + child_rss
+        self.peak_rss = max(self.peak_rss, native_peak)
+        return rss
+
     def check(self):
         elapsed, suspended, active = self.timing()
-        p = psutil.Process()
-        rss = p.memory_info().rss + sum(
-            c.memory_info().rss for c in p.children(recursive=True) if c.is_running()
-        )
-        self.peak_rss = max(self.peak_rss, rss)
+        rss = self.observe_owned_ram()
         free, total = torch.cuda.mem_get_info()
         # WDDM's CUDA memory view excludes some desktop allocations. Query the physical total too.
         physical = (
@@ -208,18 +216,20 @@ class Resources:
             "verified_suspend_seconds": suspended,
             "active_gpu_process_seconds": active,
             "owned_rss_bytes": rss,
+            "owned_rss_peak_bytes": self.peak_rss,
             "cuda_peak_allocated": torch.cuda.max_memory_allocated(),
             "cuda_peak_reserved": torch.cuda.max_memory_reserved(),
             "device_used_bytes": total - free,
             "physical_device_used_bytes": physical,
         }
-        if rss >= 22 * 1024**3 or max(total - free, physical) >= 10 * 1024**3:
+        if self.peak_rss >= 22 * 1024**3 or max(total - free, physical) >= 10 * 1024**3:
             raise RuntimeError(f"Resource ceiling reached: {values}")
         if self.base_hours + active / 3600 >= 23.99:
             raise RuntimeError("Initial allocation limit reached; preserve checkpoint")
         return values
 
     def __exit__(self, typ, exc, tb):
+        self.observe_owned_ram()
         seconds, suspended, active = self.timing(refresh=True)
         result = {
             "event": "end",

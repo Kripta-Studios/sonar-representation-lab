@@ -59,17 +59,37 @@ def curves(directory):
     if not rows:
         return
     fig, axes = plt.subplots(1, 2, figsize=(10, 3.5))
-    x = [r["step"] for r in rows]
-    axes[0].plot(x, [r.get("loss", sum(r.get("losses", {}).values())) for r in rows])
+    segments = [[]]
+    for row in rows:
+        if segments[-1] and row["step"] <= segments[-1][-1]["step"]:
+            segments.append([])
+        segments[-1].append(row)
+    # Preserve every logged attempt; never connect backwards across checkpoint replay.
+    for index, segment in enumerate(segments):
+        axes[0].plot(
+            [r["step"] for r in segment],
+            [r.get("loss", sum(r.get("losses", {}).values())) for r in segment],
+            label=f"Logged segment {index + 1}",
+        )
+    if len(segments) > 1:
+        axes[0].legend(fontsize=7)
     axes[0].set(xlabel="Successful optimizer updates", ylabel="Training loss", title=directory.name)
     if "teacher_entropy" in rows[0]:
-        axes[1].plot(x, [r["teacher_entropy"] for r in rows], label="Teacher entropy")
-        axes[1].plot(x, [r["batch_marginal_entropy"] for r in rows], label="Batch marginal entropy")
+        for index, segment in enumerate(segments):
+            x = [r["step"] for r in segment]
+            axes[1].plot(x, [r["teacher_entropy"] for r in segment], label=f"Teacher / segment {index + 1}")
+            axes[1].plot(
+                x,
+                [r["batch_marginal_entropy"] for r in segment],
+                label=f"Marginal / segment {index + 1}",
+            )
         axes[1].legend()
         axes[1].set(xlabel="Successful optimizer updates", ylabel="Entropy (nats)")
     else:
-        for key in rows[0]["losses"]:
-            axes[1].plot(x, [r["losses"][key] for r in rows], label=key)
+        for index, segment in enumerate(segments):
+            x = [r["step"] for r in segment]
+            for key in rows[0]["losses"]:
+                axes[1].plot(x, [r["losses"][key] for r in segment], label=f"{key} / {index + 1}")
         axes[1].legend(fontsize=7)
         axes[1].set(xlabel="Successful optimizer updates", ylabel="Loss component")
     fig.tight_layout()
@@ -139,6 +159,12 @@ def main():
                 "AP50_mean": statistics.mean(r["AP50"] for r in rows),
                 "AP50_sample_std": statistics.stdev(r["AP50"] for r in rows) if len(rows) > 1 else None,
                 "AP50:95_mean": statistics.mean(r["AP50:95"] for r in rows),
+                "AP50:95_sample_std": statistics.stdev(r["AP50:95"] for r in rows) if len(rows) > 1 else None,
+                "precision_mean": statistics.mean(r["precision"] for r in rows),
+                "recall_mean": statistics.mean(r["recall"] for r in rows),
+                "false_positives_per_negative_frame_mean": statistics.mean(
+                    r["false_positives_per_negative_frame"] for r in rows
+                ),
             }
         )
     save_json(Path("artifacts/results_summary.json"), summaries)

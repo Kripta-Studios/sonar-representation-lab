@@ -6,6 +6,8 @@ from pathlib import Path
 
 from acquire import ROOT, download_ranges, extract, save_json
 from run_block import call
+from data import prepare_cache
+from runtime import file_sha
 
 
 def main():
@@ -24,6 +26,11 @@ def main():
             "models": [m["run"] for m in frozen["models"]],
         },
     )
+    # The fixed, stateless transform reads target pixels only inside this exposure block.
+    prepare_cache(ROOT, "channel")
+    exposed = json.loads(journal.read_text())
+    exposed["cache_manifest_sha256"] = file_sha(ROOT / "cache/channel-gray448.json")
+    save_json(journal, exposed)
     for model in frozen["models"]:
         out = Path("artifacts") / model["run"] / "channel"
         call(

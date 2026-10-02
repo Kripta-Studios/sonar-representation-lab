@@ -3,6 +3,7 @@
 import argparse
 import contextlib
 import copy
+import gzip
 import io
 import json
 from collections import defaultdict
@@ -116,7 +117,6 @@ def score_predictions(gt, predictions, out=None):
     if out:
         out = Path(out)
         out.mkdir(parents=True, exist_ok=True)
-        save_json(out / "metrics.json", result)
         (out / "coco_output.txt").write_text(text.getvalue(), encoding="utf8")
         np.savez_compressed(
             out / "coco_arrays.npz",
@@ -124,18 +124,28 @@ def score_predictions(gt, predictions, out=None):
             recall=ev.eval["recall"],
             scores=ev.eval["scores"],
         )
-        # Preserve complete per-image evaluator output without untrusted pickle.
-        serial = [
-            {k: v.tolist() if isinstance(v, np.ndarray) else v for k, v in row.items()}
-            if row is not None
-            else None
-            for row in ev.evalImgs
-        ]
-        save_json(out / "coco_eval_images.json", serial)
+        # Serialize one complete row at a time; avoid a second dataset-sized object.
+        target = out / "coco_eval_images.json.gz"
+        temporary = out / "coco_eval_images.json.gz.tmp"
+        with gzip.open(temporary, "wt", encoding="utf8", compresslevel=1) as stream:
+            stream.write("[")
+            for index, row in enumerate(ev.evalImgs):
+                if index:
+                    stream.write(",")
+                serial = (
+                    {k: v.tolist() if isinstance(v, np.ndarray) else v for k, v in row.items()}
+                    if row is not None
+                    else None
+                )
+                json.dump(serial, stream, default=lambda value: value.tolist())
+            stream.write("]")
+        temporary.replace(target)
         save_json(
             out / "evaluator_params.json",
             {k: v.tolist() if isinstance(v, np.ndarray) else v for k, v in vars(ev.params).items()},
         )
+        # Publish the completion marker only after every evaluator artifact is durable.
+        save_json(out / "metrics.json", result)
     return result
 
 

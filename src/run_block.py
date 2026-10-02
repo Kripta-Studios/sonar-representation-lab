@@ -24,16 +24,34 @@ def hours():
 def extension_fits():
     """Admission based only on measured runtime and public frame counts, never AP."""
     directories = list((PROJECT / "artifacts").glob("det-*"))
-    train_hours = [
-        json.loads((d / "resources.json").read_text())["charged_gpu_hours"]
-        for d in directories
-        if (d / "resources.json").exists() and ("published" in d.name or "adapted" in d.name)
-    ]
-    val_hours = [
-        json.loads((d / "val/resources.json").read_text())["charged_gpu_hours"]
-        for d in directories
-        if (d / "val/resources.json").exists()
-    ]
+
+    def forecast_hours(paths):
+        records = []
+        for path in paths:
+            if not path.exists():
+                continue
+            record = json.loads(path.read_text())
+            if record.get("status") != "completed":
+                continue
+            identity_path = path.parent / "config.json"
+            if not identity_path.exists():
+                identity_path = path.parent / "prediction_identity.json"
+            identity = json.loads(identity_path.read_text()) if identity_path.exists() else {}
+            records.append((record, bool(identity.get("detector_cache"))))
+        uninterrupted = [
+            (record, cached) for record, cached in records if record.get("verified_suspend_seconds", 0) == 0
+        ]
+        eligible = uninterrupted or records
+        cached_runs = [(record, cached) for record, cached in eligible if cached]
+        eligible = cached_runs or eligible
+        return [record["charged_gpu_hours"] for record, _ in eligible]
+
+    # Pure runtime admission declared before adapted AP: use the current cached
+    # read path when measured. All legacy, failed and suspended charges remain counted.
+    train_hours = forecast_hours(
+        [d / "resources.json" for d in directories if "published" in d.name or "adapted" in d.name]
+    )
+    val_hours = forecast_hours([d / "val/resources.json" for d in directories])
     if not train_hours or not val_hours:
         return False, {"reason": "missing measured runtime"}
     channel_frames = sum(

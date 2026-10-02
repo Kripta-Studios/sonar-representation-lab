@@ -31,6 +31,8 @@ Straightforward commands (research results require completed training, not just 
 # Interrupted large transfers can use fresh publisher HTTP ranges.
 .venv/Scripts/python.exe src/acquire.py kenai --ranges --extract
 .venv/Scripts/python.exe src/data.py
+# Optional byte-identical detector cache; needs about 36 GiB extra. Never used by SSL.
+.venv/Scripts/python.exe src/data.py --cache kenai
 .venv/Scripts/python.exe -m pytest -q
 .venv/Scripts/ruff.exe check src tests
 
@@ -54,7 +56,7 @@ Straightforward commands (research results require completed training, not just 
 
 Both trainers support `--resume <checkpoint.pt>` with the same configuration. An interrupted detector run must complete its declared update budget before final prediction. `--stop-after` supports a clean checkpoint/resume check; `adapt.py --profile` is explicitly a resource probe and never exports a research encoder. Use `src/profile_batch.py --batch 8` for real TRAIN batch/geometry/reload/resume verification.
 
-Outputs: per-run `config.json`, `checkpoint.pt`, `curve.jsonl`, `exposure_summary.json`, `resources.json`, and console logs; adapted encoders in `ssl-A-s*/encoder.pt`; validation predictions and complete COCO evaluator output under each detector's `val/`. `artifacts/resource_ledger.jsonl` charges profiling, training, inference and failures to the initial block and overall balance. The resource guard accounts for physical WDDM GPU usage and owns a single-process lock; it never stops unrelated processes.
+Outputs: per-run `config.json`, `checkpoint.pt`, `curve.jsonl`, `exposure_summary.json`, `resources.json`, and console logs; adapted encoders in `ssl-A-s*/encoder.pt`; validation predictions and complete COCO evaluator output under each detector's `val/`. New outputs store all per-image evaluator fields in `coco_eval_images.json.gz`; the first pair retains its original full JSON as well. Scores are computed with the same pycocotools evaluator. `artifacts/resource_ledger.jsonl` charges profiling, training, inference and failures to the initial block and overall balance. The resource guard accounts for physical WDDM GPU usage and owns a single-process lock; it never stops unrelated processes.
 
 The initial 24 GPU-hour cap follows the user's report of 100 hours remaining overall. This project never accesses the stopped AEON work or creates a reviewer/signature prerequisite. The project-local Python platform fallback handles a host WMI identity-query error without changing Windows services or permissions.
 
@@ -66,4 +68,4 @@ Once the complete comparison is fixed, held-out evaluation and report generation
 .venv/Scripts/python.exe src/summarize.py --errors
 ```
 
-The freeze file records model/code hashes and preprocessing; it is an author experiment record, not independent review or an LLM approval. The Channel command downloads only the official grayscale archive and performs one fixed evaluation block. Any exposure or failure is preserved; the command refuses silent repeats. `artifacts/results.csv` contains every completed seed, `results_summary.json` gives means/sample standard deviations, and error-bin JSON files describe validation recall by resized fish short-side size. PNG learning curves are drawn from actual logged updates.
+The freeze file records model/code hashes and preprocessing; it is an author experiment record, not independent review or an LLM approval. The Channel command downloads only the official grayscale archive and prepares the identical grayscale canvas cache after recording the first image exposure, and performs one fixed evaluation block. Cache preparation fits no target statistics and never trains on target images. Any exposure or failure is preserved; the command refuses silent repeats. `artifacts/results.csv` contains every completed seed, `results_summary.json` gives means/sample standard deviations, and error-bin JSON files describe validation recall by resized fish short-side size. PNG learning curves are drawn from actual logged updates.

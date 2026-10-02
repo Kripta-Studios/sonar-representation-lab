@@ -44,6 +44,7 @@ def main():
             "protocol_sha256": file_sha("PROTOCOL.md"),
             "label_policy": "fixed nested complete train clips; no target-site adaptation",
             "preprocessing": "448 grayscale top-left aspect-preserving letterbox; rounded axis scales; ImageNet normalization",
+            "cache_policy": "Optional byte-identical grayscale 448 canvases; Channel cache preparation starts only inside the recorded held-out exposure block; no fitted target statistics",
             "score_threshold_saved": 0.001,
             "operating_score": 0.5,
             "nms": 0.5,

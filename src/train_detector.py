@@ -55,6 +55,7 @@ def train(args):
         "manifest_sha256": file_sha(manifest),
         "source_revision": SOURCE_REVISION,
         "detector_size": 448,
+        "detector_cache": data.cache_identity,
         "head_lr": 3e-4,
         "backbone_lr": 1e-5,
         "code_identity": code_identity(),
@@ -238,10 +239,13 @@ def predict(args):
                 "score_threshold": 0.001,
                 "nms": 0.5,
                 "max_detections": 100,
+                "detector_cache": data.cache_identity,
             },
         )
         # Evaluation is CPU-only after prediction; resource charge remains conservative.
         result = score_predictions(data.data, predictions, args.out)
+        # Capture native CPU evaluator RAM peaks and enforce the same resource limits.
+        resources.check()
         print(json.dumps(result), flush=True)
 
 

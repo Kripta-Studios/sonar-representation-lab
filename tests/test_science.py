@@ -38,7 +38,7 @@ def test_known_answer_scoring_and_negative_frames(tmp_path):
     missed = score_predictions(gt, [])
     assert missed["AP50"] == 0 and missed["recall"] == 0
     assert json.loads((tmp_path / "metrics.json").read_text())["images_evaluated"] == 2
-    assert (tmp_path / "coco_eval_images.json").exists()
+    assert (tmp_path / "coco_eval_images.json.gz").exists()
 
 
 def test_wrong_identity_rejected():
@@ -123,15 +123,16 @@ def test_optimizer_checkpoint_resume(tmp_path):
 
 def test_matched_head_initialization_and_spatial_interface():
     if not PRETRAINED.exists():
-        pytest.skip('Official checkpoint unavailable')
+        pytest.skip("Official checkpoint unavailable")
     torch.set_num_threads(4)
-    published = detector('published', seed=7)
-    random = detector('random', seed=7)
+    published = detector("published", seed=7)
+    random = detector("random", seed=7)
     a, b = published.state_dict(), random.state_dict()
-    head_keys = [k for k in a if not k.startswith('backbone.encoder.')]
+    head_keys = [k for k in a if not k.startswith("backbone.encoder.")]
     assert all(torch.equal(a[k], b[k]) for k in head_keys)
-    assert not torch.equal(a['backbone.encoder.patch_embed.proj.weight'],
-                           b['backbone.encoder.patch_embed.proj.weight'])
+    assert not torch.equal(
+        a["backbone.encoder.patch_embed.proj.weight"], b["backbone.encoder.patch_embed.proj.weight"]
+    )
     assert published.backbone.out_channels == random.backbone.out_channels == 96
     assert published.backbone.encoder.num_register_tokens == 4
     assert all(not p.requires_grad for p in published.backbone.encoder.parameters())
