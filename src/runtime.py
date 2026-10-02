@@ -6,6 +6,7 @@ import os
 import random
 import subprocess
 import time
+from datetime import datetime
 from pathlib import Path
 
 import platform_compat  # noqa: F401
@@ -17,6 +18,71 @@ from acquire import save_json
 ARTIFACTS = Path(__file__).resolve().parents[1] / "artifacts"
 LEDGER = ARTIFACTS / "resource_ledger.jsonl"
 LOCK = ARTIFACTS / "gpu_process.lock"
+POWER_EVENTS = ARTIFACTS / "verified_suspend_intervals.json"
+
+
+def epoch(value):
+    return datetime.fromisoformat(value.replace("Z", "+00:00")).timestamp()
+
+
+def suspended_overlap(start, end, events):
+    """Union of OS-confirmed sleep/wake intervals overlapping this process."""
+    spans = []
+    for event in events:
+        lo, hi = epoch(event["sleep_time"]), epoch(event["wake_time"])
+        if hi <= lo:
+            raise ValueError("Invalid OS sleep/wake interval")
+        lo, hi = max(start, lo), min(end, hi)
+        if hi > lo:
+            spans.append((lo, hi))
+    merged = []
+    for lo, hi in sorted(spans):
+        if merged and lo <= merged[-1][1]:
+            merged[-1][1] = max(merged[-1][1], hi)
+        else:
+            merged.append([lo, hi])
+    return sum(hi - lo for lo, hi in merged)
+
+
+def capture_suspend_events():
+    """Read OS wake events; failure conservatively retains wall-time charging."""
+    previous = json.loads(POWER_EVENTS.read_text()) if POWER_EVENTS.exists() else {"events": []}
+    query = """
+$events = @(Get-WinEvent -FilterHashtable @{LogName='System'; ProviderName='Microsoft-Windows-Power-Troubleshooter'; Id=1; StartTime=(Get-Date).AddDays(-7)} -ErrorAction SilentlyContinue)
+@($events | ForEach-Object {
+    $xml = [xml]$_.ToXml()
+    $fields = @{}
+    foreach ($item in $xml.Event.EventData.Data) { $fields[$item.Name] = $item.'#text' }
+    [pscustomobject]@{record_id=$_.RecordId; sleep_time=$fields['SleepTime']; wake_time=$fields['WakeTime']}
+}) | ConvertTo-Json -Compress
+"""
+    try:
+        result = subprocess.run(
+            ["powershell", "-NoProfile", "-NonInteractive", "-Command", query],
+            capture_output=True,
+            text=True,
+            timeout=10,
+            check=True,
+        )
+        items = json.loads(result.stdout) if result.stdout.strip() else []
+        if isinstance(items, dict):
+            items = [items]
+        events = {int(e["record_id"]): e for e in previous["events"]}
+        for event in items:
+            # Reject malformed records instead of inventing inactive time.
+            if epoch(event["wake_time"]) <= epoch(event["sleep_time"]):
+                raise ValueError("Invalid power event")
+            events[int(event["record_id"])] = event
+        previous = {
+            "source": "Windows System / Microsoft-Windows-Power-Troubleshooter / EventID 1",
+            "events": list(events.values()),
+            "last_query_error": None,
+        }
+    except (OSError, subprocess.SubprocessError, ValueError, KeyError, TypeError) as error:
+        previous["last_query_error"] = str(error)
+    previous["last_query_utc"] = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
+    save_json(POWER_EVENTS, previous)
+    return previous["events"]
 
 
 def seed_all(seed):
@@ -90,6 +156,9 @@ class Resources:
         os.write(fd, json.dumps({"pid": os.getpid(), "name": self.name}).encode())
         os.close(fd)
         self.start = time.monotonic()
+        self.start_epoch = time.time()
+        self.suspend_events = capture_suspend_events()
+        self.last_power_refresh = time.monotonic()
         # Leave room for observed desktop GPU allocations; never kill other processes.
         torch.cuda.set_per_process_memory_fraction(0.50)
         torch.cuda.reset_peak_memory_stats()
@@ -99,6 +168,7 @@ class Resources:
                 "name": self.name,
                 "pid": os.getpid(),
                 "utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+                "started_epoch": self.start_epoch,
             }
         )
         return self
@@ -107,7 +177,16 @@ class Resources:
         with LEDGER.open("a", encoding="utf8") as f:
             f.write(json.dumps(value) + "\n")
 
+    def timing(self, refresh=False):
+        if refresh or time.monotonic() - self.last_power_refresh >= 300:
+            self.suspend_events = capture_suspend_events()
+            self.last_power_refresh = time.monotonic()
+        elapsed = time.monotonic() - self.start
+        suspended = min(elapsed, suspended_overlap(self.start_epoch, time.time(), self.suspend_events))
+        return elapsed, suspended, max(0, elapsed - suspended)
+
     def check(self):
+        elapsed, suspended, active = self.timing()
         p = psutil.Process()
         rss = p.memory_info().rss + sum(
             c.memory_info().rss for c in p.children(recursive=True) if c.is_running()
@@ -125,7 +204,9 @@ class Resources:
         )
         self.peak_device_used = max(self.peak_device_used, physical)
         values = {
-            "elapsed_seconds": time.monotonic() - self.start,
+            "elapsed_seconds": elapsed,
+            "verified_suspend_seconds": suspended,
+            "active_gpu_process_seconds": active,
             "owned_rss_bytes": rss,
             "cuda_peak_allocated": torch.cuda.max_memory_allocated(),
             "cuda_peak_reserved": torch.cuda.max_memory_reserved(),
@@ -134,12 +215,12 @@ class Resources:
         }
         if rss >= 22 * 1024**3 or max(total - free, physical) >= 10 * 1024**3:
             raise RuntimeError(f"Resource ceiling reached: {values}")
-        if self.base_hours + values["elapsed_seconds"] / 3600 >= 23.99:
+        if self.base_hours + active / 3600 >= 23.99:
             raise RuntimeError("Initial allocation limit reached; preserve checkpoint")
         return values
 
     def __exit__(self, typ, exc, tb):
-        seconds = time.monotonic() - self.start
+        seconds, suspended, active = self.timing(refresh=True)
         result = {
             "event": "end",
             "name": self.name,
@@ -147,13 +228,16 @@ class Resources:
             "status": "completed" if typ is None else "failed_or_interrupted",
             "error": str(exc) if exc else None,
             "elapsed_seconds": seconds,
-            "charged_gpu_hours": seconds / 3600,
+            "ended_utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+            "verified_suspend_seconds": suspended,
+            "active_gpu_process_seconds": active,
+            "charged_gpu_hours": active / 3600,
             "owned_rss_peak_bytes": self.peak_rss,
             "cuda_peak_allocated_bytes": torch.cuda.max_memory_allocated(),
             "cuda_peak_reserved_bytes": torch.cuda.max_memory_reserved(),
             "physical_device_used_peak_bytes": self.peak_device_used,
-            "overall_remaining_hours": 100 - self.base_hours - seconds / 3600,
-            "block_remaining_hours": 24 - self.base_hours - seconds / 3600,
+            "overall_remaining_hours": 100 - self.base_hours - active / 3600,
+            "block_remaining_hours": 24 - self.base_hours - active / 3600,
         }
         self.event(result)
         save_json(self.out / "resources.json", result)
