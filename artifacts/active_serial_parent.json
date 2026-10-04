@@ -1,0 +1,12 @@
+{
+  "pid": 54968,
+  "created_epoch": 1790930442.7778168,
+  "command": [
+    "C:\\Users\\\u00c1lvaro Schwiedop\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\python.exe",
+    "-u",
+    "src\\run_block.py",
+    "--stage",
+    "milestone"
+  ],
+  "cwd": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\sonar-representation-lab"
+}

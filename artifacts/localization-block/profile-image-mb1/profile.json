@@ -1,0 +1,93 @@
+{
+  "frame": "2018-05-30-JD150_LeftNear_Stratum1_Set1_LN_2018-05-30_190000_3165_3706_407.jpg",
+  "split": "official Kenai TRAIN",
+  "annotations": 2,
+  "microbatch": 1,
+  "accumulation": 8,
+  "effective_batch": 8,
+  "detector_size": 672,
+  "microbatch_seconds": [
+    15.09399999998277,
+    8.703000000037719,
+    9.172000000020489,
+    10.59399999998277
+  ],
+  "profile_training_frames": [
+    "2018-06-02-JD153_LeftNear_Stratum1_Set1_LN_2018-06-02_210000_4424_4965_255.jpg",
+    "2018-05-31-JD151_LeftFar_Stratum1_Set1_LO_2018-05-31_090004_4163_4763_239.jpg",
+    "2018-06-02-JD153_LeftFar_Stratum2_Set1_LO_2018-06-02_211003_1137_1617_149.jpg",
+    "2018-06-09-JD160_LeftNear_Stratum1_Set1_LN_2018-06-09_160000_633_833_182.jpg",
+    "2018-05-31-JD151_LeftFar_Stratum2_Set1_LO_2018-05-31_091003_1374_1854_475.jpg",
+    "2018-05-31-JD151_LeftFar_Stratum2_Set1_LO_2018-05-31_201003_1670_2150_219.jpg",
+    "2018-06-02-JD153_LeftNear_Stratum1_Set1_LN_2018-06-02_160000_4408_4949_393.jpg",
+    "2018-06-01-JD152_LeftNear_Stratum1_Set1_LN_2018-06-01_180000_1722_2263_488.jpg",
+    "2018-05-30-JD150_LeftNear_Stratum1_Set1_LN_2018-05-30_160000_2773_3314_175.jpg",
+    "2018-05-30-JD150_LeftNear_Stratum1_Set1_LN_2018-05-30_200000_4646_5187_525.jpg",
+    "2018-05-27-JD147_LeftFar_Stratum1_Set1_LO_2018-05-27_180004_1295_1895_444.jpg",
+    "2018-05-31-JD151_LeftFar_Stratum2_Set1_LO_2018-05-31_201003_1670_2150_336.jpg",
+    "2018-06-02-JD153_LeftNear_Stratum1_Set1_LN_2018-06-02_200000_3633_4174_25.jpg",
+    "2018-05-30-JD150_LeftFar_Stratum3_Set1_LO_2018-05-30_232000_599_1000_312.jpg",
+    "2018-05-30-JD150_LeftFar_Stratum1_Set1_LO_2018-05-30_210004_1901_2101_194.jpg",
+    "2018-05-31-JD151_LeftFar_Stratum1_Set1_LO_2018-05-31_090004_4163_4763_279.jpg",
+    "2018-06-01-JD152_LeftFar_Stratum3_Set1_LO_2018-06-01_172000_1256_1657_233.jpg",
+    "2018-05-31-JD151_LeftFar_Stratum2_Set1_LO_2018-05-31_091003_1374_1854_129.jpg",
+    "2018-05-29-JD149_LeftFar_Stratum2_Set1_LO_2018-05-29_081003_3300_3508_198.jpg",
+    "2018-05-26-JD146_LeftFar_Stratum2_Set1_LO_2018-05-26_141003_1458_1658_116.jpg",
+    "2018-05-29-JD149_LeftFar_Stratum2_Set1_LO_2018-05-29_181003_3443_3643_160.jpg",
+    "2018-05-31-JD151_LeftFar_Stratum2_Set1_LO_2018-05-31_201003_1670_2150_196.jpg",
+    "2018-06-02-JD153_LeftFar_Stratum1_Set1_LO_2018-06-02_050004_913_1513_315.jpg",
+    "2018-05-28-JD148_LeftFar_Stratum2_Set1_LO_2018-05-28_181003_682_896_207.jpg",
+    "2018-06-01-JD152_LeftNear_Stratum1_Set1_LN_2018-06-01_190000_3059_3600_404.jpg",
+    "2018-05-31-JD151_LeftFar_Stratum2_Set1_LO_2018-05-31_201003_1670_2150_435.jpg",
+    "2018-05-29-JD149_LeftFar_Stratum1_Set1_LO_2018-05-29_140004_177_606_317.jpg",
+    "2018-06-02-JD153_LeftNear_Stratum1_Set1_LN_2018-06-02_210000_4424_4965_258.jpg",
+    "2018-05-31-JD151_LeftFar_Stratum1_Set1_LO_2018-05-31_010004_2540_3140_107.jpg",
+    "2018-05-31-JD151_LeftFar_Stratum2_Set1_LO_2018-05-31_091003_1374_1854_60.jpg",
+    "2018-06-07-JD158_LeftNear_Stratum1_Set1_LN_2018-06-07_030000_1005_1205_81.jpg",
+    "2018-05-27-JD147_LeftFar_Stratum1_Set1_LO_2018-05-27_180004_1295_1895_210.jpg"
+  ],
+  "timing_includes_input_decode_and_transfer": true,
+  "checkpoint_reload_identical": true,
+  "real_detector_optimizer_resume_matches_next_update": true,
+  "loaded_state_exact": true,
+  "bitwise_training_trajectory_claimed": false,
+  "reference_loss": 0.7158590406179428,
+  "numerical_replays": [
+    {
+      "loss": 0.7158590406179428,
+      "groups": {
+        "encoder": {
+          "squared_delta": 4.5101200870654087e-10,
+          "squared_reference": 177443.9292926622,
+          "max_abs": 1.33514404296875e-05,
+          "relative_l2": 5.041543048497068e-08
+        },
+        "head": {
+          "squared_delta": 3.088164897652768e-16,
+          "squared_reference": 1598.1453186717797,
+          "max_abs": 1.1175870895385742e-08,
+          "relative_l2": 4.395842338299062e-10
+        }
+      }
+    },
+    {
+      "loss": 0.7158590406179428,
+      "groups": {
+        "encoder": {
+          "squared_delta": 3.608639855133096e-10,
+          "squared_reference": 177443.9292926622,
+          "max_abs": 1.0967254638671875e-05,
+          "relative_l2": 4.509632977983551e-08
+        },
+        "head": {
+          "squared_delta": 2.8867216427823986e-15,
+          "squared_reference": 1598.1453186717797,
+          "max_abs": 4.0978193283081055e-08,
+          "relative_l2": 1.3439846874349793e-09
+        }
+      }
+    }
+  ],
+  "numerical_bounds": "relative L2 <=1e-4, max abs <=1e-3, loss relative <=1e-3; first replay relative error <=3*second replay+1e-8",
+  "purpose": "resource/geometry/reload verification only; not a detection research result"
+}

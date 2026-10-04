@@ -1,0 +1,16 @@
+{
+  "prior_ssl_per_arm_hours": 1.2259385416666697,
+  "frozen_train_per_arm_hours": 0.7458277777777766,
+  "validation_per_arm_hours": 1.3521916666666582,
+  "preliminary_complete_pair_hours": 6.84791597222221,
+  "remaining_development_hours": 7.047655833333334,
+  "final_reserve_hours": 6,
+  "free_artifact_bytes": 166638858240,
+  "required_additional_artifact_bytes": 6442450944,
+  "status": "ADMITTED",
+  "profiled_ssl_hours": {
+    "control": 1.2259385416666697,
+    "motion": 1.2259385416666697
+  },
+  "complete_pair_hours": 6.64791597222221
+}

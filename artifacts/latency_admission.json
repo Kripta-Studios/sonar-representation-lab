@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-03T14:36:21Z",
+  "forecast_gpu_process_hours": 0.15,
+  "remaining_development_hours": 2.931866111111127,
+  "final_reserve_hours": 6,
+  "status": "ADMITTED",
+  "scope": "seven final 672 detector checkpoints; eight fixed TRAIN images; batch1 and8; 4 warmups +10 measured iterations each"
+}

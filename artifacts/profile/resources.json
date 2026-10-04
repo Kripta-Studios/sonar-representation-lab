@@ -1,0 +1,14 @@
+{
+  "event": "end",
+  "name": "real_train_profile",
+  "pid": 54824,
+  "status": "completed",
+  "error": null,
+  "elapsed_seconds": 22.765999999974156,
+  "charged_gpu_hours": 0.00632388888888171,
+  "owned_rss_peak_bytes": 2527989760,
+  "cuda_peak_allocated_bytes": 256016896,
+  "cuda_peak_reserved_bytes": 318767104,
+  "overall_remaining_hours": 99.99367611111111,
+  "block_remaining_hours": 23.993676111111117
+}

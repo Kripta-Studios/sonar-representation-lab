@@ -1,0 +1,46 @@
+{
+  "runs": [
+    {
+      "checkpoint": "artifacts\\det-b-finetune-r672-f010-s7\\checkpoint.pt",
+      "sha256": "b9b2eea92e41a0901a6899a1f1236c38174530e07d07d4b3c866ec7e6b3c0d8f",
+      "size": 672,
+      "kind": "finetune",
+      "frozen_encoder_identical_to_initialization": null,
+      "updates": 2000,
+      "presentations": 16000,
+      "unique_frames": 10356,
+      "settings": {
+        "seed": 7,
+        "fraction": 10,
+        "steps": 2000,
+        "batch": 8,
+        "accumulation": 1,
+        "manifest_sha256": "2f5ae232f2a2a126930479032605cdad7e2060dbf1438e717a3c5d73322c5b39",
+        "head_lr": 0.0003,
+        "backbone_lr": 1e-05
+      }
+    },
+    {
+      "checkpoint": "artifacts\\det-finetune-r672-f010-s7\\checkpoint.pt",
+      "sha256": "06fa8ffb31baa3208a249d46e6c2e96e69c8d66dde598134d954f11e9dd93bb5",
+      "size": 672,
+      "kind": "finetune",
+      "frozen_encoder_identical_to_initialization": null,
+      "updates": 2000,
+      "presentations": 16000,
+      "unique_frames": 10356,
+      "settings": {
+        "seed": 7,
+        "fraction": 10,
+        "steps": 2000,
+        "batch": 8,
+        "accumulation": 1,
+        "manifest_sha256": "2f5ae232f2a2a126930479032605cdad7e2060dbf1438e717a3c5d73322c5b39",
+        "head_lr": 0.0003,
+        "backbone_lr": 1e-05
+      }
+    }
+  ],
+  "matched_full_image_exposure_counters": true,
+  "status": "author artifact verification, not independent review"
+}

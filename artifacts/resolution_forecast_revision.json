@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-03T01:12:14Z",
+  "before_A672_validation": true,
+  "observed_published672_frames": 12008,
+  "observed_seconds": 1396.656,
+  "projected_inference_seconds": 3542.1187395069956,
+  "scoring_allowance_seconds": 450,
+  "safety_factor": 1.25,
+  "revised_per_validation_forecast_hours": 1.4,
+  "pair_forecast_hours_including_completed_training": 3.9181294444444337,
+  "initial_pair_allowance_hours": 4.0,
+  "note": "The already-running serial launcher records its initial 1h per-evaluation admission; this prospective measured revision supersedes that estimate. Total pair projection still fits its initial 4h allowance and the protected development cap. No metric-dependent timing selection."
+}

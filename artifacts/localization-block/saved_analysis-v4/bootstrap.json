@@ -1,0 +1,92 @@
+{
+  "contrasts": [
+    {
+      "baseline": "det-finetune-r672-f010-s7",
+      "candidate": "det-b-finetune-r672-f010-s7",
+      "metrics": [
+        "AP50",
+        "AP50:95",
+        "AP75"
+      ],
+      "paired_delta_percentile95_pp": [
+        [
+          -2.3867520327457057,
+          -0.7058129921150035,
+          -0.5075307244620256
+        ],
+        [
+          -0.22169087913586738,
+          0.21063647232935787,
+          0.6429749949805361
+        ]
+      ],
+      "paired_delta_median_pp": [
+        -1.1456999245709365,
+        -0.2785169066660792,
+        0.08953837965002022
+      ]
+    },
+    {
+      "baseline": "det-control-r672-f010-s7",
+      "candidate": "det-motion-r672-f010-s7",
+      "metrics": [
+        "AP50",
+        "AP50:95",
+        "AP75"
+      ],
+      "paired_delta_percentile95_pp": [
+        [
+          -0.35773947385833915,
+          -0.3117425105728034,
+          -0.754063364236379
+        ],
+        [
+          0.8481914955032583,
+          0.13732013640121754,
+          0.12927617951547743
+        ]
+      ],
+      "paired_delta_median_pp": [
+        0.28662923690731673,
+        -0.13844995144497232,
+        -0.2830731991346412
+      ]
+    }
+  ],
+  "draws": 200,
+  "seed": 7003,
+  "identities": {
+    "det-finetune-r672-f010-s7": {
+      "per_image_coco_sha256": "853ca9c1a99430a57e2fa1d2b48608313aa42e010d445a4b802afd84f956ec9e",
+      "full_ap_exact": true,
+      "positive_id_AP50": 0.49765311920208805,
+      "positive_id_AP95": 0.16652272876152718,
+      "positive_id_AP75": 0.06398195456782416
+    },
+    "det-b-finetune-r672-f010-s7": {
+      "per_image_coco_sha256": "f577dc98d4d40f3b9f3f5fa248530de67ae39646af3a70ccd1943b7adaf3ee84",
+      "full_ap_exact": true,
+      "positive_id_AP50": 0.48527114856452314,
+      "positive_id_AP95": 0.16373641907950162,
+      "positive_id_AP75": 0.06497718970101031
+    },
+    "det-control-r672-f010-s7": {
+      "per_image_coco_sha256": "520fa844e039392389f4f2762aade1e4fe7ae03fe0365812828969bf75f1561b",
+      "full_ap_exact": true,
+      "positive_id_AP50": 0.2051520930767919,
+      "positive_id_AP95": 0.053663485180209934,
+      "positive_id_AP75": 0.011250754306680892
+    },
+    "det-motion-r672-f010-s7": {
+      "per_image_coco_sha256": "5851c6e188f1ca14fb6c3aea76fb83e25a929dfc5322cc1825c3a9a3e414a796",
+      "full_ap_exact": true,
+      "positive_id_AP50": 0.20750027152250003,
+      "positive_id_AP95": 0.05172683575967028,
+      "positive_id_AP75": 0.007800184715135588
+    }
+  },
+  "cpu_wall_seconds": 2315.0310000000172,
+  "owned_native_peak_bytes": 634294272,
+  "status": "author CPU analysis; conditional clip-sampling uncertainty, not optimizer-seed/location replication",
+  "gpu_used": false
+}

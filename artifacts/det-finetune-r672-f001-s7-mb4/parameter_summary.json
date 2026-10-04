@@ -1,0 +1,8 @@
+{
+  "total": 28501145,
+  "trainable": 28501145,
+  "encoder": 22058112,
+  "detector_and_neck": 6443033,
+  "new_branch": 0,
+  "neck": "none"
+}

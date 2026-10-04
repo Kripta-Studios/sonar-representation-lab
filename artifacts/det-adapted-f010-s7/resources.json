@@ -1,0 +1,18 @@
+{
+  "event": "end",
+  "name": "det-adapted-f010-s7",
+  "pid": 23064,
+  "status": "completed",
+  "error": null,
+  "elapsed_seconds": 2290.6410000000033,
+  "ended_utc": "2026-10-02T12:22:07Z",
+  "verified_suspend_seconds": 0,
+  "active_gpu_process_seconds": 2290.6410000000033,
+  "charged_gpu_hours": 0.6362891666666676,
+  "owned_rss_peak_bytes": 2550886400,
+  "cuda_peak_allocated_bytes": 458757120,
+  "cuda_peak_reserved_bytes": 650117120,
+  "physical_device_used_peak_bytes": 5278531584,
+  "overall_remaining_hours": 93.54911947390238,
+  "block_remaining_hours": 17.549119473902383
+}

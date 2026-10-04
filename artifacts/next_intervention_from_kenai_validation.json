@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-02T16:22:16Z",
+  "status": "unexecuted author hypothesis for a subsequent block; not an initial-block adaptation configuration",
+  "evidence_split": "Kenai validation only",
+  "evidence_files": [
+    "artifacts/det-published-f010-s7/val/errors_by_resized_short_side.json",
+    "artifacts/det-adapted-f010-s7/val/errors_by_resized_short_side.json",
+    "artifacts/validation_error_examples.json"
+  ],
+  "observation": "First paired seed detects no objects below four resized pixels and few below eight pixels at the fixed 0.5 score operating point. Spatial ViT patches are 14 pixels.",
+  "proposed_intervention": "Profile and compare a higher-resolution spatial detector, e.g. 672, keeping complete clips, matched heads and budgets; use accumulation if necessary to stay under the existing limits.",
+  "hypothesis": "More pixels per fish may improve small-object recall and localization.",
+  "subsequent_ssl_hypothesis": "After strengthening the spatial detector baseline, separately declare patch-level distillation or a revised crop policy if frozen CLS-distilled features still hurt.",
+  "target_site_policy": "No Channel image or score informed this proposal. No repair of the current frozen models. A future experiment must retain the already exposed Channel result and declare a new evaluation policy."
+}

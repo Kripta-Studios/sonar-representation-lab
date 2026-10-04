@@ -1,0 +1,14 @@
+{
+  "checkpoint_sha256": "b9b2eea92e41a0901a6899a1f1236c38174530e07d07d4b3c866ec7e6b3c0d8f",
+  "parent_encoder_sha256": "972ff06e32e7ce59b2b7625c6254f20c92505da76a692193630134d187ab3954",
+  "updates": 2000,
+  "changed_encoder_tensor_count": 175,
+  "relative_encoder_l2_change_from_B": 0.0032787771525800134,
+  "optimizer_parameters_with_state_per_head_encoder_group": [
+    38,
+    175
+  ],
+  "all_active_optimizer_counters_2000": true,
+  "all_model_tensors_finite": true,
+  "status": "author artifact verification, not independent review"
+}

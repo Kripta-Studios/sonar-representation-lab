@@ -1,0 +1,14 @@
+{
+  "status": "author-verified; not independently reviewed",
+  "successful_detector_updates": 2000,
+  "published_and_adapted_exact_image_exposure_counters_equal": true,
+  "frame_presentations": 16000,
+  "unique_frames": 10356,
+  "frozen_encoder_tensors_bitwise_equal_to_adapted_initialization": 176,
+  "all_detector_tensors_finite": true,
+  "head_optimizer_step_counts": [
+    2000
+  ],
+  "checkpoint_sha256": "346ca4ca64a64bf05058145b0458cc4156aa476139ec3995c7a2b3e938fb46aa",
+  "verification_cpu_wall_seconds": 3.2933231000206433
+}

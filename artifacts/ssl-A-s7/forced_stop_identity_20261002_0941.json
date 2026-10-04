@@ -1,0 +1,47 @@
+{
+  "pid": 47916,
+  "created_epoch": 1790930541.6505003,
+  "cwd": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\sonar-representation-lab",
+  "command": [
+    "C:\\Users\\\u00c1lvaro Schwiedop\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\python.exe",
+    "-u",
+    "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\sonar-representation-lab\\src\\adapt.py",
+    "--seed",
+    "7",
+    "--out",
+    "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\sonar-representation-lab\\artifacts\\ssl-A-s7",
+    "--resume",
+    "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\sonar-representation-lab\\artifacts\\ssl-A-s7\\checkpoint.pt"
+  ],
+  "memory": {
+    "rss": 342691840,
+    "vms": 6541303808,
+    "num_page_faults": 4472646,
+    "peak_wset": 2219728896,
+    "wset": 342691840,
+    "peak_paged_pool": 9141760,
+    "paged_pool": 9139792,
+    "peak_nonpaged_pool": 128528,
+    "nonpaged_pool": 108880,
+    "pagefile": 6541303808,
+    "peak_pagefile": 6564192256,
+    "private": 6541303808
+  },
+  "cpu": {
+    "user": 4239.140625,
+    "system": 831.78125,
+    "children_user": 0.0,
+    "children_system": 0.0
+  },
+  "io": {
+    "read_count": 53654,
+    "write_count": 9323,
+    "read_bytes": 2768587078,
+    "write_bytes": 798695283,
+    "other_count": 104491,
+    "other_bytes": 6072256
+  },
+  "stop_requested_epoch": 1790934103.2296603,
+  "reason": "Observed aggregate GPU memory remained above the declared 10 GiB ceiling; stop only owned SSL process rather than wait for slow 25-step checks.",
+  "confirmed_stopped_epoch": 1790934104.5866141
+}

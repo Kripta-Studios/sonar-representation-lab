@@ -1,0 +1,31 @@
+{
+  "score_threshold": 0.5,
+  "iou": 0.5,
+  "bins_use_pre_rounding_resize_scale": true,
+  "buckets": {
+    "<4px": {
+      "objects": 241,
+      "matched": 0,
+      "missed": 241,
+      "recall": 0.0
+    },
+    "4-8px": {
+      "objects": 5656,
+      "matched": 13,
+      "missed": 5643,
+      "recall": 0.0022984441301272984
+    },
+    "8-16px": {
+      "objects": 10716,
+      "matched": 643,
+      "missed": 10073,
+      "recall": 0.06000373273609556
+    },
+    ">=16px": {
+      "objects": 1938,
+      "matched": 405,
+      "missed": 1533,
+      "recall": 0.2089783281733746
+    }
+  }
+}

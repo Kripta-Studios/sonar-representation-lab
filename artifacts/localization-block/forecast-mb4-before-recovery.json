@@ -1,0 +1,9 @@
+{
+  "training_hours": 1.7708333333048765,
+  "validation_hours": 1.4021916666666583,
+  "cold_start_seconds": 8.546999999962281,
+  "remaining_development_hours": 17.914292777777785,
+  "final_reserve_hours": 6,
+  "microbatch": 4,
+  "accumulation": 2
+}

@@ -1,0 +1,34 @@
+{
+  "status": "completed author-evaluated primary comparison; not independently reviewed",
+  "fraction": 10,
+  "split": "Kenai validation",
+  "pairs": [
+    {
+      "seed": 7,
+      "published_AP50_percent": 15.285253042653673,
+      "adapted_AP50_percent": 10.664096286304622,
+      "delta_percentage_points": -4.621156756349052,
+      "adapted_negative_false_positives": 25
+    },
+    {
+      "seed": 13,
+      "published_AP50_percent": 15.609472299824589,
+      "adapted_AP50_percent": 11.387127227570168,
+      "delta_percentage_points": -4.22234507225442,
+      "adapted_negative_false_positives": 0
+    },
+    {
+      "seed": 23,
+      "published_AP50_percent": 16.119596773588125,
+      "adapted_AP50_percent": 11.997394341045965,
+      "delta_percentage_points": -4.12220243254216,
+      "adapted_negative_false_positives": 19
+    }
+  ],
+  "published_mean_AP50_percent": 15.671440705355462,
+  "published_sample_std_AP50_points": 0.4206095907138045,
+  "adapted_mean_AP50_percent": 11.349539284973584,
+  "adapted_sample_std_AP50_points": 0.6674433052819883,
+  "paired_mean_change_points": -4.321901420381877,
+  "paired_sample_std_change_points": 0.26395540182150995
+}

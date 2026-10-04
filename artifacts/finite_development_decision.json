@@ -1,0 +1,62 @@
+{
+  "utc": "2026-10-03T14:36:21Z",
+  "motion_vs_published": {
+    "AP50_delta_pp": -6.247795817203613,
+    "AP50_95_delta_pp": -2.4492375876548587,
+    "passes": false
+  },
+  "motion_vs_paired_control": {
+    "AP50_delta_pp": 0.23481784457081156,
+    "AP50_95_delta_pp": -0.19366494205396434,
+    "passes": false
+  },
+  "B_final_screen": {
+    "utc": "2026-10-03T10:22:40.269196+00:00",
+    "frozen_screen_pass": false,
+    "fine_only_screen_pass": false,
+    "frozen_AP50_delta_pp": -6.450782947615563,
+    "fine_AP50_delta_pp": -1.2333640725628925,
+    "fine_AP95_delta_pp": -0.278147669083198,
+    "admissible_B_replication": false,
+    "replication_status": "NOT_QUALIFIED_PREDECLARED_SCREEN",
+    "conservative_two_additional_seed_finetuned_pair_forecast_hours": 14.814930555555597,
+    "remaining_development_hours": 7.059626666666674,
+    "cumulative_charged_gpu_hours": 22.444582470542123,
+    "followup_remaining_hours": 13.059626666666674,
+    "final_reserved_hours": 6,
+    "rule_sha256": "24d2af502ec6b9a16f666c3a51b717b778e6c3e9878b42e4be1fcff5d2339d0b",
+    "metrics": {
+      "det-published-r672-f010-s7": {
+        "AP50": 0.26997822969453616,
+        "AP50:95": 0.07621921163621888,
+        "sha256": "0c6f1f3ac0e9d3d8f5ef519d3633b595ed6a09ba7ff053b1af68509731873b07"
+      },
+      "det-b-r672-f010-s7": {
+        "AP50": 0.20547040021838053,
+        "AP50:95": 0.05439020339196379,
+        "sha256": "2aaf24c292537f4426b6e8618f8acde0a3c3750c8cf715d097a087fa8870ffcf"
+      },
+      "det-finetune-r672-f010-s7": {
+        "AP50": 0.49760478929015206,
+        "AP50:95": 0.1665178957703336,
+        "sha256": "cfb48855113f225ae78f6deb25da10de9443740019b8b64eb7e5c06d971d797d"
+      },
+      "det-b-finetune-r672-f010-s7": {
+        "AP50": 0.48527114856452314,
+        "AP50:95": 0.16373641907950162,
+        "sha256": "352379433a08c135d20ad37a474a5343679606563673adf09e8a4ea4861bc783"
+      }
+    },
+    "scientific_status": "single seed; negative frozen and matched full-fine-tuning contrasts; optional distinct motion hypothesis remains subject to prerequisites, not a rescue search"
+  },
+  "replication_status": "NOT_QUALIFIED_PREDECLARED_SCREEN",
+  "budget_forecast_file": "motion_replication_budget_forecast.json",
+  "development_closed": true,
+  "additional_configuration_search": false,
+  "rule_sha256": "24d2af502ec6b9a16f666c3a51b717b778e6c3e9878b42e4be1fcff5d2339d0b",
+  "metrics_sha256": {
+    "det-published-r672-f010-s7": "0c6f1f3ac0e9d3d8f5ef519d3633b595ed6a09ba7ff053b1af68509731873b07",
+    "det-control-r672-f010-s7": "f06f7b1b019109c01629e31ffe1c71cde92fa4e0447018abd59ef09137d24e5e",
+    "det-motion-r672-f010-s7": "dab5017a772c19d057af5bc40eeb5d686a85f747b99da25849356b7d73489db8"
+  }
+}

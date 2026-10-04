@@ -1,0 +1,207 @@
+{
+  "selection": "8 lowest SHA256(motion-pair-check-v1:TRAIN clip), frames 0 and 1",
+  "annotations_read": false,
+  "rows": [
+    {
+      "clip": "2018-05-30-JD150_LeftNear_Stratum1_Set1_LN_2018-05-30_060000_2661_3202",
+      "delta_in_source_frame_indices": 1,
+      "nominal_framerate_from_metadata": 9.000008583068848,
+      "images": [
+        {
+          "name": "2018-05-30-JD150_LeftNear_Stratum1_Set1_LN_2018-05-30_060000_2661_3202_0.jpg",
+          "mode": "L",
+          "dimensions": [
+            630,
+            839
+          ],
+          "file_sha256": "95f12011fa46f49c1e38cb6361d50553dc0b592d6d8ced37f5a172fc4835318a"
+        },
+        {
+          "name": "2018-05-30-JD150_LeftNear_Stratum1_Set1_LN_2018-05-30_060000_2661_3202_1.jpg",
+          "mode": "L",
+          "dimensions": [
+            630,
+            839
+          ],
+          "file_sha256": "b7385e649816470c3d842798efe49a5bd5d1ed76ecef603e9a7ad7de01bf4f9d"
+        }
+      ]
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftFar_Stratum1_Set1_LO_2018-05-30_190004_2694_3294",
+      "delta_in_source_frame_indices": 1,
+      "nominal_framerate_from_metadata": 10.0,
+      "images": [
+        {
+          "name": "2018-05-30-JD150_LeftFar_Stratum1_Set1_LO_2018-05-30_190004_2694_3294_0.jpg",
+          "mode": "L",
+          "dimensions": [
+            288,
+            624
+          ],
+          "file_sha256": "fbbeab8b022920fb27392d1faf8acf24fa02209fc027c6affc161f36f21bdae9"
+        },
+        {
+          "name": "2018-05-30-JD150_LeftFar_Stratum1_Set1_LO_2018-05-30_190004_2694_3294_1.jpg",
+          "mode": "L",
+          "dimensions": [
+            288,
+            624
+          ],
+          "file_sha256": "e2cc662de40634dab1d7d358a0fe2d25b70369113f8442bc324019a089970873"
+        }
+      ]
+    },
+    {
+      "clip": "2018-06-05-JD156_LeftNear_Stratum1_Set1_LN_2018-06-05_170000_4150_4350",
+      "delta_in_source_frame_indices": 1,
+      "nominal_framerate_from_metadata": 9.000008583068848,
+      "images": [
+        {
+          "name": "2018-06-05-JD156_LeftNear_Stratum1_Set1_LN_2018-06-05_170000_4150_4350_0.jpg",
+          "mode": "L",
+          "dimensions": [
+            626,
+            835
+          ],
+          "file_sha256": "565e3ade50dbb4e137d4e01f0b56a88f6598c877674e5d749efb5450730df3d7"
+        },
+        {
+          "name": "2018-06-05-JD156_LeftNear_Stratum1_Set1_LN_2018-06-05_170000_4150_4350_1.jpg",
+          "mode": "L",
+          "dimensions": [
+            626,
+            835
+          ],
+          "file_sha256": "37938d7f0da7f44be686859b70badb7ceea302adb7046aad7f3377e5d0cc3b0e"
+        }
+      ]
+    },
+    {
+      "clip": "2018-05-27-JD147_LeftFar_Stratum3_Set1_LO_2018-05-27_232000_2383_2784",
+      "delta_in_source_frame_indices": 1,
+      "nominal_framerate_from_metadata": 6.6929030418396,
+      "images": [
+        {
+          "name": "2018-05-27-JD147_LeftFar_Stratum3_Set1_LO_2018-05-27_232000_2383_2784_0.jpg",
+          "mode": "L",
+          "dimensions": [
+            1150,
+            1504
+          ],
+          "file_sha256": "e1a02a7f7308c1b4b2e3d1be3387a3a3c14434994d04fc90e04d833c28db8326"
+        },
+        {
+          "name": "2018-05-27-JD147_LeftFar_Stratum3_Set1_LO_2018-05-27_232000_2383_2784_1.jpg",
+          "mode": "L",
+          "dimensions": [
+            1150,
+            1504
+          ],
+          "file_sha256": "8e3ec7e653f8978eb8bfa1cc5941b1672940ffe2c19dc5f3f2547a0ce22d67fc"
+        }
+      ]
+    },
+    {
+      "clip": "2018-05-28-JD148_LeftFar_Stratum1_Set1_LO_2018-05-28_210004_3452_3652",
+      "delta_in_source_frame_indices": 1,
+      "nominal_framerate_from_metadata": 10.0,
+      "images": [
+        {
+          "name": "2018-05-28-JD148_LeftFar_Stratum1_Set1_LO_2018-05-28_210004_3452_3652_0.jpg",
+          "mode": "L",
+          "dimensions": [
+            286,
+            622
+          ],
+          "file_sha256": "bfd5daf4cf2e76012045f803519b2143effa727a62380f57fe9c5cbc1d46eca9"
+        },
+        {
+          "name": "2018-05-28-JD148_LeftFar_Stratum1_Set1_LO_2018-05-28_210004_3452_3652_1.jpg",
+          "mode": "L",
+          "dimensions": [
+            286,
+            622
+          ],
+          "file_sha256": "e47815352eb2582dbf4519f7677b677a946564239fefc43fbadd2c262847c3f0"
+        }
+      ]
+    },
+    {
+      "clip": "2018-06-10-JD161_LeftNear_Stratum1_Set1_LN_2018-06-10_100000_4413_4613",
+      "delta_in_source_frame_indices": 1,
+      "nominal_framerate_from_metadata": 9.000008583068848,
+      "images": [
+        {
+          "name": "2018-06-10-JD161_LeftNear_Stratum1_Set1_LN_2018-06-10_100000_4413_4613_0.jpg",
+          "mode": "L",
+          "dimensions": [
+            624,
+            832
+          ],
+          "file_sha256": "1869ef1c0000072406b549f89942505a56b9a83a7dc5c4814eddbb0fdfd3ea60"
+        },
+        {
+          "name": "2018-06-10-JD161_LeftNear_Stratum1_Set1_LN_2018-06-10_100000_4413_4613_1.jpg",
+          "mode": "L",
+          "dimensions": [
+            624,
+            832
+          ],
+          "file_sha256": "2d7ca32dfe63b2716df48971391169fd068722fc0aadea5b01d853c8dc791477"
+        }
+      ]
+    },
+    {
+      "clip": "2018-06-04-JD155_LeftFar_Stratum1_Set1_LO_2018-06-04_150004_986_1186",
+      "delta_in_source_frame_indices": 1,
+      "nominal_framerate_from_metadata": 10.0,
+      "images": [
+        {
+          "name": "2018-06-04-JD155_LeftFar_Stratum1_Set1_LO_2018-06-04_150004_986_1186_0.jpg",
+          "mode": "L",
+          "dimensions": [
+            286,
+            622
+          ],
+          "file_sha256": "c423586bd2b0f387c7f9a4af4dfe95367ab4d3584be8fbf84240dd44b9e64f15"
+        },
+        {
+          "name": "2018-06-04-JD155_LeftFar_Stratum1_Set1_LO_2018-06-04_150004_986_1186_1.jpg",
+          "mode": "L",
+          "dimensions": [
+            286,
+            622
+          ],
+          "file_sha256": "40fea22a7eeb7acada0788226e107d5b01690adeb54d2d3b22ea16eae976d490"
+        }
+      ]
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftNear_Stratum1_Set1_LN_2018-06-01_210000_4340_4881",
+      "delta_in_source_frame_indices": 1,
+      "nominal_framerate_from_metadata": 9.000008583068848,
+      "images": [
+        {
+          "name": "2018-06-01-JD152_LeftNear_Stratum1_Set1_LN_2018-06-01_210000_4340_4881_0.jpg",
+          "mode": "L",
+          "dimensions": [
+            625,
+            832
+          ],
+          "file_sha256": "88ff75bf827ea92325a92c274705edbc4297399259c4a3bbb2c55e3e6c9adfc3"
+        },
+        {
+          "name": "2018-06-01-JD152_LeftNear_Stratum1_Set1_LN_2018-06-01_210000_4340_4881_1.jpg",
+          "mode": "L",
+          "dimensions": [
+            625,
+            832
+          ],
+          "file_sha256": "7b0e784247045630cace1e65b250ea64f5e175a57a2ddf1935f37d799847dbfe"
+        }
+      ]
+    }
+  ],
+  "status": "real TRAIN frame decode only; no auxiliary fit or detection evidence"
+}

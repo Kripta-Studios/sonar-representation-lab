@@ -1,0 +1,18 @@
+{
+  "adaptation_configuration": "A",
+  "steps": 2000,
+  "batch": 16,
+  "accumulation": 1,
+  "seed": 7,
+  "manifest_sha256": "ad646a27c1586496f24d33c5f39b070cf717c60adcaa364c1722bdfbb2b13737",
+  "global_size": 224,
+  "local_size": 112,
+  "out_dim": 4096,
+  "peak_lr": 1e-05,
+  "teacher_temperature_warmup": [
+    0.04,
+    0.07,
+    200
+  ],
+  "resource_profile_only": true
+}

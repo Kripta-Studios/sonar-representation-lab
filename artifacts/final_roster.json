@@ -1,0 +1,99 @@
+{
+  "utc": "2026-10-03T14:38:43Z",
+  "runs": [
+    "det-published-r672-f010-s7",
+    "det-adapted-r672-f010-s7",
+    "det-b-r672-f010-s7",
+    "det-control-r672-f010-s7",
+    "det-motion-r672-f010-s7",
+    "det-finetune-r672-f010-s7",
+    "det-b-finetune-r672-f010-s7"
+  ],
+  "selected_resolution": 672,
+  "development_closed": true,
+  "omitted_cells": {
+    "original_1_and_100_percent": "DEFERRED_BY_OWNER_PRIORITY_AMENDMENT; neither failed nor completed",
+    "B_seeds13_23": "NOT_QUALIFIED_PREDECLARED_SCREEN in both frozen/full-finetuned contrast",
+    "C_seeds13_23": "NOT_QUALIFIED_PREDECLARED_SCREEN; independently, complete forecast20.1016h exceeds remaining development budget",
+    "optional_new_1_percent": "NOT_RUN_BUDGET: two fresh heads/full VAL forecast 4.19603888888887h exceeds remaining development allowance2.92436h",
+    "100_percent_grid": "DEFERRED_BY_OWNER_PRIORITY_AMENDMENT",
+    "Channel_original_448_and_random": "Not in bounded final roster; all original Kenai results retained. Random is a diagnostic; all final transfer comparisons use672 and seed7. No three-seed Channel claim."
+  },
+  "comparisons": [
+    {
+      "name": "A versus published",
+      "candidate": [
+        "det-adapted-r672-f010-s7"
+      ],
+      "reference": [
+        "det-published-r672-f010-s7"
+      ],
+      "replicated_claim": false
+    },
+    {
+      "name": "B versus published",
+      "candidate": [
+        "det-b-r672-f010-s7"
+      ],
+      "reference": [
+        "det-published-r672-f010-s7"
+      ],
+      "replicated_claim": false
+    },
+    {
+      "name": "spatial continuation versus B",
+      "candidate": [
+        "det-control-r672-f010-s7"
+      ],
+      "reference": [
+        "det-b-r672-f010-s7"
+      ],
+      "replicated_claim": false
+    },
+    {
+      "name": "C versus published",
+      "candidate": [
+        "det-motion-r672-f010-s7"
+      ],
+      "reference": [
+        "det-published-r672-f010-s7"
+      ],
+      "replicated_claim": false
+    },
+    {
+      "name": "motion contribution",
+      "candidate": [
+        "det-motion-r672-f010-s7"
+      ],
+      "reference": [
+        "det-control-r672-f010-s7"
+      ],
+      "replicated_claim": false
+    },
+    {
+      "name": "B full fine-tuning versus published full fine-tuning",
+      "candidate": [
+        "det-b-finetune-r672-f010-s7"
+      ],
+      "reference": [
+        "det-finetune-r672-f010-s7"
+      ],
+      "replicated_claim": false
+    }
+  ],
+  "forecast_final_gpu_hours": 5.249685142619442,
+  "reserved_gpu_hours": 6,
+  "forecast_basis": {
+    "worst_measured_full_Kenai_hours": 1.0817533333333267,
+    "Channel_frames_from_preexisting_structural_metadata": 13090,
+    "Kenai_validation_frames": 30454,
+    "multiplier": 1.25,
+    "per_checkpoint_overhead_hours": 0.05,
+    "per_checkpoint_forecast_hours": 0.6312106428274302,
+    "initial_evaluations": 7,
+    "reserved_identical_GPU_replays": 1,
+    "extra_final_overhead_hours": 0.2
+  },
+  "selection": "All seven completed seed7 detectors at the selected resolution, including every spatial/motion arm and both supervised references; no best-seed selection. Original A encoder is reused by its672 head.",
+  "status": "author-evaluated; single-seed one-location transfer; original fraction/location study incomplete"
+}

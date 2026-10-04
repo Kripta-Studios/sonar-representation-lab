@@ -1,0 +1,21 @@
+{
+  "retrieved_utc": "2026-10-03T09:54:30.120064+00:00",
+  "commit": "4e12602fd495af83efd1631fbe82523e6db092e0",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/facebookresearch/vicreg/4e12602fd495af83efd1631fbe82523e6db092e0/main_vicreg.py",
+      "file": "artifacts\\sources\\continuation\\vicreg-main_vicreg.py.txt",
+      "sha256": "88c4439e2c508156c79416cbd7c628d05f52f517e3eb1f66eac8db483485cf20",
+      "bytes": 11318
+    },
+    {
+      "url": "https://raw.githubusercontent.com/facebookresearch/vicreg/4e12602fd495af83efd1631fbe82523e6db092e0/LICENSE",
+      "file": "artifacts\\sources\\continuation\\vicreg-LICENSE.txt",
+      "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85",
+      "bytes": 1086
+    }
+  ],
+  "use": "mathematical anti-degeneracy reference only; no upstream installer or implementation executed/copied",
+  "license": "MIT",
+  "inspected_section": "VICReg.forward: variance hinge at unit standard deviation, epsilon1e-4; off-diagonal covariance squared sum per feature dimension"
+}

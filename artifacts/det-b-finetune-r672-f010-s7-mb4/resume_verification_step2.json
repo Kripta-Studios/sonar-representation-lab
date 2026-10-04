@@ -1,0 +1,6 @@
+{
+  "step": 2,
+  "model_optimizer_rng_exact_on_reload": true,
+  "presentations": 16,
+  "checkpoint_sha256": "f7881ba7ab3626d8379365fafb236672372abef4f451e5545d90d53c86fb70e2"
+}

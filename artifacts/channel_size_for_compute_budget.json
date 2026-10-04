@@ -1,0 +1,6 @@
+{
+  "purpose": "reserve held-out evaluation compute; no Channel images or model metrics consumed",
+  "clips": 69,
+  "frames": 13090,
+  "official_file_list": "file_lists_v1.1/kenai-channel.txt"
+}

@@ -1,0 +1,2 @@
+{"utc_epoch": 1790943941.931444, "pid": 33784, "process_creation_epoch": 1790943734.5260391, "rss_bytes": 2019536896, "native_peak_working_set_bytes": 2021023744, "limit_bytes": 23622320128, "owned_process_identity_verified": true}
+{"utc_epoch": 1790945386.492231, "pid": 33784, "process_creation_epoch": 1790943734.5260391, "rss_bytes": 2308173824, "native_peak_working_set_bytes": 2308550656, "limit_bytes": 23622320128, "owned_process_identity_verified": true}

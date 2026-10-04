@@ -1,0 +1,9 @@
+{
+  "status": "Before any complete image-branch fit or its score",
+  "finding": "torch.manual_seed inside a CPU-only fork_rng also seeds CUDA; initial CPU identity tests did not exercise this global side effect",
+  "correction": "Initialize branch through an isolated CPU Generator state and restore CPU RNG; do not reset CUDA RNG",
+  "verification": "Focused monkeypatch test plus exact CUDA-generator identity recorded at initialization of each new detector",
+  "shared_reference": "The active published neck-none reference already starts CUDA at seed7; none branch returns before the changed optional code. Existing reference learning trajectory is unchanged",
+  "interrupted_image_batch8": "Preserved as incomplete resource-interrupted run; had one update and is excluded from completed comparisons",
+  "new_comparisons": "All optional branches initialize CUDA at the common head seed; no validation outcome used to change initialization"
+}

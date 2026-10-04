@@ -1,0 +1,39 @@
+{
+  "utc": "2026-10-02T23:36:46Z",
+  "stage": "672 published/A frozen seed7 10% pair",
+  "forecast_gpu_process_hours": 4.0,
+  "per_training_ceiling_forecast_hours": 1.0,
+  "per_validation_forecast_hours": 1.0,
+  "used_hours": 12.062373581653237,
+  "final_reserved_hours": 6,
+  "basis": "TRAIN probe max 1.282s including startup x2000 x1.25=0.891h; validation allowance exceeds 0.540829h measured cached random evaluation to allow JPEG/high-resolution cost",
+  "prerequisites": [
+    "35 focused tests passed",
+    "legacy448 state/predictions exact",
+    "672 true patch/register/pyramid/ROI tests passed",
+    "real TRAIN batch8 profile and optimizer replay passed"
+  ],
+  "runs": [
+    "det-published-r672-f010-s7",
+    "det-adapted-r672-f010-s7"
+  ],
+  "settings": {
+    "size": 672,
+    "seed": 7,
+    "fraction": 10,
+    "updates": 2000,
+    "batch": 8,
+    "accumulation": 1
+  },
+  "commands": [
+    ".venv/Scripts/python.exe src/train_detector.py train --kind published --size 672 --seed 7 --fraction 10 --steps 2000 --batch 8 --accumulation 1 --out artifacts/det-published-r672-f010-s7 --allocation artifacts/spatial_motion_allocation.json",
+    ".venv/Scripts/python.exe src/train_detector.py train --kind adapted --adapted artifacts/ssl-A-s7/encoder.pt --size 672 --seed 7 --fraction 10 --steps 2000 --batch 8 --accumulation 1 --out artifacts/det-adapted-r672-f010-s7 --allocation artifacts/spatial_motion_allocation.json"
+  ],
+  "decision_rule_implementation": {
+    "recorded_before_672_validation_utc": "2026-10-03T00:44:13Z",
+    "script": "analysis/resolution_decision.py",
+    "script_sha256": "f7c53db4beb8877ab0902b6d4ca94079de6d6de05e81e43d9b022553f5de949b",
+    "runtime_feasibility_assumption": "Retain the owner-indicated eight-hour spatial-B/comparator allowance inside remaining development time, plus the protected final reserve; actual completed pair jobs must respect memory limits.",
+    "metric_rule": "Published AP50 gain at least 0.01 in fractional units, no AP50:95 decrease, strict improvement of score-.5 recall for the fixed 16613 below-16px GT boxes. A is reported regardless."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "arguments": [
+    "src/adapt.py",
+    "--configuration",
+    "B",
+    "--seed",
+    "7",
+    "--batch",
+    "16",
+    "--steps",
+    "2000",
+    "--profile",
+    "--out",
+    "artifacts\\ssl-B-profile-resume",
+    "--stop-after",
+    "2"
+  ],
+  "forecast_hours": 0.03,
+  "remaining_development_hours": 14.378636666666702,
+  "final_reserve_protected": true
+}

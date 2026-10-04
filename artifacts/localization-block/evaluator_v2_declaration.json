@@ -1,0 +1,12 @@
+{
+  "status": "Correctness amendment before the first new validation score; author finding, no independent review",
+  "discovered_in": "Kenai annotation-ID validation during whole-clip bootstrap",
+  "finding": "Official Kenai validation includes annotation ID0. COCO dtMatches uses0 as its unmatched sentinel. A correctly matched ID0 annotation can therefore count as unmatched in scalar AP",
+  "v2": "Use unique strictly positive annotation IDs inside the evaluator; leave source annotations, image IDs, category IDs, coordinates, detections and operating-point matching unchanged",
+  "known_answer": "test_zero_annotation_ids.py and test_bootstrap_zero_ids.py reproduce original zero-ID failure and positive-ID correction, including duplicate clips and negatives",
+  "historical_outputs": "Preserved as originally executed source-ID evaluator v1; any corrected values are separately derived artifacts, never silent overwrites",
+  "new_comparisons": "Both fresh microbatch4 arms and every subsequent cell use positive-ID evaluator v2",
+  "active_training": "Fresh published reference training source preserved in training_source_snapshot.zip before evaluator-only change. Training loop, labels, optimizer, seed and sampler remain unchanged; evaluator is not called by detector fitting",
+  "Channel": "No new inference or target-based repair. Original outputs and exposure remain preserved; historical evaluator limitation must be disclosed",
+  "bootstrap_v3": "CPU-only run stopped and preserved after discovering sentinel ambiguity; v4 uses gtMatches/dtIds recovery validated against explicit positive-ID duplicate-clip rescoring"
+}

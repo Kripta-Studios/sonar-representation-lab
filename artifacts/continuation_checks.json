@@ -1,0 +1,96 @@
+{
+  "phase": "continuation implementation before new model fits",
+  "author_checks": [
+    {
+      "check": "focused historical/follow-up budget, RAM, suspend, evaluator tests",
+      "result": "7 passed; earlier tool execution"
+    },
+    {
+      "check": "diagnostic known-answer tests",
+      "result": "2 passed in 1.16 seconds"
+    },
+    {
+      "check": "ruff check src analysis tests",
+      "result": "passed"
+    },
+    {
+      "check": "complete focused project suite including new spatial/resolution/proposal tests",
+      "result": "35 passed, 6 expected xFormers warnings in 82.21 seconds",
+      "log": "continuation_pytest.log"
+    },
+    {
+      "check": "512-frame four-model RPN hook equivalence",
+      "result": "passed for first real batch of every model; raw proposals and counts saved"
+    },
+    {
+      "check": "672 real TRAIN profile, prediction reload and actual optimizer replay",
+      "result": "passed; artifacts/profile-b8-frozen-r672/profile.json"
+    },
+    {
+      "check": "conditional motion components",
+      "result": "4 passed in 26.01 seconds; no motion training or calibration yet",
+      "log": "motion_components_tests.log"
+    },
+    {
+      "check": "TRAIN-only temporal metadata and decode",
+      "result": "161716 numeric-adjacent pairs, zero interior gaps; 16 real frames decoded across 8 clips; preserve official last-frame exclusions"
+    },
+    {
+      "check": "integrated suite before B probes",
+      "result": "42 passed in 21.31s",
+      "log": "continuation_integrated_pytest.log"
+    },
+    {
+      "check": "exact restoration helper plus spatial tests",
+      "result": "4 passed in 3.37s",
+      "log": "spatial_reload_tests.log"
+    },
+    {
+      "check": "B real TRAIN exact loaded-state and numerical continuation/fresh-replay comparison",
+      "result": "passed; image/mask/CUDA/CPU RNG, exposures, step and configuration exact; no bitwise training trajectory claim",
+      "artifact": "ssl-B-resume-check-v2.json"
+    },
+    {
+      "check": "672 fine-tuning real TRAIN profile",
+      "result": "passed after test-harness correction; batch8 fits; reloaded predictions exact, loaded optimizer/model/RNG exact, numerical next-update replays within fixed bounds",
+      "artifact": "profile-b8-finetune-r672-v3/profile.json"
+    }
+  ],
+  "failed_attempts": [
+    {
+      "check": "Torch-dependent proposal/diagnostic test collection while random GPU evaluation active",
+      "result": "Windows WinError 1455 loading cufft64_11.dll: paging file too small; no test executed; no GPU context or training started",
+      "gpu_hours": 0,
+      "action": "retry after existing evaluation exits; no system policy changes"
+    },
+    {
+      "check": "first A672 serial launch",
+      "result": "Windows PowerShell Stop preference treated expected xFormers stderr warning as NativeCommandError before configuration or GPU resource entry. Verified no surviving Python process, lock, checkpoint or unmatched GPU interval. Preserve launcher log and first admission. Changed launcher to check native exit status while retaining warnings.",
+      "gpu_hours": 0
+    },
+    {
+      "check": "B initial bitwise four-step training comparison",
+      "result": "failed; pre-resume gradients and a fresh uninterrupted replay also vary. Preserved checkpoints and numeric diagnosis. Exact state restoration separated from bounded trajectory replay; no objective/hyperparameter change.",
+      "artifact": "ssl-B-replay-numerics.json"
+    },
+    {
+      "check": "672 fine-tuning original one-update tolerance",
+      "result": "failed after finite real training and exact prediction reload; retained source/checkpoints; charged in ledger",
+      "artifact": "profile-b8-finetune-r672/resources.json"
+    },
+    {
+      "check": "first two-replay fine profile",
+      "result": "failed; mutable CPU AdamW step alias in reused in-memory checkpoint corrupted second starting step. Corrected by fresh disk reload per replay, without changing declared numerical tolerances or research training.",
+      "artifact": "profile-b8-finetune-r672-v2/resources.json"
+    }
+  ],
+  "pending": [
+    "complete actual B training and downstream frozen/full-fine-tuning comparisons",
+    "conditional motion and eligible replication based on measured budget/results",
+    "fixed Channel roster and evaluation"
+  ],
+  "accounting_note": {
+    "record": "random full-validation end at 2026-10-02T23:33:18Z",
+    "detail": "The running process retained an admission-time remaining_development_hours field of 18.0. Its charged_gpu_hours and block_remaining_hours are correct. Actual development remainder at that end was 17.459170833333337. Subsequent runtime records subtract live charges from that field. Preserve the raw ledger; sum charges for balances."
+  }
+}

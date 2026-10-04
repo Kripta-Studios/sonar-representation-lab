@@ -1,0 +1,82 @@
+{
+  "resume": {
+    "student": {
+      "relative_l2": 1.3432259506142576e-07,
+      "max_abs": 1.430511474609375e-06
+    },
+    "teacher": {
+      "relative_l2": 3.88952731460779e-09,
+      "max_abs": 4.76837158203125e-07
+    },
+    "student_head": {
+      "relative_l2": 1.2774072591771521e-07,
+      "max_abs": 6.789341568946838e-07
+    },
+    "teacher_head": {
+      "relative_l2": 3.1241617295491888e-09,
+      "max_abs": 7.450580596923828e-09
+    },
+    "student_patch_head": {
+      "relative_l2": 5.6384246044346426e-08,
+      "max_abs": 4.461035132408142e-07
+    },
+    "teacher_patch_head": {
+      "relative_l2": 1.7039538235757247e-09,
+      "max_abs": 7.450580596923828e-09
+    },
+    "objective": {
+      "relative_l2": 0.0008402225465779657,
+      "max_abs": 5.898997187614441e-05
+    },
+    "patch_objective": {
+      "relative_l2": 0.0005546348886531504,
+      "max_abs": 3.0100345611572266e-05
+    },
+    "optimizer.exp_avg": {
+      "relative_l2": 0.014277331874216061
+    },
+    "optimizer.exp_avg_sq": {
+      "relative_l2": 0.013568451065739548
+    }
+  },
+  "repeat": {
+    "student": {
+      "relative_l2": 1.3243572135760858e-07,
+      "max_abs": 1.430511474609375e-06
+    },
+    "teacher": {
+      "relative_l2": 4.065419840531425e-09,
+      "max_abs": 4.76837158203125e-07
+    },
+    "student_head": {
+      "relative_l2": 1.2838685547115819e-07,
+      "max_abs": 5.998881533741951e-07
+    },
+    "teacher_head": {
+      "relative_l2": 3.131313882493635e-09,
+      "max_abs": 7.450580596923828e-09
+    },
+    "student_patch_head": {
+      "relative_l2": 5.660613964412579e-08,
+      "max_abs": 4.237517714500427e-07
+    },
+    "teacher_patch_head": {
+      "relative_l2": 1.758539328506307e-09,
+      "max_abs": 7.450580596923828e-09
+    },
+    "objective": {
+      "relative_l2": 0.0008468216022980501,
+      "max_abs": 5.746353417634964e-05
+    },
+    "patch_objective": {
+      "relative_l2": 0.0005235188988213559,
+      "max_abs": 3.312109038233757e-05
+    },
+    "optimizer.exp_avg": {
+      "relative_l2": 0.014436625224888436
+    },
+    "optimizer.exp_avg_sq": {
+      "relative_l2": 0.00956819948464119
+    }
+  }
+}

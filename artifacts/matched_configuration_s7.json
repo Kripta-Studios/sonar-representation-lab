@@ -1,0 +1,31 @@
+{
+  "status": "author-verified; not independently reviewed",
+  "matched_scientific_configuration_keys": [
+    "seed",
+    "fraction",
+    "steps",
+    "batch",
+    "accumulation",
+    "published_sha256",
+    "manifest_sha256",
+    "source_revision",
+    "detector_size",
+    "head_lr",
+    "backbone_lr",
+    "frozen"
+  ],
+  "same_label_manifest_sha256": "2f5ae232f2a2a126930479032605cdad7e2060dbf1438e717a3c5d73322c5b39",
+  "model_data_trainer_evaluator_source_hashes_equal": true,
+  "source_hash_differences": [
+    "src/runtime.py"
+  ],
+  "bookkeeping_difference": "OS-confirmed suspension accounting amendment in commit 92fe1ae; no scientific setting changed",
+  "published_protocol_sha256": "5fd2e9ab36792d662e47f646523efabc24a7389f87bd1d7e4b5e348369356fae",
+  "adapted_protocol_sha256": "60175f850f301db9539c17d0054c04e550d8c88da77d1716c5e02b91e44485a9",
+  "expected_encoder_fields_differ": [
+    "kind",
+    "adapted",
+    "adapted_sha256"
+  ],
+  "adapted_encoder_sha256": "15b3356ef61f163a955cefd240b04555635b104f7b222dcd408fdb783eaca210"
+}

@@ -1,0 +1,245 @@
+{
+  "status": "complete TRAIN-only numerical calibration",
+  "source_identity": {
+    "src/acquire.py": "c0f33970f0e8e11ec1b1b592ed7c9ca00bea8e5b318a5c2b4fdd5eba1097a049",
+    "src/adapt.py": "c37d8d484716fb5e8702b976805ed50452eff45c1cf35800b0a68fe1be7a38a3",
+    "src/adapt_motion.py": "023c97f53b2816f632689df002ad23a9dc5ccf04c60ec6298ceb1c1745205a17",
+    "src/budget.py": "e4d30142bd39b50e043bfe42563caf44abdc153067e1b2293d923ec08837cbde",
+    "src/calibrate_motion.py": "f46dbb98a77c8be34c4d70baf92d404bf976f2897c690b433e8a63747b162386",
+    "src/channel.py": "c98c7f8f7c6d16e4440fc4e461b513932f46d09433c34ea1d1f2b83372693f70",
+    "src/data.py": "07ff208e168b390bfb57ac4a58ca1adf90e366fd09250dd38e2e13abdf56a57c",
+    "src/evaluate.py": "d7a6f8c76aac52f53839a8cc856e0c8a532e93090c0fdeb423e96a65fab06c83",
+    "src/freeze.py": "e5b29c3ec1205a7f445179e3ea0eefad900940942983ccde5ba6b625f1803d75",
+    "src/models.py": "85134b979bf5dd4713130084a2e8c0563772d2e2bae4cbee800074870c94a2f1",
+    "src/motion.py": "3057d5d078d1a84859368ccdd269bc4391f19904a3642b840786c0c746ee88c2",
+    "src/platform_compat.py": "c1ff01ec3d865d64504d1a556c9f48e514c89671984be809fff63470f2f7e66d",
+    "src/profile_batch.py": "7d827a49ca81256c459985dc8800744267ad9c1d9aaf848a5e0445429d611058",
+    "src/run_block.py": "e6db4f9efcdeeaa823708d2f4775d5351f238aab9de1eead700db27c8f5d7b2d",
+    "src/runtime.py": "b72fe399980b3080d928eec12e52144faf941302493a8f886d6f2417a042dae4",
+    "src/spatial.py": "44c7450dacd2ff1a009fcf3cc8834aee120020f5c00d5b2ccf784382541d8d04",
+    "src/summarize.py": "15e88c6aa3ffeab1610bdd22fc1aac86caf9dc02ba887b4e963f0be13397ec22",
+    "src/train_detector.py": "b440bb664224e465479368d8a17d21c828172ed507a03e5f5c3bff21b5bf5378"
+  },
+  "protocol_sha256": "84bedc11ae2990d7156e2d3bdf8d0f0b417eec28cc84d9c98c339fc3baa9a720",
+  "seed": 7,
+  "parent_checkpoint_sha256": "4c1cadace072f13d96eefe89e9774e94a0e7f94152faa3b145ea050a0d40574b",
+  "manifest_sha256": "ad646a27c1586496f24d33c5f39b070cf717c60adcaa364c1722bdfbb2b13737",
+  "difference_rms": 0.02999286948599161,
+  "difference_scale": 33.341258010243315,
+  "selected_coefficient": 0.02524451906202984,
+  "rule": "scale=1/max(TRAIN signed-delta RMS,0.001); coefficient=clamp(median(0.1*spatial encoder-gradient norm/raw dynamic encoder-gradient norm),0.001,1)",
+  "numerical_admission": "median weighted encoder-gradient ratio must lie in [0.01,1]; otherwise omit pilot without a coefficient sweep",
+  "weighted_gradient_ratios": [
+    0.09985427368654383,
+    0.12329022077399336,
+    0.10014615227811001,
+    0.03130507654270683
+  ],
+  "batches": [
+    {
+      "batch": 0,
+      "spatial_encoder_gradient_norm": 0.5896437411522982,
+      "dynamic_encoder_gradient_norm": 2.332325973883891,
+      "difference_branch_gradient_norm": 0.818075482182709,
+      "frame_projector_gradient_norm": 0.9015482497752211,
+      "unclamped_coefficient": 0.02528136065690671,
+      "spatial_loss": 13.847264289855957,
+      "raw_dynamic_loss": 1.7101078033447266,
+      "motion_mse": 0.20194011926651,
+      "frame_variance_penalty": 0.4922015070915222,
+      "difference_variance_penalty": 0.9756743311882019,
+      "frame_covariance": 4.029173851013184,
+      "difference_covariance": 6.679877060378203e-06
+    },
+    {
+      "batch": 1,
+      "spatial_encoder_gradient_norm": 0.560491196644528,
+      "dynamic_encoder_gradient_norm": 2.7373499652097233,
+      "difference_branch_gradient_norm": 0.7994487101385084,
+      "frame_projector_gradient_norm": 0.9477570870629597,
+      "unclamped_coefficient": 0.020475686476631633,
+      "spatial_loss": 13.836952209472656,
+      "raw_dynamic_loss": 1.750450611114502,
+      "motion_mse": 0.20179155468940735,
+      "frame_variance_penalty": 0.5252816081047058,
+      "difference_variance_penalty": 0.9751406311988831,
+      "frame_covariance": 4.823673725128174,
+      "difference_covariance": 9.448263881495222e-06
+    },
+    {
+      "batch": 2,
+      "spatial_encoder_gradient_norm": 0.7203066302827031,
+      "dynamic_encoder_gradient_norm": 2.8574890773705883,
+      "difference_branch_gradient_norm": 0.8012962625383722,
+      "frame_projector_gradient_norm": 1.1020830379032194,
+      "unclamped_coefficient": 0.02520767746715297,
+      "spatial_loss": 13.83652400970459,
+      "raw_dynamic_loss": 1.8692930936813354,
+      "motion_mse": 0.20180940628051758,
+      "frame_variance_penalty": 0.6402815580368042,
+      "difference_variance_penalty": 0.9744184613227844,
+      "frame_covariance": 5.278346061706543,
+      "difference_covariance": 9.795200639928225e-06
+    },
+    {
+      "batch": 3,
+      "spatial_encoder_gradient_norm": 2.273834047269888,
+      "dynamic_encoder_gradient_norm": 2.8197229157065635,
+      "difference_branch_gradient_norm": 0.852455475843407,
+      "frame_projector_gradient_norm": 0.9560581176528729,
+      "unclamped_coefficient": 0.08064033648852738,
+      "spatial_loss": 14.012714385986328,
+      "raw_dynamic_loss": 1.7484372854232788,
+      "motion_mse": 0.20520764589309692,
+      "frame_variance_penalty": 0.5264289975166321,
+      "difference_variance_penalty": 0.9751871824264526,
+      "frame_covariance": 4.16133975982666,
+      "difference_covariance": 9.36257310968358e-06
+    }
+  ],
+  "paired_frames": [
+    [
+      [
+        "2018-05-27-JD147_LeftFar_Stratum1_Set1_LO_2018-05-27_180004_1295_1895_546.jpg",
+        "2018-05-27-JD147_LeftFar_Stratum1_Set1_LO_2018-05-27_180004_1295_1895_547.jpg"
+      ],
+      [
+        "2018-06-01-JD152_LeftFar_Stratum1_Set1_LO_2018-06-01_170004_0_502_241.jpg",
+        "2018-06-01-JD152_LeftFar_Stratum1_Set1_LO_2018-06-01_170004_0_502_242.jpg"
+      ],
+      [
+        "2018-06-01-JD152_LeftNear_Stratum1_Set1_LN_2018-06-01_190000_3059_3600_359.jpg",
+        "2018-06-01-JD152_LeftNear_Stratum1_Set1_LN_2018-06-01_190000_3059_3600_360.jpg"
+      ],
+      [
+        "2018-06-07-JD158_LeftNear_Stratum1_Set1_LN_2018-06-07_190000_1676_1876_109.jpg",
+        "2018-06-07-JD158_LeftNear_Stratum1_Set1_LN_2018-06-07_190000_1676_1876_110.jpg"
+      ],
+      [
+        "2018-06-02-JD153_LeftFar_Stratum2_Set1_LO_2018-06-02_141003_1966_2446_119.jpg",
+        "2018-06-02-JD153_LeftFar_Stratum2_Set1_LO_2018-06-02_141003_1966_2446_120.jpg"
+      ],
+      [
+        "2018-05-26-JD146_LeftFar_Stratum2_Set1_LO_2018-05-26_001004_841_1041_57.jpg",
+        "2018-05-26-JD146_LeftFar_Stratum2_Set1_LO_2018-05-26_001004_841_1041_58.jpg"
+      ],
+      [
+        "2018-05-31-JD151_LeftFar_Stratum3_Set1_LO_2018-05-31_212000_1711_2112_348.jpg",
+        "2018-05-31-JD151_LeftFar_Stratum3_Set1_LO_2018-05-31_212000_1711_2112_349.jpg"
+      ],
+      [
+        "2018-05-30-JD150_LeftNear_Stratum1_Set1_LN_2018-05-30_060000_2661_3202_371.jpg",
+        "2018-05-30-JD150_LeftNear_Stratum1_Set1_LN_2018-05-30_060000_2661_3202_372.jpg"
+      ]
+    ],
+    [
+      [
+        "2018-06-01-JD152_LeftNear_Stratum1_Set1_LN_2018-06-01_200000_2102_2643_365.jpg",
+        "2018-06-01-JD152_LeftNear_Stratum1_Set1_LN_2018-06-01_200000_2102_2643_366.jpg"
+      ],
+      [
+        "2018-06-06-JD157_LeftNear_Stratum1_Set1_LN_2018-06-06_010000_669_869_72.jpg",
+        "2018-06-06-JD157_LeftNear_Stratum1_Set1_LN_2018-06-06_010000_669_869_73.jpg"
+      ],
+      [
+        "2018-05-31-JD151_LeftFar_Stratum2_Set1_LO_2018-05-31_201003_1670_2150_307.jpg",
+        "2018-05-31-JD151_LeftFar_Stratum2_Set1_LO_2018-05-31_201003_1670_2150_308.jpg"
+      ],
+      [
+        "2018-05-26-JD146_LeftFar_Stratum1_Set1_LO_2018-05-26_080004_285_885_449.jpg",
+        "2018-05-26-JD146_LeftFar_Stratum1_Set1_LO_2018-05-26_080004_285_885_450.jpg"
+      ],
+      [
+        "2018-06-06-JD157_LeftFar_Stratum1_Set1_LO_2018-06-06_120004_2956_3156_112.jpg",
+        "2018-06-06-JD157_LeftFar_Stratum1_Set1_LO_2018-06-06_120004_2956_3156_113.jpg"
+      ],
+      [
+        "2018-05-30-JD150_LeftFar_Stratum2_Set1_LO_2018-05-30_151003_1536_1736_118.jpg",
+        "2018-05-30-JD150_LeftFar_Stratum2_Set1_LO_2018-05-30_151003_1536_1736_119.jpg"
+      ],
+      [
+        "2018-06-05-JD156_LeftNear_Stratum1_Set1_LN_2018-06-05_190000_4457_4657_49.jpg",
+        "2018-06-05-JD156_LeftNear_Stratum1_Set1_LN_2018-06-05_190000_4457_4657_50.jpg"
+      ],
+      [
+        "2018-05-27-JD147_LeftFar_Stratum2_Set1_LO_2018-05-27_181003_3538_3809_229.jpg",
+        "2018-05-27-JD147_LeftFar_Stratum2_Set1_LO_2018-05-27_181003_3538_3809_230.jpg"
+      ]
+    ],
+    [
+      [
+        "2018-06-01-JD152_LeftFar_Stratum2_Set1_LO_2018-06-01_161003_2369_2849_3.jpg",
+        "2018-06-01-JD152_LeftFar_Stratum2_Set1_LO_2018-06-01_161003_2369_2849_4.jpg"
+      ],
+      [
+        "2018-06-02-JD153_LeftNear_Stratum1_Set1_LN_2018-06-02_060000_2398_2939_380.jpg",
+        "2018-06-02-JD153_LeftNear_Stratum1_Set1_LN_2018-06-02_060000_2398_2939_381.jpg"
+      ],
+      [
+        "2018-06-09-JD160_LeftNear_Stratum1_Set1_LN_2018-06-09_160000_2725_2925_35.jpg",
+        "2018-06-09-JD160_LeftNear_Stratum1_Set1_LN_2018-06-09_160000_2725_2925_36.jpg"
+      ],
+      [
+        "2018-05-28-JD148_LeftFar_Stratum2_Set1_LO_2018-05-28_181003_3180_3380_111.jpg",
+        "2018-05-28-JD148_LeftFar_Stratum2_Set1_LO_2018-05-28_181003_3180_3380_112.jpg"
+      ],
+      [
+        "2018-06-02-JD153_LeftFar_Stratum2_Set1_LO_2018-06-02_051003_2934_3414_298.jpg",
+        "2018-06-02-JD153_LeftFar_Stratum2_Set1_LO_2018-06-02_051003_2934_3414_299.jpg"
+      ],
+      [
+        "2018-05-31-JD151_LeftFar_Stratum2_Set1_LO_2018-05-31_101004_5_485_358.jpg",
+        "2018-05-31-JD151_LeftFar_Stratum2_Set1_LO_2018-05-31_101004_5_485_359.jpg"
+      ],
+      [
+        "2018-05-29-JD149_LeftNear_Stratum1_Set1_LN_2018-05-29_230000_561_853_50.jpg",
+        "2018-05-29-JD149_LeftNear_Stratum1_Set1_LN_2018-05-29_230000_561_853_51.jpg"
+      ],
+      [
+        "2018-06-01-JD152_LeftFar_Stratum2_Set1_LO_2018-06-01_231004_359_839_402.jpg",
+        "2018-06-01-JD152_LeftFar_Stratum2_Set1_LO_2018-06-01_231004_359_839_403.jpg"
+      ]
+    ],
+    [
+      [
+        "2018-06-05-JD156_LeftNear_Stratum1_Set1_LN_2018-06-05_200000_4372_4572_14.jpg",
+        "2018-06-05-JD156_LeftNear_Stratum1_Set1_LN_2018-06-05_200000_4372_4572_15.jpg"
+      ],
+      [
+        "2018-05-29-JD149_LeftFar_Stratum1_Set1_LO_2018-05-29_200004_1464_1676_7.jpg",
+        "2018-05-29-JD149_LeftFar_Stratum1_Set1_LO_2018-05-29_200004_1464_1676_8.jpg"
+      ],
+      [
+        "2018-06-02-JD153_LeftFar_Stratum3_Set1_LO_2018-06-02_142000_1583_1813_206.jpg",
+        "2018-06-02-JD153_LeftFar_Stratum3_Set1_LO_2018-06-02_142000_1583_1813_207.jpg"
+      ],
+      [
+        "2018-05-30-JD150_LeftNear_Stratum1_Set1_LN_2018-05-30_200000_4646_5187_354.jpg",
+        "2018-05-30-JD150_LeftNear_Stratum1_Set1_LN_2018-05-30_200000_4646_5187_355.jpg"
+      ],
+      [
+        "2018-06-01-JD152_LeftNear_Stratum1_Set1_LN_2018-06-01_180000_1722_2263_50.jpg",
+        "2018-06-01-JD152_LeftNear_Stratum1_Set1_LN_2018-06-01_180000_1722_2263_51.jpg"
+      ],
+      [
+        "2018-06-02-JD153_LeftFar_Stratum2_Set1_LO_2018-06-02_091003_1661_2141_368.jpg",
+        "2018-06-02-JD153_LeftFar_Stratum2_Set1_LO_2018-06-02_091003_1661_2141_369.jpg"
+      ],
+      [
+        "2018-06-01-JD152_LeftFar_Stratum3_Set1_LO_2018-06-01_172000_127_528_217.jpg",
+        "2018-06-01-JD152_LeftFar_Stratum3_Set1_LO_2018-06-01_172000_127_528_218.jpg"
+      ],
+      [
+        "2018-05-31-JD151_LeftFar_Stratum2_Set1_LO_2018-05-31_021003_2779_3259_399.jpg",
+        "2018-05-31-JD151_LeftFar_Stratum2_Set1_LO_2018-05-31_021003_2779_3259_400.jpg"
+      ]
+    ]
+  ],
+  "optimizer_updates": 0,
+  "frame_presentations": 64,
+  "dimension": 128,
+  "reduction": "mean MSE + frame/difference variance hinges + 0.01 times both off-diagonal covariance penalties",
+  "variance_covariance_dtype": "float32; autocast disabled for covariance",
+  "static_and_difference_branches_receive_gradients": true,
+  "inference": "auxiliary is training-only; one frame remains sufficient"
+}

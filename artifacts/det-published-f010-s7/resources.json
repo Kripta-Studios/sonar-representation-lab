@@ -1,0 +1,15 @@
+{
+  "event": "end",
+  "name": "det-published-f010-s7",
+  "pid": 30776,
+  "status": "completed",
+  "error": null,
+  "elapsed_seconds": 1877.8600000000151,
+  "charged_gpu_hours": 0.521627777777782,
+  "owned_rss_peak_bytes": 2554179584,
+  "cuda_peak_allocated_bytes": 458757120,
+  "cuda_peak_reserved_bytes": 650117120,
+  "physical_device_used_peak_bytes": 4032823296,
+  "overall_remaining_hours": 99.42558138888889,
+  "block_remaining_hours": 23.42558138888889
+}

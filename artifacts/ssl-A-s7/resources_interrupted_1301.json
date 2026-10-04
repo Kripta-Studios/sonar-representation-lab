@@ -1,0 +1,18 @@
+{
+  "event": "end",
+  "name": "ssl-A-s7",
+  "pid": 59188,
+  "status": "failed_or_interrupted",
+  "error": "Resource ceiling reached: {'elapsed_seconds': 4562.937999999995, 'verified_suspend_seconds': 0, 'active_gpu_process_seconds': 4562.937999999995, 'owned_rss_bytes': 355688448, 'cuda_peak_allocated': 2544043520, 'cuda_peak_reserved': 2692743168, 'device_used_bytes': 7768227840, 'physical_device_used_bytes': 11206131712}",
+  "elapsed_seconds": 4572.0320000000065,
+  "ended_utc": "2026-10-02T08:32:33Z",
+  "verified_suspend_seconds": 0,
+  "active_gpu_process_seconds": 4572.0320000000065,
+  "charged_gpu_hours": 1.2700088888888907,
+  "owned_rss_peak_bytes": 1907838976,
+  "cuda_peak_allocated_bytes": 2544043520,
+  "cuda_peak_reserved_bytes": 2692743168,
+  "physical_device_used_peak_bytes": 11206131712,
+  "overall_remaining_hours": 96.84609204080157,
+  "block_remaining_hours": 20.84609204080157
+}

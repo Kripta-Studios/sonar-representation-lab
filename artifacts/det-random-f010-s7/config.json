@@ -1,0 +1,38 @@
+{
+  "kind": "random",
+  "frozen": true,
+  "seed": 7,
+  "fraction": 10,
+  "steps": 2000,
+  "batch": 8,
+  "accumulation": 1,
+  "adapted": null,
+  "adapted_sha256": null,
+  "published_sha256": "f433177089a681826f849f194ece3bb48f4d63fb38d32fc837e3dc7a4e5641fb",
+  "manifest_sha256": "2f5ae232f2a2a126930479032605cdad7e2060dbf1438e717a3c5d73322c5b39",
+  "source_revision": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+  "detector_size": 448,
+  "detector_cache": {
+    "format": "CFC-v1.1-L-PIL-bilinear-448-topleft-uint8-v1",
+    "manifest_sha256": "3f17a3ee1643d113b06b43c220e65e59595749c1474672408f03de5005a8cd01",
+    "blob_sha256": "0d069cb5275b4ce181dc4efd7ea0467d5b231b3a15fbabbf6dd2456f089ada67"
+  },
+  "head_lr": 0.0003,
+  "backbone_lr": 1e-05,
+  "code_identity": {
+    "src/acquire.py": "c0f33970f0e8e11ec1b1b592ed7c9ca00bea8e5b318a5c2b4fdd5eba1097a049",
+    "src/adapt.py": "e8eea6a92e6a34177ce00386da4e53c0f6e82221a76e1d1325a4ea2c4bc203ed",
+    "src/channel.py": "ec216de418413a02a90a6ecfd9df2ce1538d605ef3abbfd20d49f00e023aa3f7",
+    "src/data.py": "6ff8795eec77b4ff8566cc3d7e8cb3d2a98fa2c4a6b2ae9631625735d7319e34",
+    "src/evaluate.py": "d7a6f8c76aac52f53839a8cc856e0c8a532e93090c0fdeb423e96a65fab06c83",
+    "src/freeze.py": "d111e0744838d67d429e30bb89a7b46ddc177fc62f0825c86f44bd0c5de263ab",
+    "src/models.py": "38afc8c0b73a4cec83aeb284e16da2b02a321f899bd9532b63e43752c3d156d2",
+    "src/platform_compat.py": "c1ff01ec3d865d64504d1a556c9f48e514c89671984be809fff63470f2f7e66d",
+    "src/profile_batch.py": "d8f6d6b9271ad607de6bcdf66e4378176accc759950d52630c2542131b465952",
+    "src/run_block.py": "e6db4f9efcdeeaa823708d2f4775d5351f238aab9de1eead700db27c8f5d7b2d",
+    "src/runtime.py": "65f05059374763b8a871a981e3deadd13d1d868a5fdc497dad0ba14b889569f2",
+    "src/summarize.py": "edbb4b85f23c4f2fdd0774602be002237fd9570d6e8c6e6f5afe793091f9394f",
+    "src/train_detector.py": "0f6a804b4790b82ce2dd22efc58755cc7fa7315d067ee009b9c01b37cf81f343"
+  },
+  "protocol_sha256": "02b59e25e11bceb3e20a4d94afd4f2da56bb05ad011d55e8d081f9356fa3c906"
+}

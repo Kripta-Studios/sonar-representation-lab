@@ -1,0 +1,15 @@
+{
+  "event": "end",
+  "name": "profile-b8-finetune",
+  "pid": 65168,
+  "status": "completed",
+  "error": null,
+  "elapsed_seconds": 19.796999999991385,
+  "charged_gpu_hours": 0.005499166666664274,
+  "owned_rss_peak_bytes": 2527268864,
+  "cuda_peak_allocated_bytes": 2220640256,
+  "cuda_peak_reserved_bytes": 2476736512,
+  "physical_device_used_peak_bytes": 7387217920,
+  "overall_remaining_hours": 99.98378472222223,
+  "block_remaining_hours": 23.983784722222232
+}

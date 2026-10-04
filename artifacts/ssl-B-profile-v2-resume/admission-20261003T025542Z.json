@@ -1,0 +1,21 @@
+{
+  "arguments": [
+    "src/adapt.py",
+    "--configuration",
+    "B",
+    "--seed",
+    "7",
+    "--batch",
+    "16",
+    "--steps",
+    "2000",
+    "--profile",
+    "--out",
+    "artifacts\\ssl-B-profile-v2-resume",
+    "--resume",
+    "artifacts/ssl-B-profile-v2-resume/checkpoint.pt"
+  ],
+  "forecast_hours": 0.03,
+  "remaining_development_hours": 14.357265277777788,
+  "final_reserve_protected": true
+}

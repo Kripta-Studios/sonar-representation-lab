@@ -1,0 +1,167 @@
+[
+  {
+    "run": "det-published-f010-s7",
+    "cpu_wall_seconds": 53.514628410339355,
+    "AP50": 0.15285253042653674,
+    "recall": 0.07304188453452644,
+    "false_positive_types": {
+      "duplicate": 62,
+      "localization": 973,
+      "background": 30
+    }
+  },
+  {
+    "run": "det-adapted-f010-s7",
+    "cpu_wall_seconds": 50.077168464660645,
+    "AP50": 0.10664096286304621,
+    "recall": 0.057193682281278635,
+    "false_positive_types": {
+      "duplicate": 58,
+      "localization": 1242,
+      "background": 147
+    }
+  },
+  {
+    "run": "det-published-f010-s13",
+    "cpu_wall_seconds": 48.708919048309326,
+    "AP50": 0.1560947229982459,
+    "recall": 0.10910463047814134,
+    "false_positive_types": {
+      "duplicate": 144,
+      "localization": 1842,
+      "background": 88
+    }
+  },
+  {
+    "run": "det-adapted-f010-s13",
+    "cpu_wall_seconds": 43.991780281066895,
+    "AP50": 0.1138712722757017,
+    "recall": 0.057301493180960596,
+    "false_positive_types": {
+      "duplicate": 47,
+      "localization": 894,
+      "background": 18
+    }
+  },
+  {
+    "run": "det-published-f010-s23",
+    "cpu_wall_seconds": 56.73148059844971,
+    "AP50": 0.16119596773588124,
+    "recall": 0.07837852406878336,
+    "false_positive_types": {
+      "duplicate": 60,
+      "localization": 952,
+      "background": 28
+    }
+  },
+  {
+    "run": "det-adapted-f010-s23",
+    "cpu_wall_seconds": 60.93360424041748,
+    "AP50": 0.11997394341045965,
+    "recall": 0.06819039404883834,
+    "false_positive_types": {
+      "duplicate": 108,
+      "localization": 1342,
+      "background": 84
+    }
+  },
+  {
+    "run": "det-finetune-f010-s7",
+    "cpu_wall_seconds": 26.281317472457886,
+    "AP50": 0.4547914960197912,
+    "recall": 0.4462832192334645,
+    "false_positive_types": {
+      "duplicate": 200,
+      "localization": 2774,
+      "background": 985
+    }
+  },
+  {
+    "run": "det-random-f010-s7",
+    "cpu_wall_seconds": 44.823155641555786,
+    "AP50": 0.09529830798815421,
+    "recall": 0.03935097838391462,
+    "false_positive_types": {
+      "duplicate": 73,
+      "localization": 512,
+      "background": 0
+    }
+  },
+  {
+    "run": "det-published-r672-f010-s7",
+    "cpu_wall_seconds": 46.89652132987976,
+    "AP50": 0.26997822969453616,
+    "recall": 0.21853269365532854,
+    "false_positive_types": {
+      "duplicate": 126,
+      "localization": 1800,
+      "background": 169
+    }
+  },
+  {
+    "run": "det-adapted-r672-f010-s7",
+    "cpu_wall_seconds": 10.496984720230103,
+    "AP50": 0.2074332345533497,
+    "recall": 0.19497601207482076,
+    "false_positive_types": {
+      "duplicate": 228,
+      "localization": 2375,
+      "background": 473
+    }
+  },
+  {
+    "run": "det-b-r672-f010-s7",
+    "cpu_wall_seconds": 39.79564929008484,
+    "AP50": 0.20547040021838053,
+    "recall": 0.1601530914775484,
+    "false_positive_types": {
+      "duplicate": 116,
+      "localization": 1692,
+      "background": 194
+    }
+  },
+  {
+    "run": "det-b-finetune-r672-f010-s7",
+    "cpu_wall_seconds": 29.20652174949646,
+    "AP50": 0.48527114856452314,
+    "recall": 0.4690852245161986,
+    "false_positive_types": {
+      "duplicate": 151,
+      "localization": 2675,
+      "background": 1046
+    }
+  },
+  {
+    "run": "det-finetune-r672-f010-s7",
+    "cpu_wall_seconds": 3.821154832839966,
+    "AP50": 0.49760478929015206,
+    "recall": 0.4792733545361436,
+    "false_positive_types": {
+      "duplicate": 152,
+      "localization": 2590,
+      "background": 1123
+    }
+  },
+  {
+    "run": "det-control-r672-f010-s7",
+    "cpu_wall_seconds": 33.882779121398926,
+    "AP50": 0.2051520930767919,
+    "recall": 0.1503422996064902,
+    "false_positive_types": {
+      "duplicate": 76,
+      "localization": 1473,
+      "background": 176
+    }
+  },
+  {
+    "run": "det-motion-r672-f010-s7",
+    "cpu_wall_seconds": 12.05360221862793,
+    "AP50": 0.20750027152250003,
+    "recall": 0.17373726483747506,
+    "false_positive_types": {
+      "duplicate": 131,
+      "localization": 1875,
+      "background": 185
+    }
+  }
+]

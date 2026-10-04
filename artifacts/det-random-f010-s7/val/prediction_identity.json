@@ -1,0 +1,15 @@
+{
+  "checkpoint_sha256": "3b01ee3a30427d9fd0b69ea27095b7146fab2041a9433eadf040426154c9f751",
+  "annotation_sha256": "db5cf0b0b09d5b9895d7baa5569493c4b06f1318c2094094e9abfb715f0133b8",
+  "images": 30454,
+  "split": "val",
+  "preprocessing": "448 aspect-preserving grayscale top-left letterbox; ImageNet normalization",
+  "score_threshold": 0.001,
+  "nms": 0.5,
+  "max_detections": 100,
+  "detector_cache": {
+    "format": "CFC-v1.1-L-PIL-bilinear-448-topleft-uint8-v1",
+    "manifest_sha256": "3f17a3ee1643d113b06b43c220e65e59595749c1474672408f03de5005a8cd01",
+    "blob_sha256": "0d069cb5275b4ce181dc4efd7ea0467d5b231b3a15fbabbf6dd2456f089ada67"
+  }
+}

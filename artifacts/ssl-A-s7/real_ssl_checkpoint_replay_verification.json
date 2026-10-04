@@ -1,0 +1,35 @@
+{
+  "replayed_update": 1601,
+  "identical_saved_observables": [
+    "loss",
+    "teacher_entropy",
+    "batch_marginal_entropy",
+    "teacher_feature_std",
+    "teacher_distinct_argmax_prototypes",
+    "lr",
+    "teacher_temp",
+    "ema_momentum"
+  ],
+  "gradient_norm_absolute_difference": 1.0132789611816406e-06,
+  "gradient_norm_absolute_tolerance": 1e-05,
+  "successful_updates_after_probe": 1604,
+  "resource_segment": {
+    "event": "end",
+    "name": "ssl-A-s7",
+    "pid": 58120,
+    "status": "completed",
+    "error": null,
+    "elapsed_seconds": 141.3279999999795,
+    "ended_utc": "2026-10-02T10:01:51Z",
+    "verified_suspend_seconds": 0,
+    "active_gpu_process_seconds": 141.3279999999795,
+    "charged_gpu_hours": 0.039257777777772083,
+    "owned_rss_peak_bytes": 2201759744,
+    "cuda_peak_allocated_bytes": 2540664320,
+    "cuda_peak_reserved_bytes": 2696937472,
+    "physical_device_used_peak_bytes": 6381633536,
+    "overall_remaining_hours": 95.82689280723571,
+    "block_remaining_hours": 19.826892807235716
+  },
+  "status": "author-verified real SSL checkpoint replay; not independent review"
+}

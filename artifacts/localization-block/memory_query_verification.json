@@ -1,0 +1,20 @@
+{
+  "read_only": true,
+  "sample_pairs": [
+    {
+      "native_bytes": 1901068288,
+      "CLI_bytes": 1901068288
+    },
+    {
+      "native_bytes": 1901068288,
+      "CLI_bytes": 1901068288
+    },
+    {
+      "native_bytes": 1901068288,
+      "CLI_bytes": 1901068288
+    }
+  ],
+  "maximum_difference_bytes": 0,
+  "physical_cap_bytes": 10737418240,
+  "rounded_up_to_MiB": true
+}

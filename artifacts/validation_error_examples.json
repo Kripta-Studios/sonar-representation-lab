@@ -1,0 +1,103 @@
+{
+  "status": "author inspection; not independently reviewed",
+  "selection": "first image ID then annotation ID in each predeclared resized-size bin",
+  "models": [
+    "det-published-f010-s7",
+    "det-adapted-f010-s7"
+  ],
+  "score_threshold": 0.5,
+  "examples": [
+    {
+      "bin": "<4px",
+      "image_id": 1130,
+      "annotation_id": 442,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_221003_329_529_68.jpg",
+      "ground_truth_xywh": [
+        160,
+        1249,
+        14,
+        15
+      ],
+      "resized_short_side": 3.2837696335078532,
+      "crop_xyxy_original": [
+        130,
+        1219,
+        204,
+        1294
+      ],
+      "predictions": {
+        "published": [],
+        "adapted": []
+      }
+    },
+    {
+      "bin": "4-8px",
+      "image_id": 73,
+      "annotation_id": 0,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_230000_4157_4372_73.jpg",
+      "ground_truth_xywh": [
+        16,
+        91,
+        18,
+        10
+      ],
+      "resized_short_side": 5.3910950661853185,
+      "crop_xyxy_original": [
+        0,
+        61,
+        64,
+        131
+      ],
+      "predictions": {
+        "published": [],
+        "adapted": []
+      }
+    },
+    {
+      "bin": "8-16px",
+      "image_id": 76,
+      "annotation_id": 3,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_230000_4157_4372_76.jpg",
+      "ground_truth_xywh": [
+        15,
+        77,
+        56,
+        21
+      ],
+      "resized_short_side": 11.321299638989169,
+      "crop_xyxy_original": [
+        0,
+        21,
+        127,
+        154
+      ],
+      "predictions": {
+        "published": [],
+        "adapted": []
+      }
+    },
+    {
+      "bin": ">=16px",
+      "image_id": 80,
+      "annotation_id": 7,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_230000_4157_4372_80.jpg",
+      "ground_truth_xywh": [
+        37,
+        60,
+        83,
+        31
+      ],
+      "resized_short_side": 16.71239470517449,
+      "crop_xyxy_original": [
+        0,
+        0,
+        203,
+        174
+      ],
+      "predictions": {
+        "published": [],
+        "adapted": []
+      }
+    }
+  ]
+}

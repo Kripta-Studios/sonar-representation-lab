@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-03T02:46:10Z",
+  "workspace_free_bytes": 17856237568,
+  "B_block_forecast_additional_bytes": 4294967296,
+  "minimum_headroom_after_forecast_bytes": 4294967296,
+  "basis": "Existing SSL state is 399923859B; B adds separate patch heads/optimizer. Allow two retained resume probes, full B+EMA, three detectors and evaluations, fine-tuning profile/replay and atomic checkpoint temporary files. Recheck before optional blocks. No other data deletion.",
+  "data_drive_free_bytes": 190945202176
+}

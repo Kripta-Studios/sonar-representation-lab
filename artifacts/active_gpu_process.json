@@ -1,0 +1,18 @@
+{
+  "pid": 28044,
+  "created_epoch": 1790935485.26344,
+  "command": [
+    "C:\\Users\\\u00c1lvaro Schwiedop\\AppData\\Roaming\\uv\\python\\cpython-3.12-windows-x86_64-none\\python.exe",
+    "-u",
+    "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\sonar-representation-lab\\src\\adapt.py",
+    "--seed",
+    "7",
+    "--out",
+    "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\sonar-representation-lab\\artifacts\\ssl-A-s7",
+    "--resume",
+    "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\sonar-representation-lab\\artifacts\\ssl-A-s7\\checkpoint.pt"
+  ],
+  "cwd": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\sonar-representation-lab",
+  "observed_epoch": 1790935675.9491975,
+  "identity_source": "this project's exclusive GPU-process lock"
+}

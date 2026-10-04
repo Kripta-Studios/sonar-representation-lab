@@ -1,0 +1,6 @@
+{
+  "training_hours": 1.5590277777777781,
+  "validation_hours": 1.7161947916666678,
+  "basis": "slowest completed matched primary fit/evaluation +25% and0.05h; all fit intervals including retries/resume counted",
+  "remaining_development_hours": 13.091953611111109
+}

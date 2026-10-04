@@ -1,0 +1,66 @@
+{
+  "runs": [
+    {
+      "checkpoint": "artifacts\\det-published-r672-f010-s7\\checkpoint.pt",
+      "sha256": "caeb86511dadc2aaf75d83f29e59a0df5e0fccb42a288ee9c8279afeb5d0544d",
+      "size": 672,
+      "kind": "published",
+      "frozen_encoder_identical_to_initialization": true,
+      "updates": 2000,
+      "presentations": 16000,
+      "unique_frames": 10356,
+      "settings": {
+        "seed": 7,
+        "fraction": 10,
+        "steps": 2000,
+        "batch": 8,
+        "accumulation": 1,
+        "manifest_sha256": "2f5ae232f2a2a126930479032605cdad7e2060dbf1438e717a3c5d73322c5b39",
+        "head_lr": 0.0003,
+        "backbone_lr": 1e-05
+      }
+    },
+    {
+      "checkpoint": "artifacts\\det-adapted-r672-f010-s7\\checkpoint.pt",
+      "sha256": "38e8aa935e5007da956434fb037fcffa8fb0b0d81a85c8321980e683edf92beb",
+      "size": 672,
+      "kind": "adapted",
+      "frozen_encoder_identical_to_initialization": true,
+      "updates": 2000,
+      "presentations": 16000,
+      "unique_frames": 10356,
+      "settings": {
+        "seed": 7,
+        "fraction": 10,
+        "steps": 2000,
+        "batch": 8,
+        "accumulation": 1,
+        "manifest_sha256": "2f5ae232f2a2a126930479032605cdad7e2060dbf1438e717a3c5d73322c5b39",
+        "head_lr": 0.0003,
+        "backbone_lr": 1e-05
+      }
+    },
+    {
+      "checkpoint": "artifacts\\det-b-r672-f010-s7\\checkpoint.pt",
+      "sha256": "a84d2616e454e71f377815d2d8c354874ac371adcbcb25fca4fc0a879a1a9840",
+      "size": 672,
+      "kind": "adapted",
+      "frozen_encoder_identical_to_initialization": true,
+      "updates": 2000,
+      "presentations": 16000,
+      "unique_frames": 10356,
+      "settings": {
+        "seed": 7,
+        "fraction": 10,
+        "steps": 2000,
+        "batch": 8,
+        "accumulation": 1,
+        "manifest_sha256": "2f5ae232f2a2a126930479032605cdad7e2060dbf1438e717a3c5d73322c5b39",
+        "head_lr": 0.0003,
+        "backbone_lr": 1e-05
+      }
+    }
+  ],
+  "matched_full_image_exposure_counters": true,
+  "status": "author artifact verification, not independent review"
+}

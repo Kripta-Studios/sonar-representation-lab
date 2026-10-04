@@ -1,0 +1,15 @@
+{
+  "event": "end",
+  "name": "ssl-profile-b16",
+  "pid": 50512,
+  "status": "completed",
+  "error": null,
+  "elapsed_seconds": 33.953000000008615,
+  "charged_gpu_hours": 0.009431388888891282,
+  "owned_rss_peak_bytes": 1804337152,
+  "cuda_peak_allocated_bytes": 2524169728,
+  "cuda_peak_reserved_bytes": 2678063104,
+  "physical_device_used_peak_bytes": 5882511360,
+  "overall_remaining_hours": 99.95543833333335,
+  "block_remaining_hours": 23.955438333333333
+}

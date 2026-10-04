@@ -1,0 +1,11 @@
+{
+  "version": "cfc-coco-positive-annotation-ids-v2",
+  "annotation_id_mapping": [
+    {
+      "source_id": 0,
+      "evaluator_id": 1
+    }
+  ],
+  "image_category_box_coordinates_unchanged": true,
+  "reason": "COCO dtMatches zero sentinel must not collide with an annotation ID"
+}

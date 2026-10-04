@@ -1,0 +1,75 @@
+{
+  "author_verification_only": true,
+  "focused_suite": {
+    "initial": "25 passed, one historical AST equality assertion failed; no GPU scientific job executed",
+    "resolution": "Preserved SpatialPyramid class exactly and put optional intervention in a subclass; no weakening of the historical assertion",
+    "final": "27 passed; focused_tests_console.log",
+    "summary_group_test": "one passed; neck identities separate summary groups",
+    "additional": "23 focused tests passed;12 known-answer/scorer storage tests passed; six evaluatorv2 edge-case tests, two initialization tests and two proposal-compatibility tests passed. Logs retained."
+  },
+  "bootstrap": {
+    "initial": "Known-answer duplicate-clip evaluator test passed; first real full-reference AP equality failed before bootstrap draws",
+    "preserved_log": "bootstrap_console.log",
+    "diagnosis": "Clip-group concatenation changes stable score-tie order compared with original sorted image IDs",
+    "resolution": "Full reference uses original sorted image-ID order; duplicated bootstrap draws use explicit sequential virtual IDs in clip-draw order",
+    "final_known_answer": "bootstrap_v2_tests_console.log; one passed",
+    "corrected_outputs": "saved_analysis-v4;200 complete paired whole-clip draws, positive annotation IDs; all earlier attempts preserved",
+    "v2_resource_failure": "Windows allocation failed during draw100..120 of first model; numpy ArrayMemoryError for4.75MiB. Log bootstrap_v2_console.log retained; no GPU charge",
+    "v3_change": "Stream per-image evaluator rows and keep compact matching booleans; remove unnecessary PyTorch import. Same draw seed, scoring and explicit duplicate-clip remapping",
+    "gpu_charge_hours": 0,
+    "v3_interruption": "Stopped owned CPU analysis after detecting annotation-ID0 scorer sentinel collision; no GPU charge"
+  },
+  "profile": {
+    "directory": "profile-image",
+    "status": "real TRAIN optimizer step, exact loaded state, prediction reload and bounded numerical optimizer continuation passed",
+    "resource_record": "profile-image/resources.json",
+    "small_fallback": "profile-image-mb1 passed effective8 and replay; profile-image-mb1-fast retained after direct driver guard",
+    "selected": "profile-image-mb4 passed effective8 and replay; memory headroom recovered before fitting; all new arms matched microbatch4/accumulation2",
+    "guard_query_comparison": "memory_query_verification.json; three native/CLI pairs identical after upward MiB rounding"
+  },
+  "interrupted_scientific_fit": {
+    "directory": "../det-image-finetune-r672-f010-s7",
+    "successful_updates": 1,
+    "presentations": 8,
+    "cause": "Existing resource guard stopped owned process when total physical GPU use exceeded10GiB; unrelated activity left about7.3GiB after exit",
+    "status": "INCOMPLETE_RESOURCE_INTERRUPTION, not a completed detector or negative adaptation result",
+    "charged_gpu_hours": 0.016905277777776874,
+    "source_preserved": "interrupted_source_snapshot.zip",
+    "replaced_by": "prospective matched microbatch4 reference/candidate experiment; all historical artifacts retained"
+  },
+  "evaluator_correction": {
+    "version": "cfc-coco-positive-annotation-ids-v2",
+    "known_answer": "six focused tests passed; zero/duplicate/negative IDs and explicit bootstrap scoring",
+    "audit": "all15 historical Kenai metrics covered by primary audit plus A7 replay audit; historical outputs not overwritten",
+    "maximum_AP50_delta_pp": 0.004832991193598479,
+    "channel": "no access; historical evaluator limitation disclosed"
+  },
+  "branch_initialization_correction": {
+    "record": "branch_rng_correction.json",
+    "tests": "two passed in branch_rng_tests_console.log",
+    "timing": "before any complete image-branch fit or score",
+    "reference_trajectory": "neck none unaffected; preserved training_source_snapshot.zip matches recorded config"
+  },
+  "proposal_compatibility": "two focused tests passed; old448 default preserved, config-specific size/neck and per-batch guard added for final bounded primary-pair diagnosis",
+  "historical_audit_coverage": {
+    "runs": 15,
+    "primary": "evaluator_correction_audit.json covers14 gzip-native historical Kenai runs",
+    "earliest_A7": "evaluator_correction_audit_A7.json uses the already bitwise-verified compressed CPU replay",
+    "outputs_preserved": true
+  },
+  "storage_check": {
+    "C_free_bytes": 161721065472,
+    "D_free_bytes": 45183385600,
+    "additional_high_resolution_cache": false
+  },
+  "image_memory_interruption": {
+    "record": "memory_interruption_step971.json",
+    "successful_updates": 971,
+    "presentations": 7768,
+    "discarded_presentations": 8,
+    "charged_hours": 0.41993055555555553,
+    "state_preserved": true,
+    "source_config_unchanged": true,
+    "resume": "direct CLI when measured GPU/system capacity returns; all resource checks retained"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "spatial-motion-20261003",
+  "created_utc": "2026-10-02T22:59:02Z",
+  "baseline_gpu_hours": 11.504209137208795,
+  "budget_gpu_hours": 24,
+  "final_reserved_gpu_hours": 6,
+  "historical_ledger_bytes": 18965,
+  "historical_ledger_sha256": "a0ede6c1dc89402f4d689436ac075efafa5ac1e02b1db09aca9dacc02cb281df",
+  "historical_original_cap_hours": 24,
+  "overall_original_balance_hours": 100,
+  "authorization": "Owner execution prompt and full continuation content supplied in conversation",
+  "original_random_evaluation_counts_against_both_blocks_once_overall": true
+}

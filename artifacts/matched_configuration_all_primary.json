@@ -1,0 +1,69 @@
+{
+  "status": "author configuration check; not independent review",
+  "pairs": [
+    {
+      "seed": 7,
+      "matched_scientific_keys": [
+        "seed",
+        "fraction",
+        "steps",
+        "batch",
+        "accumulation",
+        "published_sha256",
+        "manifest_sha256",
+        "source_revision",
+        "detector_size",
+        "head_lr",
+        "backbone_lr",
+        "frozen"
+      ],
+      "source_differences": [
+        "src/runtime.py"
+      ],
+      "protocol_hash_equal": false,
+      "bookkeeping_only_source_differences": true
+    },
+    {
+      "seed": 13,
+      "matched_scientific_keys": [
+        "seed",
+        "fraction",
+        "steps",
+        "batch",
+        "accumulation",
+        "published_sha256",
+        "manifest_sha256",
+        "source_revision",
+        "detector_size",
+        "head_lr",
+        "backbone_lr",
+        "frozen"
+      ],
+      "source_differences": [
+        "src/evaluate.py"
+      ],
+      "protocol_hash_equal": false,
+      "bookkeeping_only_source_differences": true
+    },
+    {
+      "seed": 23,
+      "matched_scientific_keys": [
+        "seed",
+        "fraction",
+        "steps",
+        "batch",
+        "accumulation",
+        "published_sha256",
+        "manifest_sha256",
+        "source_revision",
+        "detector_size",
+        "head_lr",
+        "backbone_lr",
+        "frozen"
+      ],
+      "source_differences": [],
+      "protocol_hash_equal": true,
+      "bookkeeping_only_source_differences": false
+    }
+  ]
+}

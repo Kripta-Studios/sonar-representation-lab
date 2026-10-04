@@ -1,0 +1,96 @@
+{
+  "uninterrupted_sha256": "cd0c6907635a45c2566590d67bdb9b10c0c93ada7620c901f04494d3c558ef2c",
+  "resumed_sha256": "9e32a9c2f23091212c6fb46c00623141cfbf69f315346b07383bc46f8220e10d",
+  "fresh_repeat_sha256": "c5705cfd4c0c4215790ed0753ce55306d9f506a4457e226f6d8494d48e483ae7",
+  "successful_updates": 4,
+  "exact_loaded_model_optimizer_centers_rng_verified": true,
+  "rng_exposures_step_config_exact": true,
+  "checkpoint_state_restoration_and_numeric_continuation_pass": true,
+  "bitwise_training_trajectory_claimed": false,
+  "resumed_differences": {
+    "student": {
+      "relative_l2": 1.32762295651391e-07,
+      "max_abs": 1.430511474609375e-06
+    },
+    "teacher": {
+      "relative_l2": 3.867381440350924e-09,
+      "max_abs": 4.76837158203125e-07
+    },
+    "student_head": {
+      "relative_l2": 1.217904014586835e-07,
+      "max_abs": 4.800967872142792e-07
+    },
+    "teacher_head": {
+      "relative_l2": 3.0717605207766746e-09,
+      "max_abs": 7.450580596923828e-09
+    },
+    "objective": {
+      "relative_l2": 0.0007600846014144957,
+      "max_abs": 5.49759715795517e-05
+    },
+    "student_patch_head": {
+      "relative_l2": 4.8620263372419663e-08,
+      "max_abs": 3.5623088479042053e-07
+    },
+    "teacher_patch_head": {
+      "relative_l2": 1.6496508267954849e-09,
+      "max_abs": 7.450580596923828e-09
+    },
+    "patch_objective": {
+      "relative_l2": 0.0004271195828420807,
+      "max_abs": 2.4203211069107056e-05
+    },
+    "optimizer.exp_avg": {
+      "relative_l2": 0.0172893104046819,
+      "max_abs": 0.0005085617303848267
+    },
+    "optimizer.exp_avg_sq": {
+      "relative_l2": 0.020560100391542036,
+      "max_abs": 2.0784937078133225e-06
+    }
+  },
+  "fresh_replay_differences": {
+    "student": {
+      "relative_l2": 1.604859101238743e-07,
+      "max_abs": 1.430511474609375e-06
+    },
+    "teacher": {
+      "relative_l2": 4.105227169814244e-09,
+      "max_abs": 4.76837158203125e-07
+    },
+    "student_head": {
+      "relative_l2": 1.3432927061394614e-07,
+      "max_abs": 4.3120235204696655e-07
+    },
+    "teacher_head": {
+      "relative_l2": 3.2436716336109795e-09,
+      "max_abs": 7.450580596923828e-09
+    },
+    "objective": {
+      "relative_l2": 0.0009223982603197287,
+      "max_abs": 7.508276030421257e-05
+    },
+    "student_patch_head": {
+      "relative_l2": 5.299228733767499e-08,
+      "max_abs": 3.0919909477233887e-07
+    },
+    "teacher_patch_head": {
+      "relative_l2": 1.6668704445879334e-09,
+      "max_abs": 7.450580596923828e-09
+    },
+    "patch_objective": {
+      "relative_l2": 0.0006603835826918258,
+      "max_abs": 3.4146010875701904e-05
+    },
+    "optimizer.exp_avg": {
+      "relative_l2": 0.01779877216724609,
+      "max_abs": 0.00043134531006217003
+    },
+    "optimizer.exp_avg_sq": {
+      "relative_l2": 0.017402035858589775,
+      "max_abs": 9.273135219700634e-07
+    }
+  },
+  "bounds": "module relative L2 <=1e-6/max abs <=5e-6; centers <=0.005; optimizer moments <=0.05; resumed relative error <=3*fresh replay error+1e-8",
+  "status": "author real TRAIN engineering test; preserved earlier failed bitwise check; not a detection result"
+}

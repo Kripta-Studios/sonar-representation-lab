@@ -1,0 +1,37 @@
+{
+  "retrieved_utc": "2026-10-02T15:38:06Z",
+  "status": "author literature check; not independent review; not an exhaustive leaderboard",
+  "sources": [
+    {
+      "title": "Official CFC guide",
+      "url": "https://github.com/visipedia/caltech-fish-counting/tree/main/CFC",
+      "facts": {
+        "gray_baseline_AP50_kenai_validation": 66.4,
+        "gray_baseline_AP50_channel": 32.0,
+        "alternative_3channel_baselinepp_AP50_kenai_validation": 68.0,
+        "alternative_3channel_baselinepp_AP50_channel": 65.1,
+        "training": "YOLOv5m, 896 input, 150 epochs"
+      },
+      "comparison": "Different architecture, resolution, supervised budget; alternative three-channel temporal representation excluded from this study"
+    },
+    {
+      "title": "Align and Distill / ALDI, TMLR March 2025",
+      "url": "https://openreview.net/pdf?id=ssXSrZ94sR",
+      "dataset": "CFC-DAOD",
+      "comparison": "Trains with additional unlabelled Channel source-to-target adaptation data; not source-only generalization"
+    },
+    {
+      "title": "SCOPE: Self-Supervised Compression and Artifact Correction for Streaming Underwater Imaging Sonar, WACV 2026",
+      "url": "https://rsq0504.github.io/assets/pdf/SCOPE_WACV26.pdf",
+      "publisher_page": "https://openaccess.thecvf.com/content/WACV2026/html/Qian_Self-Supervised_Compression_and_Artifact_Correction_for_Streaming_Underwater_Imaging_Sonar_WACV_2026_paper.html",
+      "comparison": "Compression and correction on in-situ ARIS sonar; downstream detector evaluation uses an 80/20 split. Different data and objective; not a matched CFC label-efficiency comparator.",
+      "publisher_pdf_fetch_status": 403,
+      "legitimate_author_copy_fetch": "successful primary author PDF; no executable code downloaded"
+    },
+    {
+      "title": "Molmo2Fish author repository",
+      "url": "https://github.com/tidalove/molmo2fish",
+      "inspection": "Search surfaced tracking and track correction; repository fetch timed out. No detection performance claim used."
+    }
+  ]
+}

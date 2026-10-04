@@ -1,0 +1,7 @@
+{
+  "source": "artifacts\\resolution_decision.json",
+  "source_sha256": "27b4463b56e92e0412ca41bb4d6d533cbaa07e1e5d8939377fe99656eec807ca",
+  "script_sha256": "80dbe3978622d099a72cf840ba359c12df1351879cd6f75cd9a02cdb14752c21",
+  "gpu_used": false,
+  "metrics_unchanged": true
+}

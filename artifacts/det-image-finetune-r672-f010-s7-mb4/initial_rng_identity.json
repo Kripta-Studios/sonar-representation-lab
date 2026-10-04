@@ -1,0 +1,5 @@
+{
+  "cuda_matches_common_head_seed": 7,
+  "branch_does_not_reset_cuda_rng": true,
+  "branch_seed": 50007
+}

@@ -1,0 +1,13 @@
+{
+  "status": "author-verified; not independently reviewed",
+  "all_metric_fields_match": true,
+  "numeric_tolerance": 1e-12,
+  "all_precision_recall_score_arrays_bitwise_equal": true,
+  "complete_evaluator_parameters_equal": true,
+  "images": 30454,
+  "detections": 1384945,
+  "cpu_only": true,
+  "wall_seconds": 778.072040900006,
+  "owned_native_peak_bytes": 3241316352,
+  "complete_compressed_rescore_directory": "artifacts\\det-adapted-f010-s7\\val\\rescore_verification"
+}

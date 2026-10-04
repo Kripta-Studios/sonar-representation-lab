@@ -1,0 +1,8 @@
+{
+  "successful_updates": 2000,
+  "presentations": 16000,
+  "unique_images": 1951,
+  "finite": true,
+  "exact_reference_exposures": null,
+  "checkpoint_sha256": "e36df12c2db5c7b57679297716c43b7ea811f371a17283212da3d8fb86387a7a"
+}

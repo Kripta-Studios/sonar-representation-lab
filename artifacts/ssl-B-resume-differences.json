@@ -1,0 +1,7400 @@
+[
+  {
+    "path": ".student.cls_token",
+    "shape": [
+      1,
+      1,
+      384
+    ],
+    "max_abs": 6.51925802230835e-08,
+    "rms": 7.76322470712993e-09,
+    "ref_max": 0.1781831681728363,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.pos_embed",
+    "shape": [
+      1,
+      1370,
+      384
+    ],
+    "max_abs": 1.017935574054718e-06,
+    "rms": 2.588796924284379e-08,
+    "ref_max": 0.2922130823135376,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.register_tokens",
+    "shape": [
+      1,
+      4,
+      384
+    ],
+    "max_abs": 7.82310962677002e-08,
+    "rms": 6.8172340975476635e-09,
+    "ref_max": 0.5355058312416077,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.mask_token",
+    "shape": [
+      1,
+      384
+    ],
+    "max_abs": 1.629484103204959e-08,
+    "rms": 3.1217913890921288e-09,
+    "ref_max": 1.0037539368568105e-06,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.patch_embed.proj.weight",
+    "shape": [
+      384,
+      3,
+      14,
+      14
+    ],
+    "max_abs": 3.1478703022003174e-07,
+    "rms": 1.1992180237717317e-08,
+    "ref_max": 0.08759111166000366,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.patch_embed.proj.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 7.078051567077637e-08,
+    "rms": 9.723979547500106e-09,
+    "ref_max": 2.78200101852417,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.0.norm1.weight",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1920928955078125e-07,
+    "rms": 2.0631836292154895e-08,
+    "ref_max": 3.806093692779541,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.0.norm1.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.960464477539063e-08,
+    "rms": 8.350822073470066e-09,
+    "ref_max": 2.9912331104278564,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.0.attn.qkv.weight",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 4.605390131473541e-07,
+    "rms": 1.0515308250172459e-08,
+    "ref_max": 1.1917016506195068,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.0.attn.qkv.bias",
+    "shape": [
+      1152
+    ],
+    "max_abs": 1.1920928955078125e-06,
+    "rms": 1.4933690292504878e-07,
+    "ref_max": 10.489981651306152,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.0.attn.proj.weight",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 2.477318048477173e-07,
+    "rms": 8.627722995319869e-09,
+    "ref_max": 0.3160366117954254,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.0.attn.proj.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 7.450580596923828e-08,
+    "rms": 9.779107327425414e-09,
+    "ref_max": 2.2079241275787354,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.0.ls1.gamma",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.9371509552001953e-07,
+    "rms": 1.4023209667431512e-08,
+    "ref_max": 2.9700071811676025,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.0.norm2.weight",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.384185791015625e-07,
+    "rms": 4.652886091469525e-08,
+    "ref_max": 5.459985256195068,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.0.norm2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.960464477539063e-08,
+    "rms": 8.921331094230045e-09,
+    "ref_max": 4.833922386169434,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.0.mlp.fc1.weight",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 5.564652383327484e-07,
+    "rms": 1.4402352713594562e-08,
+    "ref_max": 0.7200506329536438,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.0.mlp.fc1.bias",
+    "shape": [
+      1536
+    ],
+    "max_abs": 2.384185791015625e-07,
+    "rms": 2.6328217928144543e-08,
+    "ref_max": 3.953662872314453,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.0.mlp.fc2.weight",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 7.748603820800781e-07,
+    "rms": 1.198224827676605e-08,
+    "ref_max": 0.6714243292808533,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.0.mlp.fc2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1920928955078125e-07,
+    "rms": 1.349323029171903e-08,
+    "ref_max": 1.8140636682510376,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.0.ls2.gamma",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.043081283569336e-07,
+    "rms": 1.3202629750145792e-08,
+    "ref_max": 1.395662546157837,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.1.norm1.weight",
+    "shape": [
+      384
+    ],
+    "max_abs": 3.5762786865234375e-07,
+    "rms": 3.36309337714087e-08,
+    "ref_max": 3.216395616531372,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.1.norm1.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.7881393432617188e-07,
+    "rms": 1.4777986375374715e-08,
+    "ref_max": 4.823058605194092,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.1.attn.qkv.weight",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 7.189810276031494e-07,
+    "rms": 1.4329274457710266e-08,
+    "ref_max": 0.37736135721206665,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.1.attn.qkv.bias",
+    "shape": [
+      1152
+    ],
+    "max_abs": 1.1920928955078125e-06,
+    "rms": 2.2033773141152532e-07,
+    "ref_max": 11.754724502563477,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.1.attn.proj.weight",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 6.845220923423767e-07,
+    "rms": 1.2531949346646271e-08,
+    "ref_max": 0.27183252573013306,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.1.attn.proj.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 4.470348358154297e-08,
+    "rms": 8.565526655478564e-09,
+    "ref_max": 1.3275089263916016,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.1.ls1.gamma",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.341104507446289e-07,
+    "rms": 1.3869723470006549e-08,
+    "ref_max": 2.9273178577423096,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.1.norm2.weight",
+    "shape": [
+      384
+    ],
+    "max_abs": 3.5762786865234375e-07,
+    "rms": 4.1090925802226605e-08,
+    "ref_max": 2.897966146469116,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.1.norm2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.960464477539063e-08,
+    "rms": 1.2869411948422978e-08,
+    "ref_max": 2.7447149753570557,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.1.mlp.fc1.weight",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 6.957561708986759e-07,
+    "rms": 1.4375099746530258e-08,
+    "ref_max": 0.6081454753875732,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.1.mlp.fc1.bias",
+    "shape": [
+      1536
+    ],
+    "max_abs": 2.384185791015625e-07,
+    "rms": 2.6538799815401424e-08,
+    "ref_max": 2.6766161918640137,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.1.mlp.fc2.weight",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 4.4330954551696777e-07,
+    "rms": 1.1211745141800604e-08,
+    "ref_max": 0.6002302765846252,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.1.mlp.fc2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.960464477539063e-08,
+    "rms": 1.1529196615845141e-08,
+    "ref_max": 1.8300880193710327,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.1.ls2.gamma",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1920928955078125e-07,
+    "rms": 1.497497076204456e-08,
+    "ref_max": 1.5246989727020264,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.2.norm1.weight",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.384185791015625e-07,
+    "rms": 3.17561424090078e-08,
+    "ref_max": 6.244752407073975,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.2.norm1.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 7.450580596923828e-08,
+    "rms": 1.0965633352870034e-08,
+    "ref_max": 4.6168437004089355,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.2.attn.qkv.weight",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 7.394701242446899e-07,
+    "rms": 1.4924318287785622e-08,
+    "ref_max": 0.6370262503623962,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.2.attn.qkv.bias",
+    "shape": [
+      1152
+    ],
+    "max_abs": 1.341104507446289e-06,
+    "rms": 2.2760174534245852e-07,
+    "ref_max": 5.911174297332764,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.2.attn.proj.weight",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 3.986060619354248e-07,
+    "rms": 1.2507806099915986e-08,
+    "ref_max": 0.17571662366390228,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.2.attn.proj.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 4.470348358154297e-08,
+    "rms": 9.3496160439855e-09,
+    "ref_max": 0.7898864150047302,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.2.ls1.gamma",
+    "shape": [
+      384
+    ],
+    "max_abs": 4.470348358154297e-08,
+    "rms": 1.1558148185644493e-08,
+    "ref_max": 1.8140748739242554,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.2.norm2.weight",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.384185791015625e-07,
+    "rms": 3.016871862922197e-08,
+    "ref_max": 3.646578788757324,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.2.norm2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 8.940696716308594e-08,
+    "rms": 1.1311793909561435e-08,
+    "ref_max": 3.0337564945220947,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.2.mlp.fc1.weight",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 5.867332220077515e-07,
+    "rms": 1.2788406506476372e-08,
+    "ref_max": 0.536388099193573,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.2.mlp.fc1.bias",
+    "shape": [
+      1536
+    ],
+    "max_abs": 2.384185791015625e-07,
+    "rms": 1.7451041164469875e-08,
+    "ref_max": 4.399020671844482,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.2.mlp.fc2.weight",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 5.038455128669739e-07,
+    "rms": 1.0767570112318831e-08,
+    "ref_max": 0.3851814568042755,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.2.mlp.fc2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 9.685754776000977e-08,
+    "rms": 8.885664249482245e-09,
+    "ref_max": 2.543731927871704,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.2.ls2.gamma",
+    "shape": [
+      384
+    ],
+    "max_abs": 7.450580596923828e-08,
+    "rms": 1.1947883521547249e-08,
+    "ref_max": 1.011425256729126,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.3.norm1.weight",
+    "shape": [
+      384
+    ],
+    "max_abs": 4.76837158203125e-07,
+    "rms": 3.400709216204572e-08,
+    "ref_max": 9.46845817565918,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.3.norm1.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.960464477539063e-08,
+    "rms": 7.711860235650035e-09,
+    "ref_max": 5.553731441497803,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.3.attn.qkv.weight",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 4.880130290985107e-07,
+    "rms": 1.3106855256235488e-08,
+    "ref_max": 0.34046027064323425,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.3.attn.qkv.bias",
+    "shape": [
+      1152
+    ],
+    "max_abs": 1.430511474609375e-06,
+    "rms": 2.698817185282258e-07,
+    "ref_max": 5.339839935302734,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.3.attn.proj.weight",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 4.3213367462158203e-07,
+    "rms": 1.1131232927097395e-08,
+    "ref_max": 0.30987805128097534,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.3.attn.proj.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 7.450580596923828e-08,
+    "rms": 9.00410798961827e-09,
+    "ref_max": 1.4000189304351807,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.3.ls1.gamma",
+    "shape": [
+      384
+    ],
+    "max_abs": 3.2782554626464844e-07,
+    "rms": 2.1043887492449246e-08,
+    "ref_max": 1.2461943626403809,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.3.norm2.weight",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.384185791015625e-07,
+    "rms": 3.1242136223636874e-08,
+    "ref_max": 3.0295379161834717,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.3.norm2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.960464477539063e-08,
+    "rms": 1.132257887485545e-08,
+    "ref_max": 4.137151718139648,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.3.mlp.fc1.weight",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 4.76837158203125e-07,
+    "rms": 1.1157438398024714e-08,
+    "ref_max": 0.5112995505332947,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.3.mlp.fc1.bias",
+    "shape": [
+      1536
+    ],
+    "max_abs": 1.1920928955078125e-07,
+    "rms": 1.67447297851408e-08,
+    "ref_max": 4.748903274536133,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.3.mlp.fc2.weight",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 3.9103906601667404e-07,
+    "rms": 8.989475994916816e-09,
+    "ref_max": 0.4847663938999176,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.3.mlp.fc2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.960464477539063e-08,
+    "rms": 7.1112625545347994e-09,
+    "ref_max": 1.2583844661712646,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.3.ls2.gamma",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.960464477539063e-08,
+    "rms": 1.3035854959692179e-08,
+    "ref_max": 1.9069279432296753,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.4.norm1.weight",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1920928955078125e-07,
+    "rms": 2.869521580212152e-08,
+    "ref_max": 2.836782455444336,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.4.norm1.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1920928955078125e-07,
+    "rms": 1.170526498249882e-08,
+    "ref_max": 6.769922256469727,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.4.attn.qkv.weight",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 4.0885061025619507e-07,
+    "rms": 1.1863682287423939e-08,
+    "ref_max": 0.22803963720798492,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.4.attn.qkv.bias",
+    "shape": [
+      1152
+    ],
+    "max_abs": 1.430511474609375e-06,
+    "rms": 2.7469252699209865e-07,
+    "ref_max": 4.877678394317627,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.4.attn.proj.weight",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 3.0314549803733826e-07,
+    "rms": 8.710435309205911e-09,
+    "ref_max": 0.17931468784809113,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.4.attn.proj.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.960464477539063e-08,
+    "rms": 9.165431612418236e-09,
+    "ref_max": 2.2486414909362793,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.4.ls1.gamma",
+    "shape": [
+      384
+    ],
+    "max_abs": 7.450580596923828e-08,
+    "rms": 1.2504535634736976e-08,
+    "ref_max": 2.0496017932891846,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.4.norm2.weight",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.384185791015625e-07,
+    "rms": 3.131608221162978e-08,
+    "ref_max": 3.0775468349456787,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.4.norm2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.960464477539063e-08,
+    "rms": 7.886093128404653e-09,
+    "ref_max": 5.354293346405029,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.4.mlp.fc1.weight",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 4.172325134277344e-07,
+    "rms": 1.0700479909956115e-08,
+    "ref_max": 0.5867481827735901,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.4.mlp.fc1.bias",
+    "shape": [
+      1536
+    ],
+    "max_abs": 2.384185791015625e-07,
+    "rms": 2.238818783756647e-08,
+    "ref_max": 10.12524127960205,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.4.mlp.fc2.weight",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 3.0640512704849243e-07,
+    "rms": 8.309654511721315e-09,
+    "ref_max": 0.7451542615890503,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.4.mlp.fc2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.960464477539063e-08,
+    "rms": 8.822911176726116e-09,
+    "ref_max": 1.8459774255752563,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.4.ls2.gamma",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.960464477539063e-08,
+    "rms": 1.2512345651671666e-08,
+    "ref_max": 2.6229822635650635,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.5.norm1.weight",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1920928955078125e-07,
+    "rms": 2.47107803102985e-08,
+    "ref_max": 6.901914119720459,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.5.norm1.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1920928955078125e-07,
+    "rms": 9.80681591710329e-09,
+    "ref_max": 4.158504486083984,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.5.attn.qkv.weight",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 3.2782554626464844e-07,
+    "rms": 1.0957573192265338e-08,
+    "ref_max": 0.4591025114059448,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.5.attn.qkv.bias",
+    "shape": [
+      1152
+    ],
+    "max_abs": 1.2673554010689259e-06,
+    "rms": 2.568462325652204e-07,
+    "ref_max": 8.947754859924316,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.5.attn.proj.weight",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 2.2165477275848389e-07,
+    "rms": 8.215597252446956e-09,
+    "ref_max": 0.1698225438594818,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.5.attn.proj.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.960464477539063e-08,
+    "rms": 7.964460976551993e-09,
+    "ref_max": 1.2405132055282593,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.5.ls1.gamma",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1920928955078125e-07,
+    "rms": 1.5400006175748763e-08,
+    "ref_max": 1.4082019329071045,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.5.norm2.weight",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1920928955078125e-07,
+    "rms": 2.414264045062609e-08,
+    "ref_max": 3.9845340251922607,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.5.norm2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.4016709327697754e-08,
+    "rms": 8.128180532884277e-09,
+    "ref_max": 3.9352498054504395,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.5.mlp.fc1.weight",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 4.163011908531189e-07,
+    "rms": 1.0108147740389073e-08,
+    "ref_max": 0.5738268494606018,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.5.mlp.fc1.bias",
+    "shape": [
+      1536
+    ],
+    "max_abs": 2.384185791015625e-07,
+    "rms": 1.8575818557813966e-08,
+    "ref_max": 2.8511104583740234,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.5.mlp.fc2.weight",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 3.688037395477295e-07,
+    "rms": 7.486276843575998e-09,
+    "ref_max": 0.5231866240501404,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.5.mlp.fc2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.0116567611694336e-07,
+    "rms": 1.1737079739891457e-08,
+    "ref_max": 1.1961582899093628,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.5.ls2.gamma",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1920928955078125e-07,
+    "rms": 1.5189411519374782e-08,
+    "ref_max": 1.4881256818771362,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.6.norm1.weight",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.384185791015625e-07,
+    "rms": 2.917483479894879e-08,
+    "ref_max": 10.555582046508789,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.6.norm1.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 3.608874976634979e-08,
+    "rms": 8.45812782293253e-09,
+    "ref_max": 4.425306797027588,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.6.attn.qkv.weight",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 4.793982952833176e-07,
+    "rms": 1.037971533283972e-08,
+    "ref_max": 0.3303218483924866,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.6.attn.qkv.bias",
+    "shape": [
+      1152
+    ],
+    "max_abs": 1.3187527656555176e-06,
+    "rms": 2.842241883922115e-07,
+    "ref_max": 4.376245021820068,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.6.attn.proj.weight",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 3.548339009284973e-07,
+    "rms": 7.27257602777879e-09,
+    "ref_max": 0.1863981932401657,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.6.attn.proj.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.21540641784668e-08,
+    "rms": 6.73674187815727e-09,
+    "ref_max": 1.9055135250091553,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.6.ls1.gamma",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1920928955078125e-07,
+    "rms": 1.4273740163188988e-08,
+    "ref_max": 1.314165711402893,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.6.norm2.weight",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1920928955078125e-07,
+    "rms": 1.4587417399474395e-08,
+    "ref_max": 2.844717264175415,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.6.norm2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1920928955078125e-07,
+    "rms": 1.0400399266736583e-08,
+    "ref_max": 3.7320563793182373,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.6.mlp.fc1.weight",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 6.883637979626656e-07,
+    "rms": 9.521747338476685e-09,
+    "ref_max": 0.4296066164970398,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.6.mlp.fc1.bias",
+    "shape": [
+      1536
+    ],
+    "max_abs": 2.384185791015625e-07,
+    "rms": 1.9257970379426668e-08,
+    "ref_max": 3.4086263179779053,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.6.mlp.fc2.weight",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 3.4389086067676544e-07,
+    "rms": 7.3086671053109694e-09,
+    "ref_max": 0.4303436875343323,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.6.mlp.fc2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 7.450580596923828e-08,
+    "rms": 8.136406090670569e-09,
+    "ref_max": 1.0188677310943604,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.6.ls2.gamma",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.960464477539063e-08,
+    "rms": 1.4928875010581057e-08,
+    "ref_max": 2.83176851272583,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.7.norm1.weight",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1920928955078125e-07,
+    "rms": 1.8501858445196524e-08,
+    "ref_max": 5.991735935211182,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.7.norm1.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.564621925354004e-07,
+    "rms": 1.1520495827691091e-08,
+    "ref_max": 5.0727858543396,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.7.attn.qkv.weight",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 3.4552067518234253e-07,
+    "rms": 9.26320857022264e-09,
+    "ref_max": 0.2457428276538849,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.7.attn.qkv.bias",
+    "shape": [
+      1152
+    ],
+    "max_abs": 1.3113021850585938e-06,
+    "rms": 2.389080167518737e-07,
+    "ref_max": 5.129531383514404,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.7.attn.proj.weight",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 2.537854015827179e-07,
+    "rms": 6.486093278100504e-09,
+    "ref_max": 0.1753493696451187,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.7.attn.proj.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.960464477539063e-08,
+    "rms": 6.9626967093197225e-09,
+    "ref_max": 0.98255854845047,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.7.ls1.gamma",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.960464477539063e-08,
+    "rms": 1.0214960796969597e-08,
+    "ref_max": 3.296624183654785,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.7.norm2.weight",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1920928955078125e-07,
+    "rms": 1.8250120749944284e-08,
+    "ref_max": 7.1639556884765625,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.7.norm2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.960464477539063e-08,
+    "rms": 8.655342376648283e-09,
+    "ref_max": 5.0214457511901855,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.7.mlp.fc1.weight",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 3.8743019104003906e-07,
+    "rms": 8.623637315793533e-09,
+    "ref_max": 0.2620445489883423,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.7.mlp.fc1.bias",
+    "shape": [
+      1536
+    ],
+    "max_abs": 2.384185791015625e-07,
+    "rms": 2.2458403453014212e-08,
+    "ref_max": 3.711534261703491,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.7.mlp.fc2.weight",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 3.390014171600342e-07,
+    "rms": 6.483443843808247e-09,
+    "ref_max": 0.44996964931488037,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.7.mlp.fc2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 4.0978193283081055e-08,
+    "rms": 6.3342626324610405e-09,
+    "ref_max": 2.559039831161499,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.7.ls2.gamma",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1920928955078125e-07,
+    "rms": 1.4587417399474395e-08,
+    "ref_max": 2.1831185817718506,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.8.norm1.weight",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1920928955078125e-07,
+    "rms": 1.727346050645356e-08,
+    "ref_max": 10.270981788635254,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.8.norm1.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.960464477539063e-08,
+    "rms": 5.813405946999939e-09,
+    "ref_max": 3.6528143882751465,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.8.attn.qkv.weight",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 7.832422852516174e-07,
+    "rms": 8.283300050615595e-09,
+    "ref_max": 0.22221817076206207,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.8.attn.qkv.bias",
+    "shape": [
+      1152
+    ],
+    "max_abs": 1.1920928955078125e-06,
+    "rms": 2.3718652313888324e-07,
+    "ref_max": 4.551547527313232,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.8.attn.proj.weight",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 4.423782229423523e-07,
+    "rms": 6.033332345166009e-09,
+    "ref_max": 0.24115532636642456,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.8.attn.proj.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.9802322387695312e-08,
+    "rms": 5.633127567662736e-09,
+    "ref_max": 0.6137630939483643,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.8.ls1.gamma",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1920928955078125e-07,
+    "rms": 1.7555698150891427e-08,
+    "ref_max": 3.2583885192871094,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.8.norm2.weight",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1920928955078125e-07,
+    "rms": 1.7735929361340528e-08,
+    "ref_max": 3.391695261001587,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.8.norm2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.960464477539063e-08,
+    "rms": 8.198779778589279e-09,
+    "ref_max": 4.395492076873779,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.8.mlp.fc1.weight",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 4.6193599700927734e-07,
+    "rms": 8.136289109137575e-09,
+    "ref_max": 0.3190177083015442,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.8.mlp.fc1.bias",
+    "shape": [
+      1536
+    ],
+    "max_abs": 2.384185791015625e-07,
+    "rms": 1.600502525102377e-08,
+    "ref_max": 3.492751121520996,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.8.mlp.fc2.weight",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 3.0666706152260303e-07,
+    "rms": 5.564923180053173e-09,
+    "ref_max": 0.4782956540584564,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.8.mlp.fc2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.960464477539063e-08,
+    "rms": 6.2316732817783725e-09,
+    "ref_max": 2.229551076889038,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.8.ls2.gamma",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1920928955078125e-07,
+    "rms": 1.8250120749944284e-08,
+    "ref_max": 3.5538125038146973,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.9.norm1.weight",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1920928955078125e-07,
+    "rms": 8.603189426505949e-09,
+    "ref_max": 5.293954849243164,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.9.norm1.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.960464477539063e-08,
+    "rms": 8.511141415733183e-09,
+    "ref_max": 4.2007293701171875,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.9.attn.qkv.weight",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 3.287568688392639e-07,
+    "rms": 7.3601068255031235e-09,
+    "ref_max": 0.22413145005702972,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.9.attn.qkv.bias",
+    "shape": [
+      1152
+    ],
+    "max_abs": 1.430511474609375e-06,
+    "rms": 2.2389337781416407e-07,
+    "ref_max": 6.712227821350098,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.9.attn.proj.weight",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 3.390014171600342e-07,
+    "rms": 5.582440983706655e-09,
+    "ref_max": 0.13942070305347443,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.9.attn.proj.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.9802322387695312e-08,
+    "rms": 5.567966873848084e-09,
+    "ref_max": 1.9371737241744995,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.9.ls1.gamma",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1920928955078125e-07,
+    "rms": 1.5208433958286905e-08,
+    "ref_max": 4.917632102966309,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.9.norm2.weight",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1920928955078125e-07,
+    "rms": 1.9237316380974734e-08,
+    "ref_max": 3.8798723220825195,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.9.norm2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.960464477539063e-08,
+    "rms": 7.75392946152174e-09,
+    "ref_max": 3.283662796020508,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.9.mlp.fc1.weight",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 4.4517219066619873e-07,
+    "rms": 7.815883638623969e-09,
+    "ref_max": 0.2951028048992157,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.9.mlp.fc1.bias",
+    "shape": [
+      1536
+    ],
+    "max_abs": 2.384185791015625e-07,
+    "rms": 2.0963379512397115e-08,
+    "ref_max": 4.695486545562744,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.9.mlp.fc2.weight",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 3.2782554626464844e-07,
+    "rms": 5.6725238868360874e-09,
+    "ref_max": 0.36462390422821045,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.9.mlp.fc2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 3.3527612686157227e-08,
+    "rms": 5.197558677753548e-09,
+    "ref_max": 2.5902621746063232,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.9.ls2.gamma",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.384185791015625e-07,
+    "rms": 2.1933915382444477e-08,
+    "ref_max": 8.930008888244629,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.10.norm1.weight",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1920928955078125e-07,
+    "rms": 1.138094985225757e-08,
+    "ref_max": 6.654711723327637,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.10.norm1.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 8.940696716308594e-08,
+    "rms": 8.33038113628016e-09,
+    "ref_max": 4.116759777069092,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.10.attn.qkv.weight",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 3.501772880554199e-07,
+    "rms": 6.060249055497281e-09,
+    "ref_max": 0.2193533331155777,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.10.attn.qkv.bias",
+    "shape": [
+      1152
+    ],
+    "max_abs": 1.3113021850585938e-06,
+    "rms": 2.2317136184258432e-07,
+    "ref_max": 7.729975700378418,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.10.attn.proj.weight",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 1.8114224076271057e-07,
+    "rms": 5.153235630605023e-09,
+    "ref_max": 0.17146550118923187,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.10.attn.proj.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 3.725290298461914e-08,
+    "rms": 6.733520685527945e-09,
+    "ref_max": 2.1268248558044434,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.10.ls1.gamma",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1920928955078125e-07,
+    "rms": 1.4587417399474395e-08,
+    "ref_max": 9.546191215515137,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.10.norm2.weight",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.384185791015625e-07,
+    "rms": 2.4333494333259047e-08,
+    "ref_max": 4.265897274017334,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.10.norm2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.960464477539063e-08,
+    "rms": 6.0869231007531095e-09,
+    "ref_max": 3.39302921295166,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.10.mlp.fc1.weight",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 5.997717380523682e-07,
+    "rms": 6.947330369732325e-09,
+    "ref_max": 0.20634442567825317,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.10.mlp.fc1.bias",
+    "shape": [
+      1536
+    ],
+    "max_abs": 2.384185791015625e-07,
+    "rms": 1.898010120743609e-08,
+    "ref_max": 3.7473251819610596,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.10.mlp.fc2.weight",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 3.650784492492676e-07,
+    "rms": 4.777430584240275e-09,
+    "ref_max": 0.5609103441238403,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.10.mlp.fc2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.960464477539063e-08,
+    "rms": 6.093527307409491e-09,
+    "ref_max": 4.325474262237549,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.10.ls2.gamma",
+    "shape": [
+      384
+    ],
+    "max_abs": 4.76837158203125e-07,
+    "rms": 2.737518112491643e-08,
+    "ref_max": 13.728102684020996,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.11.norm1.weight",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1920928955078125e-07,
+    "rms": 1.4266775664036544e-08,
+    "ref_max": 6.430013179779053,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.11.norm1.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.960464477539063e-08,
+    "rms": 6.314346379834015e-09,
+    "ref_max": 4.046136379241943,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.11.attn.qkv.weight",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 4.870817065238953e-07,
+    "rms": 7.278141893219763e-09,
+    "ref_max": 0.27465757727622986,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.11.attn.qkv.bias",
+    "shape": [
+      1152
+    ],
+    "max_abs": 1.430511474609375e-06,
+    "rms": 2.918031654935638e-07,
+    "ref_max": 14.844076156616211,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.11.attn.proj.weight",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 3.296881914138794e-07,
+    "rms": 4.6455692252321e-09,
+    "ref_max": 0.2909410297870636,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.11.attn.proj.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1920928955078125e-07,
+    "rms": 8.826061988662433e-09,
+    "ref_max": 5.80243444442749,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.11.ls1.gamma",
+    "shape": [
+      384
+    ],
+    "max_abs": 4.76837158203125e-07,
+    "rms": 2.5988183340003528e-08,
+    "ref_max": 14.81839656829834,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.11.norm2.weight",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1920928955078125e-07,
+    "rms": 6.083373583314762e-09,
+    "ref_max": 9.199620246887207,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.11.norm2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1920928955078125e-07,
+    "rms": 7.04712961425233e-09,
+    "ref_max": 5.675612449645996,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.11.mlp.fc1.weight",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 2.859160304069519e-07,
+    "rms": 6.496155484052808e-09,
+    "ref_max": 0.24326878786087036,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.11.mlp.fc1.bias",
+    "shape": [
+      1536
+    ],
+    "max_abs": 2.384185791015625e-07,
+    "rms": 2.312107158373474e-08,
+    "ref_max": 3.598139524459839,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.11.mlp.fc2.weight",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 3.026798367500305e-07,
+    "rms": 4.594871556982291e-09,
+    "ref_max": 0.46183621883392334,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.11.mlp.fc2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 8.940696716308594e-08,
+    "rms": 7.77167886316999e-09,
+    "ref_max": 4.308216094970703,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.blocks.11.ls2.gamma",
+    "shape": [
+      384
+    ],
+    "max_abs": 4.76837158203125e-07,
+    "rms": 2.4333494333259047e-08,
+    "ref_max": 16.352996826171875,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.norm.weight",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1920928955078125e-07,
+    "rms": 1.0536712127723509e-08,
+    "ref_max": 12.934453964233398,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student.norm.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.960464477539063e-08,
+    "rms": 6.9412443777609995e-09,
+    "ref_max": 2.231656551361084,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.cls_token",
+    "shape": [
+      1,
+      1,
+      384
+    ],
+    "max_abs": 1.862645149230957e-09,
+    "rms": 1.2005247525326386e-10,
+    "ref_max": 0.17818216979503632,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.pos_embed",
+    "shape": [
+      1,
+      1370,
+      384
+    ],
+    "max_abs": 1.4901161193847656e-08,
+    "rms": 2.9917363078472784e-10,
+    "ref_max": 0.29221311211586,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.register_tokens",
+    "shape": [
+      1,
+      4,
+      384
+    ],
+    "max_abs": 1.862645149230957e-09,
+    "rms": 9.372762449305709e-11,
+    "ref_max": 0.5355052351951599,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.mask_token",
+    "shape": [
+      1,
+      384
+    ],
+    "max_abs": 1.0372769310151853e-10,
+    "rms": 1.9975565664458008e-11,
+    "ref_max": 7.996979078939148e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.patch_embed.proj.weight",
+    "shape": [
+      384,
+      3,
+      14,
+      14
+    ],
+    "max_abs": 7.450580596923828e-09,
+    "rms": 2.3209304508124244e-10,
+    "ref_max": 0.08759165555238724,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.patch_embed.proj.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 3.725290298461914e-09,
+    "rms": 3.407592868688165e-10,
+    "ref_max": 2.7820000648498535,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.0.norm1.weight",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.9103830456733704e-11,
+    "rms": 1.4851986287389555e-12,
+    "ref_max": 3.8060946464538574,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.0.norm1.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 7.450580596923828e-09,
+    "rms": 3.809531316172194e-10,
+    "ref_max": 2.991231918334961,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.0.attn.qkv.weight",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 2.9802322387695312e-08,
+    "rms": 2.742320267374639e-10,
+    "ref_max": 1.19170081615448,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.0.attn.qkv.bias",
+    "shape": [
+      1152
+    ],
+    "max_abs": 5.960464477539063e-08,
+    "rms": 3.6317790041180357e-09,
+    "ref_max": 10.489981651306152,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.0.attn.proj.weight",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 7.450580596923828e-09,
+    "rms": 2.3161193618113314e-10,
+    "ref_max": 0.3160356283187866,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.0.attn.proj.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 7.450580596923828e-09,
+    "rms": 3.8428779087141673e-10,
+    "ref_max": 2.207923412322998,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.0.ls1.gamma",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.9802322387695312e-08,
+    "rms": 1.5209015915853428e-09,
+    "ref_max": 2.9700069427490234,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.0.norm2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.9103830456733704e-11,
+    "rms": 1.8564982859236945e-12,
+    "ref_max": 4.833921909332275,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.0.mlp.fc1.weight",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 2.9802322387695312e-08,
+    "rms": 3.536456235584415e-10,
+    "ref_max": 0.7200513482093811,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.0.mlp.fc1.bias",
+    "shape": [
+      1536
+    ],
+    "max_abs": 9.313225746154785e-10,
+    "rms": 2.3763178059823288e-11,
+    "ref_max": 3.9536612033843994,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.0.mlp.fc2.weight",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 2.9802322387695312e-08,
+    "rms": 2.896646575371873e-10,
+    "ref_max": 0.6714231371879578,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.0.mlp.fc2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.4901161193847656e-08,
+    "rms": 7.910017869543935e-10,
+    "ref_max": 1.8140642642974854,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.0.ls2.gamma",
+    "shape": [
+      384
+    ],
+    "max_abs": 7.450580596923828e-09,
+    "rms": 3.8026015899535107e-10,
+    "ref_max": 1.3956619501113892,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.1.norm1.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.4901161193847656e-08,
+    "rms": 7.619286096639344e-10,
+    "ref_max": 4.82305908203125,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.1.attn.qkv.weight",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 2.2351741790771484e-08,
+    "rms": 3.562226895495908e-10,
+    "ref_max": 0.37736138701438904,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.1.attn.qkv.bias",
+    "shape": [
+      1152
+    ],
+    "max_abs": 4.76837158203125e-07,
+    "rms": 1.7073958320491123e-08,
+    "ref_max": 11.754725456237793,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.1.attn.proj.weight",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 7.450580596923828e-09,
+    "rms": 3.069652573666403e-10,
+    "ref_max": 0.27183327078819275,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.1.attn.proj.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 7.450580596923828e-09,
+    "rms": 4.266347777855221e-10,
+    "ref_max": 1.3275080919265747,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.1.ls1.gamma",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.4901161193847656e-08,
+    "rms": 1.3171426073643971e-09,
+    "ref_max": 2.9273178577423096,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.1.norm2.weight",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1920928955078125e-07,
+    "rms": 6.083373583314762e-09,
+    "ref_max": 2.8979668617248535,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.1.norm2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 7.450580596923828e-09,
+    "rms": 5.806195940606996e-10,
+    "ref_max": 2.744715929031372,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.1.mlp.fc1.weight",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 2.2351741790771484e-08,
+    "rms": 3.3613964037097405e-10,
+    "ref_max": 0.6081463694572449,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.1.mlp.fc1.bias",
+    "shape": [
+      1536
+    ],
+    "max_abs": 5.960464477539063e-08,
+    "rms": 2.9527601444079854e-09,
+    "ref_max": 2.6766164302825928,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.1.mlp.fc2.weight",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 1.4901161193847656e-08,
+    "rms": 2.700211286495196e-10,
+    "ref_max": 0.6002295613288879,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.1.ls2.gamma",
+    "shape": [
+      384
+    ],
+    "max_abs": 9.313225746154785e-10,
+    "rms": 4.7526356119646576e-11,
+    "ref_max": 1.5246987342834473,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.2.norm1.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.960464477539063e-08,
+    "rms": 3.136739503896674e-09,
+    "ref_max": 4.61684513092041,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.2.attn.qkv.weight",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 2.9802322387695312e-08,
+    "rms": 3.570558250870435e-10,
+    "ref_max": 0.637025773525238,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.2.attn.qkv.bias",
+    "shape": [
+      1152
+    ],
+    "max_abs": 2.384185791015625e-07,
+    "rms": 8.91591276523332e-09,
+    "ref_max": 5.911172389984131,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.2.attn.proj.weight",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 7.450580596923828e-09,
+    "rms": 2.890017553496806e-10,
+    "ref_max": 0.1757168471813202,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.2.attn.proj.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.862645149230957e-09,
+    "rms": 2.2079595658630313e-10,
+    "ref_max": 0.789885401725769,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.2.ls1.gamma",
+    "shape": [
+      384
+    ],
+    "max_abs": 7.450580596923828e-09,
+    "rms": 3.802108489571726e-10,
+    "ref_max": 1.8140746355056763,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.2.norm2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.9103830456733704e-11,
+    "rms": 1.4851986287389555e-12,
+    "ref_max": 3.033757448196411,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.2.mlp.fc1.weight",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 1.4901161193847656e-08,
+    "rms": 2.9935722879986185e-10,
+    "ref_max": 0.5363879799842834,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.2.mlp.fc1.bias",
+    "shape": [
+      1536
+    ],
+    "max_abs": 5.960464477539063e-08,
+    "rms": 1.700354608102286e-09,
+    "ref_max": 4.399020671844482,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.2.mlp.fc2.weight",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 1.4901161193847656e-08,
+    "rms": 2.5988286772123043e-10,
+    "ref_max": 0.38518232107162476,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.2.mlp.fc2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 9.313225746154785e-10,
+    "rms": 5.604534336351859e-11,
+    "ref_max": 2.543731212615967,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.2.ls2.gamma",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.4901161193847656e-08,
+    "rms": 7.604394649755358e-10,
+    "ref_max": 1.0114246606826782,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.3.norm1.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.820766091346741e-11,
+    "rms": 2.970397257477911e-12,
+    "ref_max": 5.553731918334961,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.3.attn.qkv.weight",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 2.2351741790771484e-08,
+    "rms": 3.2823439406583283e-10,
+    "ref_max": 0.34045955538749695,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.3.attn.qkv.bias",
+    "shape": [
+      1152
+    ],
+    "max_abs": 2.384185791015625e-07,
+    "rms": 8.392786292052605e-09,
+    "ref_max": 5.339839458465576,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.3.attn.proj.weight",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 1.1175870895385742e-08,
+    "rms": 2.7394052989202235e-10,
+    "ref_max": 0.30987709760665894,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.3.attn.proj.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 9.313225746154785e-10,
+    "rms": 4.773475527027179e-11,
+    "ref_max": 1.4000182151794434,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.3.ls1.gamma",
+    "shape": [
+      384
+    ],
+    "max_abs": 4.656612873077393e-10,
+    "rms": 2.3763178059823288e-11,
+    "ref_max": 1.2461934089660645,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.3.norm2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 3.725290298461914e-09,
+    "rms": 1.9084657904173947e-10,
+    "ref_max": 4.137152671813965,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.3.mlp.fc1.weight",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 1.4901161193847656e-08,
+    "rms": 2.8222069280638456e-10,
+    "ref_max": 0.5112999677658081,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.3.mlp.fc1.bias",
+    "shape": [
+      1536
+    ],
+    "max_abs": 2.9802322387695312e-08,
+    "rms": 7.663394657480337e-10,
+    "ref_max": 4.748903274536133,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.3.mlp.fc2.weight",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 7.450580596923828e-09,
+    "rms": 2.352912873820041e-10,
+    "ref_max": 0.48476549983024597,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.3.mlp.fc2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.9802322387695312e-08,
+    "rms": 1.5238108979593856e-09,
+    "ref_max": 1.2583835124969482,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.3.ls2.gamma",
+    "shape": [
+      384
+    ],
+    "max_abs": 3.4924596548080444e-10,
+    "rms": 1.7822383544867465e-11,
+    "ref_max": 1.906927227973938,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.4.norm1.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.4901161193847656e-08,
+    "rms": 7.723261358159338e-10,
+    "ref_max": 6.769923210144043,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.4.attn.qkv.weight",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 1.4901161193847656e-08,
+    "rms": 3.2228892623552515e-10,
+    "ref_max": 0.22804024815559387,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.4.attn.qkv.bias",
+    "shape": [
+      1152
+    ],
+    "max_abs": 5.960464477539063e-08,
+    "rms": 3.861235694603814e-09,
+    "ref_max": 4.877677917480469,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.4.attn.proj.weight",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 7.450580596923828e-09,
+    "rms": 2.399142671612121e-10,
+    "ref_max": 0.17931565642356873,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.4.attn.proj.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 7.450580596923828e-09,
+    "rms": 5.031119945610123e-10,
+    "ref_max": 2.248640775680542,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.4.ls1.gamma",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.4901161193847656e-08,
+    "rms": 7.604216979143452e-10,
+    "ref_max": 2.049600839614868,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.4.norm2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.3283064365386963e-10,
+    "rms": 1.4551915228366852e-11,
+    "ref_max": 5.3542938232421875,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.4.mlp.fc1.weight",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 1.4901161193847656e-08,
+    "rms": 2.7600586223037e-10,
+    "ref_max": 0.5867491960525513,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.4.mlp.fc1.bias",
+    "shape": [
+      1536
+    ],
+    "max_abs": 7.450580596923828e-09,
+    "rms": 1.901054244785863e-10,
+    "ref_max": 10.12524127960205,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.4.mlp.fc2.weight",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 7.450580596923828e-09,
+    "rms": 2.1098157100711803e-10,
+    "ref_max": 0.7451549768447876,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.4.mlp.fc2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.4901161193847656e-08,
+    "rms": 7.722418772517652e-10,
+    "ref_max": 1.84597647190094,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.5.norm1.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 3.725290298461914e-09,
+    "rms": 1.9163667024446971e-10,
+    "ref_max": 4.158503532409668,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.5.attn.qkv.weight",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 1.4901161193847656e-08,
+    "rms": 2.9510290051721566e-10,
+    "ref_max": 0.45910176634788513,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.5.attn.qkv.bias",
+    "shape": [
+      1152
+    ],
+    "max_abs": 2.384185791015625e-07,
+    "rms": 8.308178926823694e-09,
+    "ref_max": 8.947754859924316,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.5.attn.proj.weight",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 7.450580596923828e-09,
+    "rms": 2.3034215637539853e-10,
+    "ref_max": 0.1698218733072281,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.5.attn.proj.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.862645149230957e-09,
+    "rms": 1.1492789052813397e-10,
+    "ref_max": 1.2405122518539429,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.5.ls1.gamma",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.9802322387695312e-08,
+    "rms": 1.5208433958286904e-09,
+    "ref_max": 1.408200979232788,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.5.norm2.weight",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1920928955078125e-07,
+    "rms": 6.083373583314762e-09,
+    "ref_max": 3.984532594680786,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.5.norm2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.862645149230957e-09,
+    "rms": 9.524397120552147e-11,
+    "ref_max": 3.9352502822875977,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.5.mlp.fc1.weight",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 1.4901161193847656e-08,
+    "rms": 2.6428152834618433e-10,
+    "ref_max": 0.573827862739563,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.5.mlp.fc2.weight",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 7.450580596923828e-09,
+    "rms": 1.9732749134394274e-10,
+    "ref_max": 0.5231874585151672,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.5.mlp.fc2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.4901161193847656e-08,
+    "rms": 7.604274994493577e-10,
+    "ref_max": 1.1961573362350464,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.5.ls2.gamma",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.9802322387695312e-08,
+    "rms": 1.5208433958286904e-09,
+    "ref_max": 1.4881247282028198,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.6.norm1.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1641532182693481e-10,
+    "rms": 5.940794514955822e-12,
+    "ref_max": 4.425307750701904,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.6.attn.qkv.weight",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 1.4901161193847656e-08,
+    "rms": 2.9136642136328477e-10,
+    "ref_max": 0.3303223252296448,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.6.attn.qkv.bias",
+    "shape": [
+      1152
+    ],
+    "max_abs": 1.1920928955078125e-07,
+    "rms": 6.280185319686692e-09,
+    "ref_max": 4.376244068145752,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.6.attn.proj.weight",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 7.450580596923828e-09,
+    "rms": 2.0996354855228954e-10,
+    "ref_max": 0.1863972246646881,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.6.attn.proj.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 7.450580596923828e-09,
+    "rms": 4.0681566862297666e-10,
+    "ref_max": 1.9055140018463135,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.6.norm2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 7.450580596923828e-09,
+    "rms": 4.3623459316084487e-10,
+    "ref_max": 3.7320568561553955,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.6.mlp.fc1.weight",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 1.4901161193847656e-08,
+    "rms": 2.4920829992105077e-10,
+    "ref_max": 0.4296063184738159,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.6.mlp.fc1.bias",
+    "shape": [
+      1536
+    ],
+    "max_abs": 2.384185791015625e-07,
+    "rms": 6.083373583314762e-09,
+    "ref_max": 3.4086270332336426,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.6.mlp.fc2.weight",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 7.450580596923828e-09,
+    "rms": 1.92491303551048e-10,
+    "ref_max": 0.43034279346466064,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.6.mlp.fc2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 7.450580596923828e-09,
+    "rms": 6.106027095827269e-10,
+    "ref_max": 1.0188663005828857,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.7.norm1.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 4.656612873077393e-10,
+    "rms": 2.3763178059823288e-11,
+    "ref_max": 5.072786808013916,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.7.attn.qkv.weight",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 1.4901161193847656e-08,
+    "rms": 2.716347803163762e-10,
+    "ref_max": 0.24574200809001923,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.7.attn.qkv.bias",
+    "shape": [
+      1152
+    ],
+    "max_abs": 1.1920928955078125e-07,
+    "rms": 6.766467036754398e-09,
+    "ref_max": 5.129530906677246,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.7.attn.proj.weight",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 7.450580596923828e-09,
+    "rms": 2.0190364949750993e-10,
+    "ref_max": 0.17535005509853363,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.7.attn.proj.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.862645149230957e-09,
+    "rms": 9.797809314101157e-11,
+    "ref_max": 0.9825589060783386,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.7.norm2.weight",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1920928955078125e-07,
+    "rms": 6.083373583314762e-09,
+    "ref_max": 7.163956165313721,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.7.norm2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.820766091346741e-11,
+    "rms": 2.9935135380782565e-12,
+    "ref_max": 5.021446704864502,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.7.mlp.fc1.weight",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 1.4901161193847656e-08,
+    "rms": 2.360740744283802e-10,
+    "ref_max": 0.2620455324649811,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.7.mlp.fc2.weight",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 7.450580596923828e-09,
+    "rms": 1.7594934882436053e-10,
+    "ref_max": 0.44997066259384155,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.7.mlp.fc2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 3.725290298461914e-09,
+    "rms": 2.1287616747326382e-10,
+    "ref_max": 2.5590403079986572,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.8.norm1.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.862645149230957e-09,
+    "rms": 1.0889909418953818e-10,
+    "ref_max": 3.652813673019409,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.8.attn.qkv.weight",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 1.4901161193847656e-08,
+    "rms": 2.4500403315381773e-10,
+    "ref_max": 0.22221718728542328,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.8.attn.qkv.bias",
+    "shape": [
+      1152
+    ],
+    "max_abs": 5.960464477539063e-08,
+    "rms": 5.721958014008088e-09,
+    "ref_max": 4.551548480987549,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.8.attn.proj.weight",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 7.450580596923828e-09,
+    "rms": 1.8685643016567007e-10,
+    "ref_max": 0.24115461111068726,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.8.attn.proj.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 3.725290298461914e-09,
+    "rms": 1.9020982384089952e-10,
+    "ref_max": 0.6137641668319702,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.8.mlp.fc1.weight",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 1.4901161193847656e-08,
+    "rms": 2.356000797012764e-10,
+    "ref_max": 0.3190167546272278,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.8.mlp.fc2.weight",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 7.450580596923828e-09,
+    "rms": 1.6296432970865327e-10,
+    "ref_max": 0.4782966375350952,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.8.mlp.fc2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 3.725290298461914e-09,
+    "rms": 1.9019822674160875e-10,
+    "ref_max": 2.22955060005188,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.9.norm1.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 3.725290298461914e-09,
+    "rms": 1.9010687486233943e-10,
+    "ref_max": 4.200730323791504,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.9.attn.qkv.weight",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 1.4901161193847656e-08,
+    "rms": 2.3200009638152305e-10,
+    "ref_max": 0.22413119673728943,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.9.attn.qkv.bias",
+    "shape": [
+      1152
+    ],
+    "max_abs": 5.960464477539063e-08,
+    "rms": 4.0768528318843535e-09,
+    "ref_max": 6.712228775024414,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.9.attn.proj.weight",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 7.450580596923828e-09,
+    "rms": 1.7116231583161283e-10,
+    "ref_max": 0.13942153751850128,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.9.attn.proj.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 3.725290298461914e-09,
+    "rms": 1.901054244785863e-10,
+    "ref_max": 1.937173843383789,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.9.norm2.weight",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1920928955078125e-07,
+    "rms": 6.083373583314762e-09,
+    "ref_max": 3.879870653152466,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.9.norm2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.9802322387695312e-08,
+    "rms": 1.5208433958286904e-09,
+    "ref_max": 3.283663749694824,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.9.mlp.fc1.weight",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 1.4901161193847656e-08,
+    "rms": 2.2878260419149936e-10,
+    "ref_max": 0.2951018512248993,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.9.mlp.fc2.weight",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 1.4901161193847656e-08,
+    "rms": 1.71808475171291e-10,
+    "ref_max": 0.36462298035621643,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.9.mlp.fc2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 7.275957614183426e-12,
+    "rms": 3.712996571847389e-13,
+    "ref_max": 2.5902631282806396,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.10.norm1.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1641532182693481e-10,
+    "rms": 5.987027076156513e-12,
+    "ref_max": 4.116761207580566,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.10.attn.qkv.weight",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 7.450580596923828e-09,
+    "rms": 1.9710655153446402e-10,
+    "ref_max": 0.21935425698757172,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.10.attn.qkv.bias",
+    "shape": [
+      1152
+    ],
+    "max_abs": 1.1920928955078125e-07,
+    "rms": 6.899442981495573e-09,
+    "ref_max": 7.729974746704102,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.10.attn.proj.weight",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 7.450580596923828e-09,
+    "rms": 1.7122829149706057e-10,
+    "ref_max": 0.17146632075309753,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.10.attn.proj.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 9.313225746154785e-10,
+    "rms": 4.76205381039959e-11,
+    "ref_max": 2.126823902130127,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.10.norm2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 7.450580596923828e-09,
+    "rms": 3.802108489571726e-10,
+    "ref_max": 3.3930296897888184,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.10.mlp.fc1.weight",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 1.4901161193847656e-08,
+    "rms": 2.128768273484275e-10,
+    "ref_max": 0.20634348690509796,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.10.mlp.fc1.bias",
+    "shape": [
+      1536
+    ],
+    "max_abs": 1.1920928955078125e-07,
+    "rms": 3.041686791657381e-09,
+    "ref_max": 3.747324228286743,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.10.mlp.fc2.weight",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 1.4901161193847656e-08,
+    "rms": 1.5414335065004876e-10,
+    "ref_max": 0.5609112977981567,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.10.mlp.fc2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 7.450580596923828e-09,
+    "rms": 5.378389281287161e-10,
+    "ref_max": 4.325473785400391,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.11.norm1.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 9.313225746154785e-10,
+    "rms": 4.7526356119646576e-11,
+    "ref_max": 4.046135425567627,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.11.attn.qkv.weight",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 1.4901161193847656e-08,
+    "rms": 2.0963254768913713e-10,
+    "ref_max": 0.2746579349040985,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.11.attn.qkv.bias",
+    "shape": [
+      1152
+    ],
+    "max_abs": 4.76837158203125e-07,
+    "rms": 1.5289080304662916e-08,
+    "ref_max": 14.844075202941895,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.11.attn.proj.weight",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 7.450580596923828e-09,
+    "rms": 1.6378865225091672e-10,
+    "ref_max": 0.29094198346138,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.11.attn.proj.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 4.656612873077393e-10,
+    "rms": 2.3948108304626052e-11,
+    "ref_max": 5.802433490753174,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.11.mlp.fc1.weight",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 7.450580596923828e-09,
+    "rms": 1.9852191497254908e-10,
+    "ref_max": 0.2432684600353241,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.11.mlp.fc1.bias",
+    "shape": [
+      1536
+    ],
+    "max_abs": 1.1920928955078125e-07,
+    "rms": 3.041686791657381e-09,
+    "ref_max": 3.5981390476226807,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.11.mlp.fc2.weight",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 7.450580596923828e-09,
+    "rms": 1.5917591525327044e-10,
+    "ref_max": 0.4618370234966278,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.blocks.11.mlp.fc2.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1641532182693481e-10,
+    "rms": 6.123630821313223e-12,
+    "ref_max": 4.308215618133545,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher.norm.bias",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.4901161193847656e-08,
+    "rms": 7.604449037888311e-10,
+    "ref_max": 2.2316558361053467,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student_head.mlp.0.weight",
+    "shape": [
+      1024,
+      384
+    ],
+    "max_abs": 6.789341568946838e-07,
+    "rms": 8.219036443269215e-09,
+    "ref_max": 0.08937593549489975,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student_head.mlp.0.bias",
+    "shape": [
+      1024
+    ],
+    "max_abs": 4.0032716697169235e-08,
+    "rms": 4.426177623619534e-09,
+    "ref_max": 1.0039721018983983e-06,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student_head.mlp.2.weight",
+    "shape": [
+      1024,
+      1024
+    ],
+    "max_abs": 4.6158675104379654e-07,
+    "rms": 7.583925020055058e-09,
+    "ref_max": 0.10333071649074554,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student_head.mlp.2.bias",
+    "shape": [
+      1024
+    ],
+    "max_abs": 7.475446750504489e-08,
+    "rms": 4.985972967767147e-09,
+    "ref_max": 1.0034399338110234e-06,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student_head.mlp.4.weight",
+    "shape": [
+      256,
+      1024
+    ],
+    "max_abs": 2.8032809495925903e-07,
+    "rms": 7.1316535625685124e-09,
+    "ref_max": 0.09007448703050613,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student_head.mlp.4.bias",
+    "shape": [
+      256
+    ],
+    "max_abs": 2.3168041707322118e-08,
+    "rms": 3.7133165337306377e-09,
+    "ref_max": 1.0024965604316094e-06,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher_head.mlp.0.weight",
+    "shape": [
+      1024,
+      384
+    ],
+    "max_abs": 7.450580596923828e-09,
+    "rms": 1.9843136810105063e-10,
+    "ref_max": 0.08937499672174454,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher_head.mlp.0.bias",
+    "shape": [
+      1024
+    ],
+    "max_abs": 2.6362889649078625e-10,
+    "rms": 2.8624649938395607e-11,
+    "ref_max": 7.998026241295975e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher_head.mlp.2.weight",
+    "shape": [
+      1024,
+      1024
+    ],
+    "max_abs": 7.450580596923828e-09,
+    "rms": 1.846441139704938e-10,
+    "ref_max": 0.1033315509557724,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher_head.mlp.2.bias",
+    "shape": [
+      1024
+    ],
+    "max_abs": 4.3785619574521206e-10,
+    "rms": 3.0803902169468896e-11,
+    "ref_max": 7.995243578307054e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher_head.mlp.4.weight",
+    "shape": [
+      256,
+      1024
+    ],
+    "max_abs": 7.450580596923828e-09,
+    "rms": 1.8251544550925008e-10,
+    "ref_max": 0.09007547050714493,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher_head.mlp.4.bias",
+    "shape": [
+      256
+    ],
+    "max_abs": 1.2963230489049238e-10,
+    "rms": 2.2176859629979537e-11,
+    "ref_max": 7.986585615071817e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".objective.center",
+    "shape": [
+      1,
+      4096
+    ],
+    "max_abs": 5.898997187614441e-05,
+    "rms": 1.539473267934929e-05,
+    "ref_max": 0.07588321715593338,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student_patch_head.mlp.0.weight",
+    "shape": [
+      1024,
+      384
+    ],
+    "max_abs": 2.6263296604156494e-07,
+    "rms": 4.110840779280681e-09,
+    "ref_max": 0.09854167699813843,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student_patch_head.mlp.0.bias",
+    "shape": [
+      1024
+    ],
+    "max_abs": 4.7745231768203666e-08,
+    "rms": 2.716268333358401e-09,
+    "ref_max": 1.0038653499577777e-06,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student_patch_head.mlp.2.weight",
+    "shape": [
+      1024,
+      1024
+    ],
+    "max_abs": 3.371387720108032e-07,
+    "rms": 3.1368164137464646e-09,
+    "ref_max": 0.09378636628389359,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student_patch_head.mlp.2.bias",
+    "shape": [
+      1024
+    ],
+    "max_abs": 1.4007085269440722e-08,
+    "rms": 1.2948402376378227e-09,
+    "ref_max": 1.0038459095085273e-06,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student_patch_head.mlp.4.weight",
+    "shape": [
+      256,
+      1024
+    ],
+    "max_abs": 4.461035132408142e-07,
+    "rms": 3.1217940137053594e-09,
+    "ref_max": 0.09415800124406815,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".student_patch_head.mlp.4.bias",
+    "shape": [
+      256
+    ],
+    "max_abs": 2.177807800762821e-08,
+    "rms": 1.6482681123617766e-09,
+    "ref_max": 1.002192448140704e-06,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher_patch_head.mlp.0.weight",
+    "shape": [
+      1024,
+      384
+    ],
+    "max_abs": 7.450580596923828e-09,
+    "rms": 1.1600423062331201e-10,
+    "ref_max": 0.09854257106781006,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher_patch_head.mlp.0.bias",
+    "shape": [
+      1024
+    ],
+    "max_abs": 4.985105661603484e-10,
+    "rms": 2.0808219802195467e-11,
+    "ref_max": 7.997548401306176e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher_patch_head.mlp.2.weight",
+    "shape": [
+      1024,
+      1024
+    ],
+    "max_abs": 7.450580596923828e-09,
+    "rms": 9.81488855029143e-11,
+    "ref_max": 0.09378540515899658,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher_patch_head.mlp.2.bias",
+    "shape": [
+      1024
+    ],
+    "max_abs": 7.261408141445713e-11,
+    "rms": 7.579309106141666e-12,
+    "ref_max": 7.997710937956981e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher_patch_head.mlp.4.weight",
+    "shape": [
+      256,
+      1024
+    ],
+    "max_abs": 7.450580596923828e-09,
+    "rms": 9.648766060917192e-11,
+    "ref_max": 0.09415705502033234,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".teacher_patch_head.mlp.4.bias",
+    "shape": [
+      256
+    ],
+    "max_abs": 1.2659562287353765e-10,
+    "rms": 1.0431806953528763e-11,
+    "ref_max": 7.989735095748074e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".patch_objective.center",
+    "shape": [
+      1,
+      4096
+    ],
+    "max_abs": 3.0100345611572266e-05,
+    "rms": 8.125809870924608e-06,
+    "ref_max": 0.05259743332862854,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.0.exp_avg",
+    "shape": [
+      1,
+      1,
+      384
+    ],
+    "max_abs": 0.00017994409427046776,
+    "rms": 1.363800303117937e-05,
+    "ref_max": 0.027103513479232788,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.0.exp_avg_sq",
+    "shape": [
+      1,
+      1,
+      384
+    ],
+    "max_abs": 8.317692845594138e-08,
+    "rms": 5.928885820236225e-09,
+    "ref_max": 2.8615892006200738e-05,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.1.exp_avg",
+    "shape": [
+      1,
+      1370,
+      384
+    ],
+    "max_abs": 0.00017994409427046776,
+    "rms": 4.184855745255691e-07,
+    "ref_max": 0.027103513479232788,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.1.exp_avg_sq",
+    "shape": [
+      1,
+      1370,
+      384
+    ],
+    "max_abs": 8.317692845594138e-08,
+    "rms": 1.6018370925205972e-10,
+    "ref_max": 2.8615892006200738e-05,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.2.exp_avg",
+    "shape": [
+      1,
+      4,
+      384
+    ],
+    "max_abs": 0.00021307170391082764,
+    "rms": 1.9045523085518254e-05,
+    "ref_max": 0.04601512849330902,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.2.exp_avg_sq",
+    "shape": [
+      1,
+      4,
+      384
+    ],
+    "max_abs": 7.871567504480481e-07,
+    "rms": 2.703409777449828e-08,
+    "ref_max": 8.132759830914438e-05,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.3.exp_avg",
+    "shape": [
+      1,
+      384
+    ],
+    "max_abs": 6.973277777433395e-05,
+    "rms": 5.589652205433293e-06,
+    "ref_max": 0.008811315521597862,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.3.exp_avg_sq",
+    "shape": [
+      1,
+      384
+    ],
+    "max_abs": 4.30663931183517e-08,
+    "rms": 2.346256132728278e-09,
+    "ref_max": 7.654643013665918e-06,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.4.exp_avg",
+    "shape": [
+      384,
+      3,
+      14,
+      14
+    ],
+    "max_abs": 0.00030458392575383186,
+    "rms": 2.5330334911237055e-05,
+    "ref_max": 0.014534329064190388,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.4.exp_avg_sq",
+    "shape": [
+      384,
+      3,
+      14,
+      14
+    ],
+    "max_abs": 1.9226081349188462e-07,
+    "rms": 6.739016107659966e-09,
+    "ref_max": 7.652944077563006e-06,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.5.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 0.00010015699081122875,
+    "rms": 1.6009106252756328e-05,
+    "ref_max": 0.013683377765119076,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.5.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 7.47099875297863e-08,
+    "rms": 4.806892719714604e-09,
+    "ref_max": 6.434294391510775e-06,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.6.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.535362288355827e-05,
+    "rms": 4.15772103441681e-06,
+    "ref_max": 0.007064675912261009,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.6.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 3.767490852624178e-08,
+    "rms": 1.9840626715552186e-09,
+    "ref_max": 2.3990739919099724e-06,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.7.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.6197271179407835e-05,
+    "rms": 3.2624300370329236e-06,
+    "ref_max": 0.002883274806663394,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.7.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.5949979115248425e-09,
+    "rms": 1.6971933650842459e-10,
+    "ref_max": 2.905478879711154e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.8.exp_avg",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 0.00012365728616714478,
+    "rms": 9.025767451978225e-07,
+    "ref_max": 0.025245405733585358,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.8.exp_avg_sq",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 1.9003891793545336e-07,
+    "rms": 5.386104959669296e-10,
+    "ref_max": 2.187065729231108e-05,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.9.exp_avg",
+    "shape": [
+      1152
+    ],
+    "max_abs": 1.1772324796766043e-05,
+    "rms": 1.6062663192806429e-06,
+    "ref_max": 0.0020406139083206654,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.9.exp_avg_sq",
+    "shape": [
+      1152
+    ],
+    "max_abs": 6.150742137833731e-10,
+    "rms": 6.028581082123007e-11,
+    "ref_max": 1.4170687734349485e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.10.exp_avg",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 0.00013724708696827292,
+    "rms": 1.2991085905849336e-06,
+    "ref_max": 0.011448974721133709,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.10.exp_avg_sq",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 3.814193405560218e-08,
+    "rms": 2.2053358550149118e-10,
+    "ref_max": 4.537761469691759e-06,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.11.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 4.264200106263161e-05,
+    "rms": 4.623606366948979e-06,
+    "ref_max": 0.006948219146579504,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.11.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.2288418222160544e-08,
+    "rms": 1.219696054373954e-09,
+    "ref_max": 1.6611083992756903e-06,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.12.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 7.252744399011135e-05,
+    "rms": 6.363353797641966e-06,
+    "ref_max": 0.021299399435520172,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.12.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 4.676076059695333e-08,
+    "rms": 2.867520792505653e-09,
+    "ref_max": 1.5386491213575937e-05,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.13.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.4320092052221298e-05,
+    "rms": 1.4211157966892108e-06,
+    "ref_max": 0.004986225161701441,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.13.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1089582585555036e-08,
+    "rms": 5.659399051835385e-10,
+    "ref_max": 1.1340489436406642e-06,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.14.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 3.404580638743937e-06,
+    "rms": 8.99980139021562e-07,
+    "ref_max": 0.0010356249986216426,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.14.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.1335466726668528e-10,
+    "rms": 1.7074702086296822e-11,
+    "ref_max": 3.608420229284093e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.15.exp_avg",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 0.00014701113104820251,
+    "rms": 6.004356209650308e-07,
+    "ref_max": 0.020229283720254898,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.15.exp_avg_sq",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 1.458392944186926e-07,
+    "rms": 1.9691659104177808e-10,
+    "ref_max": 1.8467682821210474e-05,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.16.exp_avg",
+    "shape": [
+      1536
+    ],
+    "max_abs": 5.170155418454669e-06,
+    "rms": 5.402271604961047e-07,
+    "ref_max": 0.0018428504699841142,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.16.exp_avg_sq",
+    "shape": [
+      1536
+    ],
+    "max_abs": 4.2592063209667685e-10,
+    "rms": 1.2879828742128998e-11,
+    "ref_max": 1.1713224523646204e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.17.exp_avg",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 0.00013045198284089565,
+    "rms": 7.318451394423012e-07,
+    "ref_max": 0.011137568391859531,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.17.exp_avg_sq",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 6.127629603724927e-08,
+    "rms": 1.2548183590566836e-10,
+    "ref_max": 7.9881801866577e-06,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.18.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 4.339427687227726e-05,
+    "rms": 3.2758406961150134e-06,
+    "ref_max": 0.0032388295512646437,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.18.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 4.919556317872775e-09,
+    "rms": 2.788478185548431e-10,
+    "ref_max": 5.504001023837191e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.19.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 0.00010945647954940796,
+    "rms": 9.664406650169663e-06,
+    "ref_max": 0.03698620945215225,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.19.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.6140256775543094e-07,
+    "rms": 1.0303391514657161e-08,
+    "ref_max": 4.689225534093566e-05,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.20.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.5836034435778856e-05,
+    "rms": 1.6476544315310053e-06,
+    "ref_max": 0.0006340749096125364,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.20.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.3535608189840787e-09,
+    "rms": 7.620133041654e-11,
+    "ref_max": 5.633918931380322e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.21.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 3.6101992009207606e-06,
+    "rms": 1.0737519628859766e-06,
+    "ref_max": 0.0002347847621422261,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.21.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 3.707523177354233e-11,
+    "rms": 7.209429966773266e-12,
+    "ref_max": 2.545163413358864e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.22.exp_avg",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 4.204496508464217e-05,
+    "rms": 4.918305973071117e-07,
+    "ref_max": 0.0023848547134548426,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.22.exp_avg_sq",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 3.774033530135057e-09,
+    "rms": 1.5432394756851834e-11,
+    "ref_max": 2.3873494114923233e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.23.exp_avg",
+    "shape": [
+      1152
+    ],
+    "max_abs": 5.161287845112383e-06,
+    "rms": 9.101505405436219e-07,
+    "ref_max": 0.0006112767732702196,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.23.exp_avg_sq",
+    "shape": [
+      1152
+    ],
+    "max_abs": 1.0777556624930185e-10,
+    "rms": 1.0067420990130664e-11,
+    "ref_max": 1.387505221828178e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.24.exp_avg",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 3.9284524973481894e-05,
+    "rms": 7.876419429177735e-07,
+    "ref_max": 0.0015275097684934735,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.24.exp_avg_sq",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 1.7769465898709313e-09,
+    "rms": 1.4625389246299347e-11,
+    "ref_max": 8.90030094069516e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.25.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.3924436643719673e-05,
+    "rms": 2.690242835550056e-06,
+    "ref_max": 0.0016033598221838474,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.25.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.5558399013571034e-09,
+    "rms": 1.0659636993276753e-10,
+    "ref_max": 8.751602109668966e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.26.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.1984335035085678e-05,
+    "rms": 2.6293332958079895e-06,
+    "ref_max": 0.003820431884378195,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.26.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 3.844263574137585e-09,
+    "rms": 2.3188149596051375e-10,
+    "ref_max": 5.109102403366705e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.27.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.379847526550293e-05,
+    "rms": 9.841516095333243e-07,
+    "ref_max": 0.001233877264894545,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.27.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.5057750601954467e-09,
+    "rms": 8.352013228587955e-11,
+    "ref_max": 6.365939242414242e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.28.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 3.199587808921933e-06,
+    "rms": 5.831798256169831e-07,
+    "ref_max": 0.0002704405051190406,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.28.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 3.7454706003359206e-11,
+    "rms": 3.595012021794956e-12,
+    "ref_max": 2.6782720485840628e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.29.exp_avg",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 3.8925150875002146e-05,
+    "rms": 4.858772699197706e-07,
+    "ref_max": 0.0033305224496871233,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.29.exp_avg_sq",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 3.2092870583255717e-09,
+    "rms": 1.4855334116545737e-11,
+    "ref_max": 3.939299801913876e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.30.exp_avg",
+    "shape": [
+      1536
+    ],
+    "max_abs": 3.7295858419383876e-06,
+    "rms": 5.231958447370013e-07,
+    "ref_max": 0.0004240417620167136,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.30.exp_avg_sq",
+    "shape": [
+      1536
+    ],
+    "max_abs": 8.528777684091438e-11,
+    "rms": 4.5848756704514046e-12,
+    "ref_max": 6.121261719727045e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.31.exp_avg",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 1.4624762116000056e-05,
+    "rms": 5.305010767719597e-07,
+    "ref_max": 0.0027342024259269238,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.31.exp_avg_sq",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 4.279911536286818e-09,
+    "rms": 8.187485423166308e-12,
+    "ref_max": 4.328919658291852e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.32.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.0488838597666472e-05,
+    "rms": 2.3815508410438798e-06,
+    "ref_max": 0.0012270399602130055,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.32.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 4.754294735676012e-10,
+    "rms": 5.580904787602919e-11,
+    "ref_max": 5.196413610519812e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.33.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.703512579202652e-05,
+    "rms": 4.510658105877807e-06,
+    "ref_max": 0.02084839716553688,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.33.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 6.36505319562275e-08,
+    "rms": 3.6826915651999284e-09,
+    "ref_max": 1.4935623767087236e-05,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.34.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.7087440937757492e-05,
+    "rms": 1.2205886228226115e-06,
+    "ref_max": 0.0029369548428803682,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.34.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.204188831456122e-09,
+    "rms": 1.1415629922775441e-10,
+    "ref_max": 3.1666908739680366e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.35.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.6811463865451515e-06,
+    "rms": 5.881443029514519e-07,
+    "ref_max": 0.0002097942488035187,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.35.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.5882822834711874e-11,
+    "rms": 2.647342566747402e-12,
+    "ref_max": 1.8161213644063423e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.36.exp_avg",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 3.0233641155064106e-05,
+    "rms": 5.300692548063818e-07,
+    "ref_max": 0.002458876697346568,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.36.exp_avg_sq",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 3.0991245125733258e-09,
+    "rms": 1.2571284246117573e-11,
+    "ref_max": 2.572724042693153e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.37.exp_avg",
+    "shape": [
+      1152
+    ],
+    "max_abs": 4.154600901529193e-06,
+    "rms": 6.063623932320822e-07,
+    "ref_max": 0.0004537531058304012,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.37.exp_avg_sq",
+    "shape": [
+      1152
+    ],
+    "max_abs": 1.3630341300086002e-10,
+    "rms": 7.496731710420416e-12,
+    "ref_max": 6.996759616129111e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.38.exp_avg",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 2.5529938284307718e-05,
+    "rms": 6.406768204659301e-07,
+    "ref_max": 0.001204087515361607,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.38.exp_avg_sq",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 1.776133018438486e-09,
+    "rms": 1.340874770713334e-11,
+    "ref_max": 8.130960083008176e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.39.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.0205840226262808e-05,
+    "rms": 2.035161427101342e-06,
+    "ref_max": 0.0015461830189451575,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.39.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 6.075424607843161e-10,
+    "rms": 4.4443252432923954e-11,
+    "ref_max": 8.716243371509336e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.40.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.741610660450533e-05,
+    "rms": 2.7404936705966936e-06,
+    "ref_max": 0.003295707982033491,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.40.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.4357226518768584e-09,
+    "rms": 1.2875329905638977e-10,
+    "ref_max": 3.853282350974041e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.41.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.916575901210308e-06,
+    "rms": 6.747218533428119e-07,
+    "ref_max": 0.003866880666464567,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.41.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.153992788109463e-10,
+    "rms": 3.823894186234664e-11,
+    "ref_max": 5.260822604213899e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.42.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.279855834785849e-06,
+    "rms": 6.580644980018284e-07,
+    "ref_max": 0.0003112482954747975,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.42.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.6758151250305673e-11,
+    "rms": 4.5767669971388275e-12,
+    "ref_max": 3.4778224744513864e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.43.exp_avg",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 3.5060918889939785e-05,
+    "rms": 5.232270461816986e-07,
+    "ref_max": 0.003493027063086629,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.43.exp_avg_sq",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 5.185256668482907e-09,
+    "rms": 1.4625746546708685e-11,
+    "ref_max": 4.102903972125205e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.44.exp_avg",
+    "shape": [
+      1536
+    ],
+    "max_abs": 3.820139681920409e-06,
+    "rms": 6.717013248505067e-07,
+    "ref_max": 0.0004134323389735073,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.44.exp_avg_sq",
+    "shape": [
+      1536
+    ],
+    "max_abs": 6.417422149240792e-11,
+    "rms": 7.160692934913854e-12,
+    "ref_max": 5.985424156307317e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.45.exp_avg",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 1.1133350199088454e-05,
+    "rms": 4.980123225522615e-07,
+    "ref_max": 0.0016929296543821692,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.45.exp_avg_sq",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 8.718785693417885e-10,
+    "rms": 5.523257018372366e-12,
+    "ref_max": 1.0180918508240211e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.46.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.2870063073933125e-05,
+    "rms": 2.838391775054726e-06,
+    "ref_max": 0.0016008628299459815,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.46.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.0515570636471239e-09,
+    "rms": 1.0940800316661264e-10,
+    "ref_max": 9.864737648968003e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.47.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 3.003375604748726e-05,
+    "rms": 4.248933876354115e-06,
+    "ref_max": 0.006164062302559614,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.47.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 9.023892744153272e-09,
+    "rms": 6.762474088885965e-10,
+    "ref_max": 1.3404064702626783e-06,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.48.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.6657402738928795e-05,
+    "rms": 9.896479136754817e-07,
+    "ref_max": 0.001201034989207983,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.48.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.4159695638227277e-09,
+    "rms": 7.569655805561952e-11,
+    "ref_max": 5.1439204895586954e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.49.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.4258915800601244e-06,
+    "rms": 6.503061944722381e-07,
+    "ref_max": 0.00034454534761607647,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.49.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.6642910100349582e-11,
+    "rms": 5.375631586570453e-12,
+    "ref_max": 4.0486161090314e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.50.exp_avg",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 2.553162630647421e-05,
+    "rms": 6.282189190100704e-07,
+    "ref_max": 0.003173677483573556,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.50.exp_avg_sq",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 4.603023739946366e-09,
+    "rms": 2.6805440179631127e-11,
+    "ref_max": 3.413761078263633e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.51.exp_avg",
+    "shape": [
+      1152
+    ],
+    "max_abs": 3.5258708521723747e-06,
+    "rms": 5.82363117100458e-07,
+    "ref_max": 0.0006141809280961752,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.51.exp_avg_sq",
+    "shape": [
+      1152
+    ],
+    "max_abs": 1.2027712159579096e-10,
+    "rms": 7.115014320537202e-12,
+    "ref_max": 1.2836023799422946e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.52.exp_avg",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 2.7754693292081356e-05,
+    "rms": 8.044280804996562e-07,
+    "ref_max": 0.001656011794693768,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.52.exp_avg_sq",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 2.389942466152206e-09,
+    "rms": 1.5504186842625465e-11,
+    "ref_max": 1.0701720754013877e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.53.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 6.890215445309877e-06,
+    "rms": 2.1581825023828646e-06,
+    "ref_max": 0.001407806877978146,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.53.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 6.631424298575439e-10,
+    "rms": 6.195383821591735e-11,
+    "ref_max": 6.822692455443757e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.54.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.6325539036188275e-05,
+    "rms": 2.458555599111533e-06,
+    "ref_max": 0.002431289991363883,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.54.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.151402611616504e-09,
+    "rms": 1.7129660134189454e-10,
+    "ref_max": 2.2556827161679394e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.55.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.2000789865851402e-05,
+    "rms": 8.237338121210789e-07,
+    "ref_max": 0.0011888560838997364,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.55.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 9.671872192029696e-10,
+    "rms": 5.132362406059024e-11,
+    "ref_max": 5.238208800051325e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.56.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.2241438273340464e-06,
+    "rms": 6.394629683109791e-07,
+    "ref_max": 0.00023809827689547092,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.56.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.3851698394139476e-11,
+    "rms": 4.2235588108865704e-12,
+    "ref_max": 1.9989971900002956e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.57.exp_avg",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 2.5266781449317932e-05,
+    "rms": 5.326323825180356e-07,
+    "ref_max": 0.0031407629139721394,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.57.exp_avg_sq",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 5.776030320703285e-09,
+    "rms": 1.5894938550785433e-11,
+    "ref_max": 3.428267518756911e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.58.exp_avg",
+    "shape": [
+      1536
+    ],
+    "max_abs": 3.5794219002127647e-06,
+    "rms": 6.76227314765758e-07,
+    "ref_max": 0.0004065542307216674,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.58.exp_avg_sq",
+    "shape": [
+      1536
+    ],
+    "max_abs": 1.7752732617282163e-10,
+    "rms": 8.769081656605128e-12,
+    "ref_max": 7.234429055813507e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.59.exp_avg",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 8.468952728435397e-06,
+    "rms": 5.129299152654265e-07,
+    "ref_max": 0.0012012346414849162,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.59.exp_avg_sq",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 3.4049207897624e-10,
+    "rms": 3.61253506590871e-12,
+    "ref_max": 5.2328665844925126e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.60.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.276540569961071e-05,
+    "rms": 3.9093559090892885e-06,
+    "ref_max": 0.002177315531298518,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.60.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.4690968441755103e-09,
+    "rms": 2.1227414254056145e-10,
+    "ref_max": 1.6947581116255606e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.61.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.2152828276157379e-05,
+    "rms": 1.9354853223112137e-06,
+    "ref_max": 0.009235385805368423,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.61.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 9.666791811469011e-09,
+    "rms": 5.487404984049946e-10,
+    "ref_max": 3.10710697704053e-06,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.62.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 3.137101884931326e-06,
+    "rms": 4.037983346483672e-07,
+    "ref_max": 0.0014418524224311113,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.62.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.802238441290683e-10,
+    "rms": 1.5964778875430724e-11,
+    "ref_max": 7.227453124869498e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.63.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.3024958863970824e-06,
+    "rms": 6.138165449324205e-07,
+    "ref_max": 0.00028735879459418356,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.63.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.4960256084227694e-11,
+    "rms": 4.5178268942971335e-12,
+    "ref_max": 2.7962427928684974e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.64.exp_avg",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 2.4521665181964636e-05,
+    "rms": 4.565548739657726e-07,
+    "ref_max": 0.002241921378299594,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.64.exp_avg_sq",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 1.6655405943311052e-09,
+    "rms": 1.0689086641556695e-11,
+    "ref_max": 1.748683473579149e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.65.exp_avg",
+    "shape": [
+      1152
+    ],
+    "max_abs": 4.46729245595634e-06,
+    "rms": 7.744462072850589e-07,
+    "ref_max": 0.0005885150749236345,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.65.exp_avg_sq",
+    "shape": [
+      1152
+    ],
+    "max_abs": 1.0258105476168566e-10,
+    "rms": 1.1653907127172486e-11,
+    "ref_max": 1.1894877971485585e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.66.exp_avg",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 1.6558915376663208e-05,
+    "rms": 7.553035852268555e-07,
+    "ref_max": 0.002317860024049878,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.66.exp_avg_sq",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 1.9695960418175673e-09,
+    "rms": 1.6113988039714998e-11,
+    "ref_max": 1.8477246044312778e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.67.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 8.117291145026684e-06,
+    "rms": 2.5759848405003577e-06,
+    "ref_max": 0.001385643845424056,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.67.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 4.533102782033893e-10,
+    "rms": 8.182325974631643e-11,
+    "ref_max": 6.582251899089897e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.68.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 8.068629540503025e-06,
+    "rms": 1.4604871050117724e-06,
+    "ref_max": 0.008533012121915817,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.68.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 3.00110514217522e-09,
+    "rms": 1.598383864004152e-10,
+    "ref_max": 2.572652192611713e-06,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.69.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 8.980015991255641e-06,
+    "rms": 6.441655594834014e-07,
+    "ref_max": 0.000406230625230819,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.69.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 7.039568927780238e-11,
+    "rms": 5.307248301488308e-12,
+    "ref_max": 6.6123306829979356e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.70.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.6589692677371204e-06,
+    "rms": 4.784843828509609e-07,
+    "ref_max": 0.00019665488798636943,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.70.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.3988310509915891e-11,
+    "rms": 2.4962241715159125e-12,
+    "ref_max": 1.340871413901823e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.71.exp_avg",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 2.343475352972746e-05,
+    "rms": 4.7134563063405977e-07,
+    "ref_max": 0.002361843828111887,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.71.exp_avg_sq",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 2.4258781650132732e-09,
+    "rms": 1.0647203970318562e-11,
+    "ref_max": 1.8760468378786754e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.72.exp_avg",
+    "shape": [
+      1536
+    ],
+    "max_abs": 2.23738607019186e-06,
+    "rms": 4.6368258969706423e-07,
+    "ref_max": 0.000507753633428365,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.72.exp_avg_sq",
+    "shape": [
+      1536
+    ],
+    "max_abs": 5.382672085829654e-11,
+    "rms": 3.563883469849419e-12,
+    "ref_max": 9.595485295221806e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.73.exp_avg",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 3.049708902835846e-05,
+    "rms": 5.345216781608812e-07,
+    "ref_max": 0.007704273331910372,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.73.exp_avg_sq",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 1.6935700841713697e-08,
+    "rms": 3.941817768081227e-11,
+    "ref_max": 2.01514581021911e-06,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.74.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.7961952835321426e-05,
+    "rms": 3.0147422067398567e-06,
+    "ref_max": 0.0032748619560152292,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.74.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 3.59838736585516e-09,
+    "rms": 2.2111082933151102e-10,
+    "ref_max": 3.8429502069448063e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.75.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.7478829249739647e-05,
+    "rms": 1.7778042474223804e-06,
+    "ref_max": 0.0019235943909734488,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.75.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.9302177634017426e-09,
+    "rms": 1.4981417705946482e-10,
+    "ref_max": 1.3621529149077105e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.76.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.731999408453703e-06,
+    "rms": 4.794869733060624e-07,
+    "ref_max": 0.0004246462194714695,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.76.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.3637002638233753e-10,
+    "rms": 8.202488698604574e-12,
+    "ref_max": 8.256292538533216e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.77.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.8745122360996902e-06,
+    "rms": 5.41430152182201e-07,
+    "ref_max": 0.00026479133521206677,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.77.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.976130370451301e-11,
+    "rms": 3.376533020191255e-12,
+    "ref_max": 2.4223472117057554e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.78.exp_avg",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 1.916455221362412e-05,
+    "rms": 4.369458262222112e-07,
+    "ref_max": 0.002650210866704583,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.78.exp_avg_sq",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 1.4238210610528768e-09,
+    "rms": 9.147194781883174e-12,
+    "ref_max": 2.523275952626136e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.79.exp_avg",
+    "shape": [
+      1152
+    ],
+    "max_abs": 4.126282874494791e-06,
+    "rms": 6.552211037143905e-07,
+    "ref_max": 0.0005277608870528638,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.79.exp_avg_sq",
+    "shape": [
+      1152
+    ],
+    "max_abs": 6.873790425743209e-11,
+    "rms": 8.331778346795267e-12,
+    "ref_max": 9.439395043386867e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.80.exp_avg",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 9.61479963734746e-06,
+    "rms": 7.350753734930156e-07,
+    "ref_max": 0.0016625691205263138,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.80.exp_avg_sq",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 9.125997735281999e-10,
+    "rms": 1.1638610918315944e-11,
+    "ref_max": 9.537819067872988e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.81.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 7.101945811882615e-06,
+    "rms": 2.2096978793588034e-06,
+    "ref_max": 0.0013018653262406588,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.81.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.574420676637601e-10,
+    "rms": 5.985709256927511e-11,
+    "ref_max": 5.854969131746657e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.82.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.8242473490536213e-05,
+    "rms": 2.023537472824415e-06,
+    "ref_max": 0.0025750910863280296,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.82.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.600739427791268e-09,
+    "rms": 3.1583994560551516e-10,
+    "ref_max": 2.2971114788106206e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.83.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.940032572951168e-06,
+    "rms": 3.922662899216998e-07,
+    "ref_max": 0.0008348437258973718,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.83.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 6.567368870946666e-11,
+    "rms": 4.1182452170223255e-12,
+    "ref_max": 2.6145785980702385e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.84.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.307804268435575e-06,
+    "rms": 4.338884700790842e-07,
+    "ref_max": 0.00020324302022345364,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.84.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 9.889034036092426e-12,
+    "rms": 2.2265641287113887e-12,
+    "ref_max": 1.4468199971418017e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.85.exp_avg",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 4.242779687047005e-05,
+    "rms": 4.540451535280633e-07,
+    "ref_max": 0.00453499099239707,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.85.exp_avg_sq",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 8.129347861540737e-09,
+    "rms": 2.1337751827646074e-11,
+    "ref_max": 7.047282224448281e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.86.exp_avg",
+    "shape": [
+      1536
+    ],
+    "max_abs": 2.725835656747222e-06,
+    "rms": 4.5319441047702297e-07,
+    "ref_max": 0.00034767945180647075,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.86.exp_avg_sq",
+    "shape": [
+      1536
+    ],
+    "max_abs": 3.749800470131959e-11,
+    "rms": 3.759958011616323e-12,
+    "ref_max": 4.499948857983327e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.87.exp_avg",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 1.0266201570630074e-05,
+    "rms": 4.378473381417969e-07,
+    "ref_max": 0.001967010321095586,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.87.exp_avg_sq",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 1.0656009408194222e-09,
+    "rms": 5.8205563290420555e-12,
+    "ref_max": 1.3077981009246287e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.88.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 8.987000910565257e-06,
+    "rms": 3.0432807733656495e-06,
+    "ref_max": 0.001727453083731234,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.88.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 8.729443834454287e-10,
+    "rms": 1.2949842995591787e-10,
+    "ref_max": 1.0287595131330818e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.89.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 8.106195309665054e-06,
+    "rms": 1.091067834116176e-06,
+    "ref_max": 0.0029307580552995205,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.89.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.7864181245386135e-09,
+    "rms": 9.454682020192127e-11,
+    "ref_max": 3.060866333726153e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.90.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.157890073955059e-05,
+    "rms": 7.927868755231641e-07,
+    "ref_max": 0.00150831148494035,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.90.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1693757073771849e-09,
+    "rms": 6.16323623220515e-11,
+    "ref_max": 7.722279349309247e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.91.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.7163365555461496e-06,
+    "rms": 5.862484267269049e-07,
+    "ref_max": 0.00030155276181176305,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.91.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.468425464030588e-11,
+    "rms": 4.4908863399176716e-12,
+    "ref_max": 3.2196094679193266e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.92.exp_avg",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 1.9619135855464265e-05,
+    "rms": 4.871006969184921e-07,
+    "ref_max": 0.0028273980133235455,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.92.exp_avg_sq",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 1.6805827840471466e-09,
+    "rms": 1.5290631037025275e-11,
+    "ref_max": 2.732734856181196e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.93.exp_avg",
+    "shape": [
+      1152
+    ],
+    "max_abs": 4.1661260183900595e-06,
+    "rms": 7.403096786257956e-07,
+    "ref_max": 0.0005767241818830371,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.93.exp_avg_sq",
+    "shape": [
+      1152
+    ],
+    "max_abs": 1.574447239249821e-10,
+    "rms": 1.3183509817764264e-11,
+    "ref_max": 1.1624232243434562e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.94.exp_avg",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 9.120558388531208e-06,
+    "rms": 7.27087559463244e-07,
+    "ref_max": 0.0011344520607963204,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.94.exp_avg_sq",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 7.20500992201778e-10,
+    "rms": 1.1838617357909682e-11,
+    "ref_max": 4.342214054986471e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.95.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 6.992253474891186e-06,
+    "rms": 2.5081541228608487e-06,
+    "ref_max": 0.00124397745821625,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.95.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 4.969038513991109e-10,
+    "rms": 9.243123309800544e-11,
+    "ref_max": 5.223724386382855e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.96.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.9269529730081558e-05,
+    "rms": 1.3653651054559841e-06,
+    "ref_max": 0.0043271733447909355,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.96.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 6.863899670861429e-09,
+    "rms": 3.5779769015977515e-10,
+    "ref_max": 7.894203690739232e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.97.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.542184226214886e-06,
+    "rms": 4.472969859824902e-07,
+    "ref_max": 0.0013798559084534645,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.97.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 4.680273946178204e-10,
+    "rms": 2.4016483742060956e-11,
+    "ref_max": 6.607741909192555e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.98.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.4260876923799515e-06,
+    "rms": 4.176662523427972e-07,
+    "ref_max": 0.00046108197420835495,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.98.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 3.488720423661107e-11,
+    "rms": 3.3102633977857013e-12,
+    "ref_max": 7.378351707387765e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.99.exp_avg",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 2.4385346478084102e-05,
+    "rms": 4.302275026671587e-07,
+    "ref_max": 0.005416009109467268,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.99.exp_avg_sq",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 4.941000497638015e-09,
+    "rms": 1.522655252894042e-11,
+    "ref_max": 1.1305623957014177e-06,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.100.exp_avg",
+    "shape": [
+      1536
+    ],
+    "max_abs": 4.430592525750399e-06,
+    "rms": 4.5813814852324217e-07,
+    "ref_max": 0.0007908018305897713,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.100.exp_avg_sq",
+    "shape": [
+      1536
+    ],
+    "max_abs": 1.401532223610502e-10,
+    "rms": 6.127706435432974e-12,
+    "ref_max": 2.163123191678551e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.101.exp_avg",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 1.1614174582064152e-05,
+    "rms": 4.4782340851990286e-07,
+    "ref_max": 0.0020117603708058596,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.101.exp_avg_sq",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 1.3900489648221992e-09,
+    "rms": 7.427985847468888e-12,
+    "ref_max": 1.3587613523213804e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.102.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.3714470696868375e-05,
+    "rms": 3.5272423395388394e-06,
+    "ref_max": 0.0021673482842743397,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.102.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.3501484374955908e-09,
+    "rms": 1.9437865614053261e-10,
+    "ref_max": 1.7562399534654105e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.103.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 4.48769424110651e-06,
+    "rms": 7.793626498162117e-07,
+    "ref_max": 0.0011454521445557475,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.103.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 3.907274503944791e-10,
+    "rms": 2.611836267650396e-11,
+    "ref_max": 4.612549275861966e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.104.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 7.23288394510746e-06,
+    "rms": 5.298511352036439e-07,
+    "ref_max": 0.0024895144160836935,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.104.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1301040103717241e-09,
+    "rms": 5.797763090658431e-11,
+    "ref_max": 2.1258279048197437e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.105.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.996158971451223e-06,
+    "rms": 6.862941007277242e-07,
+    "ref_max": 0.0003587749961297959,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.105.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 3.801625680921461e-11,
+    "rms": 6.947960892764501e-12,
+    "ref_max": 4.519892460308483e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.106.exp_avg",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 3.490585368126631e-05,
+    "rms": 4.918779430163344e-07,
+    "ref_max": 0.005903361365199089,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.106.exp_avg_sq",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 8.838128451316152e-09,
+    "rms": 3.4827130325110436e-11,
+    "ref_max": 1.1735876341845142e-06,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.107.exp_avg",
+    "shape": [
+      1152
+    ],
+    "max_abs": 4.113127943128347e-06,
+    "rms": 8.249337371424098e-07,
+    "ref_max": 0.000695491733495146,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.107.exp_avg_sq",
+    "shape": [
+      1152
+    ],
+    "max_abs": 1.83014492449729e-10,
+    "rms": 1.768292749429256e-11,
+    "ref_max": 1.658679060767554e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.108.exp_avg",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 1.3700802810490131e-05,
+    "rms": 7.42469906014755e-07,
+    "ref_max": 0.00279614538885653,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.108.exp_avg_sq",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 2.079140415389702e-09,
+    "rms": 2.1505602126658557e-11,
+    "ref_max": 2.6907648020824126e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.109.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.0112416930496693e-05,
+    "rms": 2.6916954841252365e-06,
+    "ref_max": 0.0019199589733034372,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.109.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 9.816147894525784e-10,
+    "rms": 1.3019910956865472e-10,
+    "ref_max": 1.2659160120165325e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.110.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.2887176126241684e-05,
+    "rms": 9.840147044886728e-07,
+    "ref_max": 0.0033642470370978117,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.110.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 3.404409198992653e-09,
+    "rms": 1.7469422779068298e-10,
+    "ref_max": 4.0171153159462847e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.111.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.5695771910250187e-06,
+    "rms": 3.8377548081877876e-07,
+    "ref_max": 0.0008982012514024973,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.111.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.4801493364302587e-10,
+    "rms": 8.693180286231883e-12,
+    "ref_max": 2.8286072151217923e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.112.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.088978024199605e-06,
+    "rms": 4.195068113667019e-07,
+    "ref_max": 0.00023508431331720203,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.112.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.2063017251762176e-11,
+    "rms": 2.6987087609760417e-12,
+    "ref_max": 1.961191653521155e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.113.exp_avg",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 2.003481495194137e-05,
+    "rms": 4.6313684359898574e-07,
+    "ref_max": 0.004636197350919247,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.113.exp_avg_sq",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 5.119488832860952e-09,
+    "rms": 2.6086999180163043e-11,
+    "ref_max": 7.459829021172482e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.114.exp_avg",
+    "shape": [
+      1536
+    ],
+    "max_abs": 3.83055885322392e-06,
+    "rms": 4.2055455575021353e-07,
+    "ref_max": 0.0004174015484750271,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.114.exp_avg_sq",
+    "shape": [
+      1536
+    ],
+    "max_abs": 7.858247386138828e-11,
+    "rms": 5.261405563285547e-12,
+    "ref_max": 5.8632663169078114e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.115.exp_avg",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 1.4650635421276093e-05,
+    "rms": 4.4001202060065203e-07,
+    "ref_max": 0.0037834327667951584,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.115.exp_avg_sq",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 2.9646116672665812e-09,
+    "rms": 1.4371987121905164e-11,
+    "ref_max": 4.95816266266047e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.116.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1214753612875938e-05,
+    "rms": 3.2652511385864364e-06,
+    "ref_max": 0.0019966349937021732,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.116.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.4807213233325456e-09,
+    "rms": 2.0905356363916506e-10,
+    "ref_max": 1.3690498690266395e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.117.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 7.041962817311287e-06,
+    "rms": 6.433439117347509e-07,
+    "ref_max": 0.0023612966760993004,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.117.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.206771571560239e-09,
+    "rms": 6.325994056904223e-11,
+    "ref_max": 1.9787012206506915e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.118.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 7.0374226197600365e-06,
+    "rms": 5.551989121677733e-07,
+    "ref_max": 0.0015803840942680836,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.118.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 6.291642762334959e-10,
+    "rms": 3.7418980060689005e-11,
+    "ref_max": 8.666599882189985e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.119.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.254790160804987e-06,
+    "rms": 6.253550859209869e-07,
+    "ref_max": 0.0004038766783196479,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.119.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.339950703842078e-11,
+    "rms": 7.219519486189288e-12,
+    "ref_max": 5.5841966606351434e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.120.exp_avg",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 5.091307684779167e-05,
+    "rms": 4.4683510112798913e-07,
+    "ref_max": 0.005669091362506151,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.120.exp_avg_sq",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 2.0246375243004877e-08,
+    "rms": 4.1180343698621524e-11,
+    "ref_max": 1.0866648381124833e-06,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.121.exp_avg",
+    "shape": [
+      1152
+    ],
+    "max_abs": 5.128677003085613e-06,
+    "rms": 7.342955575274558e-07,
+    "ref_max": 0.001028881291858852,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.121.exp_avg_sq",
+    "shape": [
+      1152
+    ],
+    "max_abs": 3.58888030405069e-10,
+    "rms": 2.14490237178597e-11,
+    "ref_max": 3.591101460642676e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.122.exp_avg",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 1.1651776731014252e-05,
+    "rms": 5.985274742113806e-07,
+    "ref_max": 0.003004823811352253,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.122.exp_avg_sq",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 2.389839437455521e-09,
+    "rms": 1.7161016781293815e-11,
+    "ref_max": 3.0599719025303784e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.123.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.452083233743906e-05,
+    "rms": 2.7716280478415552e-06,
+    "ref_max": 0.0020341642666608095,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.123.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.7460308754380094e-09,
+    "rms": 1.9394479959932447e-10,
+    "ref_max": 1.4115381929968862e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.124.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 3.2765965443104506e-06,
+    "rms": 4.019361313224634e-07,
+    "ref_max": 0.0005186592461541295,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.124.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.0866241240137242e-10,
+    "rms": 7.912243611716184e-12,
+    "ref_max": 1.0076434797667844e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.125.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 3.240362275391817e-06,
+    "rms": 4.054931963628194e-07,
+    "ref_max": 0.0006181764183565974,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.125.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.4196555042644832e-10,
+    "rms": 9.802310798596905e-12,
+    "ref_max": 1.3004477494860112e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.126.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.4279212336987257e-06,
+    "rms": 4.078213996471912e-07,
+    "ref_max": 0.0003076990251429379,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.126.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.362110507192483e-11,
+    "rms": 3.6628602082589236e-12,
+    "ref_max": 3.254166713873019e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.127.exp_avg",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 3.463507164269686e-05,
+    "rms": 4.571129231138764e-07,
+    "ref_max": 0.00762730510905385,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.127.exp_avg_sq",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 9.022187441587448e-09,
+    "rms": 4.2572627715963794e-11,
+    "ref_max": 2.070508799079107e-06,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.128.exp_avg",
+    "shape": [
+      1536
+    ],
+    "max_abs": 2.308865077793598e-06,
+    "rms": 3.995445007179046e-07,
+    "ref_max": 0.0006164688966237009,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.128.exp_avg_sq",
+    "shape": [
+      1536
+    ],
+    "max_abs": 9.046097204645775e-11,
+    "rms": 5.514157650631833e-12,
+    "ref_max": 1.3105486473818928e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.129.exp_avg",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 1.4534220099449158e-05,
+    "rms": 4.750089821702158e-07,
+    "ref_max": 0.003970160614699125,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.129.exp_avg_sq",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 3.3363676266162656e-09,
+    "rms": 2.323914629150791e-11,
+    "ref_max": 5.343022166925948e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.130.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.2369826436042786e-05,
+    "rms": 3.5335146589921315e-06,
+    "ref_max": 0.002531062811613083,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.130.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.955228867700498e-09,
+    "rms": 2.8078023786894764e-10,
+    "ref_max": 2.1869784916361823e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.131.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.986231654882431e-05,
+    "rms": 1.0660206757244215e-06,
+    "ref_max": 0.002324056578800082,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.131.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 3.5720120195037453e-09,
+    "rms": 1.823738860673875e-10,
+    "ref_max": 1.8791000400142366e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.132.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.3546436093747616e-05,
+    "rms": 7.4352412604048e-07,
+    "ref_max": 0.0019617825746536255,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.132.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.0166908143437468e-09,
+    "rms": 1.0298403200356268e-10,
+    "ref_max": 1.3458193848236988e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.133.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.058717655017972e-06,
+    "rms": 5.837152331370167e-07,
+    "ref_max": 0.0004425715305842459,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.133.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.540634617773321e-11,
+    "rms": 8.06261793822465e-12,
+    "ref_max": 6.87079548811198e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.134.exp_avg",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 2.4173641577363014e-05,
+    "rms": 4.555109790418879e-07,
+    "ref_max": 0.005481111351400614,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.134.exp_avg_sq",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 8.040615284699015e-09,
+    "rms": 3.240599451977068e-11,
+    "ref_max": 1.0420320677440031e-06,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.135.exp_avg",
+    "shape": [
+      1152
+    ],
+    "max_abs": 3.7490681279450655e-06,
+    "rms": 7.138951551011464e-07,
+    "ref_max": 0.0008025498245842755,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.135.exp_avg_sq",
+    "shape": [
+      1152
+    ],
+    "max_abs": 1.638564839367973e-10,
+    "rms": 1.9284955740069422e-11,
+    "ref_max": 2.2361163587447663e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.136.exp_avg",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 1.286645419895649e-05,
+    "rms": 7.230794213372181e-07,
+    "ref_max": 0.002956896787509322,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.136.exp_avg_sq",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 2.5271162940043723e-09,
+    "rms": 2.8300989984065417e-11,
+    "ref_max": 2.9843491233805253e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.137.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 8.87096393853426e-06,
+    "rms": 2.3082279175482037e-06,
+    "ref_max": 0.0015530370874330401,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.137.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 8.01172461706301e-10,
+    "rms": 1.3232941204774752e-10,
+    "ref_max": 8.199597800739866e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.138.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 9.75094735622406e-06,
+    "rms": 6.076763251537038e-07,
+    "ref_max": 0.0005277377204038203,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.138.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 3.7544367614827934e-10,
+    "rms": 2.007904649902449e-11,
+    "ref_max": 9.924127297722407e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.139.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.4657929316163063e-06,
+    "rms": 2.9654695457799173e-07,
+    "ref_max": 0.0003017983690369874,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.139.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 4.0685677049623337e-11,
+    "rms": 2.7400874231070836e-12,
+    "ref_max": 3.664232695044234e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.140.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.4753022696822882e-06,
+    "rms": 3.386682179728276e-07,
+    "ref_max": 0.00020239941659383476,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.140.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.1619595003130598e-11,
+    "rms": 2.4745205919614303e-12,
+    "ref_max": 1.422017947838583e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.141.exp_avg",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 4.8030633479356766e-05,
+    "rms": 4.030041038035398e-07,
+    "ref_max": 0.00634044362232089,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.141.exp_avg_sq",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 1.5263594832504168e-08,
+    "rms": 4.038781302483529e-11,
+    "ref_max": 1.3841103054801351e-06,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.142.exp_avg",
+    "shape": [
+      1536
+    ],
+    "max_abs": 2.637214493006468e-06,
+    "rms": 3.0857093328481076e-07,
+    "ref_max": 0.00040987535612657666,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.142.exp_avg_sq",
+    "shape": [
+      1536
+    ],
+    "max_abs": 4.3395287363523494e-11,
+    "rms": 3.4516265499110857e-12,
+    "ref_max": 5.648562506621602e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.143.exp_avg",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 1.789908856153488e-05,
+    "rms": 4.966986441516466e-07,
+    "ref_max": 0.005608095787465572,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.143.exp_avg_sq",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 6.351342562993523e-09,
+    "rms": 3.705015703778813e-11,
+    "ref_max": 1.069822474164539e-06,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.144.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.392197737004608e-05,
+    "rms": 4.243590236409289e-06,
+    "ref_max": 0.0032311677932739258,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.144.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.634436668813578e-09,
+    "rms": 4.355907208822658e-10,
+    "ref_max": 3.5453675195640244e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.145.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.4003366231918335e-05,
+    "rms": 7.797752034943387e-07,
+    "ref_max": 0.0016067432006821036,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.145.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.6086687537608668e-09,
+    "rms": 8.415526486868314e-11,
+    "ref_max": 9.009426804595932e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.146.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 7.801107130944729e-06,
+    "rms": 5.409483736913991e-07,
+    "ref_max": 0.0015878056874498725,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.146.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 9.59950341439253e-10,
+    "rms": 5.187084568705428e-11,
+    "ref_max": 8.639516835273753e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.147.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.0610459614545107e-06,
+    "rms": 6.752560716706422e-07,
+    "ref_max": 0.00046737503726035357,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.147.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.092859467481503e-11,
+    "rms": 9.898924197914442e-12,
+    "ref_max": 7.579640914912034e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.148.exp_avg",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 6.366334855556488e-05,
+    "rms": 5.83735720689536e-07,
+    "ref_max": 0.008350027725100517,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.148.exp_avg_sq",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 1.883040567918215e-08,
+    "rms": 8.325363615665754e-11,
+    "ref_max": 2.390578629274387e-06,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.149.exp_avg",
+    "shape": [
+      1152
+    ],
+    "max_abs": 5.29817771166563e-06,
+    "rms": 9.036877743309397e-07,
+    "ref_max": 0.001189970993436873,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.149.exp_avg_sq",
+    "shape": [
+      1152
+    ],
+    "max_abs": 3.7822545095878013e-10,
+    "rms": 3.02341272119853e-11,
+    "ref_max": 4.8719737577584965e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.150.exp_avg",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 1.165829598903656e-05,
+    "rms": 7.291549129529831e-07,
+    "ref_max": 0.0030702929943799973,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.150.exp_avg_sq",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 1.854616016316868e-09,
+    "rms": 3.009390046496238e-11,
+    "ref_max": 3.224588169814524e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.151.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.127738505601883e-05,
+    "rms": 3.163026814133715e-06,
+    "ref_max": 0.0021452512592077255,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.151.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.4478871435130714e-09,
+    "rms": 2.349407899447062e-10,
+    "ref_max": 1.5649067108824966e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.152.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.737622708082199e-06,
+    "rms": 3.066877984242141e-07,
+    "ref_max": 0.0006386407185345888,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.152.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1952572265272465e-10,
+    "rms": 7.379387817909313e-12,
+    "ref_max": 1.3831419565235592e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.153.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 4.6432833187282085e-06,
+    "rms": 3.937601336976557e-07,
+    "ref_max": 0.00034292152849957347,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.153.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 6.731104562618384e-11,
+    "rms": 4.21542522166272e-12,
+    "ref_max": 4.320521718170767e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.154.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 9.90839907899499e-07,
+    "rms": 3.3809544967619196e-07,
+    "ref_max": 0.00023628727649338543,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.154.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.3637313500680648e-11,
+    "rms": 2.250754246360676e-12,
+    "ref_max": 1.895559931242019e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.155.exp_avg",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 4.404038190841675e-05,
+    "rms": 4.082819951057722e-07,
+    "ref_max": 0.012064929120242596,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.155.exp_avg_sq",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 3.044465302082244e-08,
+    "rms": 5.971739256807715e-11,
+    "ref_max": 4.955932126904372e-06,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.156.exp_avg",
+    "shape": [
+      1536
+    ],
+    "max_abs": 3.883556928485632e-06,
+    "rms": 3.2022113482030543e-07,
+    "ref_max": 0.0009331080946139991,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.156.exp_avg_sq",
+    "shape": [
+      1536
+    ],
+    "max_abs": 1.5159695720967648e-10,
+    "rms": 6.7294360653908914e-12,
+    "ref_max": 2.9834446024779027e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.157.exp_avg",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 2.597179263830185e-05,
+    "rms": 5.675237258949912e-07,
+    "ref_max": 0.007804748602211475,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.157.exp_avg_sq",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 1.440048436052166e-08,
+    "rms": 5.907214657305396e-11,
+    "ref_max": 2.066662773358985e-06,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.158.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.5746412575244904e-05,
+    "rms": 7.044718569309609e-06,
+    "ref_max": 0.005062850192189217,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.158.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 7.93397703091614e-09,
+    "rms": 1.2398668812275234e-09,
+    "ref_max": 8.689394803695905e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.159.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.3582524843513966e-05,
+    "rms": 7.228027111015916e-07,
+    "ref_max": 0.0012081715976819396,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.159.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.2219310008276807e-09,
+    "rms": 6.311048722554718e-11,
+    "ref_max": 5.323348872821043e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.160.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 7.629831088706851e-06,
+    "rms": 7.513306189433676e-07,
+    "ref_max": 0.0006118885357864201,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.160.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.1897239577128857e-10,
+    "rms": 1.8761500616406493e-11,
+    "ref_max": 5.336756814244836e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.161.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 3.706722054630518e-06,
+    "rms": 1.2243366842844798e-06,
+    "ref_max": 0.0009515286656096578,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.161.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.38451036693732e-10,
+    "rms": 3.950262412715962e-11,
+    "ref_max": 3.0658487304435766e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.162.exp_avg",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 3.326719161123037e-05,
+    "rms": 7.394516522239277e-07,
+    "ref_max": 0.0064842370338737965,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.162.exp_avg_sq",
+    "shape": [
+      1152,
+      384
+    ],
+    "max_abs": 1.0982603271258995e-08,
+    "rms": 8.350867566664509e-11,
+    "ref_max": 1.450391891921754e-06,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.163.exp_avg",
+    "shape": [
+      1152
+    ],
+    "max_abs": 8.055241778492928e-06,
+    "rms": 1.1612878687679697e-06,
+    "ref_max": 0.0014404297107830644,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.163.exp_avg_sq",
+    "shape": [
+      1152
+    ],
+    "max_abs": 5.016076443098427e-10,
+    "rms": 5.2757600718218396e-11,
+    "ref_max": 7.127934509298939e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.164.exp_avg",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 1.826300285756588e-05,
+    "rms": 1.171265236975073e-06,
+    "ref_max": 0.00429069809615612,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.164.exp_avg_sq",
+    "shape": [
+      384,
+      384
+    ],
+    "max_abs": 3.555953753675567e-09,
+    "rms": 6.916502689059161e-11,
+    "ref_max": 6.390478688445e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.165.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.565646380186081e-05,
+    "rms": 3.377620786890203e-06,
+    "ref_max": 0.0032042430248111486,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.165.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 3.3986111702688504e-09,
+    "rms": 3.1530671705403646e-10,
+    "ref_max": 3.498431624393561e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.166.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.3070821296423674e-06,
+    "rms": 1.9605791744439537e-07,
+    "ref_max": 0.00033518788404762745,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.166.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.6221691484806797e-11,
+    "rms": 2.830897580904649e-12,
+    "ref_max": 3.855640251515524e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.167.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.17343869432807e-06,
+    "rms": 3.8457863261838496e-07,
+    "ref_max": 0.0008087781607173383,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.167.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.9335289752907556e-10,
+    "rms": 1.611362901125116e-11,
+    "ref_max": 2.2005082200848847e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.168.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.0100775398314e-06,
+    "rms": 2.9134137306489005e-07,
+    "ref_max": 0.0002609424409456551,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.168.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.7273737995537886e-11,
+    "rms": 3.0236865125329822e-12,
+    "ref_max": 2.3337798360500983e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.169.exp_avg",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 8.190632797777653e-06,
+    "rms": 2.9044339805500795e-07,
+    "ref_max": 0.002650443697348237,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.169.exp_avg_sq",
+    "shape": [
+      1536,
+      384
+    ],
+    "max_abs": 1.3602914350485662e-09,
+    "rms": 1.0971287172302447e-11,
+    "ref_max": 2.425933303129568e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.170.exp_avg",
+    "shape": [
+      1536
+    ],
+    "max_abs": 2.126791514456272e-06,
+    "rms": 2.674047787010701e-07,
+    "ref_max": 0.0005294554284773767,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.170.exp_avg_sq",
+    "shape": [
+      1536
+    ],
+    "max_abs": 5.99400529210925e-11,
+    "rms": 4.30436936738697e-12,
+    "ref_max": 9.681408563722016e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.171.exp_avg",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 2.226606011390686e-05,
+    "rms": 4.2996066617783383e-07,
+    "ref_max": 0.0060657961294054985,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.171.exp_avg_sq",
+    "shape": [
+      384,
+      1536
+    ],
+    "max_abs": 7.678067959204782e-09,
+    "rms": 4.390131722740723e-11,
+    "ref_max": 1.2719767710223095e-06,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.172.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 7.445691153407097e-06,
+    "rms": 2.498221389817798e-06,
+    "ref_max": 0.0020917754154652357,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.172.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 9.658407407187042e-10,
+    "rms": 1.592285851865823e-10,
+    "ref_max": 1.492725516527571e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.173.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 2.8024078346788883e-06,
+    "rms": 1.9934800413597532e-07,
+    "ref_max": 0.0009465513867326081,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.173.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.751701006469375e-10,
+    "rms": 9.058299701331265e-12,
+    "ref_max": 3.0341187340354736e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.174.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 7.045251550152898e-06,
+    "rms": 5.882664214980195e-07,
+    "ref_max": 0.0006086491048336029,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.174.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.1932765886513153e-10,
+    "rms": 1.1665002045448531e-11,
+    "ref_max": 1.3051866254443212e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.175.exp_avg",
+    "shape": [
+      384
+    ],
+    "max_abs": 1.5982368495315313e-06,
+    "rms": 5.483857081120963e-07,
+    "ref_max": 0.0004996211500838399,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.175.exp_avg_sq",
+    "shape": [
+      384
+    ],
+    "max_abs": 5.1604942541416676e-11,
+    "rms": 9.119974413601838e-12,
+    "ref_max": 8.482076374605185e-09,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.176.exp_avg",
+    "shape": [
+      1024,
+      384
+    ],
+    "max_abs": 2.152589149773121e-05,
+    "rms": 6.54215855197992e-07,
+    "ref_max": 0.0033675075974315405,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.176.exp_avg_sq",
+    "shape": [
+      1024,
+      384
+    ],
+    "max_abs": 5.02433294968796e-09,
+    "rms": 2.0668298279137605e-11,
+    "ref_max": 3.840401632260182e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.177.exp_avg",
+    "shape": [
+      1024
+    ],
+    "max_abs": 2.9670773074030876e-06,
+    "rms": 5.587254064776724e-07,
+    "ref_max": 0.0006273515755310655,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.177.exp_avg_sq",
+    "shape": [
+      1024
+    ],
+    "max_abs": 1.0592593469027634e-10,
+    "rms": 8.017291415649773e-12,
+    "ref_max": 1.3336559412380211e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.178.exp_avg",
+    "shape": [
+      1024,
+      1024
+    ],
+    "max_abs": 1.3478565961122513e-05,
+    "rms": 3.7120123320619293e-07,
+    "ref_max": 0.0015692762099206448,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.178.exp_avg_sq",
+    "shape": [
+      1024,
+      1024
+    ],
+    "max_abs": 1.3706653589906637e-09,
+    "rms": 6.268274592418043e-12,
+    "ref_max": 8.371881676794146e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.179.exp_avg",
+    "shape": [
+      1024
+    ],
+    "max_abs": 7.136259227991104e-06,
+    "rms": 1.4971183492699937e-06,
+    "ref_max": 0.0013817925937473774,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.179.exp_avg_sq",
+    "shape": [
+      1024
+    ],
+    "max_abs": 6.684146569568838e-10,
+    "rms": 5.227372818744608e-11,
+    "ref_max": 6.467337243520888e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.180.exp_avg",
+    "shape": [
+      256,
+      1024
+    ],
+    "max_abs": 1.1275755241513252e-05,
+    "rms": 6.793991814972126e-07,
+    "ref_max": 0.0018701361259445548,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.180.exp_avg_sq",
+    "shape": [
+      256,
+      1024
+    ],
+    "max_abs": 1.4749019783266704e-09,
+    "rms": 1.641064941932986e-11,
+    "ref_max": 1.1842021763186494e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.181.exp_avg",
+    "shape": [
+      256
+    ],
+    "max_abs": 2.8192764148116112e-05,
+    "rms": 8.03847604506932e-06,
+    "ref_max": 0.0053960117511451244,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.181.exp_avg_sq",
+    "shape": [
+      256
+    ],
+    "max_abs": 5.290019089443376e-09,
+    "rms": 1.217806399212008e-09,
+    "ref_max": 9.953208746082964e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.183.exp_avg",
+    "shape": [
+      1024,
+      384
+    ],
+    "max_abs": 1.8014106899499893e-05,
+    "rms": 7.430212375112305e-07,
+    "ref_max": 0.005912540480494499,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.183.exp_avg_sq",
+    "shape": [
+      1024,
+      384
+    ],
+    "max_abs": 6.141362973721698e-09,
+    "rms": 5.883129456824244e-11,
+    "ref_max": 1.2001469258393627e-06,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.184.exp_avg",
+    "shape": [
+      1024
+    ],
+    "max_abs": 2.9138755053281784e-06,
+    "rms": 5.385728285116669e-07,
+    "ref_max": 0.0011138052213937044,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.184.exp_avg_sq",
+    "shape": [
+      1024
+    ],
+    "max_abs": 2.183959679769032e-10,
+    "rms": 1.6913631337450614e-11,
+    "ref_max": 4.2664328958608166e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.185.exp_avg",
+    "shape": [
+      1024,
+      1024
+    ],
+    "max_abs": 1.1035706847906113e-05,
+    "rms": 4.222163846896334e-07,
+    "ref_max": 0.0026224872563034296,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.185.exp_avg_sq",
+    "shape": [
+      1024,
+      1024
+    ],
+    "max_abs": 1.8096812937073992e-09,
+    "rms": 2.0720817376132457e-11,
+    "ref_max": 2.3508697211127583e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.186.exp_avg",
+    "shape": [
+      1024
+    ],
+    "max_abs": 5.495036020874977e-06,
+    "rms": 1.321722160499291e-06,
+    "ref_max": 0.0016742587322369218,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.186.exp_avg_sq",
+    "shape": [
+      1024
+    ],
+    "max_abs": 5.019273885409348e-10,
+    "rms": 7.682256025399797e-11,
+    "ref_max": 9.58347214918831e-08,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.187.exp_avg",
+    "shape": [
+      256,
+      1024
+    ],
+    "max_abs": 1.3361917808651924e-05,
+    "rms": 7.515510875257759e-07,
+    "ref_max": 0.0037629844155162573,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.187.exp_avg_sq",
+    "shape": [
+      256,
+      1024
+    ],
+    "max_abs": 3.445506990829017e-09,
+    "rms": 4.540374935396274e-11,
+    "ref_max": 4.890229092779919e-07,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.188.exp_avg",
+    "shape": [
+      256
+    ],
+    "max_abs": 2.6802998036146164e-05,
+    "rms": 7.210259432995009e-06,
+    "ref_max": 0.006997557356953621,
+    "dtype": "torch.float32"
+  },
+  {
+    "path": ".optimizer.state.188.exp_avg_sq",
+    "shape": [
+      256
+    ],
+    "max_abs": 1.0223743629467208e-08,
+    "rms": 1.9529842511282356e-09,
+    "ref_max": 1.6929207049543038e-06,
+    "dtype": "torch.float32"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-03T14:38:43Z",
+  "data_root_free_bytes": 48606863360,
+  "artifact_root_free_bytes": 162214125568,
+  "archive_bytes": 1680528910,
+  "range_staging_ceiling_bytes": 536870912,
+  "archive_extraction_and_allowance_required_bytes": 26516423210,
+  "full_672_cache": false,
+  "Channel_archive_exists": false,
+  "existing_exposure_journal": false,
+  "prior_exposure": "Earlier annotation/clip headers and structural file-list counts; no Channel imagery or inference before freeze."
+}

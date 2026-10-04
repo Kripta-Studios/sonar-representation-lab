@@ -1,0 +1,476 @@
+{
+  "utc": "2026-10-03T14:38:47Z",
+  "status": "frozen",
+  "block_id": "spatial-motion-20261003",
+  "models": [
+    {
+      "run": "det-published-r672-f010-s7",
+      "checkpoint": "artifacts\\det-published-r672-f010-s7\\checkpoint.pt",
+      "checkpoint_sha256": "caeb86511dadc2aaf75d83f29e59a0df5e0fccb42a288ee9c8279afeb5d0544d",
+      "config": {
+        "kind": "published",
+        "frozen": true,
+        "seed": 7,
+        "fraction": 10,
+        "steps": 2000,
+        "batch": 8,
+        "accumulation": 1,
+        "adapted": null,
+        "adapted_sha256": null,
+        "published_sha256": "f433177089a681826f849f194ece3bb48f4d63fb38d32fc837e3dc7a4e5641fb",
+        "manifest_sha256": "2f5ae232f2a2a126930479032605cdad7e2060dbf1438e717a3c5d73322c5b39",
+        "source_revision": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+        "detector_size": 672,
+        "detector_cache": null,
+        "head_lr": 0.0003,
+        "backbone_lr": 1e-05,
+        "code_identity": {
+          "src/acquire.py": "c0f33970f0e8e11ec1b1b592ed7c9ca00bea8e5b318a5c2b4fdd5eba1097a049",
+          "src/adapt.py": "08bbbf4c684143eb3490edca86fc0d4e1b907a340155dcae50f3ffd3cff21087",
+          "src/budget.py": "e4d30142bd39b50e043bfe42563caf44abdc153067e1b2293d923ec08837cbde",
+          "src/channel.py": "ec216de418413a02a90a6ecfd9df2ce1538d605ef3abbfd20d49f00e023aa3f7",
+          "src/data.py": "07ff208e168b390bfb57ac4a58ca1adf90e366fd09250dd38e2e13abdf56a57c",
+          "src/evaluate.py": "d7a6f8c76aac52f53839a8cc856e0c8a532e93090c0fdeb423e96a65fab06c83",
+          "src/freeze.py": "d111e0744838d67d429e30bb89a7b46ddc177fc62f0825c86f44bd0c5de263ab",
+          "src/models.py": "85134b979bf5dd4713130084a2e8c0563772d2e2bae4cbee800074870c94a2f1",
+          "src/platform_compat.py": "c1ff01ec3d865d64504d1a556c9f48e514c89671984be809fff63470f2f7e66d",
+          "src/profile_batch.py": "af2d735767a7f4da63706117fd9d48cd49f1ab241469c59c3d386f7c9018a058",
+          "src/run_block.py": "e6db4f9efcdeeaa823708d2f4775d5351f238aab9de1eead700db27c8f5d7b2d",
+          "src/runtime.py": "bafedf82c5b2ac1e53adadcbcbdd583a92bae5d61d704e808236a47afde5498c",
+          "src/spatial.py": "44c7450dacd2ff1a009fcf3cc8834aee120020f5c00d5b2ccf784382541d8d04",
+          "src/summarize.py": "edbb4b85f23c4f2fdd0774602be002237fd9570d6e8c6e6f5afe793091f9394f",
+          "src/train_detector.py": "b440bb664224e465479368d8a17d21c828172ed507a03e5f5c3bff21b5bf5378"
+        },
+        "protocol_sha256": "fff91b1a4015bef3e385a18a2dbcd94df582a8d48c2f8ec6a78a883f4997e060"
+      },
+      "validation_metrics_sha256": "0c6f1f3ac0e9d3d8f5ef519d3633b595ed6a09ba7ff053b1af68509731873b07",
+      "validation_prediction_identity_sha256": "892915a6c7139707355ccb9860319314e2e036eda1e3c705234b9631cb02c558",
+      "label_manifest": "D:\\sonar-representation-lab-data\\manifests\\train-010.json",
+      "ancestry_encoder_sha256": "f433177089a681826f849f194ece3bb48f4d63fb38d32fc837e3dc7a4e5641fb",
+      "initialization": "published"
+    },
+    {
+      "run": "det-adapted-r672-f010-s7",
+      "checkpoint": "artifacts\\det-adapted-r672-f010-s7\\checkpoint.pt",
+      "checkpoint_sha256": "38e8aa935e5007da956434fb037fcffa8fb0b0d81a85c8321980e683edf92beb",
+      "config": {
+        "kind": "adapted",
+        "frozen": true,
+        "seed": 7,
+        "fraction": 10,
+        "steps": 2000,
+        "batch": 8,
+        "accumulation": 1,
+        "adapted": "artifacts\\ssl-A-s7\\encoder.pt",
+        "adapted_sha256": "15b3356ef61f163a955cefd240b04555635b104f7b222dcd408fdb783eaca210",
+        "published_sha256": "f433177089a681826f849f194ece3bb48f4d63fb38d32fc837e3dc7a4e5641fb",
+        "manifest_sha256": "2f5ae232f2a2a126930479032605cdad7e2060dbf1438e717a3c5d73322c5b39",
+        "source_revision": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+        "detector_size": 672,
+        "detector_cache": null,
+        "head_lr": 0.0003,
+        "backbone_lr": 1e-05,
+        "code_identity": {
+          "src/acquire.py": "c0f33970f0e8e11ec1b1b592ed7c9ca00bea8e5b318a5c2b4fdd5eba1097a049",
+          "src/adapt.py": "08bbbf4c684143eb3490edca86fc0d4e1b907a340155dcae50f3ffd3cff21087",
+          "src/budget.py": "e4d30142bd39b50e043bfe42563caf44abdc153067e1b2293d923ec08837cbde",
+          "src/channel.py": "ec216de418413a02a90a6ecfd9df2ce1538d605ef3abbfd20d49f00e023aa3f7",
+          "src/data.py": "07ff208e168b390bfb57ac4a58ca1adf90e366fd09250dd38e2e13abdf56a57c",
+          "src/evaluate.py": "d7a6f8c76aac52f53839a8cc856e0c8a532e93090c0fdeb423e96a65fab06c83",
+          "src/freeze.py": "d111e0744838d67d429e30bb89a7b46ddc177fc62f0825c86f44bd0c5de263ab",
+          "src/models.py": "85134b979bf5dd4713130084a2e8c0563772d2e2bae4cbee800074870c94a2f1",
+          "src/platform_compat.py": "c1ff01ec3d865d64504d1a556c9f48e514c89671984be809fff63470f2f7e66d",
+          "src/profile_batch.py": "af2d735767a7f4da63706117fd9d48cd49f1ab241469c59c3d386f7c9018a058",
+          "src/run_block.py": "e6db4f9efcdeeaa823708d2f4775d5351f238aab9de1eead700db27c8f5d7b2d",
+          "src/runtime.py": "bafedf82c5b2ac1e53adadcbcbdd583a92bae5d61d704e808236a47afde5498c",
+          "src/spatial.py": "44c7450dacd2ff1a009fcf3cc8834aee120020f5c00d5b2ccf784382541d8d04",
+          "src/summarize.py": "edbb4b85f23c4f2fdd0774602be002237fd9570d6e8c6e6f5afe793091f9394f",
+          "src/train_detector.py": "b440bb664224e465479368d8a17d21c828172ed507a03e5f5c3bff21b5bf5378"
+        },
+        "protocol_sha256": "fff91b1a4015bef3e385a18a2dbcd94df582a8d48c2f8ec6a78a883f4997e060"
+      },
+      "validation_metrics_sha256": "726c28136e9809a1618f49f3ec025cf2f2f02c6957c502f206a0c1b59fb19853",
+      "validation_prediction_identity_sha256": "4a17ebb2ca171efbee8461864ffb314eafa68c89774c3420c74351fb4309e866",
+      "label_manifest": "D:\\sonar-representation-lab-data\\manifests\\train-010.json",
+      "ancestry_encoder_sha256": "15b3356ef61f163a955cefd240b04555635b104f7b222dcd408fdb783eaca210",
+      "initialization": "adapted"
+    },
+    {
+      "run": "det-b-r672-f010-s7",
+      "checkpoint": "artifacts\\det-b-r672-f010-s7\\checkpoint.pt",
+      "checkpoint_sha256": "a84d2616e454e71f377815d2d8c354874ac371adcbcb25fca4fc0a879a1a9840",
+      "config": {
+        "kind": "adapted",
+        "frozen": true,
+        "seed": 7,
+        "fraction": 10,
+        "steps": 2000,
+        "batch": 8,
+        "accumulation": 1,
+        "adapted": "artifacts\\ssl-B-s7\\encoder.pt",
+        "adapted_sha256": "972ff06e32e7ce59b2b7625c6254f20c92505da76a692193630134d187ab3954",
+        "published_sha256": "f433177089a681826f849f194ece3bb48f4d63fb38d32fc837e3dc7a4e5641fb",
+        "manifest_sha256": "2f5ae232f2a2a126930479032605cdad7e2060dbf1438e717a3c5d73322c5b39",
+        "source_revision": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+        "detector_size": 672,
+        "detector_cache": null,
+        "head_lr": 0.0003,
+        "backbone_lr": 1e-05,
+        "code_identity": {
+          "src/acquire.py": "c0f33970f0e8e11ec1b1b592ed7c9ca00bea8e5b318a5c2b4fdd5eba1097a049",
+          "src/adapt.py": "c37d8d484716fb5e8702b976805ed50452eff45c1cf35800b0a68fe1be7a38a3",
+          "src/adapt_motion.py": "50d29c449bd7b3dc53db00703433c692b58fcffba32e02f5f3cc39e639e5ed12",
+          "src/budget.py": "e4d30142bd39b50e043bfe42563caf44abdc153067e1b2293d923ec08837cbde",
+          "src/calibrate_motion.py": "f46dbb98a77c8be34c4d70baf92d404bf976f2897c690b433e8a63747b162386",
+          "src/channel.py": "c98c7f8f7c6d16e4440fc4e461b513932f46d09433c34ea1d1f2b83372693f70",
+          "src/data.py": "07ff208e168b390bfb57ac4a58ca1adf90e366fd09250dd38e2e13abdf56a57c",
+          "src/evaluate.py": "d7a6f8c76aac52f53839a8cc856e0c8a532e93090c0fdeb423e96a65fab06c83",
+          "src/freeze.py": "e5b29c3ec1205a7f445179e3ea0eefad900940942983ccde5ba6b625f1803d75",
+          "src/models.py": "85134b979bf5dd4713130084a2e8c0563772d2e2bae4cbee800074870c94a2f1",
+          "src/motion.py": "3057d5d078d1a84859368ccdd269bc4391f19904a3642b840786c0c746ee88c2",
+          "src/platform_compat.py": "c1ff01ec3d865d64504d1a556c9f48e514c89671984be809fff63470f2f7e66d",
+          "src/profile_batch.py": "7d827a49ca81256c459985dc8800744267ad9c1d9aaf848a5e0445429d611058",
+          "src/run_block.py": "e6db4f9efcdeeaa823708d2f4775d5351f238aab9de1eead700db27c8f5d7b2d",
+          "src/runtime.py": "b72fe399980b3080d928eec12e52144faf941302493a8f886d6f2417a042dae4",
+          "src/spatial.py": "44c7450dacd2ff1a009fcf3cc8834aee120020f5c00d5b2ccf784382541d8d04",
+          "src/summarize.py": "15e88c6aa3ffeab1610bdd22fc1aac86caf9dc02ba887b4e963f0be13397ec22",
+          "src/train_detector.py": "b440bb664224e465479368d8a17d21c828172ed507a03e5f5c3bff21b5bf5378"
+        },
+        "protocol_sha256": "671f8e94ce14195fa1934ca2756dcfd30886c20afbebcc8d6e3f4c9ad69aead9"
+      },
+      "validation_metrics_sha256": "2aaf24c292537f4426b6e8618f8acde0a3c3750c8cf715d097a087fa8870ffcf",
+      "validation_prediction_identity_sha256": "48386b29d448f790fa1504f6bc3fbc67f05a19fb9589357a601b2a2c6ff82922",
+      "label_manifest": "D:\\sonar-representation-lab-data\\manifests\\train-010.json",
+      "ancestry_encoder_sha256": "972ff06e32e7ce59b2b7625c6254f20c92505da76a692193630134d187ab3954",
+      "initialization": "adapted"
+    },
+    {
+      "run": "det-control-r672-f010-s7",
+      "checkpoint": "artifacts\\det-control-r672-f010-s7\\checkpoint.pt",
+      "checkpoint_sha256": "2c032b69d1457d87205ab1e09d9a2ec9604d7ad813ae09e3c945ba2b58881843",
+      "config": {
+        "kind": "adapted",
+        "frozen": true,
+        "seed": 7,
+        "fraction": 10,
+        "steps": 2000,
+        "batch": 8,
+        "accumulation": 1,
+        "adapted": "artifacts\\ssl-control-s7\\encoder.pt",
+        "adapted_sha256": "21b39048540f62de810453ea68233d7f80acdb4bcd6d539a98aa1353c573d7d4",
+        "published_sha256": "f433177089a681826f849f194ece3bb48f4d63fb38d32fc837e3dc7a4e5641fb",
+        "manifest_sha256": "2f5ae232f2a2a126930479032605cdad7e2060dbf1438e717a3c5d73322c5b39",
+        "source_revision": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+        "detector_size": 672,
+        "detector_cache": null,
+        "head_lr": 0.0003,
+        "backbone_lr": 1e-05,
+        "code_identity": {
+          "src/acquire.py": "c0f33970f0e8e11ec1b1b592ed7c9ca00bea8e5b318a5c2b4fdd5eba1097a049",
+          "src/adapt.py": "c37d8d484716fb5e8702b976805ed50452eff45c1cf35800b0a68fe1be7a38a3",
+          "src/adapt_motion.py": "023c97f53b2816f632689df002ad23a9dc5ccf04c60ec6298ceb1c1745205a17",
+          "src/budget.py": "e4d30142bd39b50e043bfe42563caf44abdc153067e1b2293d923ec08837cbde",
+          "src/calibrate_motion.py": "f46dbb98a77c8be34c4d70baf92d404bf976f2897c690b433e8a63747b162386",
+          "src/channel.py": "c98c7f8f7c6d16e4440fc4e461b513932f46d09433c34ea1d1f2b83372693f70",
+          "src/data.py": "07ff208e168b390bfb57ac4a58ca1adf90e366fd09250dd38e2e13abdf56a57c",
+          "src/evaluate.py": "d7a6f8c76aac52f53839a8cc856e0c8a532e93090c0fdeb423e96a65fab06c83",
+          "src/freeze.py": "e5b29c3ec1205a7f445179e3ea0eefad900940942983ccde5ba6b625f1803d75",
+          "src/models.py": "85134b979bf5dd4713130084a2e8c0563772d2e2bae4cbee800074870c94a2f1",
+          "src/motion.py": "3057d5d078d1a84859368ccdd269bc4391f19904a3642b840786c0c746ee88c2",
+          "src/platform_compat.py": "c1ff01ec3d865d64504d1a556c9f48e514c89671984be809fff63470f2f7e66d",
+          "src/profile_batch.py": "7d827a49ca81256c459985dc8800744267ad9c1d9aaf848a5e0445429d611058",
+          "src/run_block.py": "e6db4f9efcdeeaa823708d2f4775d5351f238aab9de1eead700db27c8f5d7b2d",
+          "src/runtime.py": "b72fe399980b3080d928eec12e52144faf941302493a8f886d6f2417a042dae4",
+          "src/spatial.py": "44c7450dacd2ff1a009fcf3cc8834aee120020f5c00d5b2ccf784382541d8d04",
+          "src/summarize.py": "15e88c6aa3ffeab1610bdd22fc1aac86caf9dc02ba887b4e963f0be13397ec22",
+          "src/train_detector.py": "b440bb664224e465479368d8a17d21c828172ed507a03e5f5c3bff21b5bf5378"
+        },
+        "protocol_sha256": "84bedc11ae2990d7156e2d3bdf8d0f0b417eec28cc84d9c98c339fc3baa9a720"
+      },
+      "validation_metrics_sha256": "f06f7b1b019109c01629e31ffe1c71cde92fa4e0447018abd59ef09137d24e5e",
+      "validation_prediction_identity_sha256": "e59142558f360443f9cf157150348248b83c77492e0be099260280917fb5bb2f",
+      "label_manifest": "D:\\sonar-representation-lab-data\\manifests\\train-010.json",
+      "ancestry_encoder_sha256": "21b39048540f62de810453ea68233d7f80acdb4bcd6d539a98aa1353c573d7d4",
+      "initialization": "adapted"
+    },
+    {
+      "run": "det-motion-r672-f010-s7",
+      "checkpoint": "artifacts\\det-motion-r672-f010-s7\\checkpoint.pt",
+      "checkpoint_sha256": "acd910a2fe3b1363eaa5c76b8cff8ecde47207ee42365cd46dba83229dffb97a",
+      "config": {
+        "kind": "adapted",
+        "frozen": true,
+        "seed": 7,
+        "fraction": 10,
+        "steps": 2000,
+        "batch": 8,
+        "accumulation": 1,
+        "adapted": "artifacts\\ssl-motion-s7\\encoder.pt",
+        "adapted_sha256": "5ffa15b1b89454ffce98462e69d5089808df4499b1603d4f29591df18481d6f8",
+        "published_sha256": "f433177089a681826f849f194ece3bb48f4d63fb38d32fc837e3dc7a4e5641fb",
+        "manifest_sha256": "2f5ae232f2a2a126930479032605cdad7e2060dbf1438e717a3c5d73322c5b39",
+        "source_revision": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+        "detector_size": 672,
+        "detector_cache": null,
+        "head_lr": 0.0003,
+        "backbone_lr": 1e-05,
+        "code_identity": {
+          "src/acquire.py": "c0f33970f0e8e11ec1b1b592ed7c9ca00bea8e5b318a5c2b4fdd5eba1097a049",
+          "src/adapt.py": "c37d8d484716fb5e8702b976805ed50452eff45c1cf35800b0a68fe1be7a38a3",
+          "src/adapt_motion.py": "023c97f53b2816f632689df002ad23a9dc5ccf04c60ec6298ceb1c1745205a17",
+          "src/budget.py": "e4d30142bd39b50e043bfe42563caf44abdc153067e1b2293d923ec08837cbde",
+          "src/calibrate_motion.py": "f46dbb98a77c8be34c4d70baf92d404bf976f2897c690b433e8a63747b162386",
+          "src/channel.py": "c98c7f8f7c6d16e4440fc4e461b513932f46d09433c34ea1d1f2b83372693f70",
+          "src/data.py": "07ff208e168b390bfb57ac4a58ca1adf90e366fd09250dd38e2e13abdf56a57c",
+          "src/evaluate.py": "d7a6f8c76aac52f53839a8cc856e0c8a532e93090c0fdeb423e96a65fab06c83",
+          "src/freeze.py": "e5b29c3ec1205a7f445179e3ea0eefad900940942983ccde5ba6b625f1803d75",
+          "src/models.py": "85134b979bf5dd4713130084a2e8c0563772d2e2bae4cbee800074870c94a2f1",
+          "src/motion.py": "3057d5d078d1a84859368ccdd269bc4391f19904a3642b840786c0c746ee88c2",
+          "src/platform_compat.py": "c1ff01ec3d865d64504d1a556c9f48e514c89671984be809fff63470f2f7e66d",
+          "src/profile_batch.py": "7d827a49ca81256c459985dc8800744267ad9c1d9aaf848a5e0445429d611058",
+          "src/run_block.py": "e6db4f9efcdeeaa823708d2f4775d5351f238aab9de1eead700db27c8f5d7b2d",
+          "src/runtime.py": "b72fe399980b3080d928eec12e52144faf941302493a8f886d6f2417a042dae4",
+          "src/spatial.py": "44c7450dacd2ff1a009fcf3cc8834aee120020f5c00d5b2ccf784382541d8d04",
+          "src/summarize.py": "15e88c6aa3ffeab1610bdd22fc1aac86caf9dc02ba887b4e963f0be13397ec22",
+          "src/train_detector.py": "b440bb664224e465479368d8a17d21c828172ed507a03e5f5c3bff21b5bf5378"
+        },
+        "protocol_sha256": "84bedc11ae2990d7156e2d3bdf8d0f0b417eec28cc84d9c98c339fc3baa9a720"
+      },
+      "validation_metrics_sha256": "dab5017a772c19d057af5bc40eeb5d686a85f747b99da25849356b7d73489db8",
+      "validation_prediction_identity_sha256": "3302291205e9aef684f1b72cde2a63090d447b10c4e56945fabf18d5ca23d33c",
+      "label_manifest": "D:\\sonar-representation-lab-data\\manifests\\train-010.json",
+      "ancestry_encoder_sha256": "5ffa15b1b89454ffce98462e69d5089808df4499b1603d4f29591df18481d6f8",
+      "initialization": "adapted"
+    },
+    {
+      "run": "det-finetune-r672-f010-s7",
+      "checkpoint": "artifacts\\det-finetune-r672-f010-s7\\checkpoint.pt",
+      "checkpoint_sha256": "06fa8ffb31baa3208a249d46e6c2e96e69c8d66dde598134d954f11e9dd93bb5",
+      "config": {
+        "kind": "finetune",
+        "frozen": false,
+        "seed": 7,
+        "fraction": 10,
+        "steps": 2000,
+        "batch": 8,
+        "accumulation": 1,
+        "adapted": null,
+        "adapted_sha256": null,
+        "published_sha256": "f433177089a681826f849f194ece3bb48f4d63fb38d32fc837e3dc7a4e5641fb",
+        "manifest_sha256": "2f5ae232f2a2a126930479032605cdad7e2060dbf1438e717a3c5d73322c5b39",
+        "source_revision": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+        "detector_size": 672,
+        "detector_cache": null,
+        "head_lr": 0.0003,
+        "backbone_lr": 1e-05,
+        "code_identity": {
+          "src/acquire.py": "c0f33970f0e8e11ec1b1b592ed7c9ca00bea8e5b318a5c2b4fdd5eba1097a049",
+          "src/adapt.py": "c37d8d484716fb5e8702b976805ed50452eff45c1cf35800b0a68fe1be7a38a3",
+          "src/adapt_motion.py": "50d29c449bd7b3dc53db00703433c692b58fcffba32e02f5f3cc39e639e5ed12",
+          "src/budget.py": "e4d30142bd39b50e043bfe42563caf44abdc153067e1b2293d923ec08837cbde",
+          "src/calibrate_motion.py": "f46dbb98a77c8be34c4d70baf92d404bf976f2897c690b433e8a63747b162386",
+          "src/channel.py": "c98c7f8f7c6d16e4440fc4e461b513932f46d09433c34ea1d1f2b83372693f70",
+          "src/data.py": "07ff208e168b390bfb57ac4a58ca1adf90e366fd09250dd38e2e13abdf56a57c",
+          "src/evaluate.py": "d7a6f8c76aac52f53839a8cc856e0c8a532e93090c0fdeb423e96a65fab06c83",
+          "src/freeze.py": "e5b29c3ec1205a7f445179e3ea0eefad900940942983ccde5ba6b625f1803d75",
+          "src/models.py": "85134b979bf5dd4713130084a2e8c0563772d2e2bae4cbee800074870c94a2f1",
+          "src/motion.py": "3057d5d078d1a84859368ccdd269bc4391f19904a3642b840786c0c746ee88c2",
+          "src/platform_compat.py": "c1ff01ec3d865d64504d1a556c9f48e514c89671984be809fff63470f2f7e66d",
+          "src/profile_batch.py": "7d827a49ca81256c459985dc8800744267ad9c1d9aaf848a5e0445429d611058",
+          "src/run_block.py": "e6db4f9efcdeeaa823708d2f4775d5351f238aab9de1eead700db27c8f5d7b2d",
+          "src/runtime.py": "b72fe399980b3080d928eec12e52144faf941302493a8f886d6f2417a042dae4",
+          "src/spatial.py": "44c7450dacd2ff1a009fcf3cc8834aee120020f5c00d5b2ccf784382541d8d04",
+          "src/summarize.py": "15e88c6aa3ffeab1610bdd22fc1aac86caf9dc02ba887b4e963f0be13397ec22",
+          "src/train_detector.py": "b440bb664224e465479368d8a17d21c828172ed507a03e5f5c3bff21b5bf5378"
+        },
+        "protocol_sha256": "671f8e94ce14195fa1934ca2756dcfd30886c20afbebcc8d6e3f4c9ad69aead9"
+      },
+      "validation_metrics_sha256": "cfb48855113f225ae78f6deb25da10de9443740019b8b64eb7e5c06d971d797d",
+      "validation_prediction_identity_sha256": "982ed5dd2921a3eac6c2022d468f8fdac2e3030dfe56f94bd0b568feac9092f1",
+      "label_manifest": "D:\\sonar-representation-lab-data\\manifests\\train-010.json",
+      "ancestry_encoder_sha256": "f433177089a681826f849f194ece3bb48f4d63fb38d32fc837e3dc7a4e5641fb",
+      "initialization": "published"
+    },
+    {
+      "run": "det-b-finetune-r672-f010-s7",
+      "checkpoint": "artifacts\\det-b-finetune-r672-f010-s7\\checkpoint.pt",
+      "checkpoint_sha256": "b9b2eea92e41a0901a6899a1f1236c38174530e07d07d4b3c866ec7e6b3c0d8f",
+      "config": {
+        "kind": "finetune",
+        "frozen": false,
+        "seed": 7,
+        "fraction": 10,
+        "steps": 2000,
+        "batch": 8,
+        "accumulation": 1,
+        "adapted": "artifacts\\ssl-B-s7\\encoder.pt",
+        "adapted_sha256": "972ff06e32e7ce59b2b7625c6254f20c92505da76a692193630134d187ab3954",
+        "published_sha256": "f433177089a681826f849f194ece3bb48f4d63fb38d32fc837e3dc7a4e5641fb",
+        "manifest_sha256": "2f5ae232f2a2a126930479032605cdad7e2060dbf1438e717a3c5d73322c5b39",
+        "source_revision": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+        "detector_size": 672,
+        "detector_cache": null,
+        "head_lr": 0.0003,
+        "backbone_lr": 1e-05,
+        "code_identity": {
+          "src/acquire.py": "c0f33970f0e8e11ec1b1b592ed7c9ca00bea8e5b318a5c2b4fdd5eba1097a049",
+          "src/adapt.py": "c37d8d484716fb5e8702b976805ed50452eff45c1cf35800b0a68fe1be7a38a3",
+          "src/adapt_motion.py": "50d29c449bd7b3dc53db00703433c692b58fcffba32e02f5f3cc39e639e5ed12",
+          "src/budget.py": "e4d30142bd39b50e043bfe42563caf44abdc153067e1b2293d923ec08837cbde",
+          "src/calibrate_motion.py": "f46dbb98a77c8be34c4d70baf92d404bf976f2897c690b433e8a63747b162386",
+          "src/channel.py": "c98c7f8f7c6d16e4440fc4e461b513932f46d09433c34ea1d1f2b83372693f70",
+          "src/data.py": "07ff208e168b390bfb57ac4a58ca1adf90e366fd09250dd38e2e13abdf56a57c",
+          "src/evaluate.py": "d7a6f8c76aac52f53839a8cc856e0c8a532e93090c0fdeb423e96a65fab06c83",
+          "src/freeze.py": "e5b29c3ec1205a7f445179e3ea0eefad900940942983ccde5ba6b625f1803d75",
+          "src/models.py": "85134b979bf5dd4713130084a2e8c0563772d2e2bae4cbee800074870c94a2f1",
+          "src/motion.py": "3057d5d078d1a84859368ccdd269bc4391f19904a3642b840786c0c746ee88c2",
+          "src/platform_compat.py": "c1ff01ec3d865d64504d1a556c9f48e514c89671984be809fff63470f2f7e66d",
+          "src/profile_batch.py": "7d827a49ca81256c459985dc8800744267ad9c1d9aaf848a5e0445429d611058",
+          "src/run_block.py": "e6db4f9efcdeeaa823708d2f4775d5351f238aab9de1eead700db27c8f5d7b2d",
+          "src/runtime.py": "b72fe399980b3080d928eec12e52144faf941302493a8f886d6f2417a042dae4",
+          "src/spatial.py": "44c7450dacd2ff1a009fcf3cc8834aee120020f5c00d5b2ccf784382541d8d04",
+          "src/summarize.py": "15e88c6aa3ffeab1610bdd22fc1aac86caf9dc02ba887b4e963f0be13397ec22",
+          "src/train_detector.py": "b440bb664224e465479368d8a17d21c828172ed507a03e5f5c3bff21b5bf5378"
+        },
+        "protocol_sha256": "671f8e94ce14195fa1934ca2756dcfd30886c20afbebcc8d6e3f4c9ad69aead9"
+      },
+      "validation_metrics_sha256": "352379433a08c135d20ad37a474a5343679606563673adf09e8a4ea4861bc783",
+      "validation_prediction_identity_sha256": "65a4fbbdaf2f1420f2cfec6c7bb303b3d130df561e14ec43e411b065152ea6b2",
+      "label_manifest": "D:\\sonar-representation-lab-data\\manifests\\train-010.json",
+      "ancestry_encoder_sha256": "972ff06e32e7ce59b2b7625c6254f20c92505da76a692193630134d187ab3954",
+      "initialization": "adapted"
+    }
+  ],
+  "roster_spec": {
+    "utc": "2026-10-03T14:38:43Z",
+    "runs": [
+      "det-published-r672-f010-s7",
+      "det-adapted-r672-f010-s7",
+      "det-b-r672-f010-s7",
+      "det-control-r672-f010-s7",
+      "det-motion-r672-f010-s7",
+      "det-finetune-r672-f010-s7",
+      "det-b-finetune-r672-f010-s7"
+    ],
+    "selected_resolution": 672,
+    "development_closed": true,
+    "omitted_cells": {
+      "original_1_and_100_percent": "DEFERRED_BY_OWNER_PRIORITY_AMENDMENT; neither failed nor completed",
+      "B_seeds13_23": "NOT_QUALIFIED_PREDECLARED_SCREEN in both frozen/full-finetuned contrast",
+      "C_seeds13_23": "NOT_QUALIFIED_PREDECLARED_SCREEN; independently, complete forecast20.1016h exceeds remaining development budget",
+      "optional_new_1_percent": "NOT_RUN_BUDGET: two fresh heads/full VAL forecast 4.19603888888887h exceeds remaining development allowance2.92436h",
+      "100_percent_grid": "DEFERRED_BY_OWNER_PRIORITY_AMENDMENT",
+      "Channel_original_448_and_random": "Not in bounded final roster; all original Kenai results retained. Random is a diagnostic; all final transfer comparisons use672 and seed7. No three-seed Channel claim."
+    },
+    "comparisons": [
+      {
+        "name": "A versus published",
+        "candidate": [
+          "det-adapted-r672-f010-s7"
+        ],
+        "reference": [
+          "det-published-r672-f010-s7"
+        ],
+        "replicated_claim": false
+      },
+      {
+        "name": "B versus published",
+        "candidate": [
+          "det-b-r672-f010-s7"
+        ],
+        "reference": [
+          "det-published-r672-f010-s7"
+        ],
+        "replicated_claim": false
+      },
+      {
+        "name": "spatial continuation versus B",
+        "candidate": [
+          "det-control-r672-f010-s7"
+        ],
+        "reference": [
+          "det-b-r672-f010-s7"
+        ],
+        "replicated_claim": false
+      },
+      {
+        "name": "C versus published",
+        "candidate": [
+          "det-motion-r672-f010-s7"
+        ],
+        "reference": [
+          "det-published-r672-f010-s7"
+        ],
+        "replicated_claim": false
+      },
+      {
+        "name": "motion contribution",
+        "candidate": [
+          "det-motion-r672-f010-s7"
+        ],
+        "reference": [
+          "det-control-r672-f010-s7"
+        ],
+        "replicated_claim": false
+      },
+      {
+        "name": "B full fine-tuning versus published full fine-tuning",
+        "candidate": [
+          "det-b-finetune-r672-f010-s7"
+        ],
+        "reference": [
+          "det-finetune-r672-f010-s7"
+        ],
+        "replicated_claim": false
+      }
+    ],
+    "forecast_final_gpu_hours": 5.249685142619442,
+    "reserved_gpu_hours": 6,
+    "forecast_basis": {
+      "worst_measured_full_Kenai_hours": 1.0817533333333267,
+      "Channel_frames_from_preexisting_structural_metadata": 13090,
+      "Kenai_validation_frames": 30454,
+      "multiplier": 1.25,
+      "per_checkpoint_overhead_hours": 0.05,
+      "per_checkpoint_forecast_hours": 0.6312106428274302,
+      "initial_evaluations": 7,
+      "reserved_identical_GPU_replays": 1,
+      "extra_final_overhead_hours": 0.2
+    },
+    "selection": "All seven completed seed7 detectors at the selected resolution, including every spatial/motion arm and both supervised references; no best-seed selection. Original A encoder is reused by its672 head.",
+    "status": "author-evaluated; single-seed one-location transfer; original fraction/location study incomplete"
+  },
+  "roster_spec_sha256": "188ebc24c998c511c4363e76601937616af5e680ec4ff5778933c546c0caa379",
+  "allocation_sha256": "cedd2b8d197ce0c19cb282cad6f4a4ece4aeb3bf4b39cd84543270d9b5e88ad8",
+  "code_identity": {
+    "src/acquire.py": "c0f33970f0e8e11ec1b1b592ed7c9ca00bea8e5b318a5c2b4fdd5eba1097a049",
+    "src/adapt.py": "c37d8d484716fb5e8702b976805ed50452eff45c1cf35800b0a68fe1be7a38a3",
+    "src/adapt_motion.py": "023c97f53b2816f632689df002ad23a9dc5ccf04c60ec6298ceb1c1745205a17",
+    "src/budget.py": "e4d30142bd39b50e043bfe42563caf44abdc153067e1b2293d923ec08837cbde",
+    "src/calibrate_motion.py": "f46dbb98a77c8be34c4d70baf92d404bf976f2897c690b433e8a63747b162386",
+    "src/channel.py": "c98c7f8f7c6d16e4440fc4e461b513932f46d09433c34ea1d1f2b83372693f70",
+    "src/data.py": "07ff208e168b390bfb57ac4a58ca1adf90e366fd09250dd38e2e13abdf56a57c",
+    "src/evaluate.py": "d7a6f8c76aac52f53839a8cc856e0c8a532e93090c0fdeb423e96a65fab06c83",
+    "src/freeze.py": "e5b29c3ec1205a7f445179e3ea0eefad900940942983ccde5ba6b625f1803d75",
+    "src/models.py": "85134b979bf5dd4713130084a2e8c0563772d2e2bae4cbee800074870c94a2f1",
+    "src/motion.py": "3057d5d078d1a84859368ccdd269bc4391f19904a3642b840786c0c746ee88c2",
+    "src/platform_compat.py": "c1ff01ec3d865d64504d1a556c9f48e514c89671984be809fff63470f2f7e66d",
+    "src/profile_batch.py": "7d827a49ca81256c459985dc8800744267ad9c1d9aaf848a5e0445429d611058",
+    "src/run_block.py": "e6db4f9efcdeeaa823708d2f4775d5351f238aab9de1eead700db27c8f5d7b2d",
+    "src/runtime.py": "b72fe399980b3080d928eec12e52144faf941302493a8f886d6f2417a042dae4",
+    "src/spatial.py": "44c7450dacd2ff1a009fcf3cc8834aee120020f5c00d5b2ccf784382541d8d04",
+    "src/summarize.py": "15e88c6aa3ffeab1610bdd22fc1aac86caf9dc02ba887b4e963f0be13397ec22",
+    "src/train_detector.py": "b440bb664224e465479368d8a17d21c828172ed507a03e5f5c3bff21b5bf5378"
+  },
+  "protocol_sha256": "9fe04443595691f16a331fb7f55388f9c1918f2a415681c7126ca318203b67a3",
+  "label_policy": "fixed nested complete Kenai TRAIN clips; no target-site adaptation",
+  "preprocessing": "grayscale repeated into 3 channels; aspect-preserving top-left letterbox at each checkpoint's fixed size; rounded inverse axes; ImageNet normalization",
+  "cache_policy": "existing validated 448 transform; no full 672 cache",
+  "score_threshold_saved": 0.001,
+  "operating_score": 0.5,
+  "nms": 0.5,
+  "max_detections": 100,
+  "channel_annotations_sha256": "3b63e5a3af0d0b7977ea0c271632ef4d31b966794694e95b2a535abb1a705f19",
+  "gpu_hours_charged_before_freeze": 26.57985163720877,
+  "prior_exposure": "Initial metadata listing displayed several Channel annotation/clip headers; no author-executed Channel imagery or score before this freeze. Annotation bytes are hashed here without parsing entries."
+}

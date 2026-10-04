@@ -1,0 +1,17 @@
+﻿{
+    "utc":  "2026-10-03T01:52:09.7046768Z",
+    "job":  "A672 full Kenai validation",
+    "used_hours":  14.262256359430992,
+    "forecast_gpu_process_hours":  1,
+    "final_reserved_hours":  6,
+    "basis":  "Predeclared resolution pair forecast; actual real-batch profile and completed validation runtime",
+    "command_arguments":  [
+                              "predict",
+                              "--checkpoint",
+                              "artifacts/det-adapted-r672-f010-s7/checkpoint.pt",
+                              "--batch",
+                              "8",
+                              "--out",
+                              "artifacts/det-adapted-r672-f010-s7/val"
+                          ]
+}

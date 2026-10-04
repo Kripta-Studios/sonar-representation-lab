@@ -1,0 +1,28 @@
+{
+  "format": "CFC-v1.1-L-PIL-bilinear-448-topleft-uint8-v1",
+  "location": "kenai",
+  "size": 448,
+  "source_sha256": {
+    "manifests/train-100.json": "ee310c9cf0a35a40b4a1a18563ef0114da263c0e57e87d810ca2960f63df93aa",
+    "manifests/val.json": "c630a8df1bf684994da7da8fd8850681fd0b30291fd96400061c859edb755b60"
+  },
+  "blob_sha256": "9bece1260d49e184924ca1749eec8b65b8eaf1a867f3597f2ba064d73a80a87b",
+  "blob_bytes": 401408,
+  "rows": [
+    {
+      "file_name": "known_clip_0_0.jpg",
+      "width": 217,
+      "height": 486,
+      "crc32": 2553800994
+    },
+    {
+      "file_name": "known_clip_1_0.jpg",
+      "width": 51,
+      "height": 31,
+      "crc32": 58036377
+    }
+  ],
+  "cpu_wall_seconds": 0.006857395172119141,
+  "owned_native_peak_bytes": 601104384,
+  "gpu_used": false
+}

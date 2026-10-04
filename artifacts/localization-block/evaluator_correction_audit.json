@@ -1,0 +1,220 @@
+{
+  "evaluator": "cfc-coco-positive-annotation-ids-v2",
+  "derived_kenai_metrics": [
+    {
+      "run": "det-adapted-f010-s13",
+      "source_metrics_sha256": "b2972716d0c4220907282e68a235a0d043086d6b806113063f1a4a9132e49089",
+      "source_per_image_coco_sha256": "0ae17832218f48e05162a14cb50d6a0b9d0b72cb3f52e24dc0c1fa493073e8d3",
+      "legacy_AP50": 0.1138712722757017,
+      "legacy_AP95": 0.02806979262653545,
+      "positive_id_AP50": 0.1138712722757017,
+      "positive_id_AP95": 0.028069792626535455,
+      "positive_id_AP75": 0.004856344274156828,
+      "delta_AP50_pp": 0.0,
+      "delta_AP95_pp": 0.0,
+      "zero_annotation_image_ids": [
+        73
+      ]
+    },
+    {
+      "run": "det-adapted-f010-s23",
+      "source_metrics_sha256": "2ea306fd03e0e6ca33f1e4934c01db6798296a73451049af31d4015b2f590716",
+      "source_per_image_coco_sha256": "69f635d3b6737553156e2d4522ce2a7ea362a06eeb33ce90573443d544124981",
+      "legacy_AP50": 0.11997394341045965,
+      "legacy_AP95": 0.028590417931610993,
+      "positive_id_AP50": 0.11997394341045965,
+      "positive_id_AP95": 0.028590417931610983,
+      "positive_id_AP75": 0.0032425966331025347,
+      "delta_AP50_pp": 0.0,
+      "delta_AP95_pp": 0.0,
+      "zero_annotation_image_ids": [
+        73
+      ]
+    },
+    {
+      "run": "det-adapted-r672-f010-s7",
+      "source_metrics_sha256": "726c28136e9809a1618f49f3ec025cf2f2f02c6957c502f206a0c1b59fb19853",
+      "source_per_image_coco_sha256": "e2f0c6acac36de9ec518dd33dae8d9aabb9a67e85a5adf834c8a2c9742a476c7",
+      "legacy_AP50": 0.2074332345533497,
+      "legacy_AP95": 0.05276113419969816,
+      "positive_id_AP50": 0.2074332345533497,
+      "positive_id_AP95": 0.052761134199698155,
+      "positive_id_AP75": 0.008052836938472634,
+      "delta_AP50_pp": 0.0,
+      "delta_AP95_pp": 0.0,
+      "zero_annotation_image_ids": [
+        73
+      ]
+    },
+    {
+      "run": "det-b-finetune-r672-f010-s7",
+      "source_metrics_sha256": "352379433a08c135d20ad37a474a5343679606563673adf09e8a4ea4861bc783",
+      "source_per_image_coco_sha256": "f577dc98d4d40f3b9f3f5fa248530de67ae39646af3a70ccd1943b7adaf3ee84",
+      "legacy_AP50": 0.48527114856452314,
+      "legacy_AP95": 0.16373641907950162,
+      "positive_id_AP50": 0.48527114856452314,
+      "positive_id_AP95": 0.16373641907950162,
+      "positive_id_AP75": 0.06497718970101031,
+      "delta_AP50_pp": 0.0,
+      "delta_AP95_pp": 0.0,
+      "zero_annotation_image_ids": [
+        73
+      ]
+    },
+    {
+      "run": "det-b-r672-f010-s7",
+      "source_metrics_sha256": "2aaf24c292537f4426b6e8618f8acde0a3c3750c8cf715d097a087fa8870ffcf",
+      "source_per_image_coco_sha256": "2e20b7b4ebb777bee730c2eb463554d0179f8e8248d499eb964cd1cb6ca94080",
+      "legacy_AP50": 0.20547040021838053,
+      "legacy_AP95": 0.05439020339196379,
+      "positive_id_AP50": 0.20547040021838053,
+      "positive_id_AP95": 0.0543902033919638,
+      "positive_id_AP75": 0.014189672410531658,
+      "delta_AP50_pp": 0.0,
+      "delta_AP95_pp": 0.0,
+      "zero_annotation_image_ids": [
+        73
+      ]
+    },
+    {
+      "run": "det-control-r672-f010-s7",
+      "source_metrics_sha256": "f06f7b1b019109c01629e31ffe1c71cde92fa4e0447018abd59ef09137d24e5e",
+      "source_per_image_coco_sha256": "520fa844e039392389f4f2762aade1e4fe7ae03fe0365812828969bf75f1561b",
+      "legacy_AP50": 0.2051520930767919,
+      "legacy_AP95": 0.053663485180209934,
+      "positive_id_AP50": 0.2051520930767919,
+      "positive_id_AP95": 0.053663485180209934,
+      "positive_id_AP75": 0.011250754306680892,
+      "delta_AP50_pp": 0.0,
+      "delta_AP95_pp": 0.0,
+      "zero_annotation_image_ids": [
+        73
+      ]
+    },
+    {
+      "run": "det-finetune-f010-s7",
+      "source_metrics_sha256": "b9b88b0e10a35d3790c1cc91a0c515238f853f726075bdb04591b1c9d4054ced",
+      "source_per_image_coco_sha256": "ee660c3cf500bb236458a9be1d0b6f854b9dbedeab09581e546923a79fbc381a",
+      "legacy_AP50": 0.4547914960197912,
+      "legacy_AP95": 0.14883281821125868,
+      "positive_id_AP50": 0.45480399788098924,
+      "positive_id_AP95": 0.148835738487184,
+      "positive_id_AP75": 0.052896413316807375,
+      "delta_AP50_pp": 0.0012501861198055408,
+      "delta_AP95_pp": 0.00029202759253554866,
+      "zero_annotation_image_ids": [
+        73
+      ]
+    },
+    {
+      "run": "det-finetune-r672-f010-s7",
+      "source_metrics_sha256": "cfb48855113f225ae78f6deb25da10de9443740019b8b64eb7e5c06d971d797d",
+      "source_per_image_coco_sha256": "853ca9c1a99430a57e2fa1d2b48608313aa42e010d445a4b802afd84f956ec9e",
+      "legacy_AP50": 0.49760478929015206,
+      "legacy_AP95": 0.1665178957703336,
+      "positive_id_AP50": 0.49765311920208805,
+      "positive_id_AP95": 0.16652272876152718,
+      "positive_id_AP75": 0.06398195456782416,
+      "delta_AP50_pp": 0.004832991193598479,
+      "delta_AP95_pp": 0.0004832991193581826,
+      "zero_annotation_image_ids": [
+        73
+      ]
+    },
+    {
+      "run": "det-motion-r672-f010-s7",
+      "source_metrics_sha256": "dab5017a772c19d057af5bc40eeb5d686a85f747b99da25849356b7d73489db8",
+      "source_per_image_coco_sha256": "5851c6e188f1ca14fb6c3aea76fb83e25a929dfc5322cc1825c3a9a3e414a796",
+      "legacy_AP50": 0.20750027152250003,
+      "legacy_AP95": 0.05172683575967029,
+      "positive_id_AP50": 0.20750027152250003,
+      "positive_id_AP95": 0.05172683575967028,
+      "positive_id_AP75": 0.007800184715135588,
+      "delta_AP50_pp": 0.0,
+      "delta_AP95_pp": 0.0,
+      "zero_annotation_image_ids": [
+        73
+      ]
+    },
+    {
+      "run": "det-published-f010-s13",
+      "source_metrics_sha256": "be940a3803547c602f24c5d747ee444cee849eb26f7a4c2bd790578ceee9c79f",
+      "source_per_image_coco_sha256": "c3840096133626a9b091a9945fd6c5011703c192d0275f3f92a0b08289869b71",
+      "legacy_AP50": 0.1560947229982459,
+      "legacy_AP95": 0.03954752343792475,
+      "positive_id_AP50": 0.1560947229982459,
+      "positive_id_AP95": 0.03954752343792476,
+      "positive_id_AP75": 0.006158649543210396,
+      "delta_AP50_pp": 0.0,
+      "delta_AP95_pp": 0.0,
+      "zero_annotation_image_ids": [
+        73
+      ]
+    },
+    {
+      "run": "det-published-f010-s23",
+      "source_metrics_sha256": "16fcb073551f5c7812a7329457b34785ccc03fb81fd0dd5e7ba1209756638b6a",
+      "source_per_image_coco_sha256": "eb923e5c4765c076caffe79dfb0cdabb90f78b38babb1be43c01b0ca90b0ae92",
+      "legacy_AP50": 0.16119596773588124,
+      "legacy_AP95": 0.04332122030611405,
+      "positive_id_AP50": 0.16119596773588124,
+      "positive_id_AP95": 0.043321220306114044,
+      "positive_id_AP75": 0.0076174538470773255,
+      "delta_AP50_pp": 0.0,
+      "delta_AP95_pp": 0.0,
+      "zero_annotation_image_ids": [
+        73
+      ]
+    },
+    {
+      "run": "det-published-f010-s7",
+      "source_metrics_sha256": "6d825bb517202abb7390dd6026b10eb37ae6f8d058a021f67e0fbdb312905a17",
+      "source_per_image_coco_sha256": "534d9474e827ecb8b00bef9050b8dda752c9a005101ca90fc97310a73b3f88c8",
+      "legacy_AP50": 0.15285253042653674,
+      "legacy_AP95": 0.040586310184010224,
+      "positive_id_AP50": 0.15285253042653674,
+      "positive_id_AP95": 0.04058631018401022,
+      "positive_id_AP75": 0.006879637348454258,
+      "delta_AP50_pp": 0.0,
+      "delta_AP95_pp": 0.0,
+      "zero_annotation_image_ids": [
+        73
+      ]
+    },
+    {
+      "run": "det-published-r672-f010-s7",
+      "source_metrics_sha256": "0c6f1f3ac0e9d3d8f5ef519d3633b595ed6a09ba7ff053b1af68509731873b07",
+      "source_per_image_coco_sha256": "e3f302709665b314cc65e5978d46c4ebe50def9ae93790204019ef0f6d6ac03d",
+      "legacy_AP50": 0.26997822969453616,
+      "legacy_AP95": 0.07621921163621888,
+      "positive_id_AP50": 0.26997822969453616,
+      "positive_id_AP95": 0.07621921163621889,
+      "positive_id_AP75": 0.01600423887043964,
+      "delta_AP50_pp": 0.0,
+      "delta_AP95_pp": 0.0,
+      "zero_annotation_image_ids": [
+        73
+      ]
+    },
+    {
+      "run": "det-random-f010-s7",
+      "source_metrics_sha256": "299d9479cdd4d82ca8a6e6cde87e0a3c4bfa14754d8e4e5f39e0155803f6dd29",
+      "source_per_image_coco_sha256": "3391947a6069ebda07bd656536f9b54bfebf66094084e496e518562c6eda628b",
+      "legacy_AP50": 0.09529830798815421,
+      "legacy_AP95": 0.025822646123428786,
+      "positive_id_AP50": 0.09529830798815421,
+      "positive_id_AP95": 0.025822646123428782,
+      "positive_id_AP75": 0.005956385980339281,
+      "delta_AP50_pp": 0.0,
+      "delta_AP95_pp": 0.0,
+      "zero_annotation_image_ids": [
+        73
+      ]
+    }
+  ],
+  "historical_artifacts_overwritten": false,
+  "channel_accessed": false,
+  "gpu_used": false,
+  "cpu_wall_seconds": 1793.0780000000377,
+  "method": "Recovered matched ID0 through gtMatches/dtIds; known-answer exact agreement with positive-ID full scorer, original image-ID tie ordering retained"
+}

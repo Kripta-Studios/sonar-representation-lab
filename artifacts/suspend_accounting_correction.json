@@ -1,0 +1,13 @@
+{
+  "event": "accounting_correction",
+  "pid": 58708,
+  "utc": "2026-10-02T07:13:39Z",
+  "original_ledger": "artifacts\\resource_ledger_before_suspend_correction.jsonl",
+  "os_source": "Microsoft-Windows-Power-Troubleshooter / EventID 1",
+  "power_event_record_ids": [
+    32897035
+  ],
+  "excluded_confirmed_suspend_seconds": 28344.46434688568,
+  "original_wall_gpu_process_hours": 9.18294277777778,
+  "corrected_active_gpu_process_hours": 1.3094804591984253
+}

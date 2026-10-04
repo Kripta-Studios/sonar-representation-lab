@@ -1,0 +1,7 @@
+{
+  "computed_AP50": 0.48527114856452314,
+  "saved_AP50": 0.48527114856452314,
+  "computed_AP95": 0.16373641907950162,
+  "saved_AP95": 0.16373641907950162,
+  "order": "original sorted image IDs, including stable score-tie order"
+}

@@ -1,0 +1,20 @@
+{
+  "checkpoint_update": 2000,
+  "fraction_percent": 10,
+  "available": {
+    "clips": 49,
+    "frames": 16859,
+    "annotations": 11728,
+    "negative_frames": 10705
+  },
+  "unique_clips_seen": 49,
+  "unique_frames_seen": 10356,
+  "frame_presentations": 16000,
+  "unique_negative_frames_seen": 6616,
+  "negative_frame_presentations": 10206,
+  "unique_available_annotations_in_seen_frames": 7134,
+  "annotation_presentations_in_sampled_frames": 11035,
+  "policy": "All annotations in every selected clip remained available; fixed-step sampling does not imply every available frame was visited. Annotation presentations are dataset inputs, not counts of RPN/ROI sampled positives.",
+  "GPU_used": false,
+  "status": "author-verified saved-checkpoint exposure audit; not independent review"
+}

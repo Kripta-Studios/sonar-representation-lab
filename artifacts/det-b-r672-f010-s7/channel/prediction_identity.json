@@ -1,0 +1,12 @@
+{
+  "checkpoint_sha256": "a84d2616e454e71f377815d2d8c354874ac371adcbcb25fca4fc0a879a1a9840",
+  "annotation_sha256": "3b63e5a3af0d0b7977ea0c271632ef4d31b966794694e95b2a535abb1a705f19",
+  "images": 13090,
+  "split": "channel",
+  "preprocessing": "672 aspect-preserving grayscale top-left letterbox; ImageNet normalization",
+  "detector_size": 672,
+  "score_threshold": 0.001,
+  "nms": 0.5,
+  "max_detections": 100,
+  "detector_cache": null
+}

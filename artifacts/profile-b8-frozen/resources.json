@@ -1,0 +1,15 @@
+{
+  "event": "end",
+  "name": "profile-b8-frozen",
+  "pid": 53764,
+  "status": "completed",
+  "error": null,
+  "elapsed_seconds": 29.625,
+  "charged_gpu_hours": 0.008229166666666666,
+  "owned_rss_peak_bytes": 2846031872,
+  "cuda_peak_allocated_bytes": 440716288,
+  "cuda_peak_reserved_bytes": 507510784,
+  "physical_device_used_peak_bytes": 3795845120,
+  "overall_remaining_hours": 99.94720916666667,
+  "block_remaining_hours": 23.94720916666667
+}

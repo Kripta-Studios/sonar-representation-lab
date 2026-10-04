@@ -1,0 +1,15 @@
+{
+  "event": "end",
+  "name": "ssl-profile",
+  "pid": 59352,
+  "status": "completed",
+  "error": null,
+  "elapsed_seconds": 68.09400000001187,
+  "charged_gpu_hours": 0.018915000000003297,
+  "owned_rss_peak_bytes": 1771806720,
+  "cuda_peak_allocated_bytes": 1110034432,
+  "cuda_peak_reserved_bytes": 1180696576,
+  "physical_device_used_peak_bytes": 5896142848,
+  "overall_remaining_hours": 99.96486972222222,
+  "block_remaining_hours": 23.964869722222225
+}

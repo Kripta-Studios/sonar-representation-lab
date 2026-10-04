@@ -1,0 +1,11 @@
+{
+  "status": "author engineering measurement, CPU only",
+  "split": "Kenai TRAIN 10%",
+  "real_frames": 64,
+  "sample_seed": 971,
+  "mean_frame_decode_resize_tensor_seconds": 0.05361242343678896,
+  "median_frame_seconds": 0.0516069000295829,
+  "estimated_eight_frame_cpu_seconds": 0.42889938749431167,
+  "scientific_settings_changed": false,
+  "gpu_used": false
+}

@@ -1,0 +1,10 @@
+{
+  "cpu_only": true,
+  "train_frames": 64,
+  "threads": 4,
+  "component_means": {
+    "decode_seconds": 0.027149293749062053,
+    "resize_pad_seconds": 0.01317595313048514,
+    "tensor_seconds": 0.003327179686493764
+  }
+}

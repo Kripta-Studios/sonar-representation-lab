@@ -1,0 +1,83 @@
+{
+  "started_utc": "2026-10-03T14:39:04Z",
+  "status": "completed fixed held-out block",
+  "freeze_sha256": "141a160155504a796a4544f2461e418851d87a1d31e0ea476dc66a77cf907f71",
+  "prior_exposure": "Initial metadata listing displayed several Channel annotation/clip headers; no author-executed Channel imagery or score before this freeze. Annotation bytes are hashed here without parsing entries.",
+  "models": [
+    "det-published-r672-f010-s7",
+    "det-adapted-r672-f010-s7",
+    "det-b-r672-f010-s7",
+    "det-control-r672-f010-s7",
+    "det-motion-r672-f010-s7",
+    "det-finetune-r672-f010-s7",
+    "det-b-finetune-r672-f010-s7"
+  ],
+  "attempts": [
+    {
+      "run": "det-published-r672-f010-s7",
+      "out": "artifacts\\det-published-r672-f010-s7\\channel",
+      "status": "completed",
+      "checkpoint_sha256": "caeb86511dadc2aaf75d83f29e59a0df5e0fccb42a288ee9c8279afeb5d0544d",
+      "replay": false,
+      "reason": "fixed initial evaluation",
+      "metrics_sha256": "c5a64bb4cd9e481dad03503e7bf6e8ab5a142a1f3fb26ac4e493a6e27b2ee5b8"
+    },
+    {
+      "run": "det-adapted-r672-f010-s7",
+      "out": "artifacts\\det-adapted-r672-f010-s7\\channel",
+      "status": "completed",
+      "checkpoint_sha256": "38e8aa935e5007da956434fb037fcffa8fb0b0d81a85c8321980e683edf92beb",
+      "replay": false,
+      "reason": "fixed initial evaluation",
+      "metrics_sha256": "c829e3685646fe12e3e7afe8a08638e824c96ad9205afeab03f3b6dc589135c7"
+    },
+    {
+      "run": "det-b-r672-f010-s7",
+      "out": "artifacts\\det-b-r672-f010-s7\\channel",
+      "status": "completed",
+      "checkpoint_sha256": "a84d2616e454e71f377815d2d8c354874ac371adcbcb25fca4fc0a879a1a9840",
+      "replay": false,
+      "reason": "fixed initial evaluation",
+      "metrics_sha256": "eb3445d0fcbeb581d5481496e04134ef744eb7302b6de91f2321733b91c973c0"
+    },
+    {
+      "run": "det-control-r672-f010-s7",
+      "out": "artifacts\\det-control-r672-f010-s7\\channel",
+      "status": "completed",
+      "checkpoint_sha256": "2c032b69d1457d87205ab1e09d9a2ec9604d7ad813ae09e3c945ba2b58881843",
+      "replay": false,
+      "reason": "fixed initial evaluation",
+      "metrics_sha256": "4be609963d4919a7fcf35b2b2695d5aed580b5c67c09fe7c5cb4b0ad3d4d37fa"
+    },
+    {
+      "run": "det-motion-r672-f010-s7",
+      "out": "artifacts\\det-motion-r672-f010-s7\\channel",
+      "status": "completed",
+      "checkpoint_sha256": "acd910a2fe3b1363eaa5c76b8cff8ecde47207ee42365cd46dba83229dffb97a",
+      "replay": false,
+      "reason": "fixed initial evaluation",
+      "metrics_sha256": "8770e8b63737f0139b6393fcdce323a349410fc3fcd5ec4d3f68af2647665cb8"
+    },
+    {
+      "run": "det-finetune-r672-f010-s7",
+      "out": "artifacts\\det-finetune-r672-f010-s7\\channel",
+      "status": "completed",
+      "checkpoint_sha256": "06fa8ffb31baa3208a249d46e6c2e96e69c8d66dde598134d954f11e9dd93bb5",
+      "replay": false,
+      "reason": "fixed initial evaluation",
+      "metrics_sha256": "7ef20ae77fd26a2bf47002c8e6a8fcbc619a5f34fa015681080cd474fbb796ac"
+    },
+    {
+      "run": "det-b-finetune-r672-f010-s7",
+      "out": "artifacts\\det-b-finetune-r672-f010-s7\\channel",
+      "status": "completed",
+      "checkpoint_sha256": "b9b2eea92e41a0901a6899a1f1236c38174530e07d07d4b3c866ec7e6b3c0d8f",
+      "replay": false,
+      "reason": "fixed initial evaluation",
+      "metrics_sha256": "9d07570b397552e6b21d73224c757cacf8d591c13dfd903bf4536f7648a08773"
+    }
+  ],
+  "archive_extracted": true,
+  "archive_sha256": "d057073e4ce96fb0195273b915d5246213645d6e49cf96046d93ac7d6ea79ead",
+  "finished_utc": "2026-10-03T17:36:22Z"
+}

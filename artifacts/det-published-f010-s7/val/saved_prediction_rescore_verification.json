@@ -1,0 +1,13 @@
+{
+  "source": "actual saved raw detections and official full Kenai validation annotations",
+  "images_evaluated": 30454,
+  "detections": 1463149,
+  "all_saved_metric_fields_reproduced": true,
+  "numeric_tolerance": 1e-12,
+  "AP50": 0.15285253042653674,
+  "AP50:95": 0.040586310184010224,
+  "cpu_wall_seconds": 472.4097020626068,
+  "owned_ram_peak_bytes": 3435077632,
+  "GPU_used": false,
+  "status": "author-verified reproduction; not independent review"
+}

@@ -1,0 +1,14 @@
+{
+  "python": "3.12.13 (main, Mar 10 2026, 18:15:39) [MSC v.1944 64 bit (AMD64)]",
+  "python_executable": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\sonar-representation-lab\\.venv\\Scripts\\python.exe",
+  "private_environment": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\sonar-representation-lab\\.venv",
+  "os": "Windows-11-10.0.26200-SP0",
+  "torch": "2.11.0+cu128",
+  "torchvision": "0.26.0+cu128",
+  "torch_cuda_build": "12.8",
+  "gpu_query": "NVIDIA GeForce RTX 5070 Ti Laptop GPU, 591.86, 12227 MiB",
+  "system_ram_bytes": 33483378688,
+  "dependency_lock": "requirements-lock.txt",
+  "data_root": "D:/sonar-representation-lab-data",
+  "source_revision": "7764ea0f912e53c92e82eb78a2a1631e92725fc8"
+}

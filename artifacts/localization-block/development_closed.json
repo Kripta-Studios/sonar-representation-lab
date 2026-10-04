@@ -1,0 +1,27 @@
+{
+  "utc": "2026-10-04T09:06:47Z",
+  "status": "development closed",
+  "roster": [
+    "artifacts\\det-finetune-r672-f010-s7-mb4",
+    "artifacts\\det-image-finetune-r672-f010-s7-mb4",
+    "artifacts\\det-capacity-finetune-r672-f010-s7-mb4",
+    "artifacts\\det-b-finetune-r672-f010-s7-mb4",
+    "artifacts\\det-finetune-r672-f001-s7-mb4",
+    "artifacts\\det-b-finetune-r672-f001-s7-mb4"
+  ],
+  "screen": {
+    "AP50_gain_pp": 1.729532183279836,
+    "AP95_gain_pp": 0.7506639768622952,
+    "small_recall": 0.48431950881839525,
+    "reference_small_recall": 0.46313128273039184,
+    "rule": "AP50>=+1pp, AP95>=reference, fixed below16 recall>reference; resources fit",
+    "metrics_sha256": "2f7d10de6dfed93a1636de08273fccff6250f68b3dbd016df713ddd3db3da7c8",
+    "passes": true
+  },
+  "omissions": {
+    "replication": "NOT_RUN_BUDGET; strongest contrast remains seed7 pilot"
+  },
+  "original_100_percent": "DEFERRED_BY_OWNER_PRIORITY_AMENDMENT",
+  "remaining_development_hours": 4.141870277777748,
+  "no_new_channel_inference": true
+}

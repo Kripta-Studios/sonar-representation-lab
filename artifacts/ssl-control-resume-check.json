@@ -1,0 +1,106 @@
+{
+  "uninterrupted_sha256": "c667b5d9b77f324fbbed7d3963547d1f3698a177b0c2f69e018e621b31220352",
+  "resumed_sha256": "c324b027d88edd727c0be28e0e7a01718c07adbd5034bef6e2eac3b09b28895f",
+  "fresh_repeat_sha256": "5c02e66871733ea618a3303c70f1117a3062767c22999d30d8047650a7986166",
+  "successful_updates": 4,
+  "exact_loaded_model_optimizer_centers_rng_verified": true,
+  "rng_exposures_step_config_exact": true,
+  "checkpoint_state_restoration_and_numeric_continuation_pass": true,
+  "bitwise_training_trajectory_claimed": false,
+  "resumed_differences": {
+    "student": {
+      "relative_l2": 6.261612625777185e-08,
+      "max_abs": 1.430511474609375e-06
+    },
+    "teacher": {
+      "relative_l2": 2.5338715676832216e-09,
+      "max_abs": 1.1920928955078125e-07
+    },
+    "student_head": {
+      "relative_l2": 1.219433308274259e-07,
+      "max_abs": 6.332993507385254e-08
+    },
+    "teacher_head": {
+      "relative_l2": 4.7134501005192685e-09,
+      "max_abs": 7.450580596923828e-09
+    },
+    "objective": {
+      "relative_l2": 0.0007020249802491696,
+      "max_abs": 4.3334439396858215e-05
+    },
+    "student_patch_head": {
+      "relative_l2": 1.0241169206584859e-07,
+      "max_abs": 4.0978193283081055e-08
+    },
+    "teacher_patch_head": {
+      "relative_l2": 4.349936965494699e-09,
+      "max_abs": 7.450580596923828e-09
+    },
+    "patch_objective": {
+      "relative_l2": 0.00020186507850257702,
+      "max_abs": 1.3286247849464417e-05
+    },
+    "dynamic_auxiliary": {
+      "relative_l2": 0.0,
+      "max_abs": 0.0
+    },
+    "optimizer.exp_avg": {
+      "relative_l2": 0.010822503585716112,
+      "max_abs": 0.00024025514721870422
+    },
+    "optimizer.exp_avg_sq": {
+      "relative_l2": 0.00014607883667515898,
+      "max_abs": 3.7671998143196106e-07
+    }
+  },
+  "fresh_replay_differences": {
+    "student": {
+      "relative_l2": 7.194632594490263e-08,
+      "max_abs": 1.430511474609375e-06
+    },
+    "teacher": {
+      "relative_l2": 2.8424314411020328e-09,
+      "max_abs": 1.1920928955078125e-07
+    },
+    "student_head": {
+      "relative_l2": 1.276539479322712e-07,
+      "max_abs": 8.568167686462402e-08
+    },
+    "teacher_head": {
+      "relative_l2": 4.762690961599038e-09,
+      "max_abs": 7.450580596923828e-09
+    },
+    "objective": {
+      "relative_l2": 0.0007263025731942975,
+      "max_abs": 3.433693200349808e-05
+    },
+    "student_patch_head": {
+      "relative_l2": 8.944379533727084e-08,
+      "max_abs": 3.67872416973114e-08
+    },
+    "teacher_patch_head": {
+      "relative_l2": 4.200045598930782e-09,
+      "max_abs": 7.450580596923828e-09
+    },
+    "patch_objective": {
+      "relative_l2": 0.0001964681561178327,
+      "max_abs": 1.2621283531188965e-05
+    },
+    "dynamic_auxiliary": {
+      "relative_l2": 0.0,
+      "max_abs": 0.0
+    },
+    "optimizer.exp_avg": {
+      "relative_l2": 0.017550612179595575,
+      "max_abs": 0.00046782009303569794
+    },
+    "optimizer.exp_avg_sq": {
+      "relative_l2": 0.00028456531859855923,
+      "max_abs": 7.927301339805126e-07
+    }
+  },
+  "bounds": "module relative L2 <=1e-6/max abs <=5e-6; centers <=0.005; optimizer moments <=0.05; resumed relative error <=3*fresh replay error+1e-8",
+  "dynamic_auxiliary_bounds": "relative L2 <=1e-4/max abs <=1e-3",
+  "paired_control_stream_checked": false,
+  "status": "author real TRAIN engineering test; preserved earlier failed bitwise check; not a detection result"
+}

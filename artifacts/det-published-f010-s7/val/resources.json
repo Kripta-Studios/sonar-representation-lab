@@ -1,0 +1,22 @@
+{
+  "event": "end",
+  "name": "val",
+  "pid": 58708,
+  "status": "completed",
+  "error": null,
+  "elapsed_seconds": 33058.59400000001,
+  "charged_gpu_hours": 1.3094804591984253,
+  "owned_rss_peak_bytes": 2997829632,
+  "cuda_peak_allocated_bytes": 251063296,
+  "cuda_peak_reserved_bytes": 375390208,
+  "physical_device_used_peak_bytes": 4445962240,
+  "overall_remaining_hours": 98.11610092969046,
+  "block_remaining_hours": 22.11610092969046,
+  "initial_wall_charge_hours": 9.18294277777778,
+  "verified_suspend_seconds": 28344.46434688568,
+  "active_gpu_process_seconds": 4714.129653114331,
+  "accounting_correction": "OS-confirmed hibernation; original ledger retained",
+  "power_event_record_ids": [
+    32897035
+  ]
+}

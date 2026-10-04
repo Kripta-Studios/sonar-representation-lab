@@ -1,0 +1,14 @@
+{
+  "frame": "2018-05-30-JD150_LeftNear_Stratum1_Set1_LN_2018-05-30_190000_3165_3706_407.jpg",
+  "split": "official Kenai TRAIN",
+  "annotations": 2,
+  "microbatch": 2,
+  "microbatch_seconds": [
+    14.0,
+    0.5309999999881256,
+    0.7809999999881256,
+    0.764999999984866
+  ],
+  "checkpoint_reload_identical": true,
+  "purpose": "resource/geometry/reload verification only; not a detection research result"
+}

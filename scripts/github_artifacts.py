@@ -1,4 +1,4 @@
-"""Package research artifacts for a private GitHub release, or restore verified assets."""
+"""Package research artifacts for GitHub, or restore verified release assets."""
 
 import argparse
 import hashlib
@@ -8,7 +8,7 @@ import zipfile
 from pathlib import Path
 
 PROJECT = Path(__file__).resolve().parents[1]
-OUTPUT = PROJECT / "artifacts/github-publication"
+OUTPUT = PROJECT / "artifacts/github-publication-public"
 MANIFEST = PROJECT / "github-artifact-manifest.json"
 PART_LIMIT = 1536 * 1024**2
 GITHUB_LIMIT = 2 * 1024**3
@@ -26,7 +26,17 @@ def package():
     if MANIFEST.exists() or OUTPUT.exists():
         raise ValueError("Preserve an existing export; do not rebuild or overwrite it")
     files = sorted(
-        p for p in (PROJECT / "artifacts").rglob("*") if p.is_file() and not p.is_relative_to(OUTPUT)
+        p
+        for p in (PROJECT / "artifacts").rglob("*")
+        if p.is_file()
+        and not p.relative_to(PROJECT / "artifacts").parts[0].startswith("github-publication")
+        and not p.name.startswith("github-")
+        and (
+            not p.is_relative_to(PROJECT / "artifacts/sources")
+            or p.suffix == ".json"
+            or "LICENSE" in p.name
+            or p.name.endswith("_revision.txt")
+        )
     )
     vendor = PROJECT / "vendor/dinov2"
     files += sorted(
@@ -54,9 +64,9 @@ def package():
         "format": "independent zip volumes; extract each into the repository root",
         "repository": "Kripta-Studios/sonar-representation-lab",
         "release": "research-2026-10-04",
-        "visibility": "private",
-        "includes": "all existing artifacts and pinned DINOv2 working source without .git or bytecode",
-        "excludes": "raw CFC imagery, private Python environment and this export's own output directory",
+        "visibility": "public",
+        "includes": "research artifacts and pinned Apache-2.0 DINOv2 source without .git or bytecode",
+        "excludes": "raw CFC imagery, Python environment, publication working files and cached third-party webpages/reference copies; factual provenance, revision IDs and licenses are retained",
         "file_count": len(files),
         "original_bytes": source_bytes,
         "assets": [],

@@ -1,0 +1,22 @@
+{
+  "event": "end",
+  "name": "ssl-A-s7",
+  "pid": 47916,
+  "status": "failed_or_interrupted",
+  "error": "Observed aggregate GPU memory remained above the declared 10 GiB ceiling; stop only owned SSL process rather than wait for slow 25-step checks.",
+  "elapsed_seconds": 3527.789240837097,
+  "elapsed_source": "confirmed OS epoch interval; process was forcibly stopped so native monotonic final accounting was unavailable",
+  "ended_utc": "2026-10-02T09:41:44Z",
+  "verified_suspend_seconds": 0,
+  "active_gpu_process_seconds": 3527.789240837097,
+  "charged_gpu_hours": 0.9799414557880826,
+  "owned_rss_peak_bytes": 2219728896,
+  "cuda_peak_allocated_bytes": 2544236032,
+  "cuda_peak_reserved_bytes": 2696937472,
+  "physical_gpu_manual_observation": "artifacts/gpu_memory_observation_20261002_0938UTC.txt",
+  "last_logged_successful_update": 1776,
+  "resume_checkpoint_update": 1600,
+  "unsaved_successful_updates_lost_at_least": 176,
+  "overall_remaining_hours": 95.86615058501349,
+  "block_remaining_hours": 19.86615058501349
+}

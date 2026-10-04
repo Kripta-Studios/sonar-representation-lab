@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-10-02T07:43:53Z",
+  "implementation_timing": "after the first milestone completes, before optional fraction admission",
+  "reason": "The first validation run crossed OS-confirmed hibernation and host throughput changed after resume; its full active charge stays in the ledger, but it is not a representative uninterrupted runtime forecast.",
+  "forecast_population": "completed validation and training runs without verified system suspension; fall back to all completed runs if none qualify",
+  "estimator": "maximum eligible runtime, preserving the original 1.5 held-out and 1.25 paired-run safety factors and public frame-count ratio",
+  "allocation_unchanged": {
+    "block_gpu_hours": 24,
+    "initial_overall_balance_hours": 100
+  },
+  "all_attempted_charges_retained": true,
+  "scientific_settings_unchanged": true,
+  "decision_uses_model_metrics": false
+}

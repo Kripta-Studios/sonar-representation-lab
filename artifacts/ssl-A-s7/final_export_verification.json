@@ -1,0 +1,17 @@
+{
+  "status": "author-verified; not independently reviewed",
+  "completed_updates": 2000,
+  "finite_encoder_tensors": 176,
+  "export_bitwise_equal_to_final_ema_teacher": true,
+  "export_config_matches_final_training_checkpoint": true,
+  "all_exposures_in_image_only_official_kenai_train_manifest": true,
+  "manifest_keys": [
+    "filenames",
+    "split"
+  ],
+  "unique_frames": 29017,
+  "presentations": 32000,
+  "finite_teacher_center": true,
+  "encoder_sha256": "15b3356ef61f163a955cefd240b04555635b104f7b222dcd408fdb783eaca210",
+  "verification_cpu_seconds": 6.037340399983805
+}

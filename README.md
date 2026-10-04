@@ -1,21 +1,27 @@
 # sonar-representation-lab
 
-GitHub: [private repository](https://github.com/Kripta-Studios/sonar-representation-lab).
+GitHub: [public repository](https://github.com/Kripta-Studios/sonar-representation-lab).
 Code, tests, reports and small research outputs are tracked in Git. Full model checkpoints,
 predictions, evaluator outputs, interrupted attempts and pinned DINOv2 source are distributed as
 independent ZIP volumes in the [research snapshot release](https://github.com/Kripta-Studios/sonar-representation-lab/releases/tag/research-2026-10-04).
 The release manifest records every included path, size and SHA-256. Raw CFC images and the Python
 environment are excluded; obtain the official data and use the pinned environment instructions below.
+Cached third-party webpages and reference copies remain local; their original source links, factual
+provenance and license records are retained. The archive includes the licensed pinned DINOv2 source.
 
 To restore the research artifacts into a clone, download the release ZIPs and manifest, then run:
 
 ```powershell
+git -c core.autocrlf=false clone https://github.com/facebookresearch/dinov2.git vendor/dinov2
+git -C vendor/dinov2 checkout 7764ea0f912e53c92e82eb78a2a1631e92725fc8
 gh release download research-2026-10-04 --repo Kripta-Studios/sonar-representation-lab --dir artifacts/github-publication
 python scripts/github_artifacts.py restore --assets artifacts/github-publication
 ```
 
 The restore command verifies asset and individual-file hashes and preserves differing existing files.
 Tracked scientific files retain their original bytes to preserve frozen source and evaluator identities.
+Skip the dependency clone if the existing DINOv2 checkout is already at the pinned revision. Its Git
+metadata is deliberately not bundled; model loading verifies the dependency's actual checked-out commit.
 
 Latest completed follow-up: The seed-7 image branch passes the practical screen. B initialization provides no label-efficiency improvement in the completed matched pilot. Primary AP50 change +1.7295 percentage points. See the [localization follow-up](#localization-follow-up--completed-author-execution) below for new checkpoints, evaluator v2, resource charges and omissions. Earlier dated sections retain their historical results.
 

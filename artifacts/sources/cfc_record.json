@@ -1,0 +1,857 @@
+{
+  "access": {
+    "embargo": {
+      "active": false,
+      "reason": null
+    },
+    "files": "public",
+    "record": "public",
+    "status": "open"
+  },
+  "created": "2024-07-16T19:04:47.973122+00:00",
+  "custom_fields": {},
+  "deletion_status": {
+    "is_deleted": false,
+    "status": "P"
+  },
+  "expanded": {
+    "parent": {
+      "access": {
+        "owned_by": {
+          "active": null,
+          "blocked_at": null,
+          "confirmed_at": null,
+          "email": "",
+          "id": "445",
+          "is_current_user": false,
+          "links": {
+            "avatar": "https://data.caltech.edu/api/users/445/avatar.svg",
+            "records_html": "https://data.caltech.edu/search/records?q=parent.access.owned_by.user:445",
+            "self": "https://data.caltech.edu/api/users/445"
+          },
+          "profile": {
+            "affiliations": "",
+            "full_name": ""
+          },
+          "username": null,
+          "verified_at": null
+        }
+      }
+    }
+  },
+  "files": {
+    "count": 14,
+    "enabled": true,
+    "entries": {
+      "cfc_v1.1.yaml": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:3c84baebeffcbb7696915ca9c3d66ad0",
+        "ext": "yaml",
+        "id": "93379dbf-b36e-471a-9341-6b44cdcce5f7",
+        "key": "cfc_v1.1.yaml",
+        "links": {
+          "content": "https://data.caltech.edu/api/records/g945x-41103/files/cfc_v1.1.yaml/content",
+          "self": "https://data.caltech.edu/api/records/g945x-41103/files/cfc_v1.1.yaml"
+        },
+        "metadata": null,
+        "mimetype": "application/yaml",
+        "size": 515,
+        "storage_class": "L"
+      },
+      "channel-3channel.tar": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:3e6c9fc312ebab93ca6dbd74a5280ba4",
+        "ext": "tar",
+        "id": "48ae19c1-df67-4942-adb6-714af08839a6",
+        "key": "channel-3channel.tar",
+        "links": {
+          "content": "https://data.caltech.edu/api/records/g945x-41103/files/channel-3channel.tar/content",
+          "self": "https://data.caltech.edu/api/records/g945x-41103/files/channel-3channel.tar"
+        },
+        "metadata": null,
+        "mimetype": "application/x-tar",
+        "size": 1482535631,
+        "storage_class": "L"
+      },
+      "channel.tar": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:16db94bef9af773b725301811f695e13",
+        "ext": "tar",
+        "id": "19607874-5aaf-4445-9884-76898d94ae2c",
+        "key": "channel.tar",
+        "links": {
+          "content": "https://data.caltech.edu/api/records/g945x-41103/files/channel.tar/content",
+          "self": "https://data.caltech.edu/api/records/g945x-41103/files/channel.tar"
+        },
+        "metadata": null,
+        "mimetype": "application/x-tar",
+        "size": 1680528910,
+        "storage_class": "L"
+      },
+      "coco_annotations_v1.1.zip": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:dc6f119e1618dc823672127ccc7a9448",
+        "ext": "zip",
+        "id": "986dba05-90ab-4805-a3e0-6c334efabec9",
+        "key": "coco_annotations_v1.1.zip",
+        "links": {
+          "content": "https://data.caltech.edu/api/records/g945x-41103/files/coco_annotations_v1.1.zip/content",
+          "self": "https://data.caltech.edu/api/records/g945x-41103/files/coco_annotations_v1.1.zip"
+        },
+        "metadata": null,
+        "mimetype": "application/zip",
+        "size": 14497860,
+        "storage_class": "L"
+      },
+      "elwha-3channel.tar": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:6c9ff31cdc258e452c58c0f5dd0380d8",
+        "ext": "tar",
+        "id": "9df84b92-55e2-4a2d-8b9c-3384854672c8",
+        "key": "elwha-3channel.tar",
+        "links": {
+          "content": "https://data.caltech.edu/api/records/g945x-41103/files/elwha-3channel.tar/content",
+          "self": "https://data.caltech.edu/api/records/g945x-41103/files/elwha-3channel.tar"
+        },
+        "metadata": null,
+        "mimetype": "application/x-tar",
+        "size": 20127667596,
+        "storage_class": "L"
+      },
+      "elwha.tar": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:f6b01d55673e51958828f04debe1c62a",
+        "ext": "tar",
+        "id": "1e6f3961-cf89-497f-b925-7d7d345f2a50",
+        "key": "elwha.tar",
+        "links": {
+          "content": "https://data.caltech.edu/api/records/g945x-41103/files/elwha.tar/content",
+          "self": "https://data.caltech.edu/api/records/g945x-41103/files/elwha.tar"
+        },
+        "metadata": null,
+        "mimetype": "application/x-tar",
+        "size": 23212231899,
+        "storage_class": "L"
+      },
+      "file_lists_v1.1.zip": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:450ec249a48972b837236f7322677626",
+        "ext": "zip",
+        "id": "75d6ffd3-3b78-4b42-96e1-5bbbe0256e58",
+        "key": "file_lists_v1.1.zip",
+        "links": {
+          "content": "https://data.caltech.edu/api/records/g945x-41103/files/file_lists_v1.1.zip/content",
+          "self": "https://data.caltech.edu/api/records/g945x-41103/files/file_lists_v1.1.zip"
+        },
+        "metadata": null,
+        "mimetype": "application/zip",
+        "size": 6489562,
+        "storage_class": "L"
+      },
+      "kenai-3channel.tar": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:8c602e2e6cc25d9b1e181c0dd64041e0",
+        "ext": "tar",
+        "id": "0457fe17-3645-406b-bf60-800dfb52abf7",
+        "key": "kenai-3channel.tar",
+        "links": {
+          "content": "https://data.caltech.edu/api/records/g945x-41103/files/kenai-3channel.tar/content",
+          "self": "https://data.caltech.edu/api/records/g945x-41103/files/kenai-3channel.tar"
+        },
+        "metadata": null,
+        "mimetype": "application/x-tar",
+        "size": 38173356946,
+        "storage_class": "L"
+      },
+      "kenai.tar": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:2f6a20c066495af6315147dd66aa2475",
+        "ext": "tar",
+        "id": "cd203ebc-94e7-431a-afdf-35c986c05d50",
+        "key": "kenai.tar",
+        "links": {
+          "content": "https://data.caltech.edu/api/records/g945x-41103/files/kenai.tar/content",
+          "self": "https://data.caltech.edu/api/records/g945x-41103/files/kenai.tar"
+        },
+        "metadata": null,
+        "mimetype": "application/x-tar",
+        "size": 44074741065,
+        "storage_class": "L"
+      },
+      "nushagak-3channel.tar": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:32e27121b914e40d6d8b69bd6a699209",
+        "ext": "tar",
+        "id": "a2438c3e-d3e3-4b90-a8ed-418a82606531",
+        "key": "nushagak-3channel.tar",
+        "links": {
+          "content": "https://data.caltech.edu/api/records/g945x-41103/files/nushagak-3channel.tar/content",
+          "self": "https://data.caltech.edu/api/records/g945x-41103/files/nushagak-3channel.tar"
+        },
+        "metadata": null,
+        "mimetype": "application/x-tar",
+        "size": 9994844355,
+        "storage_class": "L"
+      },
+      "nushagak.tar": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:57143d6b2c9a26994de4f8810a9c66f7",
+        "ext": "tar",
+        "id": "7baab8c1-6b8f-48bf-8e91-d1ae06a727b1",
+        "key": "nushagak.tar",
+        "links": {
+          "content": "https://data.caltech.edu/api/records/g945x-41103/files/nushagak.tar/content",
+          "self": "https://data.caltech.edu/api/records/g945x-41103/files/nushagak.tar"
+        },
+        "metadata": null,
+        "mimetype": "application/x-tar",
+        "size": 11270250492,
+        "storage_class": "L"
+      },
+      "rightbank-3channel.tar": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:0511c1dea9762b35a901a84770efff9c",
+        "ext": "tar",
+        "id": "4b8e35a5-9377-4e53-95f6-e41e0a42b487",
+        "key": "rightbank-3channel.tar",
+        "links": {
+          "content": "https://data.caltech.edu/api/records/g945x-41103/files/rightbank-3channel.tar/content",
+          "self": "https://data.caltech.edu/api/records/g945x-41103/files/rightbank-3channel.tar"
+        },
+        "metadata": null,
+        "mimetype": "application/x-tar",
+        "size": 43605731947,
+        "storage_class": "L"
+      },
+      "rightbank.tar": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:d1da4962b3829a2a26e1a3bb3f196c9c",
+        "ext": "tar",
+        "id": "61702f77-d3b8-4a13-b81a-05a7043f0066",
+        "key": "rightbank.tar",
+        "links": {
+          "content": "https://data.caltech.edu/api/records/g945x-41103/files/rightbank.tar/content",
+          "self": "https://data.caltech.edu/api/records/g945x-41103/files/rightbank.tar"
+        },
+        "metadata": null,
+        "mimetype": "application/x-tar",
+        "size": 51020684249,
+        "storage_class": "L"
+      },
+      "yolo_annotations_v1.1.zip": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:ca4f5cc88d950e7bf94c995e10c6441a",
+        "ext": "zip",
+        "id": "f65ff417-00f8-4501-abf0-35439c53e67d",
+        "key": "yolo_annotations_v1.1.zip",
+        "links": {
+          "content": "https://data.caltech.edu/api/records/g945x-41103/files/yolo_annotations_v1.1.zip/content",
+          "self": "https://data.caltech.edu/api/records/g945x-41103/files/yolo_annotations_v1.1.zip"
+        },
+        "metadata": null,
+        "mimetype": "application/zip",
+        "size": 81375764,
+        "storage_class": "L"
+      }
+    },
+    "order": [],
+    "total_bytes": 244744936791
+  },
+  "id": "g945x-41103",
+  "is_draft": false,
+  "is_published": true,
+  "links": {
+    "access": "https://data.caltech.edu/api/records/g945x-41103/access",
+    "access_grants": "https://data.caltech.edu/api/records/g945x-41103/access/grants",
+    "access_links": "https://data.caltech.edu/api/records/g945x-41103/access/links",
+    "access_request": "https://data.caltech.edu/api/records/g945x-41103/access/request",
+    "access_users": "https://data.caltech.edu/api/records/g945x-41103/access/users",
+    "communities": "https://data.caltech.edu/api/records/g945x-41103/communities",
+    "communities-suggestions": "https://data.caltech.edu/api/records/g945x-41103/communities-suggestions",
+    "doi": "https://doi.org/10.22002/g945x-41103",
+    "draft": "https://data.caltech.edu/api/records/g945x-41103/draft",
+    "files": "https://data.caltech.edu/api/records/g945x-41103/files",
+    "latest": "https://data.caltech.edu/api/records/g945x-41103/versions/latest",
+    "latest_html": "https://data.caltech.edu/records/g945x-41103/latest",
+    "media_files": "https://data.caltech.edu/api/records/g945x-41103/media-files",
+    "parent": "https://data.caltech.edu/api/records/q0660-b0846",
+    "parent_html": "https://data.caltech.edu/records/q0660-b0846",
+    "preview_html": "https://data.caltech.edu/records/g945x-41103?preview=1",
+    "requests": "https://data.caltech.edu/api/records/g945x-41103/requests",
+    "reserve_doi": "https://data.caltech.edu/api/records/g945x-41103/draft/pids/doi",
+    "self": "https://data.caltech.edu/api/records/g945x-41103",
+    "self_doi": "https://doi.org/10.22002/g945x-41103",
+    "self_doi_html": "https://data.caltech.edu/doi/10.22002/g945x-41103",
+    "self_html": "https://data.caltech.edu/records/g945x-41103",
+    "self_iiif_manifest": "https://data.caltech.edu/api/iiif/record:g945x-41103/manifest",
+    "self_iiif_sequence": "https://data.caltech.edu/api/iiif/record:g945x-41103/sequence/default",
+    "versions": "https://data.caltech.edu/api/records/g945x-41103/versions"
+  },
+  "media_files": {
+    "count": 0,
+    "enabled": false,
+    "entries": {},
+    "order": [],
+    "total_bytes": 0
+  },
+  "metadata": {
+    "creators": [
+      {
+        "affiliations": [
+          {
+            "id": "05dxps055",
+            "identifiers": [
+              {
+                "identifier": "05dxps055",
+                "scheme": "ror"
+              }
+            ],
+            "name": "California Institute of Technology"
+          }
+        ],
+        "person_or_org": {
+          "family_name": "Kay",
+          "given_name": "Justin",
+          "name": "Kay, Justin",
+          "type": "personal"
+        }
+      },
+      {
+        "affiliations": [
+          {
+            "id": "05dxps055",
+            "identifiers": [
+              {
+                "identifier": "05dxps055",
+                "scheme": "ror"
+              }
+            ],
+            "name": "California Institute of Technology"
+          }
+        ],
+        "person_or_org": {
+          "family_name": "Kulits",
+          "given_name": "Peter",
+          "name": "Kulits, Peter",
+          "type": "personal"
+        }
+      },
+      {
+        "affiliations": [
+          {
+            "id": "05dxps055",
+            "identifiers": [
+              {
+                "identifier": "05dxps055",
+                "scheme": "ror"
+              }
+            ],
+            "name": "California Institute of Technology"
+          }
+        ],
+        "person_or_org": {
+          "family_name": "Stathatos",
+          "given_name": "Suzanne",
+          "name": "Stathatos, Suzanne",
+          "type": "personal"
+        }
+      },
+      {
+        "affiliations": [
+          {
+            "name": "Amazon"
+          }
+        ],
+        "person_or_org": {
+          "family_name": "Deng",
+          "given_name": "Siqi",
+          "name": "Deng, Siqi",
+          "type": "personal"
+        }
+      },
+      {
+        "person_or_org": {
+          "family_name": "Young",
+          "given_name": "Erik",
+          "name": "Young, Erik",
+          "type": "personal"
+        }
+      },
+      {
+        "affiliations": [
+          {
+            "id": "05dxps055",
+            "identifiers": [
+              {
+                "identifier": "05dxps055",
+                "scheme": "ror"
+              }
+            ],
+            "name": "California Institute of Technology"
+          }
+        ],
+        "person_or_org": {
+          "family_name": "Beery",
+          "given_name": "Sara",
+          "name": "Beery, Sara",
+          "type": "personal"
+        }
+      },
+      {
+        "affiliations": [
+          {
+            "name": "Cornell"
+          }
+        ],
+        "person_or_org": {
+          "family_name": "Van Horn",
+          "given_name": "Grant",
+          "name": "Van Horn, Grant",
+          "type": "personal"
+        }
+      },
+      {
+        "affiliations": [
+          {
+            "id": "05dxps055",
+            "identifiers": [
+              {
+                "identifier": "05dxps055",
+                "scheme": "ror"
+              }
+            ],
+            "name": "California Institute of Technology"
+          }
+        ],
+        "person_or_org": {
+          "family_name": "Perona",
+          "given_name": "Pietro",
+          "name": "Perona, Pietro",
+          "type": "personal"
+        }
+      }
+    ],
+    "dates": [
+      {
+        "date": "2023-02-06",
+        "description": "coco_formatted_annotations.tar.gz added",
+        "type": {
+          "id": "updated",
+          "title": {
+            "de": "Aktualisiert",
+            "en": "Updated"
+          }
+        }
+      },
+      {
+        "date": "2023-07-20",
+        "description": "corrected mot-to-coco annotations in coco_formatted_annotations.tar.gz ",
+        "type": {
+          "id": "updated",
+          "title": {
+            "de": "Aktualisiert",
+            "en": "Updated"
+          }
+        }
+      },
+      {
+        "date": "2024-07-16",
+        "description": "reorganizing files for easier experience for training a detector",
+        "type": {
+          "id": "updated",
+          "title": {
+            "de": "Aktualisiert",
+            "en": "Updated"
+          }
+        }
+      }
+    ],
+    "description": "<p>A full instructional guide is provided here: https://github.com/visipedia/caltech-fish-counting The Caltech Fish Counting Dataset is a large-scale dataset for detecting, tracking, and counting fish in sonar videos.</p>",
+    "formats": [
+      "tars of jpgs, jsons, and txt files"
+    ],
+    "identifiers": [
+      {
+        "identifier": "20198",
+        "scheme": "cdid"
+      }
+    ],
+    "languages": [
+      {
+        "id": "eng",
+        "title": {
+          "en": "English"
+        }
+      }
+    ],
+    "publication_date": "2022-06-14",
+    "publisher": "CaltechDATA",
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/visipedia/caltech-fish-counting",
+        "relation_type": {
+          "id": "issupplementto",
+          "title": {
+            "de": "Erg\u00e4nzt",
+            "en": "Is supplement to"
+          }
+        },
+        "resource_type": {
+          "id": "software",
+          "title": {
+            "en": "Software"
+          }
+        },
+        "scheme": "url"
+      },
+      {
+        "identifier": "arXiv:2207.09295",
+        "relation_type": {
+          "id": "issupplementto",
+          "title": {
+            "de": "Erg\u00e4nzt",
+            "en": "Is supplement to"
+          }
+        },
+        "resource_type": {
+          "id": "publication-preprint",
+          "title": {
+            "en": "Preprint"
+          }
+        },
+        "scheme": "arxiv"
+      }
+    ],
+    "resource_type": {
+      "id": "dataset",
+      "title": {
+        "en": "Dataset"
+      }
+    },
+    "rights": [
+      {
+        "title": {
+          "en": "mit"
+        }
+      }
+    ],
+    "subjects": [
+      {
+        "subject": "Detection"
+      },
+      {
+        "subject": "Tracking"
+      },
+      {
+        "subject": "Counting"
+      },
+      {
+        "subject": "Generalization"
+      },
+      {
+        "subject": "Benchmark"
+      },
+      {
+        "subject": "Video Dataset"
+      },
+      {
+        "subject": "Sonar Dataset"
+      },
+      {
+        "subject": "Fisheries"
+      }
+    ],
+    "title": "Caltech Fish Counting Dataset 2022",
+    "version": "1.1"
+  },
+  "parent": {
+    "access": {
+      "owned_by": {
+        "user": "445"
+      },
+      "settings": {
+        "accept_conditions_text": null,
+        "allow_guest_requests": false,
+        "allow_user_requests": false,
+        "secret_link_expiration": 0
+      }
+    },
+    "communities": {},
+    "id": "q0660-b0846",
+    "pids": {}
+  },
+  "pids": {
+    "doi": {
+      "client": "datacite",
+      "identifier": "10.22002/g945x-41103",
+      "provider": "datacite"
+    },
+    "oai": {
+      "identifier": "oai:data.caltech.edu:g945x-41103",
+      "provider": "oai"
+    }
+  },
+  "revision_id": 5,
+  "stats": {
+    "all_versions": {
+      "data_volume": 64994739268622.0,
+      "downloads": 8175,
+      "unique_downloads": 2040,
+      "unique_views": 567,
+      "views": 617
+    },
+    "this_version": {
+      "data_volume": 52586925661562.0,
+      "downloads": 2173,
+      "unique_downloads": 1781,
+      "unique_views": 267,
+      "views": 302
+    }
+  },
+  "status": "published",
+  "ui": {
+    "access_status": {
+      "description_l10n": "The record and files are publicly accessible.",
+      "embargo_date_l10n": null,
+      "icon": "unlock",
+      "id": "open",
+      "message_class": "",
+      "title_l10n": "Open"
+    },
+    "created_date_l10n_long": "July 16, 2024",
+    "creators": {
+      "affiliations": [
+        [
+          1,
+          "California Institute of Technology",
+          "05dxps055"
+        ],
+        [
+          2,
+          "Amazon",
+          null
+        ],
+        [
+          3,
+          "Cornell",
+          null
+        ]
+      ],
+      "creators": [
+        {
+          "affiliations": [
+            [
+              1,
+              "California Institute of Technology"
+            ]
+          ],
+          "person_or_org": {
+            "family_name": "Kay",
+            "given_name": "Justin",
+            "name": "Kay, Justin",
+            "type": "personal"
+          }
+        },
+        {
+          "affiliations": [
+            [
+              1,
+              "California Institute of Technology"
+            ]
+          ],
+          "person_or_org": {
+            "family_name": "Kulits",
+            "given_name": "Peter",
+            "name": "Kulits, Peter",
+            "type": "personal"
+          }
+        },
+        {
+          "affiliations": [
+            [
+              1,
+              "California Institute of Technology"
+            ]
+          ],
+          "person_or_org": {
+            "family_name": "Stathatos",
+            "given_name": "Suzanne",
+            "name": "Stathatos, Suzanne",
+            "type": "personal"
+          }
+        },
+        {
+          "affiliations": [
+            [
+              2,
+              "Amazon"
+            ]
+          ],
+          "person_or_org": {
+            "family_name": "Deng",
+            "given_name": "Siqi",
+            "name": "Deng, Siqi",
+            "type": "personal"
+          }
+        },
+        {
+          "person_or_org": {
+            "family_name": "Young",
+            "given_name": "Erik",
+            "name": "Young, Erik",
+            "type": "personal"
+          }
+        },
+        {
+          "affiliations": [
+            [
+              1,
+              "California Institute of Technology"
+            ]
+          ],
+          "person_or_org": {
+            "family_name": "Beery",
+            "given_name": "Sara",
+            "name": "Beery, Sara",
+            "type": "personal"
+          }
+        },
+        {
+          "affiliations": [
+            [
+              3,
+              "Cornell"
+            ]
+          ],
+          "person_or_org": {
+            "family_name": "Van Horn",
+            "given_name": "Grant",
+            "name": "Van Horn, Grant",
+            "type": "personal"
+          }
+        },
+        {
+          "affiliations": [
+            [
+              1,
+              "California Institute of Technology"
+            ]
+          ],
+          "person_or_org": {
+            "family_name": "Perona",
+            "given_name": "Pietro",
+            "name": "Perona, Pietro",
+            "type": "personal"
+          }
+        }
+      ]
+    },
+    "custom_fields": {},
+    "dates": [
+      {
+        "date": "2023-02-06",
+        "description": "coco_formatted_annotations.tar.gz added",
+        "type": {
+          "id": "updated",
+          "title_l10n": "Updated"
+        }
+      },
+      {
+        "date": "2023-07-20",
+        "description": "corrected mot-to-coco annotations in coco_formatted_annotations.tar.gz",
+        "type": {
+          "id": "updated",
+          "title_l10n": "Updated"
+        }
+      },
+      {
+        "date": "2024-07-16",
+        "description": "reorganizing files for easier experience for training a detector",
+        "type": {
+          "id": "updated",
+          "title_l10n": "Updated"
+        }
+      }
+    ],
+    "description_stripped": "A full instructional guide is provided here: https://github.com/visipedia/caltech-fish-counting The Caltech Fish Counting Dataset is a large-scale dataset for detecting, tracking, and counting fish in sonar videos.",
+    "is_draft": false,
+    "languages": [
+      {
+        "id": "eng",
+        "title_l10n": "English"
+      }
+    ],
+    "publication_date_l10n_long": "June 14, 2022",
+    "publication_date_l10n_medium": "Jun 14, 2022",
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/visipedia/caltech-fish-counting",
+        "relation_type": {
+          "id": "issupplementto",
+          "title_l10n": "Is supplement to"
+        },
+        "resource_type": {
+          "id": "software",
+          "title_l10n": "Software"
+        },
+        "scheme": "url"
+      },
+      {
+        "identifier": "arXiv:2207.09295",
+        "relation_type": {
+          "id": "issupplementto",
+          "title_l10n": "Is supplement to"
+        },
+        "resource_type": {
+          "id": "publication-preprint",
+          "title_l10n": "Preprint"
+        },
+        "scheme": "arxiv"
+      }
+    ],
+    "resource_type": {
+      "id": "dataset",
+      "title_l10n": "Dataset"
+    },
+    "rights": [
+      {
+        "title_l10n": "mit"
+      }
+    ],
+    "updated_date_l10n_long": "August 9, 2024",
+    "version": "1.1"
+  },
+  "updated": "2024-08-09T23:53:12.266183+00:00",
+  "versions": {
+    "index": 2,
+    "is_latest": true
+  }
+}

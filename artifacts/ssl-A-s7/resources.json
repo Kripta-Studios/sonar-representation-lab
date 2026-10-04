@@ -1,0 +1,18 @@
+{
+  "event": "end",
+  "name": "ssl-A-s7",
+  "pid": 28044,
+  "status": "completed",
+  "error": null,
+  "elapsed_seconds": 5909.3429999999935,
+  "ended_utc": "2026-10-02T11:43:51Z",
+  "verified_suspend_seconds": 0,
+  "active_gpu_process_seconds": 5909.3429999999935,
+  "charged_gpu_hours": 1.6414841666666649,
+  "owned_rss_peak_bytes": 2213208064,
+  "cuda_peak_allocated_bytes": 2544236032,
+  "cuda_peak_reserved_bytes": 2696937472,
+  "physical_device_used_peak_bytes": 5916065792,
+  "overall_remaining_hours": 94.18540864056905,
+  "block_remaining_hours": 18.18540864056905
+}

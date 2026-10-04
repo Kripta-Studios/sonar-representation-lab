@@ -1,0 +1,18 @@
+{
+  "status": "author-observed training diagnostics; not independently reviewed",
+  "final_successful_update": 2000,
+  "final_loss": 6.07437801361084,
+  "final_teacher_entropy_nats": 6.044099807739258,
+  "final_batch_marginal_entropy_nats": 6.915020942687988,
+  "final_teacher_cls_feature_std_across_views": 0.9904767870903015,
+  "final_distinct_argmax_prototypes_in_32_views": 4.0,
+  "prototype_count": 4096,
+  "interpretation": "Final teacher features retain measurable across-view variation. These batch-level diagnostics neither validate reusable patch features nor establish detection improvement; few dominant argmax prototypes remain an observed limitation. All interrupted and replayed curve rows are preserved.",
+  "logged_rows": 88,
+  "replay_boundaries": [
+    [
+      1776,
+      1601
+    ]
+  ]
+}

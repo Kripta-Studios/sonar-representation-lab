@@ -1,0 +1,17 @@
+{
+  "source": "Windows System / Microsoft-Windows-Power-Troubleshooter / EventID 1",
+  "events": [
+    {
+      "record_id": 32897035,
+      "sleep_time": "2026-10-01T23:02:08.9418439Z",
+      "wake_time": "2026-10-02T06:54:33.4061905Z"
+    },
+    {
+      "record_id": 32891852,
+      "sleep_time": "2026-09-26T17:56:05.1488252Z",
+      "wake_time": "2026-09-26T19:05:39.3126820Z"
+    }
+  ],
+  "last_query_error": null,
+  "last_query_utc": "2026-10-04T09:40:56Z"
+}

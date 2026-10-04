@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-03T01:38:03Z",
+  "recorded_before_B_fitting_and_any_B_score": true,
+  "frozen_screen": "seed7 AP50 gain >=0.01 in fractional units over matched published; AP50:95 not lower",
+  "motion_attribution": "C must additionally meet that same >=0.01/no-AP95-loss rule against B-CONTROL",
+  "fine_only_screen": "If no frozen SSL recipe qualifies, B full fine-tuning qualifies when AP50 is strictly above matched published full fine-tuning and AP50:95 is not lower. This interprets the owner continuation instruction to replicate an improved fine-tuned-only contrast; it does not establish frozen benefit.",
+  "selection": "Prefer a qualifying frozen contrast for the representation question; among qualifying frozen recipes choose the largest seed7 AP50 gain against its matched published reference. Replicate paired seeds13/23, never choose a best seed. Otherwise replicate the qualifying fine-tuned-only contrast.",
+  "budget": "Reserve measured final roster cost before optional motion/replication; preserve at least6h. Keep omitted replications explicit if the complete paired forecast cannot fit. No additional architecture/configuration search.",
+  "status": "Prospective author development decision rule, not a significance claim"
+}

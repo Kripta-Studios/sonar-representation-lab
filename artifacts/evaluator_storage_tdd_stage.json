@@ -1,0 +1,10 @@
+{
+  "created_utc": "2026-10-02T10:30:18Z",
+  "status": "two known-answer tests are intentionally red until the staged storage patch is applied after the running milestone",
+  "tests": "tests/test_evaluator_storage.py",
+  "red_log": "artifacts/evaluator_storage_tdd_red.log",
+  "patch": "artifacts/evaluator_storage_staged.patch",
+  "production_source_modified": false,
+  "scientific_scoring_change": false,
+  "additional_completion_fix": "write atomic metrics.json last, after successful complete evaluator serialization; test simulated output-disk failure"
+}

@@ -1,0 +1,22 @@
+{
+  "utc": "2026-10-03T13:51:08Z",
+  "recorded_before_any_C_detection_score": true,
+  "replication_semantics": "Fresh B parent per SSL seed; both paired continuations, fresh matched published/control/motion frozen detectors, full Kenai validation. No detector-only reseeding masquerading as full SSL replication.",
+  "measured_seed7_costs_hours": {
+    "ssl-B-s7": 1.8815016666666715,
+    "ssl-control-s7": 0.5811069444444406,
+    "ssl-motion-s7": 0.8061238888888814,
+    "det-published-r672-f010-s7": 0.5961024999999952,
+    "det-control-r672-f010-s7": 0.5855902777777777,
+    "det-motion-r672-f010-s7": 0.5180686111111168,
+    "det-published-r672-f010-s7/val": 1.0817533333333267,
+    "det-control-r672-f010-s7/val": 0.8286283333333267,
+    "det-motion-r672-f010-s7/val_FORECAST": 1.0817533333333267
+  },
+  "conservative_two_additional_seed_forecast_hours": 20.10157222222216,
+  "completed_charged_hours": 25.776071359431008,
+  "development_remaining_upper_bound_excludes_active_C_validation": 3.728137777777789,
+  "status": "Complete motion/control replication cannot fit even before charging current validation; score eligibility remains undecided",
+  "reserve_hours": 6,
+  "rule_sha256": "24d2af502ec6b9a16f666c3a51b717b778e6c3e9878b42e4be1fcff5d2339d0b"
+}

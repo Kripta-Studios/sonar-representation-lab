@@ -1,0 +1,18 @@
+{
+  "event": "end",
+  "name": "det-adapted-f010-s13",
+  "pid": 2612,
+  "status": "completed",
+  "error": null,
+  "elapsed_seconds": 775.344000000041,
+  "ended_utc": "2026-10-02T14:13:37Z",
+  "verified_suspend_seconds": 0,
+  "active_gpu_process_seconds": 775.344000000041,
+  "charged_gpu_hours": 0.2153733333333447,
+  "owned_rss_peak_bytes": 2659532800,
+  "cuda_peak_allocated_bytes": 458832896,
+  "cuda_peak_reserved_bytes": 650117120,
+  "physical_device_used_peak_bytes": 4874829824,
+  "overall_remaining_hours": 91.8462375294579,
+  "block_remaining_hours": 15.84623752945789
+}

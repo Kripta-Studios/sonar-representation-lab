@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-02T23:00:47Z",
+  "job": "existing random frozen seed7 full Kenai validation",
+  "new_training": false,
+  "allocation": "spatial_motion_allocation.json",
+  "original_block_operation": true,
+  "forecast_gpu_process_hours": 0.75,
+  "basis": "largest completed uninterrupted cached validation 0.574527 h times 1.25, rounded upward",
+  "final_reserve_hours": 6,
+  "historical_total_hours": 11.504209137208795,
+  "followup_budget_hours": 24,
+  "original_cap_hours": 24,
+  "command": ".venv/Scripts/python.exe src/train_detector.py predict --checkpoint artifacts/det-random-f010-s7/checkpoint.pt --out artifacts/det-random-f010-s7/val --batch 8"
+}

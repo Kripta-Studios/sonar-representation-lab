@@ -1,0 +1,16 @@
+{
+  "detector_size": 672,
+  "scope": "Added branch convolution MACs only; excludes normalization, GELU, bias, pooling, fusion and common detector",
+  "image": {
+    "parameters": 74592,
+    "convolution_MACs": 942907392,
+    "two_ops_per_MAC_FLOPs": 1885814784
+  },
+  "capacity": {
+    "parameters": 77376,
+    "convolution_MACs": 541900800,
+    "two_ops_per_MAC_FLOPs": 1083801600
+  },
+  "matched_FLOPs": false,
+  "status": "analytical architecture accounting before image-arm fitting"
+}

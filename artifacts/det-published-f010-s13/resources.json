@@ -1,0 +1,18 @@
+{
+  "event": "end",
+  "name": "det-published-f010-s13",
+  "pid": 57104,
+  "status": "completed",
+  "error": null,
+  "elapsed_seconds": 857.969000000041,
+  "ended_utc": "2026-10-02T13:23:04Z",
+  "verified_suspend_seconds": 0,
+  "active_gpu_process_seconds": 857.969000000041,
+  "charged_gpu_hours": 0.2383247222222336,
+  "owned_rss_peak_bytes": 2730459136,
+  "cuda_peak_allocated_bytes": 456990720,
+  "cuda_peak_reserved_bytes": 631242752,
+  "physical_device_used_peak_bytes": 4891607040,
+  "overall_remaining_hours": 92.68470558501348,
+  "block_remaining_hours": 16.684705585013475
+}

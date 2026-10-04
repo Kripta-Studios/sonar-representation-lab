@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-10-02T11:59:40Z",
+  "apply_only_after_current_milestone_finishes": true,
+  "scientific_model_label_preprocessing_optimizer_changes": false,
+  "changes": [
+    "Stream complete per-image COCO output into gzip; publish metrics only after durable evaluator output",
+    "Capture native Windows peak working set for owned CPU evaluation RAM and check limits after scoring",
+    "Implement the predeclared uninterrupted-runtime forecast population; preserve all actual charges",
+    "Plot all learning-curve segments without backward lines across checkpoint replay; retain failed attempts"
+  ],
+  "tdd_red_tests": [
+    "tests/test_evaluator_storage.py: 2 expected failures with legacy evaluator",
+    "tests/test_resource_ram.py: 2 expected AttributeError failures before native peak helper"
+  ],
+  "test_infrastructure_failure": "Missing private pytest-temp parent caused two setup errors; fixed parent creation inside project-only tests/conftest.py, rerun reached intended red assertions",
+  "review_status": "author verification only; no independent review"
+}

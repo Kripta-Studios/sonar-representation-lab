@@ -1,0 +1,8 @@
+{
+  "created_utc": "2026-10-02T08:17:21Z",
+  "implementation_timing": "between completed first matched-head training and its validation; do not modify the running SSL source",
+  "reason": "Complete per-image evaluator JSON is 2,087,790,788 bytes for the baseline; model replication and held-out evaluation need bounded RAM and storage.",
+  "change": "stream each per-image evaluator row into lossless gzip JSON, rather than materializing every converted row and the whole JSON string together",
+  "preserve": "raw predictions, all evaluator fields and numbers, COCO scoring, all model/label/optimization settings",
+  "verification": "known-answer scoring and compressed evaluator reload equality"
+}

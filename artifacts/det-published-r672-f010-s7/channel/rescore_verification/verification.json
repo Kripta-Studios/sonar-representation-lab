@@ -1,0 +1,27 @@
+{
+  "utc": "2026-10-03T15:16:29Z",
+  "status": "author CPU replay verified; not independent review",
+  "images": 13090,
+  "detections": 943994,
+  "metrics_exact": true,
+  "arrays_bitwise_equal": true,
+  "evaluator_params_exact": true,
+  "complete_per_image_decompressed_sha256": "9cf3e90c568e6bcbc11db07259c47cbc43e32c24da8e646b21f0bc8b0a8ef4bb",
+  "metric_text_exact_after_excluding_three_reported_runtime_fields": true,
+  "initial_check_failure": "Exact full stdout comparison incorrectly required identical elapsed-time lines; metrics/arrays/parameters already passed before that assertion. Original failed log and both raw outputs retained; no re-scoring or method change needed.",
+  "original_runtime_lines": [
+    "DONE (t=2.42s)",
+    "DONE (t=39.95s).",
+    "DONE (t=4.45s)."
+  ],
+  "replay_runtime_lines": [
+    "DONE (t=7.24s)",
+    "DONE (t=398.36s).",
+    "DONE (t=39.87s)."
+  ],
+  "predictions_sha256": "6ab0fc1437f360f40a788cf8e3aafbfd0fa8acbf635ab15d814357fe3e68c012",
+  "freeze_sha256": "141a160155504a796a4544f2461e418851d87a1d31e0ea476dc66a77cf907f71",
+  "cpu_only": true,
+  "charged_gpu_hours": 0,
+  "replay_resource_reporting_limit": "Initial assertion stopped before wall-time/native-peak report. A concurrent project-process snapshot recorded4,268,658,688 total RSS and4,294,311,936 summed process peaks; exact final replay peak is unavailable. No GPU was used by the replay."
+}

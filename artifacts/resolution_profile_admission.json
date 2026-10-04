@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-02T23:35:40Z",
+  "job": "real TRAIN 672 batch8 frozen profile and optimizer replay",
+  "forecast_gpu_process_hours": 0.1,
+  "used_hours": 12.060980248319902,
+  "final_reserved_hours": 6,
+  "basis": "four sampled TRAIN batches plus two optimizer replay updates; 6 minutes conservative bound",
+  "command": ".venv/Scripts/python.exe src/profile_batch.py --size 672 --batch 8 --allocation artifacts/spatial_motion_allocation.json"
+}

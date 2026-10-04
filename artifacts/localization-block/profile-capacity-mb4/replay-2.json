@@ -1,0 +1,16 @@
+{
+  "loss": 0.7154484689235687,
+  "reference_loss": 0.7154484689235687,
+  "groups": {
+    "encoder": {
+      "squared_delta": 1.2456389339447733e-09,
+      "squared_reference": 177442.13337403504,
+      "max_abs": 1.6093254089355469e-06
+    },
+    "head": {
+      "squared_delta": 1.57882953150958e-12,
+      "squared_reference": 1596.6802641858958,
+      "max_abs": 3.129243850708008e-07
+    }
+  }
+}

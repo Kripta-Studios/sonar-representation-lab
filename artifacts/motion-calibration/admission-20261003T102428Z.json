@@ -1,0 +1,12 @@
+{
+  "arguments": [
+    "src/calibrate_motion.py",
+    "--parent",
+    "artifacts/ssl-B-s7/checkpoint.pt",
+    "--out",
+    "artifacts/motion-calibration"
+  ],
+  "forecast_hours": 0.05,
+  "remaining_development_hours": 7.059626666666674,
+  "final_reserve_protected": true
+}

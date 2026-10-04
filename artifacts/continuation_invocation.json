@@ -1,0 +1,17 @@
+{
+  "utc": "2026-10-02T15:30:37Z",
+  "replication_session": 88440,
+  "continuation_session": 35973,
+  "waited_replication_pid": 8700,
+  "waited_replication_create_epoch": 1790946518.8900375,
+  "sequence": [
+    "complete fixed replicates and controls",
+    "budget-admitted fraction pairs",
+    "CPU completed-model audit",
+    "model-policy-code freeze",
+    "one fixed Channel evaluation",
+    "saved-result summary and validation error analysis"
+  ],
+  "stop_on_any_failure": true,
+  "status": "authorized execution queue; not independent review"
+}

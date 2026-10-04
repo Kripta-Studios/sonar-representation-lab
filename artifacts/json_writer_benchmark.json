@@ -1,0 +1,18 @@
+{
+  "purpose": "serialization engineering benchmark; no scientific training or AP claim",
+  "rows": 128,
+  "decompressed_json_bitwise_equal": true,
+  "measurements": [
+    {
+      "mode": "token_writes",
+      "cpu_wall_seconds": 0.8177478000288829,
+      "compressed_bytes": 22207
+    },
+    {
+      "mode": "one_write_per_row",
+      "cpu_wall_seconds": 0.2074939000303857,
+      "compressed_bytes": 22212
+    }
+  ],
+  "speed_ratio": 3.941069110509421
+}

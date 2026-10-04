@@ -1,0 +1,18 @@
+{
+  "arguments": [
+    "src/adapt.py",
+    "--configuration",
+    "B",
+    "--seed",
+    "7",
+    "--batch",
+    "16",
+    "--steps",
+    "2000",
+    "--out",
+    "artifacts\\ssl-B-s7"
+  ],
+  "forecast_hours": 2.602604166673215,
+  "remaining_development_hours": 14.337369444444455,
+  "final_reserve_protected": true
+}

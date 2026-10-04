@@ -1,0 +1,60 @@
+{
+  "selected_detector_size": 672,
+  "criteria": {
+    "published_AP50_gain_at_least_one_percentage_point": true,
+    "published_AP50_95_not_lower": true,
+    "fixed_below_16px_operating_recall_improves": true,
+    "runtime_and_memory_fit": true
+  },
+  "scores": {
+    "published448": {
+      "AP50": 0.15285253042653674,
+      "AP50:95": 0.040586310184010224,
+      "AP75": 0.006879637348454258,
+      "precision": 0.5599173553719008,
+      "recall": 0.07304188453452644,
+      "negative_false_positives": 10
+    },
+    "A448": {
+      "AP50": 0.10664096286304621,
+      "AP50:95": 0.024920944786475035,
+      "AP75": 0.0035636594358095493,
+      "precision": 0.4230462519936204,
+      "recall": 0.057193682281278635,
+      "negative_false_positives": 25
+    },
+    "published672": {
+      "AP50": 0.26997822969453616,
+      "AP50:95": 0.07621921163621888,
+      "AP75": 0.01600423887043964,
+      "precision": 0.6592941941779151,
+      "recall": 0.21853269365532854,
+      "negative_false_positives": 75
+    },
+    "A672": {
+      "AP50": 0.2074332345533497,
+      "AP50:95": 0.05276113419969816,
+      "AP75": 0.008052836938472634,
+      "precision": 0.540415359330644,
+      "recall": 0.19497601207482076,
+      "negative_false_positives": 197
+    }
+  },
+  "below_16px_recall_fixed_448_bins": {
+    "published448": 0.047432733401553004,
+    "A448": 0.03948714861855174,
+    "published672": 0.1950881839523265,
+    "A672": 0.17865526996930114
+  },
+  "remaining_development_hours": 14.38392305555558,
+  "mandatory_spatial_allowance_hours": 8,
+  "resolution_pair_gpu_process_hours": 3.05791249999998,
+  "final_reserved_hours": 6,
+  "metric_sha256": {
+    "published448": "6d825bb517202abb7390dd6026b10eb37ae6f8d058a021f67e0fbdb312905a17",
+    "A448": "0ac867cc5bb6da60da30b7ef6501942a0c65a0003c2fc9ed9d28921a00b983e2",
+    "published672": "0c6f1f3ac0e9d3d8f5ef519d3633b595ed6a09ba7ff053b1af68509731873b07",
+    "A672": "726c28136e9809a1618f49f3ec025cf2f2f02c6957c502f206a0c1b59fb19853"
+  },
+  "status": "post-hoc Kenai-informed development choice under prospectively declared rule; no Channel scores used"
+}

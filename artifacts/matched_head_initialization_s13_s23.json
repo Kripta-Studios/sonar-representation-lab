@@ -1,0 +1,18 @@
+{
+  "status": "author verification; not independent review",
+  "rows": [
+    {
+      "seed": 13,
+      "pyramid_rpn_roi_initial_tensors": 38,
+      "all_bitwise_identical": true,
+      "cpu_only": true
+    },
+    {
+      "seed": 23,
+      "pyramid_rpn_roi_initial_tensors": 38,
+      "all_bitwise_identical": true,
+      "cpu_only": true
+    }
+  ],
+  "cpu_wall_seconds": 9.365831699979026
+}

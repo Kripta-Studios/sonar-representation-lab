@@ -1,0 +1,11 @@
+{
+  "command": ".venv/Scripts/python.exe -u artifacts/staged_data_cache.py --cache kenai",
+  "source_sha256": "1366b566fb87821d9f34d403569a499525a392bbad93e598a632fdc916f09026",
+  "patch_sha256": "58fd937fa7a9945d0c6e7ea4c484c04e4b10f39be65a6091e04ed7487201466d",
+  "implementation_matches_staged_data_patch_except_import_path_bootstrap": true,
+  "staged_unit_test_log": "artifacts/detector_cache_staged_green.log",
+  "staged_unit_tests": "2 passed; real cache test skipped until completion",
+  "mode": "CPU only; no CUDA or research model execution",
+  "source_and_protocol_for_active_validation_unchanged": true,
+  "recorded_utc": "2026-10-02T12:55:44Z"
+}

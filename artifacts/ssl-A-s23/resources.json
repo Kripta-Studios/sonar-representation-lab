@@ -1,0 +1,18 @@
+{
+  "event": "end",
+  "name": "ssl-A-s23",
+  "pid": 62120,
+  "status": "completed",
+  "error": null,
+  "elapsed_seconds": 1001.0780000000377,
+  "ended_utc": "2026-10-02T15:14:00Z",
+  "verified_suspend_seconds": 0,
+  "active_gpu_process_seconds": 1001.0780000000377,
+  "charged_gpu_hours": 0.2780772222222327,
+  "owned_rss_peak_bytes": 1943121920,
+  "cuda_peak_allocated_bytes": 2544043520,
+  "cuda_peak_reserved_bytes": 2692743168,
+  "physical_device_used_peak_bytes": 6899630080,
+  "overall_remaining_hours": 90.84549114056897,
+  "block_remaining_hours": 14.845491140568976
+}

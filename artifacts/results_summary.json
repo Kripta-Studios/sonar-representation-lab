@@ -1,0 +1,34 @@
+[
+  {
+    "kind": "adapted",
+    "fraction": 10,
+    "split": "val",
+    "seeds": [
+      7
+    ],
+    "n": 1,
+    "AP50_mean": 0.10664096286304621,
+    "AP50_sample_std": null,
+    "AP50:95_mean": 0.024920944786475035,
+    "AP50:95_sample_std": null,
+    "precision_mean": 0.4230462519936204,
+    "recall_mean": 0.057193682281278635,
+    "false_positives_per_negative_frame_mean": 0.0012177894685566758
+  },
+  {
+    "kind": "published",
+    "fraction": 10,
+    "split": "val",
+    "seeds": [
+      7
+    ],
+    "n": 1,
+    "AP50_mean": 0.15285253042653674,
+    "AP50_sample_std": null,
+    "AP50:95_mean": 0.040586310184010224,
+    "AP50:95_sample_std": null,
+    "precision_mean": 0.5599173553719008,
+    "recall_mean": 0.07304188453452644,
+    "false_positives_per_negative_frame_mean": 0.00048711578742267035
+  }
+]

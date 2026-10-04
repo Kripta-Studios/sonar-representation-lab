@@ -1,0 +1,12 @@
+{
+  "id": "localization-20261003",
+  "created_utc": "2026-10-03T18:04:02Z",
+  "baseline_gpu_hours": 29.46504663720875,
+  "budget_gpu_hours": 24,
+  "final_reserved_gpu_hours": 6,
+  "historical_ledger_bytes": 85896,
+  "historical_ledger_sha256": "8ce67c6cccb1480d803d97940e28a9d0ebd517786d21a216f35cc2903a6a8585",
+  "authorization": "Owner: go ahead and implement and do all of that; adopts proposed bounded 24h block",
+  "overall_initial_balance_hours": 100,
+  "overall_remaining_at_start_hours": 70.53495336279124
+}

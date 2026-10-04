@@ -1,0 +1,2703 @@
+{
+  "operating_points": [
+    {
+      "score_threshold": 0.05,
+      "iou_threshold": 0.5,
+      "tp": 3349,
+      "fp": 14837,
+      "fn": 15202,
+      "precision": 0.1841526448916749,
+      "recall": 0.1805293515174384,
+      "negative_frames": 20529,
+      "negative_false_positives": 2581,
+      "false_positives_per_negative_frame": 0.12572458473379122,
+      "fraction_negative_frames_with_fp": 0.10502216376832774,
+      "false_positive_types": {
+        "duplicate": 903,
+        "localization": 9642,
+        "background": 4292
+      },
+      "size_bins": {
+        "<4px": {
+          "objects": 241,
+          "matched": 0,
+          "recall": 0.0,
+          "missed": 241
+        },
+        "4-8px": {
+          "objects": 5656,
+          "matched": 352,
+          "recall": 0.06223479490806223,
+          "missed": 5304
+        },
+        "8-16px": {
+          "objects": 10716,
+          "matched": 2440,
+          "recall": 0.22769690182904068,
+          "missed": 8276
+        },
+        ">=16px": {
+          "objects": 1938,
+          "matched": 557,
+          "recall": 0.28740970072239425,
+          "missed": 1381
+        }
+      },
+      "clips": {
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_230000_4157_4372": {
+          "tp": 25,
+          "fp": 78,
+          "fn": 125,
+          "frames": 214
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_201003_584_1064": {
+          "tp": 0,
+          "fp": 77,
+          "fn": 38,
+          "frames": 479
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_110004_3942_4312": {
+          "tp": 87,
+          "fp": 282,
+          "fn": 167,
+          "frames": 369
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_221003_329_529": {
+          "tp": 19,
+          "fp": 64,
+          "fn": 33,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_030000_1888_2429": {
+          "tp": 10,
+          "fp": 20,
+          "fn": 53,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_110000_997_1538": {
+          "tp": 101,
+          "fp": 483,
+          "fn": 682,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_070004_651_1251": {
+          "tp": 27,
+          "fp": 296,
+          "fn": 17,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_150004_4847_5447": {
+          "tp": 37,
+          "fp": 115,
+          "fn": 71,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_170004_1169_1769": {
+          "tp": 64,
+          "fp": 298,
+          "fn": 13,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_0_472": {
+          "tp": 21,
+          "fp": 113,
+          "fn": 23,
+          "frames": 471
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_3096_3637": {
+          "tp": 35,
+          "fp": 217,
+          "fn": 228,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_140004_4995_5594": {
+          "tp": 207,
+          "fp": 814,
+          "fn": 61,
+          "frames": 598
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_050004_319_919": {
+          "tp": 18,
+          "fp": 58,
+          "fn": 577,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_090000_778_1319": {
+          "tp": 121,
+          "fp": 559,
+          "fn": 378,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_001003_2789_2989": {
+          "tp": 0,
+          "fp": 49,
+          "fn": 100,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_720_1261": {
+          "tp": 39,
+          "fp": 128,
+          "fn": 172,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_230000_4637_5018": {
+          "tp": 58,
+          "fp": 173,
+          "fn": 152,
+          "frames": 380
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_1760_2301": {
+          "tp": 57,
+          "fp": 161,
+          "fn": 742,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_170000_76_617": {
+          "tp": 66,
+          "fp": 280,
+          "fn": 210,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_2666_3207": {
+          "tp": 61,
+          "fp": 318,
+          "fn": 176,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_050000_2444_2985": {
+          "tp": 41,
+          "fp": 174,
+          "fn": 171,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_2237_2437": {
+          "tp": 0,
+          "fp": 13,
+          "fn": 72,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_000000_3468_3764": {
+          "tp": 116,
+          "fp": 375,
+          "fn": 193,
+          "frames": 295
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_210000_2467_3008": {
+          "tp": 49,
+          "fp": 226,
+          "fn": 312,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_180004_3404_4004": {
+          "tp": 23,
+          "fp": 137,
+          "fn": 14,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_100000_4520_5061": {
+          "tp": 30,
+          "fp": 203,
+          "fn": 205,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_130004_4908_5508": {
+          "tp": 45,
+          "fp": 197,
+          "fn": 9,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_190000_3993_4534": {
+          "tp": 74,
+          "fp": 303,
+          "fn": 370,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_121003_1310_1790": {
+          "tp": 8,
+          "fp": 261,
+          "fn": 1403,
+          "frames": 479
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_210000_1556_2097": {
+          "tp": 78,
+          "fp": 234,
+          "fn": 536,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_030004_1934_2534": {
+          "tp": 46,
+          "fp": 262,
+          "fn": 314,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_200004_0_330": {
+          "tp": 39,
+          "fp": 220,
+          "fn": 7,
+          "frames": 329
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_476_1017": {
+          "tp": 7,
+          "fp": 179,
+          "fn": 193,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_211004_1679_1879": {
+          "tp": 23,
+          "fp": 82,
+          "fn": 18,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_031003_1599_1799": {
+          "tp": 0,
+          "fp": 4,
+          "fn": 130,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_010000_2523_3064": {
+          "tp": 243,
+          "fp": 975,
+          "fn": 351,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_320_861": {
+          "tp": 101,
+          "fp": 379,
+          "fn": 206,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_230004_1736_2336": {
+          "tp": 19,
+          "fp": 349,
+          "fn": 37,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_051003_1782_1982": {
+          "tp": 0,
+          "fp": 20,
+          "fn": 316,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_140004_408_1008": {
+          "tp": 17,
+          "fp": 161,
+          "fn": 26,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_3595_3795": {
+          "tp": 18,
+          "fp": 55,
+          "fn": 108,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_030000_4770_5249": {
+          "tp": 35,
+          "fp": 139,
+          "fn": 543,
+          "frames": 478
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_080000_604_839": {
+          "tp": 149,
+          "fp": 407,
+          "fn": 567,
+          "frames": 234
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_2954_3495": {
+          "tp": 12,
+          "fp": 95,
+          "fn": 122,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_2515_3056": {
+          "tp": 100,
+          "fp": 386,
+          "fn": 387,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_4972_5277": {
+          "tp": 132,
+          "fp": 337,
+          "fn": 627,
+          "frames": 304
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_210004_2118_2718": {
+          "tp": 47,
+          "fp": 168,
+          "fn": 123,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_170000_4781_5250": {
+          "tp": 17,
+          "fp": 137,
+          "fn": 49,
+          "frames": 468
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_3095_3295": {
+          "tp": 2,
+          "fp": 56,
+          "fn": 95,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_617_1158": {
+          "tp": 35,
+          "fp": 107,
+          "fn": 53,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_150000_1702_2243": {
+          "tp": 55,
+          "fp": 325,
+          "fn": 288,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_221003_1335_1538": {
+          "tp": 3,
+          "fp": 54,
+          "fn": 145,
+          "frames": 202
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_040000_0_538": {
+          "tp": 13,
+          "fp": 84,
+          "fn": 173,
+          "frames": 537
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_020004_3240_3840": {
+          "tp": 95,
+          "fp": 205,
+          "fn": 234,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_060000_571_1112": {
+          "tp": 46,
+          "fp": 201,
+          "fn": 598,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_120000_3525_4066": {
+          "tp": 18,
+          "fp": 149,
+          "fn": 579,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_100004_2931_3531": {
+          "tp": 113,
+          "fp": 475,
+          "fn": 25,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_220004_1434_2034": {
+          "tp": 45,
+          "fp": 202,
+          "fn": 9,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_120004_2044_2644": {
+          "tp": 36,
+          "fp": 248,
+          "fn": 17,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_190000_1440_1981": {
+          "tp": 44,
+          "fp": 242,
+          "fn": 190,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_2064_2605": {
+          "tp": 63,
+          "fp": 316,
+          "fn": 160,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_170004_2801_3401": {
+          "tp": 22,
+          "fp": 252,
+          "fn": 15,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_070000_4101_4642": {
+          "tp": 95,
+          "fp": 427,
+          "fn": 831,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_3706_4247": {
+          "tp": 142,
+          "fp": 433,
+          "fn": 363,
+          "frames": 540
+        }
+      }
+    },
+    {
+      "score_threshold": 0.1,
+      "iou_threshold": 0.5,
+      "tp": 2595,
+      "fp": 6977,
+      "fn": 15956,
+      "precision": 0.27110321771834517,
+      "recall": 0.1398846423373403,
+      "negative_frames": 20529,
+      "negative_false_positives": 547,
+      "false_positives_per_negative_frame": 0.026645233572020068,
+      "fraction_negative_frames_with_fp": 0.024550635686102586,
+      "false_positive_types": {
+        "duplicate": 609,
+        "localization": 5463,
+        "background": 905
+      },
+      "size_bins": {
+        "<4px": {
+          "objects": 241,
+          "matched": 0,
+          "recall": 0.0,
+          "missed": 241
+        },
+        "4-8px": {
+          "objects": 5656,
+          "matched": 248,
+          "recall": 0.04384724186704385,
+          "missed": 5408
+        },
+        "8-16px": {
+          "objects": 10716,
+          "matched": 1845,
+          "recall": 0.17217245240761478,
+          "missed": 8871
+        },
+        ">=16px": {
+          "objects": 1938,
+          "matched": 502,
+          "recall": 0.2590299277605779,
+          "missed": 1436
+        }
+      },
+      "clips": {
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_230000_4157_4372": {
+          "tp": 17,
+          "fp": 39,
+          "fn": 133,
+          "frames": 214
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_201003_584_1064": {
+          "tp": 0,
+          "fp": 9,
+          "fn": 38,
+          "frames": 479
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_110004_3942_4312": {
+          "tp": 64,
+          "fp": 142,
+          "fn": 190,
+          "frames": 369
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_221003_329_529": {
+          "tp": 13,
+          "fp": 30,
+          "fn": 39,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_030000_1888_2429": {
+          "tp": 6,
+          "fp": 3,
+          "fn": 57,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_110000_997_1538": {
+          "tp": 41,
+          "fp": 220,
+          "fn": 742,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_070004_651_1251": {
+          "tp": 26,
+          "fp": 169,
+          "fn": 18,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_150004_4847_5447": {
+          "tp": 28,
+          "fp": 65,
+          "fn": 80,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_170004_1169_1769": {
+          "tp": 63,
+          "fp": 182,
+          "fn": 14,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_0_472": {
+          "tp": 19,
+          "fp": 65,
+          "fn": 25,
+          "frames": 471
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_3096_3637": {
+          "tp": 24,
+          "fp": 71,
+          "fn": 239,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_140004_4995_5594": {
+          "tp": 199,
+          "fp": 510,
+          "fn": 69,
+          "frames": 598
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_050004_319_919": {
+          "tp": 17,
+          "fp": 22,
+          "fn": 578,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_090000_778_1319": {
+          "tp": 94,
+          "fp": 260,
+          "fn": 405,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_001003_2789_2989": {
+          "tp": 0,
+          "fp": 6,
+          "fn": 100,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_720_1261": {
+          "tp": 30,
+          "fp": 35,
+          "fn": 181,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_230000_4637_5018": {
+          "tp": 46,
+          "fp": 87,
+          "fn": 164,
+          "frames": 380
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_1760_2301": {
+          "tp": 34,
+          "fp": 74,
+          "fn": 765,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_170000_76_617": {
+          "tp": 49,
+          "fp": 124,
+          "fn": 227,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_2666_3207": {
+          "tp": 46,
+          "fp": 125,
+          "fn": 191,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_050000_2444_2985": {
+          "tp": 34,
+          "fp": 53,
+          "fn": 178,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_2237_2437": {
+          "tp": 0,
+          "fp": 4,
+          "fn": 72,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_000000_3468_3764": {
+          "tp": 96,
+          "fp": 231,
+          "fn": 213,
+          "frames": 295
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_210000_2467_3008": {
+          "tp": 33,
+          "fp": 77,
+          "fn": 328,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_180004_3404_4004": {
+          "tp": 21,
+          "fp": 66,
+          "fn": 16,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_100000_4520_5061": {
+          "tp": 25,
+          "fp": 67,
+          "fn": 210,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_130004_4908_5508": {
+          "tp": 42,
+          "fp": 115,
+          "fn": 12,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_190000_3993_4534": {
+          "tp": 55,
+          "fp": 127,
+          "fn": 389,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_121003_1310_1790": {
+          "tp": 6,
+          "fp": 50,
+          "fn": 1405,
+          "frames": 479
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_210000_1556_2097": {
+          "tp": 52,
+          "fp": 76,
+          "fn": 562,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_030004_1934_2534": {
+          "tp": 36,
+          "fp": 155,
+          "fn": 324,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_200004_0_330": {
+          "tp": 37,
+          "fp": 139,
+          "fn": 9,
+          "frames": 329
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_476_1017": {
+          "tp": 3,
+          "fp": 46,
+          "fn": 197,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_211004_1679_1879": {
+          "tp": 21,
+          "fp": 59,
+          "fn": 20,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_031003_1599_1799": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 130,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_010000_2523_3064": {
+          "tp": 214,
+          "fp": 575,
+          "fn": 380,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_320_861": {
+          "tp": 76,
+          "fp": 148,
+          "fn": 231,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_230004_1736_2336": {
+          "tp": 19,
+          "fp": 207,
+          "fn": 37,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_051003_1782_1982": {
+          "tp": 0,
+          "fp": 3,
+          "fn": 316,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_140004_408_1008": {
+          "tp": 17,
+          "fp": 94,
+          "fn": 26,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_3595_3795": {
+          "tp": 13,
+          "fp": 26,
+          "fn": 113,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_030000_4770_5249": {
+          "tp": 20,
+          "fp": 42,
+          "fn": 558,
+          "frames": 478
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_080000_604_839": {
+          "tp": 103,
+          "fp": 210,
+          "fn": 613,
+          "frames": 234
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_2954_3495": {
+          "tp": 9,
+          "fp": 25,
+          "fn": 125,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_2515_3056": {
+          "tp": 82,
+          "fp": 155,
+          "fn": 405,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_4972_5277": {
+          "tp": 90,
+          "fp": 153,
+          "fn": 669,
+          "frames": 304
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_210004_2118_2718": {
+          "tp": 41,
+          "fp": 89,
+          "fn": 129,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_170000_4781_5250": {
+          "tp": 12,
+          "fp": 33,
+          "fn": 54,
+          "frames": 468
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_3095_3295": {
+          "tp": 0,
+          "fp": 28,
+          "fn": 97,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_617_1158": {
+          "tp": 32,
+          "fp": 54,
+          "fn": 56,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_150000_1702_2243": {
+          "tp": 30,
+          "fp": 98,
+          "fn": 313,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_221003_1335_1538": {
+          "tp": 0,
+          "fp": 34,
+          "fn": 148,
+          "frames": 202
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_040000_0_538": {
+          "tp": 5,
+          "fp": 27,
+          "fn": 181,
+          "frames": 537
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_020004_3240_3840": {
+          "tp": 78,
+          "fp": 112,
+          "fn": 251,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_060000_571_1112": {
+          "tp": 15,
+          "fp": 47,
+          "fn": 629,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_120000_3525_4066": {
+          "tp": 14,
+          "fp": 39,
+          "fn": 583,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_100004_2931_3531": {
+          "tp": 104,
+          "fp": 282,
+          "fn": 34,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_220004_1434_2034": {
+          "tp": 44,
+          "fp": 113,
+          "fn": 10,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_120004_2044_2644": {
+          "tp": 36,
+          "fp": 159,
+          "fn": 17,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_190000_1440_1981": {
+          "tp": 33,
+          "fp": 92,
+          "fn": 201,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_2064_2605": {
+          "tp": 46,
+          "fp": 106,
+          "fn": 177,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_170004_2801_3401": {
+          "tp": 21,
+          "fp": 145,
+          "fn": 16,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_070000_4101_4642": {
+          "tp": 63,
+          "fp": 158,
+          "fn": 863,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_3706_4247": {
+          "tp": 101,
+          "fp": 220,
+          "fn": 404,
+          "frames": 540
+        }
+      }
+    },
+    {
+      "score_threshold": 0.25,
+      "iou_threshold": 0.5,
+      "tp": 1568,
+      "fp": 2332,
+      "fn": 16983,
+      "precision": 0.40205128205128204,
+      "recall": 0.08452374535065495,
+      "negative_frames": 20529,
+      "negative_false_positives": 35,
+      "false_positives_per_negative_frame": 0.0017049052559793463,
+      "fraction_negative_frames_with_fp": 0.0016561936772370792,
+      "false_positive_types": {
+        "duplicate": 250,
+        "localization": 2026,
+        "background": 56
+      },
+      "size_bins": {
+        "<4px": {
+          "objects": 241,
+          "matched": 0,
+          "recall": 0.0,
+          "missed": 241
+        },
+        "4-8px": {
+          "objects": 5656,
+          "matched": 117,
+          "recall": 0.020685997171145686,
+          "missed": 5539
+        },
+        "8-16px": {
+          "objects": 10716,
+          "matched": 1048,
+          "recall": 0.09779768570362075,
+          "missed": 9668
+        },
+        ">=16px": {
+          "objects": 1938,
+          "matched": 403,
+          "recall": 0.20794633642930857,
+          "missed": 1535
+        }
+      },
+      "clips": {
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_230000_4157_4372": {
+          "tp": 9,
+          "fp": 3,
+          "fn": 141,
+          "frames": 214
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_201003_584_1064": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 38,
+          "frames": 479
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_110004_3942_4312": {
+          "tp": 34,
+          "fp": 57,
+          "fn": 220,
+          "frames": 369
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_221003_329_529": {
+          "tp": 6,
+          "fp": 12,
+          "fn": 46,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_030000_1888_2429": {
+          "tp": 2,
+          "fp": 0,
+          "fn": 61,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_110000_997_1538": {
+          "tp": 11,
+          "fp": 65,
+          "fn": 772,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_070004_651_1251": {
+          "tp": 21,
+          "fp": 72,
+          "fn": 23,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_150004_4847_5447": {
+          "tp": 24,
+          "fp": 31,
+          "fn": 84,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_170004_1169_1769": {
+          "tp": 60,
+          "fp": 59,
+          "fn": 17,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_0_472": {
+          "tp": 18,
+          "fp": 29,
+          "fn": 26,
+          "frames": 471
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_3096_3637": {
+          "tp": 6,
+          "fp": 13,
+          "fn": 257,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_140004_4995_5594": {
+          "tp": 187,
+          "fp": 230,
+          "fn": 81,
+          "frames": 598
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_050004_319_919": {
+          "tp": 7,
+          "fp": 5,
+          "fn": 588,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_090000_778_1319": {
+          "tp": 53,
+          "fp": 77,
+          "fn": 446,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_001003_2789_2989": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 100,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_720_1261": {
+          "tp": 13,
+          "fp": 6,
+          "fn": 198,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_230000_4637_5018": {
+          "tp": 16,
+          "fp": 24,
+          "fn": 194,
+          "frames": 380
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_1760_2301": {
+          "tp": 14,
+          "fp": 21,
+          "fn": 785,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_170000_76_617": {
+          "tp": 22,
+          "fp": 31,
+          "fn": 254,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_2666_3207": {
+          "tp": 21,
+          "fp": 31,
+          "fn": 216,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_050000_2444_2985": {
+          "tp": 16,
+          "fp": 9,
+          "fn": 196,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_2237_2437": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 72,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_000000_3468_3764": {
+          "tp": 53,
+          "fp": 92,
+          "fn": 256,
+          "frames": 295
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_210000_2467_3008": {
+          "tp": 13,
+          "fp": 8,
+          "fn": 348,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_180004_3404_4004": {
+          "tp": 16,
+          "fp": 31,
+          "fn": 21,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_100000_4520_5061": {
+          "tp": 12,
+          "fp": 5,
+          "fn": 223,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_130004_4908_5508": {
+          "tp": 39,
+          "fp": 50,
+          "fn": 15,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_190000_3993_4534": {
+          "tp": 19,
+          "fp": 31,
+          "fn": 425,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_121003_1310_1790": {
+          "tp": 3,
+          "fp": 2,
+          "fn": 1408,
+          "frames": 479
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_210000_1556_2097": {
+          "tp": 9,
+          "fp": 15,
+          "fn": 605,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_030004_1934_2534": {
+          "tp": 31,
+          "fp": 63,
+          "fn": 329,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_200004_0_330": {
+          "tp": 33,
+          "fp": 71,
+          "fn": 13,
+          "frames": 329
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_476_1017": {
+          "tp": 1,
+          "fp": 4,
+          "fn": 199,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_211004_1679_1879": {
+          "tp": 12,
+          "fp": 29,
+          "fn": 29,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_031003_1599_1799": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 130,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_010000_2523_3064": {
+          "tp": 165,
+          "fp": 229,
+          "fn": 429,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_320_861": {
+          "tp": 23,
+          "fp": 35,
+          "fn": 284,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_230004_1736_2336": {
+          "tp": 15,
+          "fp": 81,
+          "fn": 41,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_051003_1782_1982": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 316,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_140004_408_1008": {
+          "tp": 15,
+          "fp": 33,
+          "fn": 28,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_3595_3795": {
+          "tp": 4,
+          "fp": 8,
+          "fn": 122,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_030000_4770_5249": {
+          "tp": 9,
+          "fp": 9,
+          "fn": 569,
+          "frames": 478
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_080000_604_839": {
+          "tp": 54,
+          "fp": 76,
+          "fn": 662,
+          "frames": 234
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_2954_3495": {
+          "tp": 4,
+          "fp": 7,
+          "fn": 130,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_2515_3056": {
+          "tp": 44,
+          "fp": 45,
+          "fn": 443,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_4972_5277": {
+          "tp": 42,
+          "fp": 30,
+          "fn": 717,
+          "frames": 304
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_210004_2118_2718": {
+          "tp": 28,
+          "fp": 28,
+          "fn": 142,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_170000_4781_5250": {
+          "tp": 3,
+          "fp": 6,
+          "fn": 63,
+          "frames": 468
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_3095_3295": {
+          "tp": 0,
+          "fp": 11,
+          "fn": 97,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_617_1158": {
+          "tp": 16,
+          "fp": 22,
+          "fn": 72,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_150000_1702_2243": {
+          "tp": 11,
+          "fp": 17,
+          "fn": 332,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_221003_1335_1538": {
+          "tp": 0,
+          "fp": 9,
+          "fn": 148,
+          "frames": 202
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_040000_0_538": {
+          "tp": 2,
+          "fp": 1,
+          "fn": 184,
+          "frames": 537
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_020004_3240_3840": {
+          "tp": 34,
+          "fp": 43,
+          "fn": 295,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_060000_571_1112": {
+          "tp": 5,
+          "fp": 4,
+          "fn": 639,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_120000_3525_4066": {
+          "tp": 9,
+          "fp": 8,
+          "fn": 588,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_100004_2931_3531": {
+          "tp": 94,
+          "fp": 129,
+          "fn": 44,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_220004_1434_2034": {
+          "tp": 42,
+          "fp": 48,
+          "fn": 12,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_120004_2044_2644": {
+          "tp": 34,
+          "fp": 79,
+          "fn": 19,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_190000_1440_1981": {
+          "tp": 11,
+          "fp": 11,
+          "fn": 223,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_2064_2605": {
+          "tp": 30,
+          "fp": 25,
+          "fn": 193,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_170004_2801_3401": {
+          "tp": 15,
+          "fp": 59,
+          "fn": 22,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_070000_4101_4642": {
+          "tp": 29,
+          "fp": 33,
+          "fn": 897,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_3706_4247": {
+          "tp": 49,
+          "fp": 70,
+          "fn": 456,
+          "frames": 540
+        }
+      }
+    },
+    {
+      "score_threshold": 0.5,
+      "iou_threshold": 0.5,
+      "tp": 730,
+      "fp": 585,
+      "fn": 17821,
+      "precision": 0.5551330798479087,
+      "recall": 0.03935097838391462,
+      "negative_frames": 20529,
+      "negative_false_positives": 0,
+      "false_positives_per_negative_frame": 0.0,
+      "fraction_negative_frames_with_fp": 0.0,
+      "false_positive_types": {
+        "duplicate": 73,
+        "localization": 512,
+        "background": 0
+      },
+      "size_bins": {
+        "<4px": {
+          "objects": 241,
+          "matched": 0,
+          "recall": 0.0,
+          "missed": 241
+        },
+        "4-8px": {
+          "objects": 5656,
+          "matched": 27,
+          "recall": 0.004773691654879774,
+          "missed": 5629
+        },
+        "8-16px": {
+          "objects": 10716,
+          "matched": 433,
+          "recall": 0.040406868234415826,
+          "missed": 10283
+        },
+        ">=16px": {
+          "objects": 1938,
+          "matched": 270,
+          "recall": 0.1393188854489164,
+          "missed": 1668
+        }
+      },
+      "clips": {
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_230000_4157_4372": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 150,
+          "frames": 214
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_201003_584_1064": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 38,
+          "frames": 479
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_110004_3942_4312": {
+          "tp": 23,
+          "fp": 16,
+          "fn": 231,
+          "frames": 369
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_221003_329_529": {
+          "tp": 2,
+          "fp": 2,
+          "fn": 50,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_030000_1888_2429": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 63,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_110000_997_1538": {
+          "tp": 2,
+          "fp": 7,
+          "fn": 781,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_070004_651_1251": {
+          "tp": 13,
+          "fp": 31,
+          "fn": 31,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_150004_4847_5447": {
+          "tp": 7,
+          "fp": 8,
+          "fn": 101,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_170004_1169_1769": {
+          "tp": 50,
+          "fp": 15,
+          "fn": 27,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_0_472": {
+          "tp": 12,
+          "fp": 11,
+          "fn": 32,
+          "frames": 471
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_3096_3637": {
+          "tp": 0,
+          "fp": 1,
+          "fn": 263,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_140004_4995_5594": {
+          "tp": 125,
+          "fp": 86,
+          "fn": 143,
+          "frames": 598
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_050004_319_919": {
+          "tp": 2,
+          "fp": 0,
+          "fn": 593,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_090000_778_1319": {
+          "tp": 19,
+          "fp": 11,
+          "fn": 480,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_001003_2789_2989": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 100,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_720_1261": {
+          "tp": 4,
+          "fp": 1,
+          "fn": 207,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_230000_4637_5018": {
+          "tp": 4,
+          "fp": 3,
+          "fn": 206,
+          "frames": 380
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_1760_2301": {
+          "tp": 0,
+          "fp": 3,
+          "fn": 799,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_170000_76_617": {
+          "tp": 5,
+          "fp": 3,
+          "fn": 271,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_2666_3207": {
+          "tp": 3,
+          "fp": 9,
+          "fn": 234,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_050000_2444_2985": {
+          "tp": 0,
+          "fp": 1,
+          "fn": 212,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_2237_2437": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 72,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_000000_3468_3764": {
+          "tp": 28,
+          "fp": 22,
+          "fn": 281,
+          "frames": 295
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_210000_2467_3008": {
+          "tp": 2,
+          "fp": 0,
+          "fn": 359,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_180004_3404_4004": {
+          "tp": 12,
+          "fp": 5,
+          "fn": 25,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_100000_4520_5061": {
+          "tp": 3,
+          "fp": 1,
+          "fn": 232,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_130004_4908_5508": {
+          "tp": 27,
+          "fp": 13,
+          "fn": 27,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_190000_3993_4534": {
+          "tp": 3,
+          "fp": 9,
+          "fn": 441,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_121003_1310_1790": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 1410,
+          "frames": 479
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_210000_1556_2097": {
+          "tp": 2,
+          "fp": 1,
+          "fn": 612,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_030004_1934_2534": {
+          "tp": 11,
+          "fp": 17,
+          "fn": 349,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_200004_0_330": {
+          "tp": 28,
+          "fp": 26,
+          "fn": 18,
+          "frames": 329
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_476_1017": {
+          "tp": 0,
+          "fp": 1,
+          "fn": 200,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_211004_1679_1879": {
+          "tp": 8,
+          "fp": 12,
+          "fn": 33,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_031003_1599_1799": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 130,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_010000_2523_3064": {
+          "tp": 100,
+          "fp": 70,
+          "fn": 494,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_320_861": {
+          "tp": 1,
+          "fp": 5,
+          "fn": 306,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_230004_1736_2336": {
+          "tp": 9,
+          "fp": 25,
+          "fn": 47,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_051003_1782_1982": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 316,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_140004_408_1008": {
+          "tp": 12,
+          "fp": 15,
+          "fn": 31,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_3595_3795": {
+          "tp": 0,
+          "fp": 1,
+          "fn": 126,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_030000_4770_5249": {
+          "tp": 0,
+          "fp": 1,
+          "fn": 578,
+          "frames": 478
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_080000_604_839": {
+          "tp": 10,
+          "fp": 9,
+          "fn": 706,
+          "frames": 234
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_2954_3495": {
+          "tp": 0,
+          "fp": 1,
+          "fn": 134,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_2515_3056": {
+          "tp": 11,
+          "fp": 9,
+          "fn": 476,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_4972_5277": {
+          "tp": 3,
+          "fp": 2,
+          "fn": 756,
+          "frames": 304
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_210004_2118_2718": {
+          "tp": 3,
+          "fp": 0,
+          "fn": 167,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_170000_4781_5250": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 66,
+          "frames": 468
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_3095_3295": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 97,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_617_1158": {
+          "tp": 7,
+          "fp": 4,
+          "fn": 81,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_150000_1702_2243": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 342,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_221003_1335_1538": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 148,
+          "frames": 202
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_040000_0_538": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 185,
+          "frames": 537
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_020004_3240_3840": {
+          "tp": 12,
+          "fp": 10,
+          "fn": 317,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_060000_571_1112": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 644,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_120000_3525_4066": {
+          "tp": 4,
+          "fp": 0,
+          "fn": 593,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_100004_2931_3531": {
+          "tp": 65,
+          "fp": 47,
+          "fn": 73,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_220004_1434_2034": {
+          "tp": 34,
+          "fp": 10,
+          "fn": 20,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_120004_2044_2644": {
+          "tp": 26,
+          "fp": 33,
+          "fn": 27,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_190000_1440_1981": {
+          "tp": 2,
+          "fp": 1,
+          "fn": 232,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_2064_2605": {
+          "tp": 8,
+          "fp": 0,
+          "fn": 215,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_170004_2801_3401": {
+          "tp": 10,
+          "fp": 16,
+          "fn": 27,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_070000_4101_4642": {
+          "tp": 2,
+          "fp": 1,
+          "fn": 924,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_3706_4247": {
+          "tp": 13,
+          "fp": 10,
+          "fn": 492,
+          "frames": 540
+        }
+      }
+    },
+    {
+      "score_threshold": 0.75,
+      "iou_threshold": 0.5,
+      "tp": 184,
+      "fp": 61,
+      "fn": 18367,
+      "precision": 0.7510204081632653,
+      "recall": 0.009918602770740121,
+      "negative_frames": 20529,
+      "negative_false_positives": 0,
+      "false_positives_per_negative_frame": 0.0,
+      "fraction_negative_frames_with_fp": 0.0,
+      "false_positive_types": {
+        "duplicate": 3,
+        "localization": 58,
+        "background": 0
+      },
+      "size_bins": {
+        "<4px": {
+          "objects": 241,
+          "matched": 0,
+          "recall": 0.0,
+          "missed": 241
+        },
+        "4-8px": {
+          "objects": 5656,
+          "matched": 1,
+          "recall": 0.0001768033946251768,
+          "missed": 5655
+        },
+        "8-16px": {
+          "objects": 10716,
+          "matched": 86,
+          "recall": 0.008025382605449796,
+          "missed": 10630
+        },
+        ">=16px": {
+          "objects": 1938,
+          "matched": 97,
+          "recall": 0.0500515995872033,
+          "missed": 1841
+        }
+      },
+      "clips": {
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_230000_4157_4372": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 150,
+          "frames": 214
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_201003_584_1064": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 38,
+          "frames": 479
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_110004_3942_4312": {
+          "tp": 3,
+          "fp": 0,
+          "fn": 251,
+          "frames": 369
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_221003_329_529": {
+          "tp": 0,
+          "fp": 2,
+          "fn": 52,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_030000_1888_2429": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 63,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_110000_997_1538": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 783,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_070004_651_1251": {
+          "tp": 8,
+          "fp": 5,
+          "fn": 36,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_150004_4847_5447": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 108,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_170004_1169_1769": {
+          "tp": 20,
+          "fp": 3,
+          "fn": 57,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_0_472": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 44,
+          "frames": 471
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_3096_3637": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 263,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_140004_4995_5594": {
+          "tp": 42,
+          "fp": 14,
+          "fn": 226,
+          "frames": 598
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_050004_319_919": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 595,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_090000_778_1319": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 499,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_001003_2789_2989": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 100,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_720_1261": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 211,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_230000_4637_5018": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 210,
+          "frames": 380
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_1760_2301": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 799,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_170000_76_617": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 276,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_2666_3207": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 237,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_050000_2444_2985": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 212,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_2237_2437": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 72,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_000000_3468_3764": {
+          "tp": 3,
+          "fp": 0,
+          "fn": 306,
+          "frames": 295
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_210000_2467_3008": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 361,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_180004_3404_4004": {
+          "tp": 3,
+          "fp": 0,
+          "fn": 34,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_100000_4520_5061": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 235,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_130004_4908_5508": {
+          "tp": 5,
+          "fp": 1,
+          "fn": 49,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_190000_3993_4534": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 444,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_121003_1310_1790": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 1411,
+          "frames": 479
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_210000_1556_2097": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 614,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_030004_1934_2534": {
+          "tp": 2,
+          "fp": 1,
+          "fn": 358,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_200004_0_330": {
+          "tp": 8,
+          "fp": 2,
+          "fn": 38,
+          "frames": 329
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_476_1017": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 200,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_211004_1679_1879": {
+          "tp": 0,
+          "fp": 4,
+          "fn": 41,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_031003_1599_1799": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 130,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_010000_2523_3064": {
+          "tp": 23,
+          "fp": 7,
+          "fn": 571,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_320_861": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 307,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_230004_1736_2336": {
+          "tp": 2,
+          "fp": 1,
+          "fn": 54,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_051003_1782_1982": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 316,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_140004_408_1008": {
+          "tp": 4,
+          "fp": 1,
+          "fn": 39,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_3595_3795": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 126,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_030000_4770_5249": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 578,
+          "frames": 478
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_080000_604_839": {
+          "tp": 0,
+          "fp": 1,
+          "fn": 716,
+          "frames": 234
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_2954_3495": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 134,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_2515_3056": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 486,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_4972_5277": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 759,
+          "frames": 304
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_210004_2118_2718": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 170,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_170000_4781_5250": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 66,
+          "frames": 468
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_3095_3295": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 97,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_617_1158": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 88,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_150000_1702_2243": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 343,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_221003_1335_1538": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 148,
+          "frames": 202
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_040000_0_538": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 186,
+          "frames": 537
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_020004_3240_3840": {
+          "tp": 0,
+          "fp": 1,
+          "fn": 329,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_060000_571_1112": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 644,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_120000_3525_4066": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 597,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_100004_2931_3531": {
+          "tp": 30,
+          "fp": 8,
+          "fn": 108,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_220004_1434_2034": {
+          "tp": 16,
+          "fp": 1,
+          "fn": 38,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_120004_2044_2644": {
+          "tp": 13,
+          "fp": 6,
+          "fn": 40,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_190000_1440_1981": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 234,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_2064_2605": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 223,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_170004_2801_3401": {
+          "tp": 1,
+          "fp": 3,
+          "fn": 36,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_070000_4101_4642": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 926,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_3706_4247": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 505,
+          "frames": 540
+        }
+      }
+    },
+    {
+      "score_threshold": 0.9,
+      "iou_threshold": 0.5,
+      "tp": 0,
+      "fp": 0,
+      "fn": 18551,
+      "precision": 0.0,
+      "recall": 0.0,
+      "negative_frames": 20529,
+      "negative_false_positives": 0,
+      "false_positives_per_negative_frame": 0.0,
+      "fraction_negative_frames_with_fp": 0.0,
+      "false_positive_types": {
+        "duplicate": 0,
+        "localization": 0,
+        "background": 0
+      },
+      "size_bins": {
+        "<4px": {
+          "objects": 241,
+          "matched": 0,
+          "recall": 0.0,
+          "missed": 241
+        },
+        "4-8px": {
+          "objects": 5656,
+          "matched": 0,
+          "recall": 0.0,
+          "missed": 5656
+        },
+        "8-16px": {
+          "objects": 10716,
+          "matched": 0,
+          "recall": 0.0,
+          "missed": 10716
+        },
+        ">=16px": {
+          "objects": 1938,
+          "matched": 0,
+          "recall": 0.0,
+          "missed": 1938
+        }
+      },
+      "clips": {
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_230000_4157_4372": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 150,
+          "frames": 214
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_201003_584_1064": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 38,
+          "frames": 479
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_110004_3942_4312": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 254,
+          "frames": 369
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_221003_329_529": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 52,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_030000_1888_2429": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 63,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_110000_997_1538": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 783,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_070004_651_1251": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 44,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_150004_4847_5447": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 108,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_170004_1169_1769": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 77,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_0_472": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 44,
+          "frames": 471
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_3096_3637": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 263,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_140004_4995_5594": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 268,
+          "frames": 598
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_050004_319_919": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 595,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_090000_778_1319": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 499,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_001003_2789_2989": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 100,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_720_1261": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 211,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_230000_4637_5018": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 210,
+          "frames": 380
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_1760_2301": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 799,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_170000_76_617": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 276,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_2666_3207": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 237,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_050000_2444_2985": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 212,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_2237_2437": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 72,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_000000_3468_3764": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 309,
+          "frames": 295
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_210000_2467_3008": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 361,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_180004_3404_4004": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 37,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_100000_4520_5061": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 235,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_130004_4908_5508": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 54,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_190000_3993_4534": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 444,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_121003_1310_1790": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 1411,
+          "frames": 479
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_210000_1556_2097": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 614,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_030004_1934_2534": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 360,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_200004_0_330": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 46,
+          "frames": 329
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_476_1017": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 200,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_211004_1679_1879": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 41,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_031003_1599_1799": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 130,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_010000_2523_3064": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 594,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_320_861": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 307,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_230004_1736_2336": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 56,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_051003_1782_1982": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 316,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_140004_408_1008": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 43,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_3595_3795": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 126,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_030000_4770_5249": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 578,
+          "frames": 478
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_080000_604_839": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 716,
+          "frames": 234
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_2954_3495": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 134,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_2515_3056": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 487,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_4972_5277": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 759,
+          "frames": 304
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_210004_2118_2718": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 170,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_170000_4781_5250": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 66,
+          "frames": 468
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_3095_3295": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 97,
+          "frames": 199
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_617_1158": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 88,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_150000_1702_2243": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 343,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_221003_1335_1538": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 148,
+          "frames": 202
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_040000_0_538": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 186,
+          "frames": 537
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_020004_3240_3840": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 329,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_060000_571_1112": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 644,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_120000_3525_4066": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 597,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_100004_2931_3531": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 138,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_220004_1434_2034": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 54,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_120004_2044_2644": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 53,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_190000_1440_1981": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 234,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_2064_2605": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 223,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_170004_2801_3401": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 37,
+          "frames": 599
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_070000_4101_4642": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 926,
+          "frames": 540
+        },
+        "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_3706_4247": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 505,
+          "frames": 540
+        }
+      }
+    }
+  ],
+  "error_examples": [
+    {
+      "image_id": 73,
+      "annotation_id": 0,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_230000_4157_4372_73.jpg",
+      "bbox": [
+        16,
+        91,
+        18,
+        10
+      ],
+      "best_iou_at_operating_score": 0,
+      "bin_448": "4-8px",
+      "kind": "missed"
+    },
+    {
+      "image_id": 76,
+      "annotation_id": 3,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_230000_4157_4372_76.jpg",
+      "bbox": [
+        15,
+        77,
+        56,
+        21
+      ],
+      "best_iou_at_operating_score": 0,
+      "bin_448": "8-16px",
+      "kind": "missed"
+    },
+    {
+      "image_id": 80,
+      "annotation_id": 7,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_230000_4157_4372_80.jpg",
+      "bbox": [
+        37,
+        60,
+        83,
+        31
+      ],
+      "best_iou_at_operating_score": 0,
+      "bin_448": ">=16px",
+      "kind": "missed"
+    },
+    {
+      "image_id": 720,
+      "annotation_id": 241,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_110004_3942_4312_27.jpg",
+      "bbox": [
+        45,
+        86,
+        63,
+        20
+      ],
+      "best_iou_at_operating_score": 0.46810083223556703,
+      "bin_448": "8-16px",
+      "kind": "poor_localization"
+    },
+    {
+      "image_id": 989,
+      "annotation_id": 432,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_110004_3942_4312_296.jpg",
+      "bbox": [
+        78,
+        591,
+        93,
+        24
+      ],
+      "best_iou_at_operating_score": 0.3345312883029971,
+      "bin_448": ">=16px",
+      "kind": "poor_localization"
+    },
+    {
+      "image_id": 1130,
+      "annotation_id": 442,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_221003_329_529_68.jpg",
+      "bbox": [
+        160,
+        1249,
+        14,
+        15
+      ],
+      "best_iou_at_operating_score": 0,
+      "bin_448": "<4px",
+      "kind": "missed"
+    },
+    {
+      "image_id": 2269,
+      "annotation_id": 1271,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_110000_997_1538_468.jpg",
+      "bbox": [
+        206,
+        649,
+        53,
+        14
+      ],
+      "best_iou_at_operating_score": 0.26345579878369274,
+      "bin_448": "4-8px",
+      "kind": "poor_localization"
+    }
+  ],
+  "run": "det-random-f010-s7",
+  "split": "Kenai validation only",
+  "cpu_only": true,
+  "size_definition": "fixed pre-rounding 448 scale at all detector resolutions",
+  "thresholds_predeclared": [
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    0.9
+  ],
+  "threshold_selected": null,
+  "selection": "first image ID then annotation ID per size/error bin",
+  "author_status": "author evaluated; no independent review",
+  "predictions_sha256": "f6d3a87f98a0d282c7f7783efb36d18d3c5131c87c59a880ab5c3db910006a5d",
+  "annotations_sha256": "db5cf0b0b09d5b9895d7baa5569493c4b06f1318c2094094e9abfb715f0133b8",
+  "analysis_sha256": "d2ab7dcbc33dd117aa2e09010f55d7aed808b17e3db8acfd46006701ba0c8945",
+  "cpu_wall_seconds": 44.823155641555786
+}

@@ -1,0 +1,8 @@
+{
+  "status": "author-verified; not independently reviewed",
+  "seed": 7,
+  "head_tensors_compared": 38,
+  "all_pyramid_rpn_roi_initial_tensors_bitwise_equal": true,
+  "encoder_weights_differ": true,
+  "cpu_wall_seconds": 5.584049800003413
+}

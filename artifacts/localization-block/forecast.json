@@ -1,0 +1,7 @@
+{
+  "training_hours": 1.3909722222199585,
+  "validation_hours": 1.4021916666666583,
+  "cold_start_seconds": 8.85999999998603,
+  "remaining_development_hours": 17.98960944444444,
+  "final_reserve_hours": 6
+}

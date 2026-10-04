@@ -1,0 +1,8 @@
+{
+  "successful_updates": 2000,
+  "presentations": 16000,
+  "unique_images": 10356,
+  "finite": true,
+  "exact_reference_exposures": "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\sonar-representation-lab\\artifacts\\det-finetune-r672-f010-s7-mb4",
+  "checkpoint_sha256": "f913331e608412e8a505c07abc3dd8cdbec8333f4fb4e2e091c13d40242d9998"
+}

@@ -1,0 +1,259 @@
+{
+  "status": "author verified; not independently reviewed",
+  "utc": "2026-10-02T15:24:06Z",
+  "cpu_only": true,
+  "ssl": [
+    {
+      "run": "ssl-A-s13",
+      "updates": 2000,
+      "encoder_sha256": "243cef3824e30edefce9c7a507a6dc3af25e0b161d2f88e8dd2ade4dbd66fccb",
+      "finite_ema_tensors": 176,
+      "export_equal_final_ema": true,
+      "image_only_train_exposures": true,
+      "presentations": 32000,
+      "unique_frames": 29073,
+      "teacher_l2_change": 1.2267204226176207,
+      "teacher_relative_l2_change": 0.002912227202006649,
+      "published_sha256": "f433177089a681826f849f194ece3bb48f4d63fb38d32fc837e3dc7a4e5641fb",
+      "successful_updates": 2000
+    },
+    {
+      "run": "ssl-A-s23",
+      "updates": 2000,
+      "encoder_sha256": "41345e0e978c880c3d8e0371379b35cee3f85df5080dc52f29bebbf5a1ad122d",
+      "finite_ema_tensors": 176,
+      "export_equal_final_ema": true,
+      "image_only_train_exposures": true,
+      "presentations": 32000,
+      "unique_frames": 28977,
+      "teacher_l2_change": 1.2308166068388315,
+      "teacher_relative_l2_change": 0.002921951519702433,
+      "published_sha256": "f433177089a681826f849f194ece3bb48f4d63fb38d32fc837e3dc7a4e5641fb",
+      "successful_updates": 2000
+    },
+    {
+      "run": "ssl-A-s7",
+      "updates": 2000,
+      "encoder_sha256": "15b3356ef61f163a955cefd240b04555635b104f7b222dcd408fdb783eaca210",
+      "finite_ema_tensors": 176,
+      "export_equal_final_ema": true,
+      "image_only_train_exposures": true,
+      "presentations": 32000,
+      "unique_frames": 29017,
+      "teacher_l2_change": 1.2578308557182756,
+      "teacher_relative_l2_change": 0.002986083190601514,
+      "published_sha256": "f433177089a681826f849f194ece3bb48f4d63fb38d32fc837e3dc7a4e5641fb",
+      "successful_updates": 2000
+    }
+  ],
+  "detectors": [
+    {
+      "run": "det-adapted-f010-s13",
+      "updates": 2000,
+      "checkpoint_sha256": "81e6729c1e5c1578dc1787d6124cbd75ac8fa4c9249c7f8b48114e492441418b",
+      "finite_model": true,
+      "head_optimizer_steps": [
+        2000
+      ],
+      "encoder_tensors_equal_initialization": 176,
+      "encoder_tensor_count": 176,
+      "available_counts": {
+        "clips": 49,
+        "frames": 16859,
+        "annotations": 11728,
+        "negative_frames": 10705
+      },
+      "frame_presentations": 16000,
+      "unique_frames": 10264,
+      "unique_negative_frames_seen": 6511,
+      "negative_frame_presentations": 10130,
+      "unique_annotations_seen": 7177,
+      "annotation_presentations": 11202,
+      "source_identity": {
+        "src/acquire.py": "c0f33970f0e8e11ec1b1b592ed7c9ca00bea8e5b318a5c2b4fdd5eba1097a049",
+        "src/adapt.py": "e8eea6a92e6a34177ce00386da4e53c0f6e82221a76e1d1325a4ea2c4bc203ed",
+        "src/channel.py": "ec216de418413a02a90a6ecfd9df2ce1538d605ef3abbfd20d49f00e023aa3f7",
+        "src/data.py": "6ff8795eec77b4ff8566cc3d7e8cb3d2a98fa2c4a6b2ae9631625735d7319e34",
+        "src/evaluate.py": "d7a6f8c76aac52f53839a8cc856e0c8a532e93090c0fdeb423e96a65fab06c83",
+        "src/freeze.py": "d111e0744838d67d429e30bb89a7b46ddc177fc62f0825c86f44bd0c5de263ab",
+        "src/models.py": "38afc8c0b73a4cec83aeb284e16da2b02a321f899bd9532b63e43752c3d156d2",
+        "src/platform_compat.py": "c1ff01ec3d865d64504d1a556c9f48e514c89671984be809fff63470f2f7e66d",
+        "src/profile_batch.py": "d8f6d6b9271ad607de6bcdf66e4378176accc759950d52630c2542131b465952",
+        "src/run_block.py": "e6db4f9efcdeeaa823708d2f4775d5351f238aab9de1eead700db27c8f5d7b2d",
+        "src/runtime.py": "65f05059374763b8a871a981e3deadd13d1d868a5fdc497dad0ba14b889569f2",
+        "src/summarize.py": "edbb4b85f23c4f2fdd0774602be002237fd9570d6e8c6e6f5afe793091f9394f",
+        "src/train_detector.py": "0f6a804b4790b82ce2dd22efc58755cc7fa7315d067ee009b9c01b37cf81f343"
+      },
+      "protocol_sha256": "02b59e25e11bceb3e20a4d94afd4f2da56bb05ad011d55e8d081f9356fa3c906"
+    },
+    {
+      "run": "det-adapted-f010-s7",
+      "updates": 2000,
+      "checkpoint_sha256": "346ca4ca64a64bf05058145b0458cc4156aa476139ec3995c7a2b3e938fb46aa",
+      "finite_model": true,
+      "head_optimizer_steps": [
+        2000
+      ],
+      "encoder_tensors_equal_initialization": 176,
+      "encoder_tensor_count": 176,
+      "available_counts": {
+        "clips": 49,
+        "frames": 16859,
+        "annotations": 11728,
+        "negative_frames": 10705
+      },
+      "frame_presentations": 16000,
+      "unique_frames": 10356,
+      "unique_negative_frames_seen": 6616,
+      "negative_frame_presentations": 10206,
+      "unique_annotations_seen": 7134,
+      "annotation_presentations": 11035,
+      "source_identity": {
+        "src/acquire.py": "c0f33970f0e8e11ec1b1b592ed7c9ca00bea8e5b318a5c2b4fdd5eba1097a049",
+        "src/adapt.py": "e8eea6a92e6a34177ce00386da4e53c0f6e82221a76e1d1325a4ea2c4bc203ed",
+        "src/channel.py": "f1af61c9e4119b7998a02c6e3d2dcd64e7f971b69fe3599044f0b981d4908010",
+        "src/data.py": "bd08855d14cdb2c4bb2a528bf9cb5466748d19a7d8bd1764e0ec4b12decb510e",
+        "src/evaluate.py": "f0033f1e4ef6fe89b922fb09b764f612406d5a1f955fefa777ef7809cca80cb0",
+        "src/freeze.py": "44a356ce03bb710aeca7e90fe34954247a3e5ea64a05482b3e804009199ccfde",
+        "src/models.py": "38afc8c0b73a4cec83aeb284e16da2b02a321f899bd9532b63e43752c3d156d2",
+        "src/platform_compat.py": "c1ff01ec3d865d64504d1a556c9f48e514c89671984be809fff63470f2f7e66d",
+        "src/profile_batch.py": "d8f6d6b9271ad607de6bcdf66e4378176accc759950d52630c2542131b465952",
+        "src/run_block.py": "2a9a3084459ba45d5d7393538ea74007d47dc42a4a3b9c13f6d2e5b9198b4a60",
+        "src/runtime.py": "31d3cb1dd099e967b992d5e2e5bfac5c682f42245543b01dba623881a11c3006",
+        "src/summarize.py": "2f8975923e1c36a9b18ca5193b476b30af878bb35de978061232f0fae7c5b428",
+        "src/train_detector.py": "5e617bbdd8a021a46c850beb739f319d6798c47196f7162f4ff117ff13678f0d"
+      },
+      "protocol_sha256": "60175f850f301db9539c17d0054c04e550d8c88da77d1716c5e02b91e44485a9"
+    },
+    {
+      "run": "det-published-f010-s13",
+      "updates": 2000,
+      "checkpoint_sha256": "f29574bc80fd5dc4f6a7134d4e10558adb91a9e2d38926991a908e3cf0d28cfb",
+      "finite_model": true,
+      "head_optimizer_steps": [
+        2000
+      ],
+      "encoder_tensors_equal_initialization": 176,
+      "encoder_tensor_count": 176,
+      "available_counts": {
+        "clips": 49,
+        "frames": 16859,
+        "annotations": 11728,
+        "negative_frames": 10705
+      },
+      "frame_presentations": 16000,
+      "unique_frames": 10264,
+      "unique_negative_frames_seen": 6511,
+      "negative_frame_presentations": 10130,
+      "unique_annotations_seen": 7177,
+      "annotation_presentations": 11202,
+      "source_identity": {
+        "src/acquire.py": "c0f33970f0e8e11ec1b1b592ed7c9ca00bea8e5b318a5c2b4fdd5eba1097a049",
+        "src/adapt.py": "e8eea6a92e6a34177ce00386da4e53c0f6e82221a76e1d1325a4ea2c4bc203ed",
+        "src/channel.py": "ec216de418413a02a90a6ecfd9df2ce1538d605ef3abbfd20d49f00e023aa3f7",
+        "src/data.py": "6ff8795eec77b4ff8566cc3d7e8cb3d2a98fa2c4a6b2ae9631625735d7319e34",
+        "src/evaluate.py": "0653c83e3a3746b416b34b176e94f9ae1dcbe1de4fd796b70460bc87fe8273f5",
+        "src/freeze.py": "d111e0744838d67d429e30bb89a7b46ddc177fc62f0825c86f44bd0c5de263ab",
+        "src/models.py": "38afc8c0b73a4cec83aeb284e16da2b02a321f899bd9532b63e43752c3d156d2",
+        "src/platform_compat.py": "c1ff01ec3d865d64504d1a556c9f48e514c89671984be809fff63470f2f7e66d",
+        "src/profile_batch.py": "d8f6d6b9271ad607de6bcdf66e4378176accc759950d52630c2542131b465952",
+        "src/run_block.py": "e6db4f9efcdeeaa823708d2f4775d5351f238aab9de1eead700db27c8f5d7b2d",
+        "src/runtime.py": "65f05059374763b8a871a981e3deadd13d1d868a5fdc497dad0ba14b889569f2",
+        "src/summarize.py": "edbb4b85f23c4f2fdd0774602be002237fd9570d6e8c6e6f5afe793091f9394f",
+        "src/train_detector.py": "0f6a804b4790b82ce2dd22efc58755cc7fa7315d067ee009b9c01b37cf81f343"
+      },
+      "protocol_sha256": "f0b215461d31e6b4a60d746526d62c860d4dea1b7db8c2acf8a57c71ae8c878f"
+    },
+    {
+      "run": "det-published-f010-s23",
+      "updates": 2000,
+      "checkpoint_sha256": "8a53010e9f114bb202b841f48ca01d893aaf8c37aadd3c750aa67b83f33adb06",
+      "finite_model": true,
+      "head_optimizer_steps": [
+        2000
+      ],
+      "encoder_tensors_equal_initialization": 176,
+      "encoder_tensor_count": 176,
+      "available_counts": {
+        "clips": 49,
+        "frames": 16859,
+        "annotations": 11728,
+        "negative_frames": 10705
+      },
+      "frame_presentations": 16000,
+      "unique_frames": 10313,
+      "unique_negative_frames_seen": 6543,
+      "negative_frame_presentations": 10137,
+      "unique_annotations_seen": 7254,
+      "annotation_presentations": 11256,
+      "source_identity": {
+        "src/acquire.py": "c0f33970f0e8e11ec1b1b592ed7c9ca00bea8e5b318a5c2b4fdd5eba1097a049",
+        "src/adapt.py": "e8eea6a92e6a34177ce00386da4e53c0f6e82221a76e1d1325a4ea2c4bc203ed",
+        "src/channel.py": "ec216de418413a02a90a6ecfd9df2ce1538d605ef3abbfd20d49f00e023aa3f7",
+        "src/data.py": "6ff8795eec77b4ff8566cc3d7e8cb3d2a98fa2c4a6b2ae9631625735d7319e34",
+        "src/evaluate.py": "d7a6f8c76aac52f53839a8cc856e0c8a532e93090c0fdeb423e96a65fab06c83",
+        "src/freeze.py": "d111e0744838d67d429e30bb89a7b46ddc177fc62f0825c86f44bd0c5de263ab",
+        "src/models.py": "38afc8c0b73a4cec83aeb284e16da2b02a321f899bd9532b63e43752c3d156d2",
+        "src/platform_compat.py": "c1ff01ec3d865d64504d1a556c9f48e514c89671984be809fff63470f2f7e66d",
+        "src/profile_batch.py": "d8f6d6b9271ad607de6bcdf66e4378176accc759950d52630c2542131b465952",
+        "src/run_block.py": "e6db4f9efcdeeaa823708d2f4775d5351f238aab9de1eead700db27c8f5d7b2d",
+        "src/runtime.py": "65f05059374763b8a871a981e3deadd13d1d868a5fdc497dad0ba14b889569f2",
+        "src/summarize.py": "edbb4b85f23c4f2fdd0774602be002237fd9570d6e8c6e6f5afe793091f9394f",
+        "src/train_detector.py": "0f6a804b4790b82ce2dd22efc58755cc7fa7315d067ee009b9c01b37cf81f343"
+      },
+      "protocol_sha256": "02b59e25e11bceb3e20a4d94afd4f2da56bb05ad011d55e8d081f9356fa3c906"
+    },
+    {
+      "run": "det-published-f010-s7",
+      "updates": 2000,
+      "checkpoint_sha256": "ae87feaa719f90c59c38cb7221937a8512d058ce30f7670e9d48a4c5c24bcf3c",
+      "finite_model": true,
+      "head_optimizer_steps": [
+        2000
+      ],
+      "encoder_tensors_equal_initialization": 176,
+      "encoder_tensor_count": 176,
+      "available_counts": {
+        "clips": 49,
+        "frames": 16859,
+        "annotations": 11728,
+        "negative_frames": 10705
+      },
+      "frame_presentations": 16000,
+      "unique_frames": 10356,
+      "unique_negative_frames_seen": 6616,
+      "negative_frame_presentations": 10206,
+      "unique_annotations_seen": 7134,
+      "annotation_presentations": 11035,
+      "source_identity": {
+        "src/acquire.py": "c0f33970f0e8e11ec1b1b592ed7c9ca00bea8e5b318a5c2b4fdd5eba1097a049",
+        "src/adapt.py": "e8eea6a92e6a34177ce00386da4e53c0f6e82221a76e1d1325a4ea2c4bc203ed",
+        "src/channel.py": "f1af61c9e4119b7998a02c6e3d2dcd64e7f971b69fe3599044f0b981d4908010",
+        "src/data.py": "bd08855d14cdb2c4bb2a528bf9cb5466748d19a7d8bd1764e0ec4b12decb510e",
+        "src/evaluate.py": "f0033f1e4ef6fe89b922fb09b764f612406d5a1f955fefa777ef7809cca80cb0",
+        "src/freeze.py": "44a356ce03bb710aeca7e90fe34954247a3e5ea64a05482b3e804009199ccfde",
+        "src/models.py": "38afc8c0b73a4cec83aeb284e16da2b02a321f899bd9532b63e43752c3d156d2",
+        "src/platform_compat.py": "c1ff01ec3d865d64504d1a556c9f48e514c89671984be809fff63470f2f7e66d",
+        "src/profile_batch.py": "d8f6d6b9271ad607de6bcdf66e4378176accc759950d52630c2542131b465952",
+        "src/run_block.py": "2a9a3084459ba45d5d7393538ea74007d47dc42a4a3b9c13f6d2e5b9198b4a60",
+        "src/runtime.py": "1a8cb7e713f3d31520b1c6adf09e42103dff5e3415413fa5a75d08dd274c6510",
+        "src/summarize.py": "2f8975923e1c36a9b18ca5193b476b30af878bb35de978061232f0fae7c5b428",
+        "src/train_detector.py": "5e617bbdd8a021a46c850beb739f319d6798c47196f7162f4ff117ff13678f0d"
+      },
+      "protocol_sha256": "5fd2e9ab36792d662e47f646523efabc24a7389f87bd1d7e4b5e348369356fae"
+    }
+  ],
+  "matched_pairs": [
+    {
+      "fraction": 10,
+      "seed": 13,
+      "exact_image_exposure_counter_equal": true
+    },
+    {
+      "fraction": 10,
+      "seed": 7,
+      "exact_image_exposure_counter_equal": true
+    }
+  ],
+  "cpu_wall_seconds": 24.917926599970087
+}

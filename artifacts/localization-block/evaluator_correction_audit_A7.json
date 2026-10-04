@@ -1,0 +1,25 @@
+{
+  "evaluator": "cfc-coco-positive-annotation-ids-v2",
+  "derived_kenai_metrics": [
+    {
+      "run": "det-adapted-f010-s7",
+      "source_metrics_sha256": "0ac867cc5bb6da60da30b7ef6501942a0c65a0003c2fc9ed9d28921a00b983e2",
+      "source_per_image_coco_sha256": "a9cff23e928ef3289db2882c698afaf675fba9ddb72138389b418a984bdacd79",
+      "legacy_AP50": 0.10664096286304621,
+      "legacy_AP95": 0.024920944786475035,
+      "positive_id_AP50": 0.10664096286304621,
+      "positive_id_AP95": 0.02492094478647504,
+      "positive_id_AP75": 0.0035636594358095493,
+      "delta_AP50_pp": 0.0,
+      "delta_AP95_pp": 0.0,
+      "zero_annotation_image_ids": [
+        73
+      ]
+    }
+  ],
+  "historical_artifacts_overwritten": false,
+  "channel_accessed": false,
+  "gpu_used": false,
+  "cpu_wall_seconds": 103.20300000003772,
+  "method": "Recovered matched ID0 through gtMatches/dtIds; known-answer exact agreement with positive-ID full scorer, original image-ID tie ordering retained"
+}

@@ -1,0 +1,16 @@
+{
+  "retrieved_utc": "2026-10-03T09:28:15.019232+00:00",
+  "public_record": "https://data.caltech.edu/records/g945x-41103",
+  "verification": "web tool opened current official public record successfully; source text identifies version1.1, channel.tar 1.7GB and MD5",
+  "version": "1.1",
+  "filename": "channel.tar",
+  "publisher_display_size": "1.7 GB",
+  "publisher_md5": "16db94bef9af773b725301811f695e13",
+  "expected_exact_bytes_from_existing_provenance": 1680528910,
+  "metadata_api_attempt": {
+    "url": "https://data.caltech.edu/api/records/g945x-41103",
+    "status": 403,
+    "local_urllib_request": true
+  },
+  "scope": "public publisher file-list metadata only; no Channel archive or image accessed"
+}

@@ -1,0 +1,29 @@
+﻿{
+    "utc":  "2026-10-03T00:14:54.7754434Z",
+    "job":  "A672 training",
+    "used_hours":  12.658476081653232,
+    "forecast_gpu_process_hours":  1,
+    "final_reserved_hours":  6,
+    "basis":  "Predeclared resolution pair forecast; actual real-batch profile and completed validation runtime",
+    "command_arguments":  [
+                              "train",
+                              "--kind",
+                              "adapted",
+                              "--adapted",
+                              "artifacts/ssl-A-s7/encoder.pt",
+                              "--size",
+                              "672",
+                              "--seed",
+                              "7",
+                              "--fraction",
+                              "10",
+                              "--steps",
+                              "2000",
+                              "--batch",
+                              "8",
+                              "--accumulation",
+                              "1",
+                              "--out",
+                              "artifacts/det-adapted-r672-f010-s7"
+                          ]
+}

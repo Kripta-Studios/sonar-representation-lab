@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-10-02T12:46:16Z",
+  "supplements": "artifacts/budget_forecast_predeclaration.json",
+  "cache_forecast_population": "After a validated byte-identical input cache is enabled, forecast from completed uninterrupted runs that used that cache; fall back to all uninterrupted completed runs if no cached observations exist",
+  "data_selection": "Source cache hashes/configuration fields only; never model metrics",
+  "reason": "Legacy JPEG decode/resize runtime is not representative of the identical cached read path used for remaining detector training, validation and the fixed target block",
+  "same_safety_factors": [
+    1.25,
+    1.5
+  ],
+  "same_admission_caps": [
+    23.8,
+    20
+  ],
+  "all_actual_charges_including_legacy_runs_retained": true,
+  "channel_cache_only_inside_frozen_exposure_block": true,
+  "implementation_after_first_milestone": true
+}

@@ -1,0 +1,4839 @@
+{
+  "status": "TRAIN image-only membership prerequisite; no motion fitting performed",
+  "manifest_sha256": "ad646a27c1586496f24d33c5f39b070cf717c60adcaa364c1722bdfbb2b13737",
+  "train_clip_metadata_sha256": "49eceab9beab70c09b153f4fcc21bb88c20c4a0e8f400edcbc44728576063365",
+  "rule": "numeric within-clip frame suffix delta exactly one; reject gaps and clip boundaries; no annotations read",
+  "source_reference": "CFC convert.py b383e36cc446b81d439b61938dd89cbddf84a3f1 sorts frames numerically; v1.1 flattened filenames retain clip and frame index",
+  "clips": [
+    {
+      "clip": "2018-05-26-JD146_LeftFar_Stratum1_Set1_LO_2018-05-26_080004_285_885",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-26-JD146_LeftFar_Stratum1_Set1_LO_2018-05-26_080004_4609_5209",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-26-JD146_LeftFar_Stratum1_Set1_LO_2018-05-26_100004_1283_1483",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-26-JD146_LeftFar_Stratum1_Set1_LO_2018-05-26_100004_3966_4166",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-26-JD146_LeftFar_Stratum1_Set1_LO_2018-05-26_120004_2082_2682",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-26-JD146_LeftFar_Stratum1_Set1_LO_2018-05-26_120004_5281_5611",
+      "listed_frames": 329,
+      "metadata_num_frames": 330,
+      "first_frame_index": 0,
+      "last_frame_index": 328,
+      "consecutive_pairs": 328,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-26-JD146_LeftFar_Stratum1_Set1_LO_2018-05-26_150004_1689_2289",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-26-JD146_LeftFar_Stratum1_Set1_LO_2018-05-26_160004_1500_2100",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-26-JD146_LeftFar_Stratum1_Set1_LO_2018-05-26_170004_3368_3968",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-26-JD146_LeftFar_Stratum1_Set1_LO_2018-05-26_170004_975_1575",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-26-JD146_LeftFar_Stratum1_Set1_LO_2018-05-26_180004_1253_1488",
+      "listed_frames": 234,
+      "metadata_num_frames": 235,
+      "first_frame_index": 0,
+      "last_frame_index": 233,
+      "consecutive_pairs": 233,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-26-JD146_LeftFar_Stratum1_Set1_LO_2018-05-26_200004_1115_1322",
+      "listed_frames": 206,
+      "metadata_num_frames": 207,
+      "first_frame_index": 0,
+      "last_frame_index": 205,
+      "consecutive_pairs": 205,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-26-JD146_LeftFar_Stratum1_Set1_LO_2018-05-26_200004_3391_3591",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-26-JD146_LeftFar_Stratum1_Set1_LO_2018-05-26_200004_3744_3978",
+      "listed_frames": 233,
+      "metadata_num_frames": 234,
+      "first_frame_index": 0,
+      "last_frame_index": 232,
+      "consecutive_pairs": 232,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-26-JD146_LeftFar_Stratum2_Set1_LO_2018-05-26_001004_841_1041",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-26-JD146_LeftFar_Stratum2_Set1_LO_2018-05-26_051003_3050_3250",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-26-JD146_LeftFar_Stratum2_Set1_LO_2018-05-26_071003_318_518",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-26-JD146_LeftFar_Stratum2_Set1_LO_2018-05-26_071003_3630_3830",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-26-JD146_LeftFar_Stratum2_Set1_LO_2018-05-26_081003_3749_3949",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-26-JD146_LeftFar_Stratum2_Set1_LO_2018-05-26_091003_2503_2703",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-26-JD146_LeftFar_Stratum2_Set1_LO_2018-05-26_101003_3066_3266",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-26-JD146_LeftFar_Stratum2_Set1_LO_2018-05-26_111003_2504_2704",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-26-JD146_LeftFar_Stratum2_Set1_LO_2018-05-26_121003_86_286",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-26-JD146_LeftFar_Stratum2_Set1_LO_2018-05-26_121003_950_1150",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-26-JD146_LeftFar_Stratum2_Set1_LO_2018-05-26_131003_1209_1409",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-26-JD146_LeftFar_Stratum2_Set1_LO_2018-05-26_131003_1652_1852",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-26-JD146_LeftFar_Stratum2_Set1_LO_2018-05-26_141003_1458_1658",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-26-JD146_LeftFar_Stratum2_Set1_LO_2018-05-26_161003_3055_3255",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-26-JD146_LeftFar_Stratum2_Set1_LO_2018-05-26_171003_1946_2146",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-26-JD146_LeftFar_Stratum2_Set1_LO_2018-05-26_181003_1515_1715",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-26-JD146_LeftFar_Stratum2_Set1_LO_2018-05-26_191004_1367_1600",
+      "listed_frames": 232,
+      "metadata_num_frames": 233,
+      "first_frame_index": 0,
+      "last_frame_index": 231,
+      "consecutive_pairs": 231,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-26-JD146_LeftFar_Stratum2_Set1_LO_2018-05-26_191004_793_993",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-26-JD146_LeftFar_Stratum2_Set1_LO_2018-05-26_221003_1702_1902",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-26-JD146_LeftFar_Stratum3_Set1_LO_2018-05-26_042000_2717_2917",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 6.6929030418396
+    },
+    {
+      "clip": "2018-05-26-JD146_LeftFar_Stratum3_Set1_LO_2018-05-26_172000_588_788",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 6.6929030418396
+    },
+    {
+      "clip": "2018-05-27-JD147_LeftFar_Stratum1_Set1_LO_2018-05-27_020004_2005_2205",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-27-JD147_LeftFar_Stratum1_Set1_LO_2018-05-27_030004_2559_3159",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-27-JD147_LeftFar_Stratum1_Set1_LO_2018-05-27_040004_1635_1835",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-27-JD147_LeftFar_Stratum1_Set1_LO_2018-05-27_050004_2072_2672",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-27-JD147_LeftFar_Stratum1_Set1_LO_2018-05-27_110004_3216_3816",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-27-JD147_LeftFar_Stratum1_Set1_LO_2018-05-27_130004_1433_2033",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-27-JD147_LeftFar_Stratum1_Set1_LO_2018-05-27_150004_3237_3437",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-27-JD147_LeftFar_Stratum1_Set1_LO_2018-05-27_160004_1980_2580",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-27-JD147_LeftFar_Stratum1_Set1_LO_2018-05-27_160004_4822_5422",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-27-JD147_LeftFar_Stratum1_Set1_LO_2018-05-27_160004_985_1585",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-27-JD147_LeftFar_Stratum1_Set1_LO_2018-05-27_180004_1295_1895",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-27-JD147_LeftFar_Stratum1_Set1_LO_2018-05-27_190004_875_1092",
+      "listed_frames": 216,
+      "metadata_num_frames": 217,
+      "first_frame_index": 0,
+      "last_frame_index": 215,
+      "consecutive_pairs": 215,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-27-JD147_LeftFar_Stratum1_Set1_LO_2018-05-27_220004_4667_4867",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-27-JD147_LeftFar_Stratum1_Set1_LO_2018-05-27_230004_1594_1851",
+      "listed_frames": 256,
+      "metadata_num_frames": 257,
+      "first_frame_index": 0,
+      "last_frame_index": 255,
+      "consecutive_pairs": 255,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-27-JD147_LeftFar_Stratum2_Set1_LO_2018-05-27_031004_584_1064",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-27-JD147_LeftFar_Stratum2_Set1_LO_2018-05-27_071003_1613_1813",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-27-JD147_LeftFar_Stratum2_Set1_LO_2018-05-27_091000_907_1387",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-27-JD147_LeftFar_Stratum2_Set1_LO_2018-05-27_101003_2964_3444",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-27-JD147_LeftFar_Stratum2_Set1_LO_2018-05-27_131003_2648_3128",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-27-JD147_LeftFar_Stratum2_Set1_LO_2018-05-27_141003_1994_2474",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-27-JD147_LeftFar_Stratum2_Set1_LO_2018-05-27_151003_823_1025",
+      "listed_frames": 201,
+      "metadata_num_frames": 202,
+      "first_frame_index": 0,
+      "last_frame_index": 200,
+      "consecutive_pairs": 200,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-27-JD147_LeftFar_Stratum2_Set1_LO_2018-05-27_161003_2985_3465",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-27-JD147_LeftFar_Stratum2_Set1_LO_2018-05-27_171003_1829_2309",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-27-JD147_LeftFar_Stratum2_Set1_LO_2018-05-27_181003_3538_3809",
+      "listed_frames": 270,
+      "metadata_num_frames": 271,
+      "first_frame_index": 0,
+      "last_frame_index": 269,
+      "consecutive_pairs": 269,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-27-JD147_LeftFar_Stratum3_Set1_LO_2018-05-27_042000_944_1144",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 6.6929030418396
+    },
+    {
+      "clip": "2018-05-27-JD147_LeftFar_Stratum3_Set1_LO_2018-05-27_102000_2558_2959",
+      "listed_frames": 400,
+      "metadata_num_frames": 401,
+      "first_frame_index": 0,
+      "last_frame_index": 399,
+      "consecutive_pairs": 399,
+      "gaps": [],
+      "metadata_framerate": 6.6929030418396
+    },
+    {
+      "clip": "2018-05-27-JD147_LeftFar_Stratum3_Set1_LO_2018-05-27_232000_2383_2784",
+      "listed_frames": 400,
+      "metadata_num_frames": 401,
+      "first_frame_index": 0,
+      "last_frame_index": 399,
+      "consecutive_pairs": 399,
+      "gaps": [],
+      "metadata_framerate": 6.6929030418396
+    },
+    {
+      "clip": "2018-05-28-JD148_LeftFar_Stratum1_Set1_LO_2018-05-28_020004_278_478",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-28-JD148_LeftFar_Stratum1_Set1_LO_2018-05-28_030004_5143_5343",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-28-JD148_LeftFar_Stratum1_Set1_LO_2018-05-28_040005_1311_1556",
+      "listed_frames": 244,
+      "metadata_num_frames": 245,
+      "first_frame_index": 0,
+      "last_frame_index": 243,
+      "consecutive_pairs": 243,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-28-JD148_LeftFar_Stratum1_Set1_LO_2018-05-28_050004_954_1154",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-28-JD148_LeftFar_Stratum1_Set1_LO_2018-05-28_100004_4958_5101",
+      "listed_frames": 142,
+      "metadata_num_frames": 143,
+      "first_frame_index": 0,
+      "last_frame_index": 141,
+      "consecutive_pairs": 141,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-28-JD148_LeftFar_Stratum1_Set1_LO_2018-05-28_120004_2169_2369",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-28-JD148_LeftFar_Stratum1_Set1_LO_2018-05-28_130004_2545_2793",
+      "listed_frames": 247,
+      "metadata_num_frames": 248,
+      "first_frame_index": 0,
+      "last_frame_index": 246,
+      "consecutive_pairs": 246,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-28-JD148_LeftFar_Stratum1_Set1_LO_2018-05-28_150004_4992_5192",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-28-JD148_LeftFar_Stratum1_Set1_LO_2018-05-28_160000_2571_2781",
+      "listed_frames": 209,
+      "metadata_num_frames": 210,
+      "first_frame_index": 0,
+      "last_frame_index": 208,
+      "consecutive_pairs": 208,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-28-JD148_LeftFar_Stratum1_Set1_LO_2018-05-28_160000_4931_5149",
+      "listed_frames": 217,
+      "metadata_num_frames": 218,
+      "first_frame_index": 0,
+      "last_frame_index": 216,
+      "consecutive_pairs": 216,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-28-JD148_LeftFar_Stratum1_Set1_LO_2018-05-28_170004_2315_2522",
+      "listed_frames": 206,
+      "metadata_num_frames": 207,
+      "first_frame_index": 0,
+      "last_frame_index": 205,
+      "consecutive_pairs": 205,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-28-JD148_LeftFar_Stratum1_Set1_LO_2018-05-28_180004_3827_4110",
+      "listed_frames": 282,
+      "metadata_num_frames": 283,
+      "first_frame_index": 0,
+      "last_frame_index": 281,
+      "consecutive_pairs": 281,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-28-JD148_LeftFar_Stratum1_Set1_LO_2018-05-28_190004_2272_2472",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-28-JD148_LeftFar_Stratum1_Set1_LO_2018-05-28_190004_714_914",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-28-JD148_LeftFar_Stratum1_Set1_LO_2018-05-28_200004_3768_3976",
+      "listed_frames": 207,
+      "metadata_num_frames": 208,
+      "first_frame_index": 0,
+      "last_frame_index": 206,
+      "consecutive_pairs": 206,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-28-JD148_LeftFar_Stratum1_Set1_LO_2018-05-28_200004_4558_4758",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-28-JD148_LeftFar_Stratum1_Set1_LO_2018-05-28_200004_567_767",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-28-JD148_LeftFar_Stratum1_Set1_LO_2018-05-28_210004_3452_3652",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-28-JD148_LeftFar_Stratum1_Set1_LO_2018-05-28_220004_840_1216",
+      "listed_frames": 375,
+      "metadata_num_frames": 376,
+      "first_frame_index": 0,
+      "last_frame_index": 374,
+      "consecutive_pairs": 374,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-28-JD148_LeftFar_Stratum1_Set1_LO_2018-05-28_230004_1305_1505",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-28-JD148_LeftFar_Stratum1_Set1_LO_2018-05-28_230004_4909_5109",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-28-JD148_LeftFar_Stratum1_Set1_LO_2018-05-28_230004_5411_5542",
+      "listed_frames": 130,
+      "metadata_num_frames": 131,
+      "first_frame_index": 0,
+      "last_frame_index": 129,
+      "consecutive_pairs": 129,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-28-JD148_LeftFar_Stratum2_Set1_LO_2018-05-28_021003_3222_3422",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-28-JD148_LeftFar_Stratum2_Set1_LO_2018-05-28_051003_3664_3787",
+      "listed_frames": 122,
+      "metadata_num_frames": 123,
+      "first_frame_index": 0,
+      "last_frame_index": 121,
+      "consecutive_pairs": 121,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-28-JD148_LeftFar_Stratum2_Set1_LO_2018-05-28_071003_321_536",
+      "listed_frames": 214,
+      "metadata_num_frames": 215,
+      "first_frame_index": 0,
+      "last_frame_index": 213,
+      "consecutive_pairs": 213,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-28-JD148_LeftFar_Stratum2_Set1_LO_2018-05-28_111003_1728_1928",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-28-JD148_LeftFar_Stratum2_Set1_LO_2018-05-28_121004_3097_3297",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-28-JD148_LeftFar_Stratum2_Set1_LO_2018-05-28_121004_3760_3960",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-28-JD148_LeftFar_Stratum2_Set1_LO_2018-05-28_141003_2766_2974",
+      "listed_frames": 207,
+      "metadata_num_frames": 208,
+      "first_frame_index": 0,
+      "last_frame_index": 206,
+      "consecutive_pairs": 206,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-28-JD148_LeftFar_Stratum2_Set1_LO_2018-05-28_161003_1986_2197",
+      "listed_frames": 210,
+      "metadata_num_frames": 211,
+      "first_frame_index": 0,
+      "last_frame_index": 209,
+      "consecutive_pairs": 209,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-28-JD148_LeftFar_Stratum2_Set1_LO_2018-05-28_161003_2227_2437",
+      "listed_frames": 209,
+      "metadata_num_frames": 210,
+      "first_frame_index": 0,
+      "last_frame_index": 208,
+      "consecutive_pairs": 208,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-28-JD148_LeftFar_Stratum2_Set1_LO_2018-05-28_181003_3180_3380",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-28-JD148_LeftFar_Stratum2_Set1_LO_2018-05-28_181003_682_896",
+      "listed_frames": 213,
+      "metadata_num_frames": 214,
+      "first_frame_index": 0,
+      "last_frame_index": 212,
+      "consecutive_pairs": 212,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-28-JD148_LeftFar_Stratum2_Set1_LO_2018-05-28_191003_2748_2948",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-28-JD148_LeftFar_Stratum3_Set1_LO_2018-05-28_002000_2670_2870",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 6.6929030418396
+    },
+    {
+      "clip": "2018-05-28-JD148_LeftFar_Stratum3_Set1_LO_2018-05-28_062000_1923_2123",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 6.6929030418396
+    },
+    {
+      "clip": "2018-05-28-JD148_LeftFar_Stratum3_Set1_LO_2018-05-28_132000_2801_3001",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 6.6929030418396
+    },
+    {
+      "clip": "2018-05-28-JD148_LeftFar_Stratum3_Set1_LO_2018-05-28_192000_1943_2146",
+      "listed_frames": 202,
+      "metadata_num_frames": 203,
+      "first_frame_index": 0,
+      "last_frame_index": 201,
+      "consecutive_pairs": 201,
+      "gaps": [],
+      "metadata_framerate": 6.6929030418396
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftFar_Stratum1_Set1_LO_2018-05-29_000004_5330_5530",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftFar_Stratum1_Set1_LO_2018-05-29_010004_1473_1673",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftFar_Stratum1_Set1_LO_2018-05-29_010004_2251_2451",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftFar_Stratum1_Set1_LO_2018-05-29_040004_3991_4191",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftFar_Stratum1_Set1_LO_2018-05-29_070004_4124_4324",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftFar_Stratum1_Set1_LO_2018-05-29_090004_1038_1238",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftFar_Stratum1_Set1_LO_2018-05-29_140004_177_606",
+      "listed_frames": 428,
+      "metadata_num_frames": 429,
+      "first_frame_index": 0,
+      "last_frame_index": 427,
+      "consecutive_pairs": 427,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftFar_Stratum1_Set1_LO_2018-05-29_140004_2140_2340",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftFar_Stratum1_Set1_LO_2018-05-29_150004_3740_3940",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftFar_Stratum1_Set1_LO_2018-05-29_170004_4081_4320",
+      "listed_frames": 238,
+      "metadata_num_frames": 239,
+      "first_frame_index": 0,
+      "last_frame_index": 237,
+      "consecutive_pairs": 237,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftFar_Stratum1_Set1_LO_2018-05-29_180004_2871_3086",
+      "listed_frames": 214,
+      "metadata_num_frames": 215,
+      "first_frame_index": 0,
+      "last_frame_index": 213,
+      "consecutive_pairs": 213,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftFar_Stratum1_Set1_LO_2018-05-29_180004_5110_5353",
+      "listed_frames": 242,
+      "metadata_num_frames": 243,
+      "first_frame_index": 0,
+      "last_frame_index": 241,
+      "consecutive_pairs": 241,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftFar_Stratum1_Set1_LO_2018-05-29_190004_1828_2028",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftFar_Stratum1_Set1_LO_2018-05-29_200004_1464_1676",
+      "listed_frames": 211,
+      "metadata_num_frames": 212,
+      "first_frame_index": 0,
+      "last_frame_index": 210,
+      "consecutive_pairs": 210,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftFar_Stratum1_Set1_LO_2018-05-29_200004_3007_3214",
+      "listed_frames": 206,
+      "metadata_num_frames": 207,
+      "first_frame_index": 0,
+      "last_frame_index": 205,
+      "consecutive_pairs": 205,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftFar_Stratum1_Set1_LO_2018-05-29_220004_4742_4942",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftFar_Stratum2_Set1_LO_2018-05-29_011003_1976_2179",
+      "listed_frames": 202,
+      "metadata_num_frames": 203,
+      "first_frame_index": 0,
+      "last_frame_index": 201,
+      "consecutive_pairs": 201,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftFar_Stratum2_Set1_LO_2018-05-29_011003_3455_3656",
+      "listed_frames": 200,
+      "metadata_num_frames": 201,
+      "first_frame_index": 0,
+      "last_frame_index": 199,
+      "consecutive_pairs": 199,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftFar_Stratum2_Set1_LO_2018-05-29_021003_1800_2000",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftFar_Stratum2_Set1_LO_2018-05-29_081003_3300_3508",
+      "listed_frames": 207,
+      "metadata_num_frames": 208,
+      "first_frame_index": 0,
+      "last_frame_index": 206,
+      "consecutive_pairs": 206,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftFar_Stratum2_Set1_LO_2018-05-29_081003_480_680",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftFar_Stratum2_Set1_LO_2018-05-29_121003_0_188",
+      "listed_frames": 187,
+      "metadata_num_frames": 188,
+      "first_frame_index": 0,
+      "last_frame_index": 186,
+      "consecutive_pairs": 186,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftFar_Stratum2_Set1_LO_2018-05-29_141003_3787_3987",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftFar_Stratum2_Set1_LO_2018-05-29_161003_1387_1606",
+      "listed_frames": 218,
+      "metadata_num_frames": 219,
+      "first_frame_index": 0,
+      "last_frame_index": 217,
+      "consecutive_pairs": 217,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftFar_Stratum2_Set1_LO_2018-05-29_161003_1980_2180",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftFar_Stratum2_Set1_LO_2018-05-29_161003_3487_3636",
+      "listed_frames": 148,
+      "metadata_num_frames": 149,
+      "first_frame_index": 0,
+      "last_frame_index": 147,
+      "consecutive_pairs": 147,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftFar_Stratum2_Set1_LO_2018-05-29_181003_1052_1262",
+      "listed_frames": 209,
+      "metadata_num_frames": 210,
+      "first_frame_index": 0,
+      "last_frame_index": 208,
+      "consecutive_pairs": 208,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftFar_Stratum2_Set1_LO_2018-05-29_181003_3443_3643",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftFar_Stratum2_Set1_LO_2018-05-29_191004_2187_2387",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftFar_Stratum2_Set1_LO_2018-05-29_201003_2025_2225",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftFar_Stratum2_Set1_LO_2018-05-29_201003_2622_2822",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftFar_Stratum2_Set1_LO_2018-05-29_201003_2874_3074",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftFar_Stratum2_Set1_LO_2018-05-29_211003_1056_1536",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftFar_Stratum2_Set1_LO_2018-05-29_211003_2333_2813",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftFar_Stratum2_Set1_LO_2018-05-29_221000_1991_2193",
+      "listed_frames": 201,
+      "metadata_num_frames": 202,
+      "first_frame_index": 0,
+      "last_frame_index": 200,
+      "consecutive_pairs": 200,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftFar_Stratum3_Set1_LO_2018-05-29_062000_1907_2308",
+      "listed_frames": 400,
+      "metadata_num_frames": 401,
+      "first_frame_index": 0,
+      "last_frame_index": 399,
+      "consecutive_pairs": 399,
+      "gaps": [],
+      "metadata_framerate": 6.6929030418396
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftFar_Stratum3_Set1_LO_2018-05-29_112000_904_1104",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 6.6929030418396
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftFar_Stratum3_Set1_LO_2018-05-29_132000_798_998",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 6.6929030418396
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftFar_Stratum3_Set1_LO_2018-05-29_182000_1703_2104",
+      "listed_frames": 400,
+      "metadata_num_frames": 401,
+      "first_frame_index": 0,
+      "last_frame_index": 399,
+      "consecutive_pairs": 399,
+      "gaps": [],
+      "metadata_framerate": 6.6929030418396
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftNear_Stratum1_Set1_LN_2018-05-29_143000_3735_3953",
+      "listed_frames": 217,
+      "metadata_num_frames": 218,
+      "first_frame_index": 0,
+      "last_frame_index": 216,
+      "consecutive_pairs": 216,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftNear_Stratum1_Set1_LN_2018-05-29_150000_3497_3706",
+      "listed_frames": 208,
+      "metadata_num_frames": 209,
+      "first_frame_index": 0,
+      "last_frame_index": 207,
+      "consecutive_pairs": 207,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftNear_Stratum1_Set1_LN_2018-05-29_160000_1105_1319",
+      "listed_frames": 213,
+      "metadata_num_frames": 214,
+      "first_frame_index": 0,
+      "last_frame_index": 212,
+      "consecutive_pairs": 212,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftNear_Stratum1_Set1_LN_2018-05-29_160000_289_513",
+      "listed_frames": 223,
+      "metadata_num_frames": 224,
+      "first_frame_index": 0,
+      "last_frame_index": 222,
+      "consecutive_pairs": 222,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftNear_Stratum1_Set1_LN_2018-05-29_180000_2962_3503",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftNear_Stratum1_Set1_LN_2018-05-29_190000_2082_2623",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftNear_Stratum1_Set1_LN_2018-05-29_190000_4664_5205",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftNear_Stratum1_Set1_LN_2018-05-29_200000_4837_5311",
+      "listed_frames": 473,
+      "metadata_num_frames": 474,
+      "first_frame_index": 0,
+      "last_frame_index": 472,
+      "consecutive_pairs": 472,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftNear_Stratum1_Set1_LN_2018-05-29_210000_4580_5121",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-05-29-JD149_LeftNear_Stratum1_Set1_LN_2018-05-29_230000_561_853",
+      "listed_frames": 291,
+      "metadata_num_frames": 292,
+      "first_frame_index": 0,
+      "last_frame_index": 290,
+      "consecutive_pairs": 290,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftFar_Stratum1_Set1_LO_2018-05-30_000004_2202_2802",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftFar_Stratum1_Set1_LO_2018-05-30_010004_3313_3513",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftFar_Stratum1_Set1_LO_2018-05-30_040004_2708_2908",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftFar_Stratum1_Set1_LO_2018-05-30_070004_4135_4335",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftFar_Stratum1_Set1_LO_2018-05-30_070004_4702_4902",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftFar_Stratum1_Set1_LO_2018-05-30_140004_149_349",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftFar_Stratum1_Set1_LO_2018-05-30_150004_66_461",
+      "listed_frames": 394,
+      "metadata_num_frames": 395,
+      "first_frame_index": 0,
+      "last_frame_index": 393,
+      "consecutive_pairs": 393,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftFar_Stratum1_Set1_LO_2018-05-30_180004_3450_4050",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftFar_Stratum1_Set1_LO_2018-05-30_180004_661_1261",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftFar_Stratum1_Set1_LO_2018-05-30_190004_2694_3294",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftFar_Stratum1_Set1_LO_2018-05-30_210004_1901_2101",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftFar_Stratum1_Set1_LO_2018-05-30_210004_2856_3056",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftFar_Stratum1_Set1_LO_2018-05-30_230004_2222_2422",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftFar_Stratum1_Set1_LO_2018-05-30_230004_4478_4678",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftFar_Stratum2_Set1_LO_2018-05-30_061003_397_877",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftFar_Stratum2_Set1_LO_2018-05-30_071003_1185_1385",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftFar_Stratum2_Set1_LO_2018-05-30_071003_1756_1956",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftFar_Stratum2_Set1_LO_2018-05-30_151003_0_147",
+      "listed_frames": 146,
+      "metadata_num_frames": 147,
+      "first_frame_index": 0,
+      "last_frame_index": 145,
+      "consecutive_pairs": 145,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftFar_Stratum2_Set1_LO_2018-05-30_151003_1536_1736",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftFar_Stratum2_Set1_LO_2018-05-30_161003_1263_1463",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftFar_Stratum2_Set1_LO_2018-05-30_181004_3892_4109",
+      "listed_frames": 216,
+      "metadata_num_frames": 217,
+      "first_frame_index": 0,
+      "last_frame_index": 215,
+      "consecutive_pairs": 215,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftFar_Stratum2_Set1_LO_2018-05-30_211003_1662_1862",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftFar_Stratum2_Set1_LO_2018-05-30_211003_358_561",
+      "listed_frames": 202,
+      "metadata_num_frames": 203,
+      "first_frame_index": 0,
+      "last_frame_index": 201,
+      "consecutive_pairs": 201,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftFar_Stratum2_Set1_LO_2018-05-30_221004_1628_2108",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftFar_Stratum2_Set1_LO_2018-05-30_231003_3045_3290",
+      "listed_frames": 244,
+      "metadata_num_frames": 245,
+      "first_frame_index": 0,
+      "last_frame_index": 243,
+      "consecutive_pairs": 243,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftFar_Stratum3_Set1_LO_2018-05-30_022000_445_846",
+      "listed_frames": 400,
+      "metadata_num_frames": 401,
+      "first_frame_index": 0,
+      "last_frame_index": 399,
+      "consecutive_pairs": 399,
+      "gaps": [],
+      "metadata_framerate": 6.6929030418396
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftFar_Stratum3_Set1_LO_2018-05-30_192000_0_292",
+      "listed_frames": 291,
+      "metadata_num_frames": 292,
+      "first_frame_index": 0,
+      "last_frame_index": 290,
+      "consecutive_pairs": 290,
+      "gaps": [],
+      "metadata_framerate": 6.6929030418396
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftFar_Stratum3_Set1_LO_2018-05-30_202000_2654_2854",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 6.6929030418396
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftFar_Stratum3_Set1_LO_2018-05-30_232000_599_1000",
+      "listed_frames": 400,
+      "metadata_num_frames": 401,
+      "first_frame_index": 0,
+      "last_frame_index": 399,
+      "consecutive_pairs": 399,
+      "gaps": [],
+      "metadata_framerate": 6.6929030418396
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftNear_Stratum1_Set1_LN_2018-05-30_010000_2824_3365",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftNear_Stratum1_Set1_LN_2018-05-30_020000_3476_4017",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftNear_Stratum1_Set1_LN_2018-05-30_040000_3510_4051",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftNear_Stratum1_Set1_LN_2018-05-30_060000_2661_3202",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftNear_Stratum1_Set1_LN_2018-05-30_070000_0_407",
+      "listed_frames": 406,
+      "metadata_num_frames": 407,
+      "first_frame_index": 0,
+      "last_frame_index": 405,
+      "consecutive_pairs": 405,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftNear_Stratum1_Set1_LN_2018-05-30_080000_2847_3388",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftNear_Stratum1_Set1_LN_2018-05-30_080000_3518_4059",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftNear_Stratum1_Set1_LN_2018-05-30_110000_2279_2820",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftNear_Stratum1_Set1_LN_2018-05-30_150000_0_303",
+      "listed_frames": 302,
+      "metadata_num_frames": 303,
+      "first_frame_index": 0,
+      "last_frame_index": 301,
+      "consecutive_pairs": 301,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftNear_Stratum1_Set1_LN_2018-05-30_160000_2773_3314",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftNear_Stratum1_Set1_LN_2018-05-30_170000_1680_2221",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftNear_Stratum1_Set1_LN_2018-05-30_170000_3009_3550",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftNear_Stratum1_Set1_LN_2018-05-30_170000_3729_4270",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftNear_Stratum1_Set1_LN_2018-05-30_180000_2569_3110",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftNear_Stratum1_Set1_LN_2018-05-30_190000_1411_1952",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftNear_Stratum1_Set1_LN_2018-05-30_190000_2402_2943",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftNear_Stratum1_Set1_LN_2018-05-30_190000_3165_3706",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-05-30-JD150_LeftNear_Stratum1_Set1_LN_2018-05-30_200000_4646_5187",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftFar_Stratum1_Set1_LO_2018-05-31_010004_2540_3140",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftFar_Stratum1_Set1_LO_2018-05-31_040004_2891_3491",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftFar_Stratum1_Set1_LO_2018-05-31_050004_4106_4706",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftFar_Stratum1_Set1_LO_2018-05-31_090004_3301_3901",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftFar_Stratum1_Set1_LO_2018-05-31_090004_4163_4763",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftFar_Stratum1_Set1_LO_2018-05-31_140004_4349_4949",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftFar_Stratum1_Set1_LO_2018-05-31_180000_2822_3422",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftFar_Stratum1_Set1_LO_2018-05-31_180000_4204_4804",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftFar_Stratum1_Set1_LO_2018-05-31_200004_3161_3761",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftFar_Stratum1_Set1_LO_2018-05-31_210004_745_1345",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftFar_Stratum2_Set1_LO_2018-05-31_011003_1558_2038",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftFar_Stratum2_Set1_LO_2018-05-31_021003_2779_3259",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftFar_Stratum2_Set1_LO_2018-05-31_031003_2304_2784",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftFar_Stratum2_Set1_LO_2018-05-31_051003_3481_3829",
+      "listed_frames": 347,
+      "metadata_num_frames": 348,
+      "first_frame_index": 0,
+      "last_frame_index": 346,
+      "consecutive_pairs": 346,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftFar_Stratum2_Set1_LO_2018-05-31_051003_957_1437",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftFar_Stratum2_Set1_LO_2018-05-31_061003_1963_2163",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftFar_Stratum2_Set1_LO_2018-05-31_061003_3804_3983",
+      "listed_frames": 178,
+      "metadata_num_frames": 179,
+      "first_frame_index": 0,
+      "last_frame_index": 177,
+      "consecutive_pairs": 177,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftFar_Stratum2_Set1_LO_2018-05-31_071003_3014_3214",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftFar_Stratum2_Set1_LO_2018-05-31_091003_1374_1854",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftFar_Stratum2_Set1_LO_2018-05-31_101004_5_485",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftFar_Stratum2_Set1_LO_2018-05-31_121003_1251_1451",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftFar_Stratum2_Set1_LO_2018-05-31_141004_2806_3017",
+      "listed_frames": 210,
+      "metadata_num_frames": 211,
+      "first_frame_index": 0,
+      "last_frame_index": 209,
+      "consecutive_pairs": 209,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftFar_Stratum2_Set1_LO_2018-05-31_151003_571_771",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftFar_Stratum2_Set1_LO_2018-05-31_191003_1143_1623",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftFar_Stratum2_Set1_LO_2018-05-31_201003_1670_2150",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftFar_Stratum2_Set1_LO_2018-05-31_201003_95_575",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftFar_Stratum2_Set1_LO_2018-05-31_211003_3414_3725",
+      "listed_frames": 310,
+      "metadata_num_frames": 311,
+      "first_frame_index": 0,
+      "last_frame_index": 309,
+      "consecutive_pairs": 309,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftFar_Stratum2_Set1_LO_2018-05-31_211003_613_1093",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftFar_Stratum2_Set1_LO_2018-05-31_221003_261_741",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftFar_Stratum2_Set1_LO_2018-05-31_231003_2294_2774",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftFar_Stratum3_Set1_LO_2018-05-31_112000_86_487",
+      "listed_frames": 400,
+      "metadata_num_frames": 401,
+      "first_frame_index": 0,
+      "last_frame_index": 399,
+      "consecutive_pairs": 399,
+      "gaps": [],
+      "metadata_framerate": 6.6929030418396
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftFar_Stratum3_Set1_LO_2018-05-31_152000_616_816",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 6.6929030418396
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftFar_Stratum3_Set1_LO_2018-05-31_212000_1083_1484",
+      "listed_frames": 400,
+      "metadata_num_frames": 401,
+      "first_frame_index": 0,
+      "last_frame_index": 399,
+      "consecutive_pairs": 399,
+      "gaps": [],
+      "metadata_framerate": 6.6929030418396
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftFar_Stratum3_Set1_LO_2018-05-31_212000_1711_2112",
+      "listed_frames": 400,
+      "metadata_num_frames": 401,
+      "first_frame_index": 0,
+      "last_frame_index": 399,
+      "consecutive_pairs": 399,
+      "gaps": [],
+      "metadata_framerate": 6.6929030418396
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftNear_Stratum1_Set1_LN_2018-05-31_000000_2223_2764",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftNear_Stratum1_Set1_LN_2018-05-31_010000_2982_3523",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftNear_Stratum1_Set1_LN_2018-05-31_010000_4290_4831",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftNear_Stratum1_Set1_LN_2018-05-31_020000_0_357",
+      "listed_frames": 356,
+      "metadata_num_frames": 357,
+      "first_frame_index": 0,
+      "last_frame_index": 355,
+      "consecutive_pairs": 355,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftNear_Stratum1_Set1_LN_2018-05-31_170000_2969_3510",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftNear_Stratum1_Set1_LN_2018-05-31_180000_555_1096",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftNear_Stratum1_Set1_LN_2018-05-31_190000_2257_2798",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-05-31-JD151_LeftNear_Stratum1_Set1_LN_2018-05-31_190000_3705_4246",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftFar_Stratum1_Set1_LO_2018-06-01_040004_1191_1391",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftFar_Stratum1_Set1_LO_2018-06-01_050004_3580_3780",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftFar_Stratum1_Set1_LO_2018-06-01_060004_111_311",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftFar_Stratum1_Set1_LO_2018-06-01_070004_1181_1381",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftFar_Stratum1_Set1_LO_2018-06-01_150004_1684_2284",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftFar_Stratum1_Set1_LO_2018-06-01_160004_1170_1770",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftFar_Stratum1_Set1_LO_2018-06-01_160004_2188_2788",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftFar_Stratum1_Set1_LO_2018-06-01_160004_3243_3843",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftFar_Stratum1_Set1_LO_2018-06-01_170004_0_502",
+      "listed_frames": 501,
+      "metadata_num_frames": 502,
+      "first_frame_index": 0,
+      "last_frame_index": 500,
+      "consecutive_pairs": 500,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftFar_Stratum1_Set1_LO_2018-06-01_180004_1501_1701",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftFar_Stratum1_Set1_LO_2018-06-01_180004_3844_4044",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftFar_Stratum1_Set1_LO_2018-06-01_190004_2219_2432",
+      "listed_frames": 212,
+      "metadata_num_frames": 213,
+      "first_frame_index": 0,
+      "last_frame_index": 211,
+      "consecutive_pairs": 211,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftFar_Stratum1_Set1_LO_2018-06-01_190004_350_550",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftFar_Stratum1_Set1_LO_2018-06-01_200004_2782_2982",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftFar_Stratum1_Set1_LO_2018-06-01_210004_2507_2707",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftFar_Stratum1_Set1_LO_2018-06-01_220004_4591_5191",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftFar_Stratum1_Set1_LO_2018-06-01_230004_3753_3953",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftFar_Stratum2_Set1_LO_2018-06-01_141003_1561_1761",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftFar_Stratum2_Set1_LO_2018-06-01_141003_2490_2692",
+      "listed_frames": 201,
+      "metadata_num_frames": 202,
+      "first_frame_index": 0,
+      "last_frame_index": 200,
+      "consecutive_pairs": 200,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftFar_Stratum2_Set1_LO_2018-06-01_151003_3186_3384",
+      "listed_frames": 197,
+      "metadata_num_frames": 198,
+      "first_frame_index": 0,
+      "last_frame_index": 196,
+      "consecutive_pairs": 196,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftFar_Stratum2_Set1_LO_2018-06-01_151003_541_741",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftFar_Stratum2_Set1_LO_2018-06-01_161003_2369_2849",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftFar_Stratum2_Set1_LO_2018-06-01_171003_1010_1490",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftFar_Stratum2_Set1_LO_2018-06-01_171003_3527_4007",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftFar_Stratum2_Set1_LO_2018-06-01_181004_2092_2572",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftFar_Stratum2_Set1_LO_2018-06-01_181004_2762_3242",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftFar_Stratum2_Set1_LO_2018-06-01_181004_3_483",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftFar_Stratum2_Set1_LO_2018-06-01_181004_581_1061",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftFar_Stratum2_Set1_LO_2018-06-01_191003_0_280",
+      "listed_frames": 279,
+      "metadata_num_frames": 280,
+      "first_frame_index": 0,
+      "last_frame_index": 278,
+      "consecutive_pairs": 278,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftFar_Stratum2_Set1_LO_2018-06-01_211003_2331_2811",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftFar_Stratum2_Set1_LO_2018-06-01_221003_1761_2241",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftFar_Stratum2_Set1_LO_2018-06-01_221003_98_578",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftFar_Stratum2_Set1_LO_2018-06-01_231004_359_839",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftFar_Stratum3_Set1_LO_2018-06-01_072000_1008_1409",
+      "listed_frames": 400,
+      "metadata_num_frames": 401,
+      "first_frame_index": 0,
+      "last_frame_index": 399,
+      "consecutive_pairs": 399,
+      "gaps": [],
+      "metadata_framerate": 6.6929030418396
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftFar_Stratum3_Set1_LO_2018-06-01_092000_3100_3334",
+      "listed_frames": 233,
+      "metadata_num_frames": 234,
+      "first_frame_index": 0,
+      "last_frame_index": 232,
+      "consecutive_pairs": 232,
+      "gaps": [],
+      "metadata_framerate": 6.6929030418396
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftFar_Stratum3_Set1_LO_2018-06-01_112000_1644_2045",
+      "listed_frames": 400,
+      "metadata_num_frames": 401,
+      "first_frame_index": 0,
+      "last_frame_index": 399,
+      "consecutive_pairs": 399,
+      "gaps": [],
+      "metadata_framerate": 6.6929030418396
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftFar_Stratum3_Set1_LO_2018-06-01_162000_2984_3265",
+      "listed_frames": 280,
+      "metadata_num_frames": 281,
+      "first_frame_index": 0,
+      "last_frame_index": 279,
+      "consecutive_pairs": 279,
+      "gaps": [],
+      "metadata_framerate": 6.6929030418396
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftFar_Stratum3_Set1_LO_2018-06-01_172000_1256_1657",
+      "listed_frames": 400,
+      "metadata_num_frames": 401,
+      "first_frame_index": 0,
+      "last_frame_index": 399,
+      "consecutive_pairs": 399,
+      "gaps": [],
+      "metadata_framerate": 6.6929030418396
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftFar_Stratum3_Set1_LO_2018-06-01_172000_127_528",
+      "listed_frames": 400,
+      "metadata_num_frames": 401,
+      "first_frame_index": 0,
+      "last_frame_index": 399,
+      "consecutive_pairs": 399,
+      "gaps": [],
+      "metadata_framerate": 6.6929030418396
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftFar_Stratum3_Set1_LO_2018-06-01_222000_2832_3233",
+      "listed_frames": 400,
+      "metadata_num_frames": 401,
+      "first_frame_index": 0,
+      "last_frame_index": 399,
+      "consecutive_pairs": 399,
+      "gaps": [],
+      "metadata_framerate": 6.6929030418396
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftNear_Stratum1_Set1_LN_2018-06-01_000000_2075_2616",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftNear_Stratum1_Set1_LN_2018-06-01_010000_3186_3727",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftNear_Stratum1_Set1_LN_2018-06-01_040000_716_1257",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftNear_Stratum1_Set1_LN_2018-06-01_050000_4089_4630",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftNear_Stratum1_Set1_LN_2018-06-01_060000_1879_2420",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftNear_Stratum1_Set1_LN_2018-06-01_090000_4044_4585",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftNear_Stratum1_Set1_LN_2018-06-01_100000_0_385",
+      "listed_frames": 384,
+      "metadata_num_frames": 385,
+      "first_frame_index": 0,
+      "last_frame_index": 383,
+      "consecutive_pairs": 383,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftNear_Stratum1_Set1_LN_2018-06-01_100000_1684_2225",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftNear_Stratum1_Set1_LN_2018-06-01_100000_881_1422",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftNear_Stratum1_Set1_LN_2018-06-01_130000_0_328",
+      "listed_frames": 327,
+      "metadata_num_frames": 328,
+      "first_frame_index": 0,
+      "last_frame_index": 326,
+      "consecutive_pairs": 326,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftNear_Stratum1_Set1_LN_2018-06-01_160000_2997_3538",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftNear_Stratum1_Set1_LN_2018-06-01_170000_3259_3800",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftNear_Stratum1_Set1_LN_2018-06-01_170000_746_1287",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftNear_Stratum1_Set1_LN_2018-06-01_180000_1722_2263",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftNear_Stratum1_Set1_LN_2018-06-01_180000_3396_3937",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftNear_Stratum1_Set1_LN_2018-06-01_180000_4739_5161",
+      "listed_frames": 421,
+      "metadata_num_frames": 422,
+      "first_frame_index": 0,
+      "last_frame_index": 420,
+      "consecutive_pairs": 420,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftNear_Stratum1_Set1_LN_2018-06-01_190000_3059_3600",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftNear_Stratum1_Set1_LN_2018-06-01_190000_562_1103",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftNear_Stratum1_Set1_LN_2018-06-01_200000_2102_2643",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftNear_Stratum1_Set1_LN_2018-06-01_200000_362_903",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftNear_Stratum1_Set1_LN_2018-06-01_210000_3531_4072",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftNear_Stratum1_Set1_LN_2018-06-01_210000_4340_4881",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftNear_Stratum1_Set1_LN_2018-06-01_220000_3270_3811",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-01-JD152_LeftNear_Stratum1_Set1_LN_2018-06-01_220000_532_1073",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum1_Set1_LO_2018-06-02_010004_566_1166",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum1_Set1_LO_2018-06-02_020004_3453_4053",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum1_Set1_LO_2018-06-02_030004_1811_2411",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum1_Set1_LO_2018-06-02_030004_951_1551",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum1_Set1_LO_2018-06-02_050004_175_775",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum1_Set1_LO_2018-06-02_050004_913_1513",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum1_Set1_LO_2018-06-02_060004_2288_2888",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum1_Set1_LO_2018-06-02_080004_898_1498",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum1_Set1_LO_2018-06-02_090004_2094_2294",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum1_Set1_LO_2018-06-02_100004_437_646",
+      "listed_frames": 208,
+      "metadata_num_frames": 209,
+      "first_frame_index": 0,
+      "last_frame_index": 207,
+      "consecutive_pairs": 207,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum1_Set1_LO_2018-06-02_120004_3772_4372",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum1_Set1_LO_2018-06-02_150004_1365_1965",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum1_Set1_LO_2018-06-02_160004_3063_3663",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum1_Set1_LO_2018-06-02_170004_223_823",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum1_Set1_LO_2018-06-02_170004_3288_3888",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum1_Set1_LO_2018-06-02_170004_4795_5395",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum1_Set1_LO_2018-06-02_190004_3716_4316",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum1_Set1_LO_2018-06-02_220004_3326_3926",
+      "listed_frames": 599,
+      "metadata_num_frames": 600,
+      "first_frame_index": 0,
+      "last_frame_index": 598,
+      "consecutive_pairs": 598,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum2_Set1_LO_2018-06-02_001003_0_321",
+      "listed_frames": 320,
+      "metadata_num_frames": 321,
+      "first_frame_index": 0,
+      "last_frame_index": 319,
+      "consecutive_pairs": 319,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum2_Set1_LO_2018-06-02_051003_2934_3414",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum2_Set1_LO_2018-06-02_051003_719_1199",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum2_Set1_LO_2018-06-02_061003_3416_3813",
+      "listed_frames": 396,
+      "metadata_num_frames": 397,
+      "first_frame_index": 0,
+      "last_frame_index": 395,
+      "consecutive_pairs": 395,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum2_Set1_LO_2018-06-02_091003_1661_2141",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum2_Set1_LO_2018-06-02_091003_3543_4023",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum2_Set1_LO_2018-06-02_101003_2886_3366",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum2_Set1_LO_2018-06-02_121003_53_533",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum2_Set1_LO_2018-06-02_131004_0_469",
+      "listed_frames": 468,
+      "metadata_num_frames": 469,
+      "first_frame_index": 0,
+      "last_frame_index": 467,
+      "consecutive_pairs": 467,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum2_Set1_LO_2018-06-02_131004_557_1037",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum2_Set1_LO_2018-06-02_141003_1966_2446",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum2_Set1_LO_2018-06-02_151003_0_199",
+      "listed_frames": 198,
+      "metadata_num_frames": 199,
+      "first_frame_index": 0,
+      "last_frame_index": 197,
+      "consecutive_pairs": 197,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum2_Set1_LO_2018-06-02_151003_3655_3855",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum2_Set1_LO_2018-06-02_161003_542_1022",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum2_Set1_LO_2018-06-02_181004_1389_1869",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum2_Set1_LO_2018-06-02_181004_3647_4081",
+      "listed_frames": 433,
+      "metadata_num_frames": 434,
+      "first_frame_index": 0,
+      "last_frame_index": 432,
+      "consecutive_pairs": 432,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum2_Set1_LO_2018-06-02_191003_1887_2367",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum2_Set1_LO_2018-06-02_191003_2616_3096",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum2_Set1_LO_2018-06-02_201003_2654_3134",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum2_Set1_LO_2018-06-02_211003_1137_1617",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum2_Set1_LO_2018-06-02_211003_2507_2987",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum2_Set1_LO_2018-06-02_221003_1183_1663",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum2_Set1_LO_2018-06-02_221003_465_945",
+      "listed_frames": 479,
+      "metadata_num_frames": 480,
+      "first_frame_index": 0,
+      "last_frame_index": 478,
+      "consecutive_pairs": 478,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum3_Set1_LO_2018-06-02_052000_2275_2676",
+      "listed_frames": 400,
+      "metadata_num_frames": 401,
+      "first_frame_index": 0,
+      "last_frame_index": 399,
+      "consecutive_pairs": 399,
+      "gaps": [],
+      "metadata_framerate": 6.6929030418396
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum3_Set1_LO_2018-06-02_052000_311_712",
+      "listed_frames": 400,
+      "metadata_num_frames": 401,
+      "first_frame_index": 0,
+      "last_frame_index": 399,
+      "consecutive_pairs": 399,
+      "gaps": [],
+      "metadata_framerate": 6.6929030418396
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum3_Set1_LO_2018-06-02_132000_3118_3253",
+      "listed_frames": 134,
+      "metadata_num_frames": 135,
+      "first_frame_index": 0,
+      "last_frame_index": 133,
+      "consecutive_pairs": 133,
+      "gaps": [],
+      "metadata_framerate": 6.6929030418396
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum3_Set1_LO_2018-06-02_142000_1583_1813",
+      "listed_frames": 229,
+      "metadata_num_frames": 230,
+      "first_frame_index": 0,
+      "last_frame_index": 228,
+      "consecutive_pairs": 228,
+      "gaps": [],
+      "metadata_framerate": 6.6929030418396
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftFar_Stratum3_Set1_LO_2018-06-02_232000_1120_1521",
+      "listed_frames": 400,
+      "metadata_num_frames": 401,
+      "first_frame_index": 0,
+      "last_frame_index": 399,
+      "consecutive_pairs": 399,
+      "gaps": [],
+      "metadata_framerate": 6.6929030418396
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftNear_Stratum1_Set1_LN_2018-06-02_040000_4177_4718",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftNear_Stratum1_Set1_LN_2018-06-02_060000_2398_2939",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftNear_Stratum1_Set1_LN_2018-06-02_080000_0_422",
+      "listed_frames": 421,
+      "metadata_num_frames": 422,
+      "first_frame_index": 0,
+      "last_frame_index": 420,
+      "consecutive_pairs": 420,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftNear_Stratum1_Set1_LN_2018-06-02_080000_2071_2612",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftNear_Stratum1_Set1_LN_2018-06-02_120000_4587_5128",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftNear_Stratum1_Set1_LN_2018-06-02_130000_48_589",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftNear_Stratum1_Set1_LN_2018-06-02_160000_3322_3863",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftNear_Stratum1_Set1_LN_2018-06-02_160000_4408_4949",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftNear_Stratum1_Set1_LN_2018-06-02_170000_3423_3964",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftNear_Stratum1_Set1_LN_2018-06-02_180000_443_984",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftNear_Stratum1_Set1_LN_2018-06-02_190000_461_1002",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftNear_Stratum1_Set1_LN_2018-06-02_200000_3064_3605",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftNear_Stratum1_Set1_LN_2018-06-02_200000_3633_4174",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftNear_Stratum1_Set1_LN_2018-06-02_210000_1411_1952",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftNear_Stratum1_Set1_LN_2018-06-02_210000_3251_3792",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftNear_Stratum1_Set1_LN_2018-06-02_210000_4424_4965",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftNear_Stratum1_Set1_LN_2018-06-02_210000_758_1299",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftNear_Stratum1_Set1_LN_2018-06-02_220000_1237_1778",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftNear_Stratum1_Set1_LN_2018-06-02_220000_2315_2856",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftNear_Stratum1_Set1_LN_2018-06-02_220000_3106_3647",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftNear_Stratum1_Set1_LN_2018-06-02_220000_4568_5109",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftNear_Stratum1_Set1_LN_2018-06-02_220000_650_1191",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftNear_Stratum1_Set1_LN_2018-06-02_230000_4162_4703",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-02-JD153_LeftNear_Stratum1_Set1_LN_2018-06-02_230000_46_587",
+      "listed_frames": 540,
+      "metadata_num_frames": 541,
+      "first_frame_index": 0,
+      "last_frame_index": 539,
+      "consecutive_pairs": 539,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-04-JD155_LeftFar_Stratum1_Set1_LO_2018-06-04_150004_986_1186",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-04-JD155_LeftFar_Stratum1_Set1_LO_2018-06-04_220004_739_939",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-04-JD155_LeftFar_Stratum2_Set1_LO_2018-06-04_161004_2007_2207",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-04-JD155_LeftNear_Stratum1_Set1_LN_2018-06-04_010000_873_1073",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-04-JD155_LeftNear_Stratum1_Set1_LN_2018-06-04_080000_4308_4508",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-04-JD155_LeftNear_Stratum1_Set1_LN_2018-06-04_090000_4511_4711",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-04-JD155_LeftNear_Stratum1_Set1_LN_2018-06-04_150000_4024_4224",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-04-JD155_LeftNear_Stratum1_Set1_LN_2018-06-04_150000_4788_4988",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-04-JD155_LeftNear_Stratum1_Set1_LN_2018-06-04_180000_3113_3313",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-04-JD155_LeftNear_Stratum1_Set1_LN_2018-06-04_200000_529_729",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-04-JD155_LeftNear_Stratum1_Set1_LN_2018-06-04_220000_714_914",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-04-JD155_LeftNear_Stratum1_Set1_LN_2018-06-04_230000_3078_3278",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-05-JD156_LeftFar_Stratum3_Set1_LO_2018-06-05_072000_2472_2672",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 6.6929030418396
+    },
+    {
+      "clip": "2018-06-05-JD156_LeftFar_Stratum3_Set1_LO_2018-06-05_142000_1985_2185",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 6.6929030418396
+    },
+    {
+      "clip": "2018-06-05-JD156_LeftNear_Stratum1_Set1_LN_2018-06-05_000000_4673_4873",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-05-JD156_LeftNear_Stratum1_Set1_LN_2018-06-05_010000_532_732",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-05-JD156_LeftNear_Stratum1_Set1_LN_2018-06-05_020000_1584_1784",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-05-JD156_LeftNear_Stratum1_Set1_LN_2018-06-05_040000_2994_3194",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-05-JD156_LeftNear_Stratum1_Set1_LN_2018-06-05_040000_4034_4234",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-05-JD156_LeftNear_Stratum1_Set1_LN_2018-06-05_100000_4072_4272",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-05-JD156_LeftNear_Stratum1_Set1_LN_2018-06-05_100000_4523_4723",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-05-JD156_LeftNear_Stratum1_Set1_LN_2018-06-05_110000_717_917",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-05-JD156_LeftNear_Stratum1_Set1_LN_2018-06-05_130000_3024_3224",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-05-JD156_LeftNear_Stratum1_Set1_LN_2018-06-05_170000_2252_2452",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-05-JD156_LeftNear_Stratum1_Set1_LN_2018-06-05_170000_4150_4350",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-05-JD156_LeftNear_Stratum1_Set1_LN_2018-06-05_180000_621_821",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-05-JD156_LeftNear_Stratum1_Set1_LN_2018-06-05_180000_899_1099",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-05-JD156_LeftNear_Stratum1_Set1_LN_2018-06-05_190000_4457_4657",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-05-JD156_LeftNear_Stratum1_Set1_LN_2018-06-05_190000_484_684",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-05-JD156_LeftNear_Stratum1_Set1_LN_2018-06-05_200000_3398_3598",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-05-JD156_LeftNear_Stratum1_Set1_LN_2018-06-05_200000_4372_4572",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-06-JD157_LeftFar_Stratum1_Set1_LO_2018-06-06_060004_5032_5232",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-06-JD157_LeftFar_Stratum1_Set1_LO_2018-06-06_120004_2956_3156",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-06-JD157_LeftNear_Stratum1_Set1_LN_2018-06-06_010000_669_869",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-06-JD157_LeftNear_Stratum1_Set1_LN_2018-06-06_020000_1977_2177",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-06-JD157_LeftNear_Stratum1_Set1_LN_2018-06-06_050000_3728_3928",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-06-JD157_LeftNear_Stratum1_Set1_LN_2018-06-06_090000_2654_2854",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-06-JD157_LeftNear_Stratum1_Set1_LN_2018-06-06_100000_4151_4351",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-06-JD157_LeftNear_Stratum1_Set1_LN_2018-06-06_120000_0_101",
+      "listed_frames": 100,
+      "metadata_num_frames": 101,
+      "first_frame_index": 0,
+      "last_frame_index": 99,
+      "consecutive_pairs": 99,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-06-JD157_LeftNear_Stratum1_Set1_LN_2018-06-06_120000_3312_3512",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-06-JD157_LeftNear_Stratum1_Set1_LN_2018-06-06_120000_3529_3729",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-06-JD157_LeftNear_Stratum1_Set1_LN_2018-06-06_120000_3960_4160",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-06-JD157_LeftNear_Stratum1_Set1_LN_2018-06-06_120000_4469_4669",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-06-JD157_LeftNear_Stratum1_Set1_LN_2018-06-06_130000_1422_1622",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-06-JD157_LeftNear_Stratum1_Set1_LN_2018-06-06_180000_3335_3535",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-06-JD157_LeftNear_Stratum1_Set1_LN_2018-06-06_190000_1627_1827",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-06-JD157_LeftNear_Stratum1_Set1_LN_2018-06-06_190000_2060_2260",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-06-JD157_LeftNear_Stratum1_Set1_LN_2018-06-06_190000_4107_4307",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-06-JD157_LeftNear_Stratum1_Set1_LN_2018-06-06_190000_745_945",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-06-JD157_LeftNear_Stratum1_Set1_LN_2018-06-06_200000_3113_3313",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-06-JD157_LeftNear_Stratum1_Set1_LN_2018-06-06_210000_3424_3624",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-06-JD157_LeftNear_Stratum1_Set1_LN_2018-06-06_210000_3878_4078",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-06-JD157_LeftNear_Stratum1_Set1_LN_2018-06-06_220000_1547_1747",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-06-JD157_LeftNear_Stratum1_Set1_LN_2018-06-06_220000_897_1097",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-06-JD157_LeftNear_Stratum1_Set1_LN_2018-06-06_230000_3158_3358",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-07-JD158_LeftFar_Stratum2_Set1_LO_2018-06-07_131003_507_707",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-07-JD158_LeftNear_Stratum1_Set1_LN_2018-06-07_000000_3014_3214",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-07-JD158_LeftNear_Stratum1_Set1_LN_2018-06-07_000000_3586_3786",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-07-JD158_LeftNear_Stratum1_Set1_LN_2018-06-07_010000_1976_2176",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-07-JD158_LeftNear_Stratum1_Set1_LN_2018-06-07_010000_3734_3934",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-07-JD158_LeftNear_Stratum1_Set1_LN_2018-06-07_010000_3972_4172",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-07-JD158_LeftNear_Stratum1_Set1_LN_2018-06-07_010000_4498_4698",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-07-JD158_LeftNear_Stratum1_Set1_LN_2018-06-07_010000_4975_5175",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-07-JD158_LeftNear_Stratum1_Set1_LN_2018-06-07_020000_2671_2871",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-07-JD158_LeftNear_Stratum1_Set1_LN_2018-06-07_020000_3654_3854",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-07-JD158_LeftNear_Stratum1_Set1_LN_2018-06-07_020000_398_598",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-07-JD158_LeftNear_Stratum1_Set1_LN_2018-06-07_030000_1005_1205",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-07-JD158_LeftNear_Stratum1_Set1_LN_2018-06-07_030000_2048_2248",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-07-JD158_LeftNear_Stratum1_Set1_LN_2018-06-07_030000_4563_4763",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-07-JD158_LeftNear_Stratum1_Set1_LN_2018-06-07_040000_1970_2170",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-07-JD158_LeftNear_Stratum1_Set1_LN_2018-06-07_040000_2512_2712",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-07-JD158_LeftNear_Stratum1_Set1_LN_2018-06-07_080000_2836_3036",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-07-JD158_LeftNear_Stratum1_Set1_LN_2018-06-07_130000_356_556",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-07-JD158_LeftNear_Stratum1_Set1_LN_2018-06-07_140000_1153_1353",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-07-JD158_LeftNear_Stratum1_Set1_LN_2018-06-07_140000_3315_3515",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-07-JD158_LeftNear_Stratum1_Set1_LN_2018-06-07_140000_4391_4591",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-07-JD158_LeftNear_Stratum1_Set1_LN_2018-06-07_150000_3312_3512",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-07-JD158_LeftNear_Stratum1_Set1_LN_2018-06-07_190000_1676_1876",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-08-JD159_LeftFar_Stratum1_Set1_LO_2018-06-08_160000_2778_2978",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-08-JD159_LeftFar_Stratum1_Set1_LO_2018-06-08_170005_883_1083",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-08-JD159_LeftFar_Stratum2_Set1_LO_2018-06-08_011003_714_914",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-08-JD159_LeftNear_Stratum1_Set1_LN_2018-06-08_030000_2797_2997",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-08-JD159_LeftNear_Stratum1_Set1_LN_2018-06-08_030000_685_885",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-08-JD159_LeftNear_Stratum1_Set1_LN_2018-06-08_040000_2701_2901",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-08-JD159_LeftNear_Stratum1_Set1_LN_2018-06-08_090000_4022_4222",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-08-JD159_LeftNear_Stratum1_Set1_LN_2018-06-08_120000_26_226",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-08-JD159_LeftNear_Stratum1_Set1_LN_2018-06-08_150000_1489_1689",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-08-JD159_LeftNear_Stratum1_Set1_LN_2018-06-08_150000_2103_2303",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-08-JD159_LeftNear_Stratum1_Set1_LN_2018-06-08_190000_4316_4516",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-08-JD159_LeftNear_Stratum1_Set1_LN_2018-06-08_190000_975_1175",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-08-JD159_LeftNear_Stratum1_Set1_LN_2018-06-08_210000_1719_1919",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-08-JD159_LeftNear_Stratum1_Set1_LN_2018-06-08_210000_2076_2276",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-08-JD159_LeftNear_Stratum1_Set1_LN_2018-06-08_210000_3453_3653",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-08-JD159_LeftNear_Stratum1_Set1_LN_2018-06-08_220000_1019_1219",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-09-JD160_LeftFar_Stratum1_Set1_LO_2018-06-09_090004_4175_4375",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-09-JD160_LeftFar_Stratum1_Set1_LO_2018-06-09_160004_312_512",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 10.0
+    },
+    {
+      "clip": "2018-06-09-JD160_LeftFar_Stratum2_Set1_LO_2018-06-09_071004_2250_2450",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-09-JD160_LeftNear_Stratum1_Set1_LN_2018-06-09_030000_4316_4516",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-09-JD160_LeftNear_Stratum1_Set1_LN_2018-06-09_160000_2725_2925",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-09-JD160_LeftNear_Stratum1_Set1_LN_2018-06-09_160000_633_833",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-10-JD161_LeftFar_Stratum2_Set1_LO_2018-06-10_051004_3343_3543",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-10-JD161_LeftFar_Stratum2_Set1_LO_2018-06-10_141004_2743_2943",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-10-JD161_LeftFar_Stratum2_Set1_LO_2018-06-10_171003_605_805",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-10-JD161_LeftFar_Stratum2_Set1_LO_2018-06-10_171003_890_1090",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 8.0
+    },
+    {
+      "clip": "2018-06-10-JD161_LeftNear_Stratum1_Set1_LN_2018-06-10_030000_4479_4679",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-10-JD161_LeftNear_Stratum1_Set1_LN_2018-06-10_040000_1555_1755",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-10-JD161_LeftNear_Stratum1_Set1_LN_2018-06-10_100000_4413_4613",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-10-JD161_LeftNear_Stratum1_Set1_LN_2018-06-10_140000_1518_1718",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-10-JD161_LeftNear_Stratum1_Set1_LN_2018-06-10_150000_721_921",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    },
+    {
+      "clip": "2018-06-10-JD161_LeftNear_Stratum1_Set1_LN_2018-06-10_230000_1138_1338",
+      "listed_frames": 199,
+      "metadata_num_frames": 200,
+      "first_frame_index": 0,
+      "last_frame_index": 198,
+      "consecutive_pairs": 198,
+      "gaps": [],
+      "metadata_framerate": 9.000008583068848
+    }
+  ],
+  "total_pairs": 161716,
+  "gap_count": 0,
+  "framerate_distribution": {
+    "10.0": 133,
+    "8.0": 138,
+    "6.6929030418396": 35,
+    "9.000008583068848": 176
+  },
+  "elapsed_time_claim": "frame delta and metadata nominal framerate only; no source timestamp precision inferred",
+  "metadata_adjustment": "All 482 official TRAIN clip lists contain metadata_num_frames minus one images, numbered 0 through metadata_num_frames minus two. Preserve this official membership; do not add the archive extra last frame. Eligible pairs use only consecutive listed numeric indices."
+}

@@ -1,0 +1,18 @@
+{
+  "event": "end",
+  "name": "val",
+  "pid": 8428,
+  "status": "completed",
+  "error": null,
+  "elapsed_seconds": 944.9370000000345,
+  "ended_utc": "2026-10-02T14:57:15Z",
+  "verified_suspend_seconds": 0,
+  "active_gpu_process_seconds": 944.9370000000345,
+  "charged_gpu_hours": 0.26248250000000956,
+  "owned_rss_peak_bytes": 5946871808,
+  "cuda_peak_allocated_bytes": 251063296,
+  "cuda_peak_reserved_bytes": 375390208,
+  "physical_device_used_peak_bytes": 4571791360,
+  "overall_remaining_hours": 91.12356836279122,
+  "block_remaining_hours": 15.12356836279121
+}

@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-02T23:34:17Z",
+  "job": "fixed 512-frame RPN diagnosis, published/A/fine/random seed7",
+  "forecast_gpu_process_hours": 0.2,
+  "historical_and_followup_used_hours": 12.045038303875456,
+  "final_reserved_hours": 6,
+  "basis": "2048 frame-model presentations, full validation measured 1946.985s/30454 with evaluator overhead; 0.20h conservative allowance",
+  "command": ".venv/Scripts/python.exe analysis/proposals.py --checkpoints artifacts/det-published-f010-s7/checkpoint.pt artifacts/det-adapted-f010-s7/checkpoint.pt artifacts/det-finetune-f010-s7/checkpoint.pt artifacts/det-random-f010-s7/checkpoint.pt"
+}

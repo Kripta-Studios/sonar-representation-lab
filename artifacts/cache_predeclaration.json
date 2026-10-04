@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-10-02T12:41:05Z",
+  "reason": "CPU measurements attribute 0.0403 seconds per frame to JPEG decoding and resizing; reduce repeated identical work within the original allocation",
+  "format": "CFC-v1.1-L-PIL-bilinear-448-topleft-uint8-v1",
+  "scientific_inputs_must_be_bitwise_equal": true,
+  "no_model_label_geometry_optimizer_augmentation_changes": true,
+  "kenai_cache_frames": 192652,
+  "required_bytes": 38666027008,
+  "workers": 4,
+  "bounded_window_frames": 128,
+  "ssl_uses_original_train_jpeg_images": true,
+  "apply_loader_only_after_first_milestone_completes": true,
+  "channel_cache_policy": "Same fixed transform and code; preparation only after model/protocol freeze, after recording first image exposure, within the single held-out block",
+  "review_status": "author engineering verification only"
+}

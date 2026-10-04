@@ -1,0 +1,25 @@
+{
+  "arguments": [
+    "src/train_detector.py",
+    "train",
+    "--kind",
+    "finetune",
+    "--seed",
+    "7",
+    "--fraction",
+    "10",
+    "--size",
+    "672",
+    "--steps",
+    "2000",
+    "--batch",
+    "8",
+    "--accumulation",
+    "1",
+    "--out",
+    "artifacts\\det-finetune-r672-f010-s7"
+  ],
+  "forecast_hours": 1.2111111111253396,
+  "remaining_development_hours": 9.0292102777778,
+  "final_reserve_protected": true
+}

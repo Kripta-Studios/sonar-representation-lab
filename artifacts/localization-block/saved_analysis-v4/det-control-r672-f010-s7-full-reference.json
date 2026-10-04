@@ -1,0 +1,13 @@
+{
+  "computed_AP50": 0.2051520930767919,
+  "saved_AP50": 0.2051520930767919,
+  "computed_AP95": 0.053663485180209934,
+  "saved_AP95": 0.053663485180209934,
+  "order": "original sorted image IDs, including stable score-tie order",
+  "positive_id_AP50": 0.2051520930767919,
+  "positive_id_AP95": 0.053663485180209934,
+  "legacy_zero_annotation_image_ids": [
+    73
+  ],
+  "bootstrap_evaluator": "positive annotation IDs; zero-ID match recovered via gtMatches/dtIds"
+}

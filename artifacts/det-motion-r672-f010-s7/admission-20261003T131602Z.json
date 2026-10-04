@@ -1,0 +1,27 @@
+{
+  "arguments": [
+    "src/train_detector.py",
+    "train",
+    "--kind",
+    "adapted",
+    "--seed",
+    "7",
+    "--fraction",
+    "10",
+    "--size",
+    "672",
+    "--steps",
+    "2000",
+    "--batch",
+    "8",
+    "--accumulation",
+    "1",
+    "--adapted",
+    "artifacts/ssl-motion-s7/encoder.pt",
+    "--out",
+    "artifacts/det-motion-r672-f010-s7"
+  ],
+  "forecast_hours": 0.7458277777777766,
+  "remaining_development_hours": 4.246206388888904,
+  "final_reserve_protected": true
+}

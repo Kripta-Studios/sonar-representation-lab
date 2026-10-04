@@ -1,0 +1,5129 @@
+{
+  "rule": "8 smallest SHA256(sonar-proposals-v1:filename) per official validation clip",
+  "images": [
+    {
+      "id": 24608,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_020004_3240_3840_389.jpg",
+      "height": 623,
+      "width": 288,
+      "x_meter_start": -1.0466262625757354,
+      "x_meter_stop": 1.0463822316934352,
+      "y_meter_start": 7.993872108126551,
+      "y_meter_stop": 3.466287761148449
+    },
+    {
+      "id": 24442,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_020004_3240_3840_223.jpg",
+      "height": 623,
+      "width": 288,
+      "x_meter_start": -1.0466262625757354,
+      "x_meter_stop": 1.0463822316934352,
+      "y_meter_start": 7.993872108126551,
+      "y_meter_stop": 3.466287761148449
+    },
+    {
+      "id": 24227,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_020004_3240_3840_8.jpg",
+      "height": 623,
+      "width": 288,
+      "x_meter_start": -1.0466262625757354,
+      "x_meter_stop": 1.0463822316934352,
+      "y_meter_start": 7.993872108126551,
+      "y_meter_stop": 3.466287761148449
+    },
+    {
+      "id": 24674,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_020004_3240_3840_455.jpg",
+      "height": 623,
+      "width": 288,
+      "x_meter_start": -1.0466262625757354,
+      "x_meter_stop": 1.0463822316934352,
+      "y_meter_start": 7.993872108126551,
+      "y_meter_stop": 3.466287761148449
+    },
+    {
+      "id": 24507,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_020004_3240_3840_288.jpg",
+      "height": 623,
+      "width": 288,
+      "x_meter_start": -1.0466262625757354,
+      "x_meter_stop": 1.0463822316934352,
+      "y_meter_start": 7.993872108126551,
+      "y_meter_stop": 3.466287761148449
+    },
+    {
+      "id": 24234,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_020004_3240_3840_15.jpg",
+      "height": 623,
+      "width": 288,
+      "x_meter_start": -1.0466262625757354,
+      "x_meter_stop": 1.0463822316934352,
+      "y_meter_start": 7.993872108126551,
+      "y_meter_stop": 3.466287761148449
+    },
+    {
+      "id": 24375,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_020004_3240_3840_156.jpg",
+      "height": 623,
+      "width": 288,
+      "x_meter_start": -1.0466262625757354,
+      "x_meter_stop": 1.0463822316934352,
+      "y_meter_start": 7.993872108126551,
+      "y_meter_stop": 3.466287761148449
+    },
+    {
+      "id": 24566,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_020004_3240_3840_347.jpg",
+      "height": 623,
+      "width": 288,
+      "x_meter_start": -1.0466262625757354,
+      "x_meter_stop": 1.0463822316934352,
+      "y_meter_start": 7.993872108126551,
+      "y_meter_stop": 3.466287761148449
+    },
+    {
+      "id": 15077,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_030004_1934_2534_581.jpg",
+      "height": 624,
+      "width": 288,
+      "x_meter_start": -1.0462713969648414,
+      "x_meter_stop": 1.0460154145454643,
+      "y_meter_start": 7.999817282817542,
+      "y_meter_stop": 3.4665291912118787
+    },
+    {
+      "id": 14994,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_030004_1934_2534_498.jpg",
+      "height": 624,
+      "width": 288,
+      "x_meter_start": -1.0462713969648414,
+      "x_meter_stop": 1.0460154145454643,
+      "y_meter_start": 7.999817282817542,
+      "y_meter_stop": 3.4665291912118787
+    },
+    {
+      "id": 14623,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_030004_1934_2534_127.jpg",
+      "height": 624,
+      "width": 288,
+      "x_meter_start": -1.0462713969648414,
+      "x_meter_stop": 1.0460154145454643,
+      "y_meter_start": 7.999817282817542,
+      "y_meter_stop": 3.4665291912118787
+    },
+    {
+      "id": 14529,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_030004_1934_2534_33.jpg",
+      "height": 624,
+      "width": 288,
+      "x_meter_start": -1.0462713969648414,
+      "x_meter_stop": 1.0460154145454643,
+      "y_meter_start": 7.999817282817542,
+      "y_meter_stop": 3.4665291912118787
+    },
+    {
+      "id": 14635,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_030004_1934_2534_139.jpg",
+      "height": 624,
+      "width": 288,
+      "x_meter_start": -1.0462713969648414,
+      "x_meter_stop": 1.0460154145454643,
+      "y_meter_start": 7.999817282817542,
+      "y_meter_stop": 3.4665291912118787
+    },
+    {
+      "id": 15038,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_030004_1934_2534_542.jpg",
+      "height": 624,
+      "width": 288,
+      "x_meter_start": -1.0462713969648414,
+      "x_meter_stop": 1.0460154145454643,
+      "y_meter_start": 7.999817282817542,
+      "y_meter_stop": 3.4665291912118787
+    },
+    {
+      "id": 14709,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_030004_1934_2534_213.jpg",
+      "height": 624,
+      "width": 288,
+      "x_meter_start": -1.0462713969648414,
+      "x_meter_stop": 1.0460154145454643,
+      "y_meter_start": 7.999817282817542,
+      "y_meter_stop": 3.4665291912118787
+    },
+    {
+      "id": 14802,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_030004_1934_2534_306.jpg",
+      "height": 624,
+      "width": 288,
+      "x_meter_start": -1.0462713969648414,
+      "x_meter_stop": 1.0460154145454643,
+      "y_meter_start": 7.999817282817542,
+      "y_meter_stop": 3.4665291912118787
+    },
+    {
+      "id": 6249,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_050004_319_919_502.jpg",
+      "height": 624,
+      "width": 288,
+      "x_meter_start": -1.045909383895277,
+      "x_meter_stop": 1.0456474750627376,
+      "y_meter_start": 7.997744384709836,
+      "y_meter_stop": 3.466037856967471
+    },
+    {
+      "id": 6179,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_050004_319_919_432.jpg",
+      "height": 624,
+      "width": 288,
+      "x_meter_start": -1.045909383895277,
+      "x_meter_stop": 1.0456474750627376,
+      "y_meter_start": 7.997744384709836,
+      "y_meter_stop": 3.466037856967471
+    },
+    {
+      "id": 5861,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_050004_319_919_114.jpg",
+      "height": 624,
+      "width": 288,
+      "x_meter_start": -1.045909383895277,
+      "x_meter_stop": 1.0456474750627376,
+      "y_meter_start": 7.997744384709836,
+      "y_meter_stop": 3.466037856967471
+    },
+    {
+      "id": 6090,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_050004_319_919_343.jpg",
+      "height": 624,
+      "width": 288,
+      "x_meter_start": -1.045909383895277,
+      "x_meter_stop": 1.0456474750627376,
+      "y_meter_start": 7.997744384709836,
+      "y_meter_stop": 3.466037856967471
+    },
+    {
+      "id": 5847,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_050004_319_919_100.jpg",
+      "height": 624,
+      "width": 288,
+      "x_meter_start": -1.045909383895277,
+      "x_meter_stop": 1.0456474750627376,
+      "y_meter_start": 7.997744384709836,
+      "y_meter_stop": 3.466037856967471
+    },
+    {
+      "id": 5927,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_050004_319_919_180.jpg",
+      "height": 624,
+      "width": 288,
+      "x_meter_start": -1.045909383895277,
+      "x_meter_stop": 1.0456474750627376,
+      "y_meter_start": 7.997744384709836,
+      "y_meter_stop": 3.466037856967471
+    },
+    {
+      "id": 5833,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_050004_319_919_86.jpg",
+      "height": 624,
+      "width": 288,
+      "x_meter_start": -1.045909383895277,
+      "x_meter_stop": 1.0456474750627376,
+      "y_meter_start": 7.997744384709836,
+      "y_meter_stop": 3.466037856967471
+    },
+    {
+      "id": 6096,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_050004_319_919_349.jpg",
+      "height": 624,
+      "width": 288,
+      "x_meter_start": -1.045909383895277,
+      "x_meter_stop": 1.0456474750627376,
+      "y_meter_start": 7.997744384709836,
+      "y_meter_stop": 3.466037856967471
+    },
+    {
+      "id": 2456,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_070004_651_1251_115.jpg",
+      "height": 624,
+      "width": 288,
+      "x_meter_start": -1.0455501763804802,
+      "x_meter_stop": 1.0452763318075926,
+      "y_meter_start": 7.9963872678490375,
+      "y_meter_stop": 3.4662631667748793
+    },
+    {
+      "id": 2647,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_070004_651_1251_306.jpg",
+      "height": 624,
+      "width": 288,
+      "x_meter_start": -1.0455501763804802,
+      "x_meter_stop": 1.0452763318075926,
+      "y_meter_start": 7.9963872678490375,
+      "y_meter_stop": 3.4662631667748793
+    },
+    {
+      "id": 2656,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_070004_651_1251_315.jpg",
+      "height": 624,
+      "width": 288,
+      "x_meter_start": -1.0455501763804802,
+      "x_meter_stop": 1.0452763318075926,
+      "y_meter_start": 7.9963872678490375,
+      "y_meter_stop": 3.4662631667748793
+    },
+    {
+      "id": 2504,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_070004_651_1251_163.jpg",
+      "height": 624,
+      "width": 288,
+      "x_meter_start": -1.0455501763804802,
+      "x_meter_stop": 1.0452763318075926,
+      "y_meter_start": 7.9963872678490375,
+      "y_meter_stop": 3.4662631667748793
+    },
+    {
+      "id": 2769,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_070004_651_1251_428.jpg",
+      "height": 624,
+      "width": 288,
+      "x_meter_start": -1.0455501763804802,
+      "x_meter_stop": 1.0452763318075926,
+      "y_meter_start": 7.9963872678490375,
+      "y_meter_stop": 3.4662631667748793
+    },
+    {
+      "id": 2743,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_070004_651_1251_402.jpg",
+      "height": 624,
+      "width": 288,
+      "x_meter_start": -1.0455501763804802,
+      "x_meter_stop": 1.0452763318075926,
+      "y_meter_start": 7.9963872678490375,
+      "y_meter_stop": 3.4662631667748793
+    },
+    {
+      "id": 2528,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_070004_651_1251_187.jpg",
+      "height": 624,
+      "width": 288,
+      "x_meter_start": -1.0455501763804802,
+      "x_meter_stop": 1.0452763318075926,
+      "y_meter_start": 7.9963872678490375,
+      "y_meter_stop": 3.4662631667748793
+    },
+    {
+      "id": 2500,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_070004_651_1251_159.jpg",
+      "height": 624,
+      "width": 288,
+      "x_meter_start": -1.0455501763804802,
+      "x_meter_stop": 1.0452763318075926,
+      "y_meter_start": 7.9963872678490375,
+      "y_meter_stop": 3.4662631667748793
+    },
+    {
+      "id": 26194,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_100004_2931_3531_296.jpg",
+      "height": 623,
+      "width": 288,
+      "x_meter_start": -1.0462705129739105,
+      "x_meter_stop": 1.0460145307708133,
+      "y_meter_start": 7.999810523800587,
+      "y_meter_stop": 3.466526262353686
+    },
+    {
+      "id": 25975,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_100004_2931_3531_77.jpg",
+      "height": 623,
+      "width": 288,
+      "x_meter_start": -1.0462705129739105,
+      "x_meter_stop": 1.0460145307708133,
+      "y_meter_start": 7.999810523800587,
+      "y_meter_stop": 3.466526262353686
+    },
+    {
+      "id": 26493,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_100004_2931_3531_595.jpg",
+      "height": 623,
+      "width": 288,
+      "x_meter_start": -1.0462705129739105,
+      "x_meter_stop": 1.0460145307708133,
+      "y_meter_start": 7.999810523800587,
+      "y_meter_stop": 3.466526262353686
+    },
+    {
+      "id": 26297,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_100004_2931_3531_399.jpg",
+      "height": 623,
+      "width": 288,
+      "x_meter_start": -1.0462705129739105,
+      "x_meter_stop": 1.0460145307708133,
+      "y_meter_start": 7.999810523800587,
+      "y_meter_stop": 3.466526262353686
+    },
+    {
+      "id": 26419,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_100004_2931_3531_521.jpg",
+      "height": 623,
+      "width": 288,
+      "x_meter_start": -1.0462705129739105,
+      "x_meter_stop": 1.0460145307708133,
+      "y_meter_start": 7.999810523800587,
+      "y_meter_stop": 3.466526262353686
+    },
+    {
+      "id": 25986,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_100004_2931_3531_88.jpg",
+      "height": 623,
+      "width": 288,
+      "x_meter_start": -1.0462705129739105,
+      "x_meter_stop": 1.0460145307708133,
+      "y_meter_start": 7.999810523800587,
+      "y_meter_stop": 3.466526262353686
+    },
+    {
+      "id": 25904,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_100004_2931_3531_6.jpg",
+      "height": 623,
+      "width": 288,
+      "x_meter_start": -1.0462705129739105,
+      "x_meter_stop": 1.0460145307708133,
+      "y_meter_start": 7.999810523800587,
+      "y_meter_stop": 3.466526262353686
+    },
+    {
+      "id": 26251,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_100004_2931_3531_353.jpg",
+      "height": 623,
+      "width": 288,
+      "x_meter_start": -1.0462705129739105,
+      "x_meter_stop": 1.0460145307708133,
+      "y_meter_start": 7.999810523800587,
+      "y_meter_stop": 3.466526262353686
+    },
+    {
+      "id": 1005,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_110004_3942_4312_312.jpg",
+      "height": 623,
+      "width": 288,
+      "x_meter_start": -1.046981829498079,
+      "x_meter_stop": 1.0467497583553331,
+      "y_meter_start": 7.995196207877309,
+      "y_meter_stop": 3.4660476688749626
+    },
+    {
+      "id": 732,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_110004_3942_4312_39.jpg",
+      "height": 623,
+      "width": 288,
+      "x_meter_start": -1.046981829498079,
+      "x_meter_stop": 1.0467497583553331,
+      "y_meter_start": 7.995196207877309,
+      "y_meter_stop": 3.4660476688749626
+    },
+    {
+      "id": 935,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_110004_3942_4312_242.jpg",
+      "height": 623,
+      "width": 288,
+      "x_meter_start": -1.046981829498079,
+      "x_meter_stop": 1.0467497583553331,
+      "y_meter_start": 7.995196207877309,
+      "y_meter_stop": 3.4660476688749626
+    },
+    {
+      "id": 1006,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_110004_3942_4312_313.jpg",
+      "height": 623,
+      "width": 288,
+      "x_meter_start": -1.046981829498079,
+      "x_meter_stop": 1.0467497583553331,
+      "y_meter_start": 7.995196207877309,
+      "y_meter_stop": 3.4660476688749626
+    },
+    {
+      "id": 969,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_110004_3942_4312_276.jpg",
+      "height": 623,
+      "width": 288,
+      "x_meter_start": -1.046981829498079,
+      "x_meter_stop": 1.0467497583553331,
+      "y_meter_start": 7.995196207877309,
+      "y_meter_stop": 3.4660476688749626
+    },
+    {
+      "id": 833,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_110004_3942_4312_140.jpg",
+      "height": 623,
+      "width": 288,
+      "x_meter_start": -1.046981829498079,
+      "x_meter_stop": 1.0467497583553331,
+      "y_meter_start": 7.995196207877309,
+      "y_meter_stop": 3.4660476688749626
+    },
+    {
+      "id": 725,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_110004_3942_4312_32.jpg",
+      "height": 623,
+      "width": 288,
+      "x_meter_start": -1.046981829498079,
+      "x_meter_stop": 1.0467497583553331,
+      "y_meter_start": 7.995196207877309,
+      "y_meter_stop": 3.4660476688749626
+    },
+    {
+      "id": 899,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_110004_3942_4312_206.jpg",
+      "height": 623,
+      "width": 288,
+      "x_meter_start": -1.046981829498079,
+      "x_meter_stop": 1.0467497583553331,
+      "y_meter_start": 7.995196207877309,
+      "y_meter_stop": 3.4660476688749626
+    },
+    {
+      "id": 27509,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_120004_2044_2644_413.jpg",
+      "height": 623,
+      "width": 288,
+      "x_meter_start": -1.0480448609673578,
+      "x_meter_stop": 1.0478426922245996,
+      "y_meter_start": 7.999831254254149,
+      "y_meter_stop": 3.4660189430090464
+    },
+    {
+      "id": 27209,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_120004_2044_2644_113.jpg",
+      "height": 623,
+      "width": 288,
+      "x_meter_start": -1.0480448609673578,
+      "x_meter_stop": 1.0478426922245996,
+      "y_meter_start": 7.999831254254149,
+      "y_meter_stop": 3.4660189430090464
+    },
+    {
+      "id": 27379,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_120004_2044_2644_283.jpg",
+      "height": 623,
+      "width": 288,
+      "x_meter_start": -1.0480448609673578,
+      "x_meter_stop": 1.0478426922245996,
+      "y_meter_start": 7.999831254254149,
+      "y_meter_stop": 3.4660189430090464
+    },
+    {
+      "id": 27120,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_120004_2044_2644_24.jpg",
+      "height": 623,
+      "width": 288,
+      "x_meter_start": -1.0480448609673578,
+      "x_meter_stop": 1.0478426922245996,
+      "y_meter_start": 7.999831254254149,
+      "y_meter_stop": 3.4660189430090464
+    },
+    {
+      "id": 27302,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_120004_2044_2644_206.jpg",
+      "height": 623,
+      "width": 288,
+      "x_meter_start": -1.0480448609673578,
+      "x_meter_stop": 1.0478426922245996,
+      "y_meter_start": 7.999831254254149,
+      "y_meter_stop": 3.4660189430090464
+    },
+    {
+      "id": 27576,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_120004_2044_2644_480.jpg",
+      "height": 623,
+      "width": 288,
+      "x_meter_start": -1.0480448609673578,
+      "x_meter_stop": 1.0478426922245996,
+      "y_meter_start": 7.999831254254149,
+      "y_meter_stop": 3.4660189430090464
+    },
+    {
+      "id": 27105,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_120004_2044_2644_9.jpg",
+      "height": 623,
+      "width": 288,
+      "x_meter_start": -1.0480448609673578,
+      "x_meter_stop": 1.0478426922245996,
+      "y_meter_start": 7.999831254254149,
+      "y_meter_stop": 3.4660189430090464
+    },
+    {
+      "id": 27506,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_120004_2044_2644_410.jpg",
+      "height": 623,
+      "width": 288,
+      "x_meter_start": -1.0480448609673578,
+      "x_meter_stop": 1.0478426922245996,
+      "y_meter_start": 7.999831254254149,
+      "y_meter_stop": 3.4660189430090464
+    },
+    {
+      "id": 12445,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_130004_4908_5508_107.jpg",
+      "height": 621,
+      "width": 286,
+      "x_meter_start": -1.0421625803559813,
+      "x_meter_stop": 1.0419963563161359,
+      "y_meter_start": 7.999083359650095,
+      "y_meter_stop": 3.466402035838708
+    },
+    {
+      "id": 12488,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_130004_4908_5508_150.jpg",
+      "height": 621,
+      "width": 286,
+      "x_meter_start": -1.0421625803559813,
+      "x_meter_stop": 1.0419963563161359,
+      "y_meter_start": 7.999083359650095,
+      "y_meter_stop": 3.466402035838708
+    },
+    {
+      "id": 12606,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_130004_4908_5508_268.jpg",
+      "height": 621,
+      "width": 286,
+      "x_meter_start": -1.0421625803559813,
+      "x_meter_stop": 1.0419963563161359,
+      "y_meter_start": 7.999083359650095,
+      "y_meter_stop": 3.466402035838708
+    },
+    {
+      "id": 12792,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_130004_4908_5508_454.jpg",
+      "height": 621,
+      "width": 286,
+      "x_meter_start": -1.0421625803559813,
+      "x_meter_stop": 1.0419963563161359,
+      "y_meter_start": 7.999083359650095,
+      "y_meter_stop": 3.466402035838708
+    },
+    {
+      "id": 12636,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_130004_4908_5508_298.jpg",
+      "height": 621,
+      "width": 286,
+      "x_meter_start": -1.0421625803559813,
+      "x_meter_stop": 1.0419963563161359,
+      "y_meter_start": 7.999083359650095,
+      "y_meter_stop": 3.466402035838708
+    },
+    {
+      "id": 12804,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_130004_4908_5508_466.jpg",
+      "height": 621,
+      "width": 286,
+      "x_meter_start": -1.0421625803559813,
+      "x_meter_stop": 1.0419963563161359,
+      "y_meter_start": 7.999083359650095,
+      "y_meter_stop": 3.466402035838708
+    },
+    {
+      "id": 12428,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_130004_4908_5508_90.jpg",
+      "height": 621,
+      "width": 286,
+      "x_meter_start": -1.0421625803559813,
+      "x_meter_stop": 1.0419963563161359,
+      "y_meter_start": 7.999083359650095,
+      "y_meter_stop": 3.466402035838708
+    },
+    {
+      "id": 12682,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_130004_4908_5508_344.jpg",
+      "height": 621,
+      "width": 286,
+      "x_meter_start": -1.0421625803559813,
+      "x_meter_stop": 1.0419963563161359,
+      "y_meter_start": 7.999083359650095,
+      "y_meter_stop": 3.466402035838708
+    },
+    {
+      "id": 18298,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_140004_408_1008_58.jpg",
+      "height": 621,
+      "width": 286,
+      "x_meter_start": -1.0431957314242126,
+      "x_meter_stop": 1.0430595536170344,
+      "y_meter_start": 7.996228228491015,
+      "y_meter_stop": 3.4662823123699855
+    },
+    {
+      "id": 18297,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_140004_408_1008_57.jpg",
+      "height": 621,
+      "width": 286,
+      "x_meter_start": -1.0431957314242126,
+      "x_meter_stop": 1.0430595536170344,
+      "y_meter_start": 7.996228228491015,
+      "y_meter_stop": 3.4662823123699855
+    },
+    {
+      "id": 18692,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_140004_408_1008_452.jpg",
+      "height": 621,
+      "width": 286,
+      "x_meter_start": -1.0431957314242126,
+      "x_meter_stop": 1.0430595536170344,
+      "y_meter_start": 7.996228228491015,
+      "y_meter_stop": 3.4662823123699855
+    },
+    {
+      "id": 18415,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_140004_408_1008_175.jpg",
+      "height": 621,
+      "width": 286,
+      "x_meter_start": -1.0431957314242126,
+      "x_meter_stop": 1.0430595536170344,
+      "y_meter_start": 7.996228228491015,
+      "y_meter_stop": 3.4662823123699855
+    },
+    {
+      "id": 18724,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_140004_408_1008_484.jpg",
+      "height": 621,
+      "width": 286,
+      "x_meter_start": -1.0431957314242126,
+      "x_meter_stop": 1.0430595536170344,
+      "y_meter_start": 7.996228228491015,
+      "y_meter_stop": 3.4662823123699855
+    },
+    {
+      "id": 18515,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_140004_408_1008_275.jpg",
+      "height": 621,
+      "width": 286,
+      "x_meter_start": -1.0431957314242126,
+      "x_meter_stop": 1.0430595536170344,
+      "y_meter_start": 7.996228228491015,
+      "y_meter_stop": 3.4662823123699855
+    },
+    {
+      "id": 18793,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_140004_408_1008_553.jpg",
+      "height": 621,
+      "width": 286,
+      "x_meter_start": -1.0431957314242126,
+      "x_meter_stop": 1.0430595536170344,
+      "y_meter_start": 7.996228228491015,
+      "y_meter_stop": 3.4662823123699855
+    },
+    {
+      "id": 18440,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_140004_408_1008_200.jpg",
+      "height": 621,
+      "width": 286,
+      "x_meter_start": -1.0431957314242126,
+      "x_meter_stop": 1.0430595536170344,
+      "y_meter_start": 7.996228228491015,
+      "y_meter_stop": 3.4662823123699855
+    },
+    {
+      "id": 5274,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_140004_4995_5594_125.jpg",
+      "height": 621,
+      "width": 286,
+      "x_meter_start": -1.0431957314242126,
+      "x_meter_stop": 1.0430595536170344,
+      "y_meter_start": 7.996228228491015,
+      "y_meter_stop": 3.4662823123699855
+    },
+    {
+      "id": 5401,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_140004_4995_5594_252.jpg",
+      "height": 621,
+      "width": 286,
+      "x_meter_start": -1.0431957314242126,
+      "x_meter_stop": 1.0430595536170344,
+      "y_meter_start": 7.996228228491015,
+      "y_meter_stop": 3.4662823123699855
+    },
+    {
+      "id": 5159,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_140004_4995_5594_10.jpg",
+      "height": 621,
+      "width": 286,
+      "x_meter_start": -1.0431957314242126,
+      "x_meter_stop": 1.0430595536170344,
+      "y_meter_start": 7.996228228491015,
+      "y_meter_stop": 3.4662823123699855
+    },
+    {
+      "id": 5299,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_140004_4995_5594_150.jpg",
+      "height": 621,
+      "width": 286,
+      "x_meter_start": -1.0431957314242126,
+      "x_meter_stop": 1.0430595536170344,
+      "y_meter_start": 7.996228228491015,
+      "y_meter_stop": 3.4662823123699855
+    },
+    {
+      "id": 5594,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_140004_4995_5594_445.jpg",
+      "height": 621,
+      "width": 286,
+      "x_meter_start": -1.0431957314242126,
+      "x_meter_stop": 1.0430595536170344,
+      "y_meter_start": 7.996228228491015,
+      "y_meter_stop": 3.4662823123699855
+    },
+    {
+      "id": 5469,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_140004_4995_5594_320.jpg",
+      "height": 621,
+      "width": 286,
+      "x_meter_start": -1.0431957314242126,
+      "x_meter_stop": 1.0430595536170344,
+      "y_meter_start": 7.996228228491015,
+      "y_meter_stop": 3.4662823123699855
+    },
+    {
+      "id": 5644,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_140004_4995_5594_495.jpg",
+      "height": 621,
+      "width": 286,
+      "x_meter_start": -1.0431957314242126,
+      "x_meter_stop": 1.0430595536170344,
+      "y_meter_start": 7.996228228491015,
+      "y_meter_stop": 3.4662823123699855
+    },
+    {
+      "id": 5150,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_140004_4995_5594_1.jpg",
+      "height": 621,
+      "width": 286,
+      "x_meter_start": -1.0431957314242126,
+      "x_meter_stop": 1.0430595536170344,
+      "y_meter_start": 7.996228228491015,
+      "y_meter_stop": 3.4662823123699855
+    },
+    {
+      "id": 3476,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_150004_4847_5447_536.jpg",
+      "height": 621,
+      "width": 286,
+      "x_meter_start": -1.0442176043168998,
+      "x_meter_stop": 1.0441115349558863,
+      "y_meter_start": 8.00056689969905,
+      "y_meter_stop": 3.466117964424924
+    },
+    {
+      "id": 3333,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_150004_4847_5447_393.jpg",
+      "height": 621,
+      "width": 286,
+      "x_meter_start": -1.0442176043168998,
+      "x_meter_stop": 1.0441115349558863,
+      "y_meter_start": 8.00056689969905,
+      "y_meter_stop": 3.466117964424924
+    },
+    {
+      "id": 2959,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_150004_4847_5447_19.jpg",
+      "height": 621,
+      "width": 286,
+      "x_meter_start": -1.0442176043168998,
+      "x_meter_stop": 1.0441115349558863,
+      "y_meter_start": 8.00056689969905,
+      "y_meter_stop": 3.466117964424924
+    },
+    {
+      "id": 3229,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_150004_4847_5447_289.jpg",
+      "height": 621,
+      "width": 286,
+      "x_meter_start": -1.0442176043168998,
+      "x_meter_stop": 1.0441115349558863,
+      "y_meter_start": 8.00056689969905,
+      "y_meter_stop": 3.466117964424924
+    },
+    {
+      "id": 3061,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_150004_4847_5447_121.jpg",
+      "height": 621,
+      "width": 286,
+      "x_meter_start": -1.0442176043168998,
+      "x_meter_stop": 1.0441115349558863,
+      "y_meter_start": 8.00056689969905,
+      "y_meter_stop": 3.466117964424924
+    },
+    {
+      "id": 3159,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_150004_4847_5447_219.jpg",
+      "height": 621,
+      "width": 286,
+      "x_meter_start": -1.0442176043168998,
+      "x_meter_stop": 1.0441115349558863,
+      "y_meter_start": 8.00056689969905,
+      "y_meter_stop": 3.466117964424924
+    },
+    {
+      "id": 2977,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_150004_4847_5447_37.jpg",
+      "height": 621,
+      "width": 286,
+      "x_meter_start": -1.0442176043168998,
+      "x_meter_stop": 1.0441115349558863,
+      "y_meter_start": 8.00056689969905,
+      "y_meter_stop": 3.466117964424924
+    },
+    {
+      "id": 3141,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_150004_4847_5447_201.jpg",
+      "height": 621,
+      "width": 286,
+      "x_meter_start": -1.0442176043168998,
+      "x_meter_stop": 1.0441115349558863,
+      "y_meter_start": 8.00056689969905,
+      "y_meter_stop": 3.466117964424924
+    },
+    {
+      "id": 4001,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_170004_1169_1769_462.jpg",
+      "height": 620,
+      "width": 286,
+      "x_meter_start": -1.0452325006735204,
+      "x_meter_stop": 1.045156600683589,
+      "y_meter_start": 7.997536108080169,
+      "y_meter_stop": 3.4659233708724493
+    },
+    {
+      "id": 3678,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_170004_1169_1769_139.jpg",
+      "height": 620,
+      "width": 286,
+      "x_meter_start": -1.0452325006735204,
+      "x_meter_stop": 1.045156600683589,
+      "y_meter_start": 7.997536108080169,
+      "y_meter_stop": 3.4659233708724493
+    },
+    {
+      "id": 4123,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_170004_1169_1769_584.jpg",
+      "height": 620,
+      "width": 286,
+      "x_meter_start": -1.0452325006735204,
+      "x_meter_stop": 1.045156600683589,
+      "y_meter_start": 7.997536108080169,
+      "y_meter_stop": 3.4659233708724493
+    },
+    {
+      "id": 3561,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_170004_1169_1769_22.jpg",
+      "height": 620,
+      "width": 286,
+      "x_meter_start": -1.0452325006735204,
+      "x_meter_stop": 1.045156600683589,
+      "y_meter_start": 7.997536108080169,
+      "y_meter_stop": 3.4659233708724493
+    },
+    {
+      "id": 3577,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_170004_1169_1769_38.jpg",
+      "height": 620,
+      "width": 286,
+      "x_meter_start": -1.0452325006735204,
+      "x_meter_stop": 1.045156600683589,
+      "y_meter_start": 7.997536108080169,
+      "y_meter_stop": 3.4659233708724493
+    },
+    {
+      "id": 3596,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_170004_1169_1769_57.jpg",
+      "height": 620,
+      "width": 286,
+      "x_meter_start": -1.0452325006735204,
+      "x_meter_stop": 1.045156600683589,
+      "y_meter_start": 7.997536108080169,
+      "y_meter_stop": 3.4659233708724493
+    },
+    {
+      "id": 3663,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_170004_1169_1769_124.jpg",
+      "height": 620,
+      "width": 286,
+      "x_meter_start": -1.0452325006735204,
+      "x_meter_stop": 1.045156600683589,
+      "y_meter_start": 7.997536108080169,
+      "y_meter_stop": 3.4659233708724493
+    },
+    {
+      "id": 4017,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_170004_1169_1769_478.jpg",
+      "height": 620,
+      "width": 286,
+      "x_meter_start": -1.0452325006735204,
+      "x_meter_stop": 1.045156600683589,
+      "y_meter_start": 7.997536108080169,
+      "y_meter_stop": 3.4659233708724493
+    },
+    {
+      "id": 28822,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_170004_2801_3401_47.jpg",
+      "height": 620,
+      "width": 286,
+      "x_meter_start": -1.0452325006735204,
+      "x_meter_stop": 1.045156600683589,
+      "y_meter_start": 7.997536108080169,
+      "y_meter_stop": 3.4659233708724493
+    },
+    {
+      "id": 29333,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_170004_2801_3401_558.jpg",
+      "height": 620,
+      "width": 286,
+      "x_meter_start": -1.0452325006735204,
+      "x_meter_stop": 1.045156600683589,
+      "y_meter_start": 7.997536108080169,
+      "y_meter_stop": 3.4659233708724493
+    },
+    {
+      "id": 29058,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_170004_2801_3401_283.jpg",
+      "height": 620,
+      "width": 286,
+      "x_meter_start": -1.0452325006735204,
+      "x_meter_stop": 1.045156600683589,
+      "y_meter_start": 7.997536108080169,
+      "y_meter_stop": 3.4659233708724493
+    },
+    {
+      "id": 28976,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_170004_2801_3401_201.jpg",
+      "height": 620,
+      "width": 286,
+      "x_meter_start": -1.0452325006735204,
+      "x_meter_stop": 1.045156600683589,
+      "y_meter_start": 7.997536108080169,
+      "y_meter_stop": 3.4659233708724493
+    },
+    {
+      "id": 29114,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_170004_2801_3401_339.jpg",
+      "height": 620,
+      "width": 286,
+      "x_meter_start": -1.0452325006735204,
+      "x_meter_stop": 1.045156600683589,
+      "y_meter_start": 7.997536108080169,
+      "y_meter_stop": 3.4659233708724493
+    },
+    {
+      "id": 28799,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_170004_2801_3401_24.jpg",
+      "height": 620,
+      "width": 286,
+      "x_meter_start": -1.0452325006735204,
+      "x_meter_stop": 1.045156600683589,
+      "y_meter_start": 7.997536108080169,
+      "y_meter_stop": 3.4659233708724493
+    },
+    {
+      "id": 29092,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_170004_2801_3401_317.jpg",
+      "height": 620,
+      "width": 286,
+      "x_meter_start": -1.0452325006735204,
+      "x_meter_stop": 1.045156600683589,
+      "y_meter_start": 7.997536108080169,
+      "y_meter_stop": 3.4659233708724493
+    },
+    {
+      "id": 28914,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_170004_2801_3401_139.jpg",
+      "height": 620,
+      "width": 286,
+      "x_meter_start": -1.0452325006735204,
+      "x_meter_stop": 1.045156600683589,
+      "y_meter_start": 7.997536108080169,
+      "y_meter_stop": 3.4659233708724493
+    },
+    {
+      "id": 11700,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_180004_3404_4004_501.jpg",
+      "height": 620,
+      "width": 286,
+      "x_meter_start": -1.045571630305821,
+      "x_meter_stop": 1.0455017622941847,
+      "y_meter_start": 7.999431143141726,
+      "y_meter_stop": 3.4663349773654906
+    },
+    {
+      "id": 11215,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_180004_3404_4004_16.jpg",
+      "height": 620,
+      "width": 286,
+      "x_meter_start": -1.045571630305821,
+      "x_meter_stop": 1.0455017622941847,
+      "y_meter_start": 7.999431143141726,
+      "y_meter_stop": 3.4663349773654906
+    },
+    {
+      "id": 11653,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_180004_3404_4004_454.jpg",
+      "height": 620,
+      "width": 286,
+      "x_meter_start": -1.045571630305821,
+      "x_meter_stop": 1.0455017622941847,
+      "y_meter_start": 7.999431143141726,
+      "y_meter_stop": 3.4663349773654906
+    },
+    {
+      "id": 11577,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_180004_3404_4004_378.jpg",
+      "height": 620,
+      "width": 286,
+      "x_meter_start": -1.045571630305821,
+      "x_meter_stop": 1.0455017622941847,
+      "y_meter_start": 7.999431143141726,
+      "y_meter_stop": 3.4663349773654906
+    },
+    {
+      "id": 11770,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_180004_3404_4004_571.jpg",
+      "height": 620,
+      "width": 286,
+      "x_meter_start": -1.045571630305821,
+      "x_meter_stop": 1.0455017622941847,
+      "y_meter_start": 7.999431143141726,
+      "y_meter_stop": 3.4663349773654906
+    },
+    {
+      "id": 11571,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_180004_3404_4004_372.jpg",
+      "height": 620,
+      "width": 286,
+      "x_meter_start": -1.045571630305821,
+      "x_meter_stop": 1.0455017622941847,
+      "y_meter_start": 7.999431143141726,
+      "y_meter_stop": 3.4663349773654906
+    },
+    {
+      "id": 11199,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_180004_3404_4004_0.jpg",
+      "height": 620,
+      "width": 286,
+      "x_meter_start": -1.045571630305821,
+      "x_meter_stop": 1.0455017622941847,
+      "y_meter_start": 7.999431143141726,
+      "y_meter_stop": 3.4663349773654906
+    },
+    {
+      "id": 11433,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_180004_3404_4004_234.jpg",
+      "height": 620,
+      "width": 286,
+      "x_meter_start": -1.045571630305821,
+      "x_meter_stop": 1.0455017622941847,
+      "y_meter_start": 7.999431143141726,
+      "y_meter_stop": 3.4663349773654906
+    },
+    {
+      "id": 15404,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_200004_0_330_309.jpg",
+      "height": 620,
+      "width": 286,
+      "x_meter_start": -1.0455709281119119,
+      "x_meter_stop": 1.0455010601471995,
+      "y_meter_start": 7.999425770815404,
+      "y_meter_stop": 3.4663326494145332
+    },
+    {
+      "id": 15211,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_200004_0_330_116.jpg",
+      "height": 620,
+      "width": 286,
+      "x_meter_start": -1.0455709281119119,
+      "x_meter_stop": 1.0455010601471995,
+      "y_meter_start": 7.999425770815404,
+      "y_meter_stop": 3.4663326494145332
+    },
+    {
+      "id": 15141,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_200004_0_330_46.jpg",
+      "height": 620,
+      "width": 286,
+      "x_meter_start": -1.0455709281119119,
+      "x_meter_stop": 1.0455010601471995,
+      "y_meter_start": 7.999425770815404,
+      "y_meter_stop": 3.4663326494145332
+    },
+    {
+      "id": 15126,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_200004_0_330_31.jpg",
+      "height": 620,
+      "width": 286,
+      "x_meter_start": -1.0455709281119119,
+      "x_meter_stop": 1.0455010601471995,
+      "y_meter_start": 7.999425770815404,
+      "y_meter_stop": 3.4663326494145332
+    },
+    {
+      "id": 15331,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_200004_0_330_236.jpg",
+      "height": 620,
+      "width": 286,
+      "x_meter_start": -1.0455709281119119,
+      "x_meter_stop": 1.0455010601471995,
+      "y_meter_start": 7.999425770815404,
+      "y_meter_stop": 3.4663326494145332
+    },
+    {
+      "id": 15412,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_200004_0_330_317.jpg",
+      "height": 620,
+      "width": 286,
+      "x_meter_start": -1.0455709281119119,
+      "x_meter_stop": 1.0455010601471995,
+      "y_meter_start": 7.999425770815404,
+      "y_meter_stop": 3.4663326494145332
+    },
+    {
+      "id": 15152,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_200004_0_330_57.jpg",
+      "height": 620,
+      "width": 286,
+      "x_meter_start": -1.0455709281119119,
+      "x_meter_stop": 1.0455010601471995,
+      "y_meter_start": 7.999425770815404,
+      "y_meter_stop": 3.4663326494145332
+    },
+    {
+      "id": 15235,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_200004_0_330_140.jpg",
+      "height": 620,
+      "width": 286,
+      "x_meter_start": -1.0455709281119119,
+      "x_meter_stop": 1.0455010601471995,
+      "y_meter_start": 7.999425770815404,
+      "y_meter_stop": 3.4663326494145332
+    },
+    {
+      "id": 21683,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_210004_2118_2718_549.jpg",
+      "height": 620,
+      "width": 286,
+      "x_meter_start": -1.04523223734974,
+      "x_meter_stop": 1.0451563373789308,
+      "y_meter_start": 7.997534093273399,
+      "y_meter_stop": 3.4659224977077487
+    },
+    {
+      "id": 21715,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_210004_2118_2718_581.jpg",
+      "height": 620,
+      "width": 286,
+      "x_meter_start": -1.04523223734974,
+      "x_meter_stop": 1.0451563373789308,
+      "y_meter_start": 7.997534093273399,
+      "y_meter_stop": 3.4659224977077487
+    },
+    {
+      "id": 21712,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_210004_2118_2718_578.jpg",
+      "height": 620,
+      "width": 286,
+      "x_meter_start": -1.04523223734974,
+      "x_meter_stop": 1.0451563373789308,
+      "y_meter_start": 7.997534093273399,
+      "y_meter_stop": 3.4659224977077487
+    },
+    {
+      "id": 21242,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_210004_2118_2718_108.jpg",
+      "height": 620,
+      "width": 286,
+      "x_meter_start": -1.04523223734974,
+      "x_meter_stop": 1.0451563373789308,
+      "y_meter_start": 7.997534093273399,
+      "y_meter_stop": 3.4659224977077487
+    },
+    {
+      "id": 21439,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_210004_2118_2718_305.jpg",
+      "height": 620,
+      "width": 286,
+      "x_meter_start": -1.04523223734974,
+      "x_meter_stop": 1.0451563373789308,
+      "y_meter_start": 7.997534093273399,
+      "y_meter_stop": 3.4659224977077487
+    },
+    {
+      "id": 21305,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_210004_2118_2718_171.jpg",
+      "height": 620,
+      "width": 286,
+      "x_meter_start": -1.04523223734974,
+      "x_meter_stop": 1.0451563373789308,
+      "y_meter_start": 7.997534093273399,
+      "y_meter_stop": 3.4659224977077487
+    },
+    {
+      "id": 21399,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_210004_2118_2718_265.jpg",
+      "height": 620,
+      "width": 286,
+      "x_meter_start": -1.04523223734974,
+      "x_meter_stop": 1.0451563373789308,
+      "y_meter_start": 7.997534093273399,
+      "y_meter_stop": 3.4659224977077487
+    },
+    {
+      "id": 21466,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_210004_2118_2718_332.jpg",
+      "height": 620,
+      "width": 286,
+      "x_meter_start": -1.04523223734974,
+      "x_meter_stop": 1.0451563373789308,
+      "y_meter_start": 7.997534093273399,
+      "y_meter_stop": 3.4659224977077487
+    },
+    {
+      "id": 26778,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_220004_1434_2034_281.jpg",
+      "height": 619,
+      "width": 286,
+      "x_meter_start": -1.0448966445436738,
+      "x_meter_stop": 1.0448086637007103,
+      "y_meter_start": 7.99636499520331,
+      "y_meter_stop": 3.4662346067014984
+    },
+    {
+      "id": 26923,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_220004_1434_2034_426.jpg",
+      "height": 619,
+      "width": 286,
+      "x_meter_start": -1.0448966445436738,
+      "x_meter_stop": 1.0448086637007103,
+      "y_meter_start": 7.99636499520331,
+      "y_meter_stop": 3.4662346067014984
+    },
+    {
+      "id": 26879,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_220004_1434_2034_382.jpg",
+      "height": 619,
+      "width": 286,
+      "x_meter_start": -1.0448966445436738,
+      "x_meter_stop": 1.0448086637007103,
+      "y_meter_start": 7.99636499520331,
+      "y_meter_stop": 3.4662346067014984
+    },
+    {
+      "id": 27082,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_220004_1434_2034_585.jpg",
+      "height": 619,
+      "width": 286,
+      "x_meter_start": -1.0448966445436738,
+      "x_meter_stop": 1.0448086637007103,
+      "y_meter_start": 7.99636499520331,
+      "y_meter_stop": 3.4662346067014984
+    },
+    {
+      "id": 26965,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_220004_1434_2034_468.jpg",
+      "height": 619,
+      "width": 286,
+      "x_meter_start": -1.0448966445436738,
+      "x_meter_stop": 1.0448086637007103,
+      "y_meter_start": 7.99636499520331,
+      "y_meter_stop": 3.4662346067014984
+    },
+    {
+      "id": 26516,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_220004_1434_2034_19.jpg",
+      "height": 619,
+      "width": 286,
+      "x_meter_start": -1.0448966445436738,
+      "x_meter_stop": 1.0448086637007103,
+      "y_meter_start": 7.99636499520331,
+      "y_meter_stop": 3.4662346067014984
+    },
+    {
+      "id": 26650,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_220004_1434_2034_153.jpg",
+      "height": 619,
+      "width": 286,
+      "x_meter_start": -1.0448966445436738,
+      "x_meter_stop": 1.0448086637007103,
+      "y_meter_start": 7.99636499520331,
+      "y_meter_stop": 3.4662346067014984
+    },
+    {
+      "id": 26828,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_220004_1434_2034_331.jpg",
+      "height": 619,
+      "width": 286,
+      "x_meter_start": -1.0448966445436738,
+      "x_meter_stop": 1.0448086637007103,
+      "y_meter_start": 7.99636499520331,
+      "y_meter_stop": 3.4662346067014984
+    },
+    {
+      "id": 17693,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_230004_1736_2336_251.jpg",
+      "height": 621,
+      "width": 286,
+      "x_meter_start": -1.0442193598445624,
+      "x_meter_stop": 1.0441132903052261,
+      "y_meter_start": 8.000580350168011,
+      "y_meter_stop": 3.466123791625989
+    },
+    {
+      "id": 17772,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_230004_1736_2336_330.jpg",
+      "height": 621,
+      "width": 286,
+      "x_meter_start": -1.0442193598445624,
+      "x_meter_stop": 1.0441132903052261,
+      "y_meter_start": 8.000580350168011,
+      "y_meter_stop": 3.466123791625989
+    },
+    {
+      "id": 17929,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_230004_1736_2336_487.jpg",
+      "height": 621,
+      "width": 286,
+      "x_meter_start": -1.0442193598445624,
+      "x_meter_stop": 1.0441132903052261,
+      "y_meter_start": 8.000580350168011,
+      "y_meter_stop": 3.466123791625989
+    },
+    {
+      "id": 17570,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_230004_1736_2336_128.jpg",
+      "height": 621,
+      "width": 286,
+      "x_meter_start": -1.0442193598445624,
+      "x_meter_stop": 1.0441132903052261,
+      "y_meter_start": 8.000580350168011,
+      "y_meter_stop": 3.466123791625989
+    },
+    {
+      "id": 17941,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_230004_1736_2336_499.jpg",
+      "height": 621,
+      "width": 286,
+      "x_meter_start": -1.0442193598445624,
+      "x_meter_stop": 1.0441132903052261,
+      "y_meter_start": 8.000580350168011,
+      "y_meter_stop": 3.466123791625989
+    },
+    {
+      "id": 17755,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_230004_1736_2336_313.jpg",
+      "height": 621,
+      "width": 286,
+      "x_meter_start": -1.0442193598445624,
+      "x_meter_stop": 1.0441132903052261,
+      "y_meter_start": 8.000580350168011,
+      "y_meter_stop": 3.466123791625989
+    },
+    {
+      "id": 17740,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_230004_1736_2336_298.jpg",
+      "height": 621,
+      "width": 286,
+      "x_meter_start": -1.0442193598445624,
+      "x_meter_stop": 1.0441132903052261,
+      "y_meter_start": 8.000580350168011,
+      "y_meter_stop": 3.466123791625989
+    },
+    {
+      "id": 17585,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum1_Set1_LO_2018-06-03_230004_1736_2336_143.jpg",
+      "height": 621,
+      "width": 286,
+      "x_meter_start": -1.0442193598445624,
+      "x_meter_stop": 1.0441132903052261,
+      "y_meter_start": 8.000580350168011,
+      "y_meter_stop": 3.466123791625989
+    },
+    {
+      "id": 6949,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_001003_2789_2989_63.jpg",
+      "height": 1918,
+      "width": 783,
+      "x_meter_start": -2.8682773507234263,
+      "x_meter_stop": 2.867210603682504,
+      "y_meter_start": 21.983547281683418,
+      "y_meter_stop": 7.926840532634911
+    },
+    {
+      "id": 6924,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_001003_2789_2989_38.jpg",
+      "height": 1918,
+      "width": 783,
+      "x_meter_start": -2.8682773507234263,
+      "x_meter_stop": 2.867210603682504,
+      "y_meter_start": 21.983547281683418,
+      "y_meter_stop": 7.926840532634911
+    },
+    {
+      "id": 6938,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_001003_2789_2989_52.jpg",
+      "height": 1918,
+      "width": 783,
+      "x_meter_start": -2.8682773507234263,
+      "x_meter_stop": 2.867210603682504,
+      "y_meter_start": 21.983547281683418,
+      "y_meter_stop": 7.926840532634911
+    },
+    {
+      "id": 6988,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_001003_2789_2989_102.jpg",
+      "height": 1918,
+      "width": 783,
+      "x_meter_start": -2.8682773507234263,
+      "x_meter_stop": 2.867210603682504,
+      "y_meter_start": 21.983547281683418,
+      "y_meter_stop": 7.926840532634911
+    },
+    {
+      "id": 7040,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_001003_2789_2989_154.jpg",
+      "height": 1918,
+      "width": 783,
+      "x_meter_start": -2.8682773507234263,
+      "x_meter_stop": 2.867210603682504,
+      "y_meter_start": 21.983547281683418,
+      "y_meter_stop": 7.926840532634911
+    },
+    {
+      "id": 7082,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_001003_2789_2989_196.jpg",
+      "height": 1918,
+      "width": 783,
+      "x_meter_start": -2.8682773507234263,
+      "x_meter_stop": 2.867210603682504,
+      "y_meter_start": 21.983547281683418,
+      "y_meter_stop": 7.926840532634911
+    },
+    {
+      "id": 6944,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_001003_2789_2989_58.jpg",
+      "height": 1918,
+      "width": 783,
+      "x_meter_start": -2.8682773507234263,
+      "x_meter_stop": 2.867210603682504,
+      "y_meter_start": 21.983547281683418,
+      "y_meter_stop": 7.926840532634911
+    },
+    {
+      "id": 7004,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_001003_2789_2989_118.jpg",
+      "height": 1918,
+      "width": 783,
+      "x_meter_start": -2.8682773507234263,
+      "x_meter_stop": 2.867210603682504,
+      "y_meter_start": 21.983547281683418,
+      "y_meter_stop": 7.926840532634911
+    },
+    {
+      "id": 16361,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_031003_1599_1799_198.jpg",
+      "height": 1921,
+      "width": 784,
+      "x_meter_start": -2.8653648179124276,
+      "x_meter_stop": 2.8715449587330624,
+      "y_meter_start": 21.98414265301662,
+      "y_meter_stop": 7.927250202843165
+    },
+    {
+      "id": 16303,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_031003_1599_1799_140.jpg",
+      "height": 1921,
+      "width": 784,
+      "x_meter_start": -2.8653648179124276,
+      "x_meter_stop": 2.8715449587330624,
+      "y_meter_start": 21.98414265301662,
+      "y_meter_stop": 7.927250202843165
+    },
+    {
+      "id": 16172,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_031003_1599_1799_9.jpg",
+      "height": 1921,
+      "width": 784,
+      "x_meter_start": -2.8653648179124276,
+      "x_meter_stop": 2.8715449587330624,
+      "y_meter_start": 21.98414265301662,
+      "y_meter_stop": 7.927250202843165
+    },
+    {
+      "id": 16200,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_031003_1599_1799_37.jpg",
+      "height": 1921,
+      "width": 784,
+      "x_meter_start": -2.8653648179124276,
+      "x_meter_stop": 2.8715449587330624,
+      "y_meter_start": 21.98414265301662,
+      "y_meter_stop": 7.927250202843165
+    },
+    {
+      "id": 16232,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_031003_1599_1799_69.jpg",
+      "height": 1921,
+      "width": 784,
+      "x_meter_start": -2.8653648179124276,
+      "x_meter_stop": 2.8715449587330624,
+      "y_meter_start": 21.98414265301662,
+      "y_meter_stop": 7.927250202843165
+    },
+    {
+      "id": 16211,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_031003_1599_1799_48.jpg",
+      "height": 1921,
+      "width": 784,
+      "x_meter_start": -2.8653648179124276,
+      "x_meter_stop": 2.8715449587330624,
+      "y_meter_start": 21.98414265301662,
+      "y_meter_stop": 7.927250202843165
+    },
+    {
+      "id": 16213,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_031003_1599_1799_50.jpg",
+      "height": 1921,
+      "width": 784,
+      "x_meter_start": -2.8653648179124276,
+      "x_meter_stop": 2.8715449587330624,
+      "y_meter_start": 21.98414265301662,
+      "y_meter_stop": 7.927250202843165
+    },
+    {
+      "id": 16206,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_031003_1599_1799_43.jpg",
+      "height": 1921,
+      "width": 784,
+      "x_meter_start": -2.8653648179124276,
+      "x_meter_stop": 2.8715449587330624,
+      "y_meter_start": 21.98414265301662,
+      "y_meter_stop": 7.927250202843165
+    },
+    {
+      "id": 18045,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_051003_1782_1982_4.jpg",
+      "height": 1921,
+      "width": 784,
+      "x_meter_start": -2.8643799783160855,
+      "x_meter_stop": 2.870540058287995,
+      "y_meter_start": 21.978656556047227,
+      "y_meter_stop": 7.926639476561972
+    },
+    {
+      "id": 18198,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_051003_1782_1982_157.jpg",
+      "height": 1921,
+      "width": 784,
+      "x_meter_start": -2.8643799783160855,
+      "x_meter_stop": 2.870540058287995,
+      "y_meter_start": 21.978656556047227,
+      "y_meter_stop": 7.926639476561972
+    },
+    {
+      "id": 18222,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_051003_1782_1982_181.jpg",
+      "height": 1921,
+      "width": 784,
+      "x_meter_start": -2.8643799783160855,
+      "x_meter_stop": 2.870540058287995,
+      "y_meter_start": 21.978656556047227,
+      "y_meter_stop": 7.926639476561972
+    },
+    {
+      "id": 18042,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_051003_1782_1982_1.jpg",
+      "height": 1921,
+      "width": 784,
+      "x_meter_start": -2.8643799783160855,
+      "x_meter_stop": 2.870540058287995,
+      "y_meter_start": 21.978656556047227,
+      "y_meter_stop": 7.926639476561972
+    },
+    {
+      "id": 18211,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_051003_1782_1982_170.jpg",
+      "height": 1921,
+      "width": 784,
+      "x_meter_start": -2.8643799783160855,
+      "x_meter_stop": 2.870540058287995,
+      "y_meter_start": 21.978656556047227,
+      "y_meter_stop": 7.926639476561972
+    },
+    {
+      "id": 18093,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_051003_1782_1982_52.jpg",
+      "height": 1921,
+      "width": 784,
+      "x_meter_start": -2.8643799783160855,
+      "x_meter_stop": 2.870540058287995,
+      "y_meter_start": 21.978656556047227,
+      "y_meter_stop": 7.926639476561972
+    },
+    {
+      "id": 18086,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_051003_1782_1982_45.jpg",
+      "height": 1921,
+      "width": 784,
+      "x_meter_start": -2.8643799783160855,
+      "x_meter_stop": 2.870540058287995,
+      "y_meter_start": 21.978656556047227,
+      "y_meter_stop": 7.926639476561972
+    },
+    {
+      "id": 18072,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_051003_1782_1982_31.jpg",
+      "height": 1921,
+      "width": 784,
+      "x_meter_start": -2.8643799783160855,
+      "x_meter_stop": 2.870540058287995,
+      "y_meter_start": 21.978656556047227,
+      "y_meter_stop": 7.926639476561972
+    },
+    {
+      "id": 13659,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_121003_1310_1790_182.jpg",
+      "height": 1917,
+      "width": 783,
+      "x_meter_start": -2.87116577501037,
+      "x_meter_stop": 2.8701637988644855,
+      "y_meter_start": 21.983411658223996,
+      "y_meter_stop": 7.927053046323488
+    },
+    {
+      "id": 13742,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_121003_1310_1790_265.jpg",
+      "height": 1917,
+      "width": 783,
+      "x_meter_start": -2.87116577501037,
+      "x_meter_stop": 2.8701637988644855,
+      "y_meter_start": 21.983411658223996,
+      "y_meter_stop": 7.927053046323488
+    },
+    {
+      "id": 13716,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_121003_1310_1790_239.jpg",
+      "height": 1917,
+      "width": 783,
+      "x_meter_start": -2.87116577501037,
+      "x_meter_stop": 2.8701637988644855,
+      "y_meter_start": 21.983411658223996,
+      "y_meter_stop": 7.927053046323488
+    },
+    {
+      "id": 13614,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_121003_1310_1790_137.jpg",
+      "height": 1917,
+      "width": 783,
+      "x_meter_start": -2.87116577501037,
+      "x_meter_stop": 2.8701637988644855,
+      "y_meter_start": 21.983411658223996,
+      "y_meter_stop": 7.927053046323488
+    },
+    {
+      "id": 13651,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_121003_1310_1790_174.jpg",
+      "height": 1917,
+      "width": 783,
+      "x_meter_start": -2.87116577501037,
+      "x_meter_stop": 2.8701637988644855,
+      "y_meter_start": 21.983411658223996,
+      "y_meter_stop": 7.927053046323488
+    },
+    {
+      "id": 13750,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_121003_1310_1790_273.jpg",
+      "height": 1917,
+      "width": 783,
+      "x_meter_start": -2.87116577501037,
+      "x_meter_stop": 2.8701637988644855,
+      "y_meter_start": 21.983411658223996,
+      "y_meter_stop": 7.927053046323488
+    },
+    {
+      "id": 13481,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_121003_1310_1790_4.jpg",
+      "height": 1917,
+      "width": 783,
+      "x_meter_start": -2.87116577501037,
+      "x_meter_stop": 2.8701637988644855,
+      "y_meter_start": 21.983411658223996,
+      "y_meter_stop": 7.927053046323488
+    },
+    {
+      "id": 13708,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_121003_1310_1790_231.jpg",
+      "height": 1917,
+      "width": 783,
+      "x_meter_start": -2.87116577501037,
+      "x_meter_stop": 2.8701637988644855,
+      "y_meter_start": 21.983411658223996,
+      "y_meter_stop": 7.927053046323488
+    },
+    {
+      "id": 370,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_201003_584_1064_156.jpg",
+      "height": 1909,
+      "width": 779,
+      "x_meter_start": -2.8686535076263047,
+      "x_meter_stop": 2.8679358525224474,
+      "y_meter_start": 21.98468352034983,
+      "y_meter_stop": 7.926725768714441
+    },
+    {
+      "id": 631,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_201003_584_1064_417.jpg",
+      "height": 1909,
+      "width": 779,
+      "x_meter_start": -2.8686535076263047,
+      "x_meter_stop": 2.8679358525224474,
+      "y_meter_start": 21.98468352034983,
+      "y_meter_stop": 7.926725768714441
+    },
+    {
+      "id": 671,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_201003_584_1064_457.jpg",
+      "height": 1909,
+      "width": 779,
+      "x_meter_start": -2.8686535076263047,
+      "x_meter_stop": 2.8679358525224474,
+      "y_meter_start": 21.98468352034983,
+      "y_meter_stop": 7.926725768714441
+    },
+    {
+      "id": 512,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_201003_584_1064_298.jpg",
+      "height": 1909,
+      "width": 779,
+      "x_meter_start": -2.8686535076263047,
+      "x_meter_stop": 2.8679358525224474,
+      "y_meter_start": 21.98468352034983,
+      "y_meter_stop": 7.926725768714441
+    },
+    {
+      "id": 577,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_201003_584_1064_363.jpg",
+      "height": 1909,
+      "width": 779,
+      "x_meter_start": -2.8686535076263047,
+      "x_meter_stop": 2.8679358525224474,
+      "y_meter_start": 21.98468352034983,
+      "y_meter_stop": 7.926725768714441
+    },
+    {
+      "id": 530,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_201003_584_1064_316.jpg",
+      "height": 1909,
+      "width": 779,
+      "x_meter_start": -2.8686535076263047,
+      "x_meter_stop": 2.8679358525224474,
+      "y_meter_start": 21.98468352034983,
+      "y_meter_stop": 7.926725768714441
+    },
+    {
+      "id": 435,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_201003_584_1064_221.jpg",
+      "height": 1909,
+      "width": 779,
+      "x_meter_start": -2.8686535076263047,
+      "x_meter_stop": 2.8679358525224474,
+      "y_meter_start": 21.98468352034983,
+      "y_meter_stop": 7.926725768714441
+    },
+    {
+      "id": 567,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_201003_584_1064_353.jpg",
+      "height": 1909,
+      "width": 779,
+      "x_meter_start": -2.8686535076263047,
+      "x_meter_stop": 2.8679358525224474,
+      "y_meter_start": 21.98468352034983,
+      "y_meter_stop": 7.926725768714441
+    },
+    {
+      "id": 16110,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_211004_1679_1879_146.jpg",
+      "height": 1909,
+      "width": 779,
+      "x_meter_start": -2.86773591255701,
+      "x_meter_stop": 2.8670004545006966,
+      "y_meter_start": 21.987096548986642,
+      "y_meter_stop": 7.926318036688544
+    },
+    {
+      "id": 15994,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_211004_1679_1879_30.jpg",
+      "height": 1909,
+      "width": 779,
+      "x_meter_start": -2.86773591255701,
+      "x_meter_stop": 2.8670004545006966,
+      "y_meter_start": 21.987096548986642,
+      "y_meter_stop": 7.926318036688544
+    },
+    {
+      "id": 16102,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_211004_1679_1879_138.jpg",
+      "height": 1909,
+      "width": 779,
+      "x_meter_start": -2.86773591255701,
+      "x_meter_stop": 2.8670004545006966,
+      "y_meter_start": 21.987096548986642,
+      "y_meter_stop": 7.926318036688544
+    },
+    {
+      "id": 15978,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_211004_1679_1879_14.jpg",
+      "height": 1909,
+      "width": 779,
+      "x_meter_start": -2.86773591255701,
+      "x_meter_stop": 2.8670004545006966,
+      "y_meter_start": 21.987096548986642,
+      "y_meter_stop": 7.926318036688544
+    },
+    {
+      "id": 16119,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_211004_1679_1879_155.jpg",
+      "height": 1909,
+      "width": 779,
+      "x_meter_start": -2.86773591255701,
+      "x_meter_stop": 2.8670004545006966,
+      "y_meter_start": 21.987096548986642,
+      "y_meter_stop": 7.926318036688544
+    },
+    {
+      "id": 16092,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_211004_1679_1879_128.jpg",
+      "height": 1909,
+      "width": 779,
+      "x_meter_start": -2.86773591255701,
+      "x_meter_stop": 2.8670004545006966,
+      "y_meter_start": 21.987096548986642,
+      "y_meter_stop": 7.926318036688544
+    },
+    {
+      "id": 16013,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_211004_1679_1879_49.jpg",
+      "height": 1909,
+      "width": 779,
+      "x_meter_start": -2.86773591255701,
+      "x_meter_stop": 2.8670004545006966,
+      "y_meter_start": 21.987096548986642,
+      "y_meter_stop": 7.926318036688544
+    },
+    {
+      "id": 16107,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_211004_1679_1879_143.jpg",
+      "height": 1909,
+      "width": 779,
+      "x_meter_start": -2.86773591255701,
+      "x_meter_stop": 2.8670004545006966,
+      "y_meter_start": 21.987096548986642,
+      "y_meter_stop": 7.926318036688544
+    },
+    {
+      "id": 23553,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_221003_1335_1538_73.jpg",
+      "height": 1910,
+      "width": 779,
+      "x_meter_start": -2.8658923604881603,
+      "x_meter_stop": 2.865109320616391,
+      "y_meter_start": 21.985871288313824,
+      "y_meter_stop": 7.92689283826145
+    },
+    {
+      "id": 23667,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_221003_1335_1538_187.jpg",
+      "height": 1910,
+      "width": 779,
+      "x_meter_start": -2.8658923604881603,
+      "x_meter_stop": 2.865109320616391,
+      "y_meter_start": 21.985871288313824,
+      "y_meter_stop": 7.92689283826145
+    },
+    {
+      "id": 23502,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_221003_1335_1538_22.jpg",
+      "height": 1910,
+      "width": 779,
+      "x_meter_start": -2.8658923604881603,
+      "x_meter_stop": 2.865109320616391,
+      "y_meter_start": 21.985871288313824,
+      "y_meter_stop": 7.92689283826145
+    },
+    {
+      "id": 23664,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_221003_1335_1538_184.jpg",
+      "height": 1910,
+      "width": 779,
+      "x_meter_start": -2.8658923604881603,
+      "x_meter_stop": 2.865109320616391,
+      "y_meter_start": 21.985871288313824,
+      "y_meter_stop": 7.92689283826145
+    },
+    {
+      "id": 23612,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_221003_1335_1538_132.jpg",
+      "height": 1910,
+      "width": 779,
+      "x_meter_start": -2.8658923604881603,
+      "x_meter_stop": 2.865109320616391,
+      "y_meter_start": 21.985871288313824,
+      "y_meter_stop": 7.92689283826145
+    },
+    {
+      "id": 23676,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_221003_1335_1538_196.jpg",
+      "height": 1910,
+      "width": 779,
+      "x_meter_start": -2.8658923604881603,
+      "x_meter_stop": 2.865109320616391,
+      "y_meter_start": 21.985871288313824,
+      "y_meter_stop": 7.92689283826145
+    },
+    {
+      "id": 23649,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_221003_1335_1538_169.jpg",
+      "height": 1910,
+      "width": 779,
+      "x_meter_start": -2.8658923604881603,
+      "x_meter_stop": 2.865109320616391,
+      "y_meter_start": 21.985871288313824,
+      "y_meter_stop": 7.92689283826145
+    },
+    {
+      "id": 23508,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_221003_1335_1538_28.jpg",
+      "height": 1910,
+      "width": 779,
+      "x_meter_start": -2.8658923604881603,
+      "x_meter_stop": 2.865109320616391,
+      "y_meter_start": 21.985871288313824,
+      "y_meter_stop": 7.92689283826145
+    },
+    {
+      "id": 1185,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_221003_329_529_123.jpg",
+      "height": 1910,
+      "width": 779,
+      "x_meter_start": -2.8658923604881603,
+      "x_meter_stop": 2.865109320616391,
+      "y_meter_start": 21.985871288313824,
+      "y_meter_stop": 7.92689283826145
+    },
+    {
+      "id": 1248,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_221003_329_529_186.jpg",
+      "height": 1910,
+      "width": 779,
+      "x_meter_start": -2.8658923604881603,
+      "x_meter_stop": 2.865109320616391,
+      "y_meter_start": 21.985871288313824,
+      "y_meter_stop": 7.92689283826145
+    },
+    {
+      "id": 1064,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_221003_329_529_2.jpg",
+      "height": 1910,
+      "width": 779,
+      "x_meter_start": -2.8658923604881603,
+      "x_meter_stop": 2.865109320616391,
+      "y_meter_start": 21.985871288313824,
+      "y_meter_stop": 7.92689283826145
+    },
+    {
+      "id": 1141,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_221003_329_529_79.jpg",
+      "height": 1910,
+      "width": 779,
+      "x_meter_start": -2.8658923604881603,
+      "x_meter_stop": 2.865109320616391,
+      "y_meter_start": 21.985871288313824,
+      "y_meter_stop": 7.92689283826145
+    },
+    {
+      "id": 1102,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_221003_329_529_40.jpg",
+      "height": 1910,
+      "width": 779,
+      "x_meter_start": -2.8658923604881603,
+      "x_meter_stop": 2.865109320616391,
+      "y_meter_start": 21.985871288313824,
+      "y_meter_stop": 7.92689283826145
+    },
+    {
+      "id": 1139,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_221003_329_529_77.jpg",
+      "height": 1910,
+      "width": 779,
+      "x_meter_start": -2.8658923604881603,
+      "x_meter_stop": 2.865109320616391,
+      "y_meter_start": 21.985871288313824,
+      "y_meter_stop": 7.92689283826145
+    },
+    {
+      "id": 1181,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_221003_329_529_119.jpg",
+      "height": 1910,
+      "width": 779,
+      "x_meter_start": -2.8658923604881603,
+      "x_meter_stop": 2.865109320616391,
+      "y_meter_start": 21.985871288313824,
+      "y_meter_stop": 7.92689283826145
+    },
+    {
+      "id": 1179,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_221003_329_529_117.jpg",
+      "height": 1910,
+      "width": 779,
+      "x_meter_start": -2.8658923604881603,
+      "x_meter_stop": 2.865109320616391,
+      "y_meter_start": 21.985871288313824,
+      "y_meter_stop": 7.92689283826145
+    },
+    {
+      "id": 10313,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_2237_2437_148.jpg",
+      "height": 1912,
+      "width": 779,
+      "x_meter_start": -2.8649653317561494,
+      "x_meter_stop": 2.864164530960065,
+      "y_meter_start": 21.988195433318815,
+      "y_meter_stop": 7.9264543582053335
+    },
+    {
+      "id": 10198,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_2237_2437_33.jpg",
+      "height": 1912,
+      "width": 779,
+      "x_meter_start": -2.8649653317561494,
+      "x_meter_stop": 2.864164530960065,
+      "y_meter_start": 21.988195433318815,
+      "y_meter_stop": 7.9264543582053335
+    },
+    {
+      "id": 10292,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_2237_2437_127.jpg",
+      "height": 1912,
+      "width": 779,
+      "x_meter_start": -2.8649653317561494,
+      "x_meter_stop": 2.864164530960065,
+      "y_meter_start": 21.988195433318815,
+      "y_meter_stop": 7.9264543582053335
+    },
+    {
+      "id": 10347,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_2237_2437_182.jpg",
+      "height": 1912,
+      "width": 779,
+      "x_meter_start": -2.8649653317561494,
+      "x_meter_stop": 2.864164530960065,
+      "y_meter_start": 21.988195433318815,
+      "y_meter_stop": 7.9264543582053335
+    },
+    {
+      "id": 10215,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_2237_2437_50.jpg",
+      "height": 1912,
+      "width": 779,
+      "x_meter_start": -2.8649653317561494,
+      "x_meter_stop": 2.864164530960065,
+      "y_meter_start": 21.988195433318815,
+      "y_meter_stop": 7.9264543582053335
+    },
+    {
+      "id": 10200,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_2237_2437_35.jpg",
+      "height": 1912,
+      "width": 779,
+      "x_meter_start": -2.8649653317561494,
+      "x_meter_stop": 2.864164530960065,
+      "y_meter_start": 21.988195433318815,
+      "y_meter_stop": 7.9264543582053335
+    },
+    {
+      "id": 10250,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_2237_2437_85.jpg",
+      "height": 1912,
+      "width": 779,
+      "x_meter_start": -2.8649653317561494,
+      "x_meter_stop": 2.864164530960065,
+      "y_meter_start": 21.988195433318815,
+      "y_meter_stop": 7.9264543582053335
+    },
+    {
+      "id": 10363,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_2237_2437_198.jpg",
+      "height": 1912,
+      "width": 779,
+      "x_meter_start": -2.8649653317561494,
+      "x_meter_stop": 2.864164530960065,
+      "y_meter_start": 21.988195433318815,
+      "y_meter_stop": 7.9264543582053335
+    },
+    {
+      "id": 22318,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_3095_3295_117.jpg",
+      "height": 1912,
+      "width": 779,
+      "x_meter_start": -2.8649653317561494,
+      "x_meter_stop": 2.864164530960065,
+      "y_meter_start": 21.988195433318815,
+      "y_meter_stop": 7.9264543582053335
+    },
+    {
+      "id": 22294,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_3095_3295_93.jpg",
+      "height": 1912,
+      "width": 779,
+      "x_meter_start": -2.8649653317561494,
+      "x_meter_stop": 2.864164530960065,
+      "y_meter_start": 21.988195433318815,
+      "y_meter_stop": 7.9264543582053335
+    },
+    {
+      "id": 22345,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_3095_3295_144.jpg",
+      "height": 1912,
+      "width": 779,
+      "x_meter_start": -2.8649653317561494,
+      "x_meter_stop": 2.864164530960065,
+      "y_meter_start": 21.988195433318815,
+      "y_meter_stop": 7.9264543582053335
+    },
+    {
+      "id": 22232,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_3095_3295_31.jpg",
+      "height": 1912,
+      "width": 779,
+      "x_meter_start": -2.8649653317561494,
+      "x_meter_stop": 2.864164530960065,
+      "y_meter_start": 21.988195433318815,
+      "y_meter_stop": 7.9264543582053335
+    },
+    {
+      "id": 22255,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_3095_3295_54.jpg",
+      "height": 1912,
+      "width": 779,
+      "x_meter_start": -2.8649653317561494,
+      "x_meter_stop": 2.864164530960065,
+      "y_meter_start": 21.988195433318815,
+      "y_meter_stop": 7.9264543582053335
+    },
+    {
+      "id": 22368,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_3095_3295_167.jpg",
+      "height": 1912,
+      "width": 779,
+      "x_meter_start": -2.8649653317561494,
+      "x_meter_stop": 2.864164530960065,
+      "y_meter_start": 21.988195433318815,
+      "y_meter_stop": 7.9264543582053335
+    },
+    {
+      "id": 22209,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_3095_3295_8.jpg",
+      "height": 1912,
+      "width": 779,
+      "x_meter_start": -2.8649653317561494,
+      "x_meter_stop": 2.864164530960065,
+      "y_meter_start": 21.988195433318815,
+      "y_meter_stop": 7.9264543582053335
+    },
+    {
+      "id": 22390,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_3095_3295_189.jpg",
+      "height": 1912,
+      "width": 779,
+      "x_meter_start": -2.8649653317561494,
+      "x_meter_stop": 2.864164530960065,
+      "y_meter_start": 21.988195433318815,
+      "y_meter_stop": 7.9264543582053335
+    },
+    {
+      "id": 19024,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_3595_3795_185.jpg",
+      "height": 1912,
+      "width": 779,
+      "x_meter_start": -2.8649653317561494,
+      "x_meter_stop": 2.864164530960065,
+      "y_meter_start": 21.988195433318815,
+      "y_meter_stop": 7.9264543582053335
+    },
+    {
+      "id": 18946,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_3595_3795_107.jpg",
+      "height": 1912,
+      "width": 779,
+      "x_meter_start": -2.8649653317561494,
+      "x_meter_stop": 2.864164530960065,
+      "y_meter_start": 21.988195433318815,
+      "y_meter_stop": 7.9264543582053335
+    },
+    {
+      "id": 18973,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_3595_3795_134.jpg",
+      "height": 1912,
+      "width": 779,
+      "x_meter_start": -2.8649653317561494,
+      "x_meter_stop": 2.864164530960065,
+      "y_meter_start": 21.988195433318815,
+      "y_meter_stop": 7.9264543582053335
+    },
+    {
+      "id": 18894,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_3595_3795_55.jpg",
+      "height": 1912,
+      "width": 779,
+      "x_meter_start": -2.8649653317561494,
+      "x_meter_stop": 2.864164530960065,
+      "y_meter_start": 21.988195433318815,
+      "y_meter_stop": 7.9264543582053335
+    },
+    {
+      "id": 18983,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_3595_3795_144.jpg",
+      "height": 1912,
+      "width": 779,
+      "x_meter_start": -2.8649653317561494,
+      "x_meter_stop": 2.864164530960065,
+      "y_meter_start": 21.988195433318815,
+      "y_meter_stop": 7.9264543582053335
+    },
+    {
+      "id": 19027,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_3595_3795_188.jpg",
+      "height": 1912,
+      "width": 779,
+      "x_meter_start": -2.8649653317561494,
+      "x_meter_stop": 2.864164530960065,
+      "y_meter_start": 21.988195433318815,
+      "y_meter_stop": 7.9264543582053335
+    },
+    {
+      "id": 18856,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_3595_3795_17.jpg",
+      "height": 1912,
+      "width": 779,
+      "x_meter_start": -2.8649653317561494,
+      "x_meter_stop": 2.864164530960065,
+      "y_meter_start": 21.988195433318815,
+      "y_meter_stop": 7.9264543582053335
+    },
+    {
+      "id": 19001,
+      "file_name": "2018-06-03-JD154_LeftFar_Stratum2_Set1_LO_2018-06-03_231003_3595_3795_162.jpg",
+      "height": 1912,
+      "width": 779,
+      "x_meter_start": -2.8649653317561494,
+      "x_meter_stop": 2.864164530960065,
+      "y_meter_start": 21.988195433318815,
+      "y_meter_stop": 7.9264543582053335
+    },
+    {
+      "id": 10546,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_000000_3468_3764_182.jpg",
+      "height": 833,
+      "width": 626,
+      "x_meter_start": -2.2951339746714416,
+      "x_meter_stop": 2.2742814349939535,
+      "y_meter_start": 9.483421720899475,
+      "y_meter_stop": 3.39573409843791
+    },
+    {
+      "id": 10390,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_000000_3468_3764_26.jpg",
+      "height": 833,
+      "width": 626,
+      "x_meter_start": -2.2951339746714416,
+      "x_meter_stop": 2.2742814349939535,
+      "y_meter_start": 9.483421720899475,
+      "y_meter_stop": 3.39573409843791
+    },
+    {
+      "id": 10485,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_000000_3468_3764_121.jpg",
+      "height": 833,
+      "width": 626,
+      "x_meter_start": -2.2951339746714416,
+      "x_meter_stop": 2.2742814349939535,
+      "y_meter_start": 9.483421720899475,
+      "y_meter_stop": 3.39573409843791
+    },
+    {
+      "id": 10469,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_000000_3468_3764_105.jpg",
+      "height": 833,
+      "width": 626,
+      "x_meter_start": -2.2951339746714416,
+      "x_meter_stop": 2.2742814349939535,
+      "y_meter_start": 9.483421720899475,
+      "y_meter_stop": 3.39573409843791
+    },
+    {
+      "id": 10376,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_000000_3468_3764_12.jpg",
+      "height": 833,
+      "width": 626,
+      "x_meter_start": -2.2951339746714416,
+      "x_meter_stop": 2.2742814349939535,
+      "y_meter_start": 9.483421720899475,
+      "y_meter_stop": 3.39573409843791
+    },
+    {
+      "id": 10505,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_000000_3468_3764_141.jpg",
+      "height": 833,
+      "width": 626,
+      "x_meter_start": -2.2951339746714416,
+      "x_meter_stop": 2.2742814349939535,
+      "y_meter_start": 9.483421720899475,
+      "y_meter_stop": 3.39573409843791
+    },
+    {
+      "id": 10634,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_000000_3468_3764_270.jpg",
+      "height": 833,
+      "width": 626,
+      "x_meter_start": -2.2951339746714416,
+      "x_meter_stop": 2.2742814349939535,
+      "y_meter_start": 9.483421720899475,
+      "y_meter_stop": 3.39573409843791
+    },
+    {
+      "id": 10562,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_000000_3468_3764_198.jpg",
+      "height": 833,
+      "width": 626,
+      "x_meter_start": -2.2951339746714416,
+      "x_meter_stop": 2.2742814349939535,
+      "y_meter_start": 9.483421720899475,
+      "y_meter_stop": 3.39573409843791
+    },
+    {
+      "id": 16515,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_010000_2523_3064_153.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.293573209164394,
+      "x_meter_stop": 2.2727221007325267,
+      "y_meter_start": 9.4863912469275,
+      "y_meter_stop": 3.3955660332471016
+    },
+    {
+      "id": 16720,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_010000_2523_3064_358.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.293573209164394,
+      "x_meter_stop": 2.2727221007325267,
+      "y_meter_start": 9.4863912469275,
+      "y_meter_stop": 3.3955660332471016
+    },
+    {
+      "id": 16363,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_010000_2523_3064_1.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.293573209164394,
+      "x_meter_stop": 2.2727221007325267,
+      "y_meter_start": 9.4863912469275,
+      "y_meter_stop": 3.3955660332471016
+    },
+    {
+      "id": 16451,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_010000_2523_3064_89.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.293573209164394,
+      "x_meter_stop": 2.2727221007325267,
+      "y_meter_start": 9.4863912469275,
+      "y_meter_stop": 3.3955660332471016
+    },
+    {
+      "id": 16631,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_010000_2523_3064_269.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.293573209164394,
+      "x_meter_stop": 2.2727221007325267,
+      "y_meter_start": 9.4863912469275,
+      "y_meter_stop": 3.3955660332471016
+    },
+    {
+      "id": 16498,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_010000_2523_3064_136.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.293573209164394,
+      "x_meter_stop": 2.2727221007325267,
+      "y_meter_start": 9.4863912469275,
+      "y_meter_stop": 3.3955660332471016
+    },
+    {
+      "id": 16549,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_010000_2523_3064_187.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.293573209164394,
+      "x_meter_stop": 2.2727221007325267,
+      "y_meter_start": 9.4863912469275,
+      "y_meter_stop": 3.3955660332471016
+    },
+    {
+      "id": 16833,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_010000_2523_3064_471.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.293573209164394,
+      "x_meter_stop": 2.2727221007325267,
+      "y_meter_start": 9.4863912469275,
+      "y_meter_stop": 3.3955660332471016
+    },
+    {
+      "id": 4405,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_0_472_267.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2927904123117098,
+      "x_meter_stop": 2.271937923943994,
+      "y_meter_start": 9.484569130031748,
+      "y_meter_stop": 3.395834048923899
+    },
+    {
+      "id": 4234,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_0_472_96.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2927904123117098,
+      "x_meter_stop": 2.271937923943994,
+      "y_meter_start": 9.484569130031748,
+      "y_meter_stop": 3.395834048923899
+    },
+    {
+      "id": 4465,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_0_472_327.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2927904123117098,
+      "x_meter_stop": 2.271937923943994,
+      "y_meter_start": 9.484569130031748,
+      "y_meter_stop": 3.395834048923899
+    },
+    {
+      "id": 4544,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_0_472_406.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2927904123117098,
+      "x_meter_stop": 2.271937923943994,
+      "y_meter_start": 9.484569130031748,
+      "y_meter_stop": 3.395834048923899
+    },
+    {
+      "id": 4251,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_0_472_113.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2927904123117098,
+      "x_meter_stop": 2.271937923943994,
+      "y_meter_start": 9.484569130031748,
+      "y_meter_stop": 3.395834048923899
+    },
+    {
+      "id": 4151,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_0_472_13.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2927904123117098,
+      "x_meter_stop": 2.271937923943994,
+      "y_meter_start": 9.484569130031748,
+      "y_meter_stop": 3.395834048923899
+    },
+    {
+      "id": 4317,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_0_472_179.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2927904123117098,
+      "x_meter_stop": 2.271937923943994,
+      "y_meter_start": 9.484569130031748,
+      "y_meter_stop": 3.395834048923899
+    },
+    {
+      "id": 4309,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_0_472_171.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2927904123117098,
+      "x_meter_stop": 2.271937923943994,
+      "y_meter_start": 9.484569130031748,
+      "y_meter_stop": 3.395834048923899
+    },
+    {
+      "id": 8422,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_1760_2301_417.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2927904123117098,
+      "x_meter_stop": 2.271937923943994,
+      "y_meter_start": 9.484569130031748,
+      "y_meter_stop": 3.395834048923899
+    },
+    {
+      "id": 8449,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_1760_2301_444.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2927904123117098,
+      "x_meter_stop": 2.271937923943994,
+      "y_meter_start": 9.484569130031748,
+      "y_meter_stop": 3.395834048923899
+    },
+    {
+      "id": 8425,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_1760_2301_420.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2927904123117098,
+      "x_meter_stop": 2.271937923943994,
+      "y_meter_start": 9.484569130031748,
+      "y_meter_stop": 3.395834048923899
+    },
+    {
+      "id": 8211,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_1760_2301_206.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2927904123117098,
+      "x_meter_stop": 2.271937923943994,
+      "y_meter_start": 9.484569130031748,
+      "y_meter_stop": 3.395834048923899
+    },
+    {
+      "id": 8096,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_1760_2301_91.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2927904123117098,
+      "x_meter_stop": 2.271937923943994,
+      "y_meter_start": 9.484569130031748,
+      "y_meter_stop": 3.395834048923899
+    },
+    {
+      "id": 8017,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_1760_2301_12.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2927904123117098,
+      "x_meter_stop": 2.271937923943994,
+      "y_meter_start": 9.484569130031748,
+      "y_meter_stop": 3.395834048923899
+    },
+    {
+      "id": 8264,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_1760_2301_259.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2927904123117098,
+      "x_meter_stop": 2.271937923943994,
+      "y_meter_start": 9.484569130031748,
+      "y_meter_stop": 3.395834048923899
+    },
+    {
+      "id": 8532,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_1760_2301_527.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2927904123117098,
+      "x_meter_stop": 2.271937923943994,
+      "y_meter_start": 9.484569130031748,
+      "y_meter_stop": 3.395834048923899
+    },
+    {
+      "id": 22914,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_617_1158_514.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2927904123117098,
+      "x_meter_stop": 2.271937923943994,
+      "y_meter_start": 9.484569130031748,
+      "y_meter_stop": 3.395834048923899
+    },
+    {
+      "id": 22525,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_617_1158_125.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2927904123117098,
+      "x_meter_stop": 2.271937923943994,
+      "y_meter_start": 9.484569130031748,
+      "y_meter_stop": 3.395834048923899
+    },
+    {
+      "id": 22827,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_617_1158_427.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2927904123117098,
+      "x_meter_stop": 2.271937923943994,
+      "y_meter_start": 9.484569130031748,
+      "y_meter_stop": 3.395834048923899
+    },
+    {
+      "id": 22860,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_617_1158_460.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2927904123117098,
+      "x_meter_stop": 2.271937923943994,
+      "y_meter_start": 9.484569130031748,
+      "y_meter_stop": 3.395834048923899
+    },
+    {
+      "id": 22410,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_617_1158_10.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2927904123117098,
+      "x_meter_stop": 2.271937923943994,
+      "y_meter_start": 9.484569130031748,
+      "y_meter_stop": 3.395834048923899
+    },
+    {
+      "id": 22851,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_617_1158_451.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2927904123117098,
+      "x_meter_stop": 2.271937923943994,
+      "y_meter_start": 9.484569130031748,
+      "y_meter_stop": 3.395834048923899
+    },
+    {
+      "id": 22863,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_617_1158_463.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2927904123117098,
+      "x_meter_stop": 2.271937923943994,
+      "y_meter_start": 9.484569130031748,
+      "y_meter_stop": 3.395834048923899
+    },
+    {
+      "id": 22749,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_020000_617_1158_349.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2927904123117098,
+      "x_meter_stop": 2.271937923943994,
+      "y_meter_start": 9.484569130031748,
+      "y_meter_stop": 3.395834048923899
+    },
+    {
+      "id": 1711,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_030000_1888_2429_450.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2919941922094593,
+      "x_meter_stop": 2.271148945310625,
+      "y_meter_start": 9.481275412227257,
+      "y_meter_stop": 3.394654773522352
+    },
+    {
+      "id": 1434,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_030000_1888_2429_173.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2919941922094593,
+      "x_meter_stop": 2.271148945310625,
+      "y_meter_start": 9.481275412227257,
+      "y_meter_stop": 3.394654773522352
+    },
+    {
+      "id": 1482,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_030000_1888_2429_221.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2919941922094593,
+      "x_meter_stop": 2.271148945310625,
+      "y_meter_start": 9.481275412227257,
+      "y_meter_stop": 3.394654773522352
+    },
+    {
+      "id": 1305,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_030000_1888_2429_44.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2919941922094593,
+      "x_meter_stop": 2.271148945310625,
+      "y_meter_start": 9.481275412227257,
+      "y_meter_stop": 3.394654773522352
+    },
+    {
+      "id": 1721,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_030000_1888_2429_460.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2919941922094593,
+      "x_meter_stop": 2.271148945310625,
+      "y_meter_start": 9.481275412227257,
+      "y_meter_stop": 3.394654773522352
+    },
+    {
+      "id": 1501,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_030000_1888_2429_240.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2919941922094593,
+      "x_meter_stop": 2.271148945310625,
+      "y_meter_start": 9.481275412227257,
+      "y_meter_stop": 3.394654773522352
+    },
+    {
+      "id": 1639,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_030000_1888_2429_378.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2919941922094593,
+      "x_meter_stop": 2.271148945310625,
+      "y_meter_start": 9.481275412227257,
+      "y_meter_stop": 3.394654773522352
+    },
+    {
+      "id": 1463,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_030000_1888_2429_202.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2919941922094593,
+      "x_meter_stop": 2.271148945310625,
+      "y_meter_start": 9.481275412227257,
+      "y_meter_stop": 3.394654773522352
+    },
+    {
+      "id": 19215,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_030000_4770_5249_177.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2919941922094593,
+      "x_meter_stop": 2.271148945310625,
+      "y_meter_start": 9.481275412227257,
+      "y_meter_stop": 3.394654773522352
+    },
+    {
+      "id": 19511,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_030000_4770_5249_473.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2919941922094593,
+      "x_meter_stop": 2.271148945310625,
+      "y_meter_start": 9.481275412227257,
+      "y_meter_stop": 3.394654773522352
+    },
+    {
+      "id": 19188,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_030000_4770_5249_150.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2919941922094593,
+      "x_meter_stop": 2.271148945310625,
+      "y_meter_start": 9.481275412227257,
+      "y_meter_stop": 3.394654773522352
+    },
+    {
+      "id": 19148,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_030000_4770_5249_110.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2919941922094593,
+      "x_meter_stop": 2.271148945310625,
+      "y_meter_start": 9.481275412227257,
+      "y_meter_stop": 3.394654773522352
+    },
+    {
+      "id": 19321,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_030000_4770_5249_283.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2919941922094593,
+      "x_meter_stop": 2.271148945310625,
+      "y_meter_start": 9.481275412227257,
+      "y_meter_stop": 3.394654773522352
+    },
+    {
+      "id": 19466,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_030000_4770_5249_428.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2919941922094593,
+      "x_meter_stop": 2.271148945310625,
+      "y_meter_start": 9.481275412227257,
+      "y_meter_stop": 3.394654773522352
+    },
+    {
+      "id": 19114,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_030000_4770_5249_76.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2919941922094593,
+      "x_meter_stop": 2.271148945310625,
+      "y_meter_start": 9.481275412227257,
+      "y_meter_stop": 3.394654773522352
+    },
+    {
+      "id": 19390,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_030000_4770_5249_352.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2919941922094593,
+      "x_meter_stop": 2.271148945310625,
+      "y_meter_start": 9.481275412227257,
+      "y_meter_stop": 3.394654773522352
+    },
+    {
+      "id": 23706,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_040000_0_538_24.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2920072196473815,
+      "x_meter_stop": 2.2711533608390044,
+      "y_meter_start": 9.48274439355909,
+      "y_meter_stop": 3.3961004882777277
+    },
+    {
+      "id": 24129,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_040000_0_538_447.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2920072196473815,
+      "x_meter_stop": 2.2711533608390044,
+      "y_meter_start": 9.48274439355909,
+      "y_meter_stop": 3.3961004882777277
+    },
+    {
+      "id": 24183,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_040000_0_538_501.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2920072196473815,
+      "x_meter_stop": 2.2711533608390044,
+      "y_meter_start": 9.48274439355909,
+      "y_meter_stop": 3.3961004882777277
+    },
+    {
+      "id": 23798,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_040000_0_538_116.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2920072196473815,
+      "x_meter_stop": 2.2711533608390044,
+      "y_meter_start": 9.48274439355909,
+      "y_meter_stop": 3.3961004882777277
+    },
+    {
+      "id": 23940,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_040000_0_538_258.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2920072196473815,
+      "x_meter_stop": 2.2711533608390044,
+      "y_meter_start": 9.48274439355909,
+      "y_meter_stop": 3.3961004882777277
+    },
+    {
+      "id": 23998,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_040000_0_538_316.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2920072196473815,
+      "x_meter_stop": 2.2711533608390044,
+      "y_meter_start": 9.48274439355909,
+      "y_meter_stop": 3.3961004882777277
+    },
+    {
+      "id": 24024,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_040000_0_538_342.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2920072196473815,
+      "x_meter_stop": 2.2711533608390044,
+      "y_meter_start": 9.48274439355909,
+      "y_meter_stop": 3.3961004882777277
+    },
+    {
+      "id": 24206,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_040000_0_538_524.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2920072196473815,
+      "x_meter_stop": 2.2711533608390044,
+      "y_meter_start": 9.48274439355909,
+      "y_meter_stop": 3.3961004882777277
+    },
+    {
+      "id": 9973,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_050000_2444_2985_348.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2912143125819426,
+      "x_meter_stop": 2.2703634228392247,
+      "y_meter_start": 9.480171186106993,
+      "y_meter_stop": 3.395638583748088
+    },
+    {
+      "id": 9793,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_050000_2444_2985_168.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2912143125819426,
+      "x_meter_stop": 2.2703634228392247,
+      "y_meter_start": 9.480171186106993,
+      "y_meter_stop": 3.395638583748088
+    },
+    {
+      "id": 9938,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_050000_2444_2985_313.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2912143125819426,
+      "x_meter_stop": 2.2703634228392247,
+      "y_meter_start": 9.480171186106993,
+      "y_meter_stop": 3.395638583748088
+    },
+    {
+      "id": 9790,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_050000_2444_2985_165.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2912143125819426,
+      "x_meter_stop": 2.2703634228392247,
+      "y_meter_start": 9.480171186106993,
+      "y_meter_stop": 3.395638583748088
+    },
+    {
+      "id": 9629,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_050000_2444_2985_4.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2912143125819426,
+      "x_meter_stop": 2.2703634228392247,
+      "y_meter_start": 9.480171186106993,
+      "y_meter_stop": 3.395638583748088
+    },
+    {
+      "id": 10135,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_050000_2444_2985_510.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2912143125819426,
+      "x_meter_stop": 2.2703634228392247,
+      "y_meter_start": 9.480171186106993,
+      "y_meter_stop": 3.395638583748088
+    },
+    {
+      "id": 10147,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_050000_2444_2985_522.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2912143125819426,
+      "x_meter_stop": 2.2703634228392247,
+      "y_meter_start": 9.480171186106993,
+      "y_meter_stop": 3.395638583748088
+    },
+    {
+      "id": 9787,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_050000_2444_2985_162.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.2912143125819426,
+      "x_meter_stop": 2.2703634228392247,
+      "y_meter_start": 9.480171186106993,
+      "y_meter_stop": 3.395638583748088
+    },
+    {
+      "id": 25047,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_060000_571_1112_229.jpg",
+      "height": 835,
+      "width": 628,
+      "x_meter_start": -2.2977096395987284,
+      "x_meter_stop": 2.2768574427587542,
+      "y_meter_start": 9.485604974532045,
+      "y_meter_stop": 3.3958946547058426
+    },
+    {
+      "id": 25294,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_060000_571_1112_476.jpg",
+      "height": 835,
+      "width": 628,
+      "x_meter_start": -2.2977096395987284,
+      "x_meter_stop": 2.2768574427587542,
+      "y_meter_start": 9.485604974532045,
+      "y_meter_stop": 3.3958946547058426
+    },
+    {
+      "id": 24892,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_060000_571_1112_74.jpg",
+      "height": 835,
+      "width": 628,
+      "x_meter_start": -2.2977096395987284,
+      "x_meter_stop": 2.2768574427587542,
+      "y_meter_start": 9.485604974532045,
+      "y_meter_stop": 3.3958946547058426
+    },
+    {
+      "id": 25078,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_060000_571_1112_260.jpg",
+      "height": 835,
+      "width": 628,
+      "x_meter_start": -2.2977096395987284,
+      "x_meter_stop": 2.2768574427587542,
+      "y_meter_start": 9.485604974532045,
+      "y_meter_stop": 3.3958946547058426
+    },
+    {
+      "id": 24950,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_060000_571_1112_132.jpg",
+      "height": 835,
+      "width": 628,
+      "x_meter_start": -2.2977096395987284,
+      "x_meter_stop": 2.2768574427587542,
+      "y_meter_start": 9.485604974532045,
+      "y_meter_stop": 3.3958946547058426
+    },
+    {
+      "id": 24957,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_060000_571_1112_139.jpg",
+      "height": 835,
+      "width": 628,
+      "x_meter_start": -2.2977096395987284,
+      "x_meter_stop": 2.2768574427587542,
+      "y_meter_start": 9.485604974532045,
+      "y_meter_stop": 3.3958946547058426
+    },
+    {
+      "id": 25315,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_060000_571_1112_497.jpg",
+      "height": 835,
+      "width": 628,
+      "x_meter_start": -2.2977096395987284,
+      "x_meter_stop": 2.2768574427587542,
+      "y_meter_start": 9.485604974532045,
+      "y_meter_stop": 3.3958946547058426
+    },
+    {
+      "id": 24849,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_060000_571_1112_31.jpg",
+      "height": 835,
+      "width": 628,
+      "x_meter_start": -2.2977096395987284,
+      "x_meter_stop": 2.2768574427587542,
+      "y_meter_start": 9.485604974532045,
+      "y_meter_stop": 3.3958946547058426
+    },
+    {
+      "id": 29722,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_070000_4101_4642_348.jpg",
+      "height": 835,
+      "width": 628,
+      "x_meter_start": -2.2977096395987284,
+      "x_meter_stop": 2.2768574427587542,
+      "y_meter_start": 9.485604974532045,
+      "y_meter_stop": 3.3958946547058426
+    },
+    {
+      "id": 29703,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_070000_4101_4642_329.jpg",
+      "height": 835,
+      "width": 628,
+      "x_meter_start": -2.2977096395987284,
+      "x_meter_stop": 2.2768574427587542,
+      "y_meter_start": 9.485604974532045,
+      "y_meter_stop": 3.3958946547058426
+    },
+    {
+      "id": 29445,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_070000_4101_4642_71.jpg",
+      "height": 835,
+      "width": 628,
+      "x_meter_start": -2.2977096395987284,
+      "x_meter_stop": 2.2768574427587542,
+      "y_meter_start": 9.485604974532045,
+      "y_meter_stop": 3.3958946547058426
+    },
+    {
+      "id": 29783,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_070000_4101_4642_409.jpg",
+      "height": 835,
+      "width": 628,
+      "x_meter_start": -2.2977096395987284,
+      "x_meter_stop": 2.2768574427587542,
+      "y_meter_start": 9.485604974532045,
+      "y_meter_stop": 3.3958946547058426
+    },
+    {
+      "id": 29745,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_070000_4101_4642_371.jpg",
+      "height": 835,
+      "width": 628,
+      "x_meter_start": -2.2977096395987284,
+      "x_meter_stop": 2.2768574427587542,
+      "y_meter_start": 9.485604974532045,
+      "y_meter_stop": 3.3958946547058426
+    },
+    {
+      "id": 29496,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_070000_4101_4642_122.jpg",
+      "height": 835,
+      "width": 628,
+      "x_meter_start": -2.2977096395987284,
+      "x_meter_stop": 2.2768574427587542,
+      "y_meter_start": 9.485604974532045,
+      "y_meter_stop": 3.3958946547058426
+    },
+    {
+      "id": 29431,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_070000_4101_4642_57.jpg",
+      "height": 835,
+      "width": 628,
+      "x_meter_start": -2.2977096395987284,
+      "x_meter_stop": 2.2768574427587542,
+      "y_meter_start": 9.485604974532045,
+      "y_meter_stop": 3.3958946547058426
+    },
+    {
+      "id": 29592,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_070000_4101_4642_218.jpg",
+      "height": 835,
+      "width": 628,
+      "x_meter_start": -2.2977096395987284,
+      "x_meter_stop": 2.2768574427587542,
+      "y_meter_start": 9.485604974532045,
+      "y_meter_stop": 3.3958946547058426
+    },
+    {
+      "id": 19672,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_080000_604_839_156.jpg",
+      "height": 835,
+      "width": 628,
+      "x_meter_start": -2.2977096395987284,
+      "x_meter_stop": 2.2768574427587542,
+      "y_meter_start": 9.485604974532045,
+      "y_meter_stop": 3.3958946547058426
+    },
+    {
+      "id": 19631,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_080000_604_839_115.jpg",
+      "height": 835,
+      "width": 628,
+      "x_meter_start": -2.2977096395987284,
+      "x_meter_stop": 2.2768574427587542,
+      "y_meter_start": 9.485604974532045,
+      "y_meter_stop": 3.3958946547058426
+    },
+    {
+      "id": 19621,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_080000_604_839_105.jpg",
+      "height": 835,
+      "width": 628,
+      "x_meter_start": -2.2977096395987284,
+      "x_meter_stop": 2.2768574427587542,
+      "y_meter_start": 9.485604974532045,
+      "y_meter_stop": 3.3958946547058426
+    },
+    {
+      "id": 19607,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_080000_604_839_91.jpg",
+      "height": 835,
+      "width": 628,
+      "x_meter_start": -2.2977096395987284,
+      "x_meter_stop": 2.2768574427587542,
+      "y_meter_start": 9.485604974532045,
+      "y_meter_stop": 3.3958946547058426
+    },
+    {
+      "id": 19592,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_080000_604_839_76.jpg",
+      "height": 835,
+      "width": 628,
+      "x_meter_start": -2.2977096395987284,
+      "x_meter_stop": 2.2768574427587542,
+      "y_meter_start": 9.485604974532045,
+      "y_meter_stop": 3.3958946547058426
+    },
+    {
+      "id": 19700,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_080000_604_839_184.jpg",
+      "height": 835,
+      "width": 628,
+      "x_meter_start": -2.2977096395987284,
+      "x_meter_stop": 2.2768574427587542,
+      "y_meter_start": 9.485604974532045,
+      "y_meter_stop": 3.3958946547058426
+    },
+    {
+      "id": 19548,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_080000_604_839_32.jpg",
+      "height": 835,
+      "width": 628,
+      "x_meter_start": -2.2977096395987284,
+      "x_meter_stop": 2.2768574427587542,
+      "y_meter_start": 9.485604974532045,
+      "y_meter_stop": 3.3958946547058426
+    },
+    {
+      "id": 19599,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_080000_604_839_83.jpg",
+      "height": 835,
+      "width": 628,
+      "x_meter_start": -2.2977096395987284,
+      "x_meter_stop": 2.2768574427587542,
+      "y_meter_start": 9.485604974532045,
+      "y_meter_stop": 3.3958946547058426
+    },
+    {
+      "id": 6389,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_090000_778_1319_43.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.29121411899437,
+      "x_meter_stop": 2.2703632310133717,
+      "y_meter_start": 9.4801703851151,
+      "y_meter_stop": 3.3956382968459873
+    },
+    {
+      "id": 6372,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_090000_778_1319_26.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.29121411899437,
+      "x_meter_stop": 2.2703632310133717,
+      "y_meter_start": 9.4801703851151,
+      "y_meter_stop": 3.3956382968459873
+    },
+    {
+      "id": 6742,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_090000_778_1319_396.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.29121411899437,
+      "x_meter_stop": 2.2703632310133717,
+      "y_meter_start": 9.4801703851151,
+      "y_meter_stop": 3.3956382968459873
+    },
+    {
+      "id": 6797,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_090000_778_1319_451.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.29121411899437,
+      "x_meter_stop": 2.2703632310133717,
+      "y_meter_start": 9.4801703851151,
+      "y_meter_stop": 3.3956382968459873
+    },
+    {
+      "id": 6812,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_090000_778_1319_466.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.29121411899437,
+      "x_meter_stop": 2.2703632310133717,
+      "y_meter_start": 9.4801703851151,
+      "y_meter_stop": 3.3956382968459873
+    },
+    {
+      "id": 6805,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_090000_778_1319_459.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.29121411899437,
+      "x_meter_stop": 2.2703632310133717,
+      "y_meter_start": 9.4801703851151,
+      "y_meter_stop": 3.3956382968459873
+    },
+    {
+      "id": 6351,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_090000_778_1319_5.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.29121411899437,
+      "x_meter_stop": 2.2703632310133717,
+      "y_meter_start": 9.4801703851151,
+      "y_meter_stop": 3.3956382968459873
+    },
+    {
+      "id": 6394,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_090000_778_1319_48.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.29121411899437,
+      "x_meter_stop": 2.2703632310133717,
+      "y_meter_start": 9.4801703851151,
+      "y_meter_stop": 3.3956382968459873
+    },
+    {
+      "id": 11862,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_100000_4520_5061_64.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.293571854068171,
+      "x_meter_stop": 2.2727207579556206,
+      "y_meter_start": 9.486385642147747,
+      "y_meter_stop": 3.3955640270680885
+    },
+    {
+      "id": 11888,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_100000_4520_5061_90.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.293571854068171,
+      "x_meter_stop": 2.2727207579556206,
+      "y_meter_start": 9.486385642147747,
+      "y_meter_stop": 3.3955640270680885
+    },
+    {
+      "id": 12006,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_100000_4520_5061_208.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.293571854068171,
+      "x_meter_stop": 2.2727207579556206,
+      "y_meter_start": 9.486385642147747,
+      "y_meter_stop": 3.3955640270680885
+    },
+    {
+      "id": 12319,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_100000_4520_5061_521.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.293571854068171,
+      "x_meter_stop": 2.2727207579556206,
+      "y_meter_start": 9.486385642147747,
+      "y_meter_stop": 3.3955640270680885
+    },
+    {
+      "id": 12283,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_100000_4520_5061_485.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.293571854068171,
+      "x_meter_stop": 2.2727207579556206,
+      "y_meter_start": 9.486385642147747,
+      "y_meter_stop": 3.3955640270680885
+    },
+    {
+      "id": 11928,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_100000_4520_5061_130.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.293571854068171,
+      "x_meter_stop": 2.2727207579556206,
+      "y_meter_start": 9.486385642147747,
+      "y_meter_stop": 3.3955640270680885
+    },
+    {
+      "id": 12048,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_100000_4520_5061_250.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.293571854068171,
+      "x_meter_stop": 2.2727207579556206,
+      "y_meter_start": 9.486385642147747,
+      "y_meter_stop": 3.3955640270680885
+    },
+    {
+      "id": 11868,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_100000_4520_5061_70.jpg",
+      "height": 835,
+      "width": 626,
+      "x_meter_start": -2.293571854068171,
+      "x_meter_stop": 2.2727207579556206,
+      "y_meter_start": 9.486385642147747,
+      "y_meter_stop": 3.3955640270680885
+    },
+    {
+      "id": 2033,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_110000_997_1538_232.jpg",
+      "height": 834,
+      "width": 626,
+      "x_meter_start": -2.2943571939978677,
+      "x_meter_stop": 2.2735032094284278,
+      "y_meter_start": 9.481628681228777,
+      "y_meter_stop": 3.3960127443956605
+    },
+    {
+      "id": 2046,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_110000_997_1538_245.jpg",
+      "height": 834,
+      "width": 626,
+      "x_meter_start": -2.2943571939978677,
+      "x_meter_stop": 2.2735032094284278,
+      "y_meter_start": 9.481628681228777,
+      "y_meter_stop": 3.3960127443956605
+    },
+    {
+      "id": 1972,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_110000_997_1538_171.jpg",
+      "height": 834,
+      "width": 626,
+      "x_meter_start": -2.2943571939978677,
+      "x_meter_stop": 2.2735032094284278,
+      "y_meter_start": 9.481628681228777,
+      "y_meter_stop": 3.3960127443956605
+    },
+    {
+      "id": 2275,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_110000_997_1538_474.jpg",
+      "height": 834,
+      "width": 626,
+      "x_meter_start": -2.2943571939978677,
+      "x_meter_stop": 2.2735032094284278,
+      "y_meter_start": 9.481628681228777,
+      "y_meter_stop": 3.3960127443956605
+    },
+    {
+      "id": 2261,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_110000_997_1538_460.jpg",
+      "height": 834,
+      "width": 626,
+      "x_meter_start": -2.2943571939978677,
+      "x_meter_stop": 2.2735032094284278,
+      "y_meter_start": 9.481628681228777,
+      "y_meter_stop": 3.3960127443956605
+    },
+    {
+      "id": 2155,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_110000_997_1538_354.jpg",
+      "height": 834,
+      "width": 626,
+      "x_meter_start": -2.2943571939978677,
+      "x_meter_stop": 2.2735032094284278,
+      "y_meter_start": 9.481628681228777,
+      "y_meter_stop": 3.3960127443956605
+    },
+    {
+      "id": 1945,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_110000_997_1538_144.jpg",
+      "height": 834,
+      "width": 626,
+      "x_meter_start": -2.2943571939978677,
+      "x_meter_stop": 2.2735032094284278,
+      "y_meter_start": 9.481628681228777,
+      "y_meter_stop": 3.3960127443956605
+    },
+    {
+      "id": 2101,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_110000_997_1538_300.jpg",
+      "height": 834,
+      "width": 626,
+      "x_meter_start": -2.2943571939978677,
+      "x_meter_stop": 2.2735032094284278,
+      "y_meter_start": 9.481628681228777,
+      "y_meter_stop": 3.3960127443956605
+    },
+    {
+      "id": 25710,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_120000_3525_4066_352.jpg",
+      "height": 833,
+      "width": 626,
+      "x_meter_start": -2.297455985065081,
+      "x_meter_stop": 2.2766036336906184,
+      "y_meter_start": 9.482163055678406,
+      "y_meter_stop": 3.395594904842147
+    },
+    {
+      "id": 25883,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_120000_3525_4066_525.jpg",
+      "height": 833,
+      "width": 626,
+      "x_meter_start": -2.297455985065081,
+      "x_meter_stop": 2.2766036336906184,
+      "y_meter_start": 9.482163055678406,
+      "y_meter_stop": 3.395594904842147
+    },
+    {
+      "id": 25747,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_120000_3525_4066_389.jpg",
+      "height": 833,
+      "width": 626,
+      "x_meter_start": -2.297455985065081,
+      "x_meter_stop": 2.2766036336906184,
+      "y_meter_start": 9.482163055678406,
+      "y_meter_stop": 3.395594904842147
+    },
+    {
+      "id": 25613,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_120000_3525_4066_255.jpg",
+      "height": 833,
+      "width": 626,
+      "x_meter_start": -2.297455985065081,
+      "x_meter_stop": 2.2766036336906184,
+      "y_meter_start": 9.482163055678406,
+      "y_meter_stop": 3.395594904842147
+    },
+    {
+      "id": 25833,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_120000_3525_4066_475.jpg",
+      "height": 833,
+      "width": 626,
+      "x_meter_start": -2.297455985065081,
+      "x_meter_stop": 2.2766036336906184,
+      "y_meter_start": 9.482163055678406,
+      "y_meter_stop": 3.395594904842147
+    },
+    {
+      "id": 25458,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_120000_3525_4066_100.jpg",
+      "height": 833,
+      "width": 626,
+      "x_meter_start": -2.297455985065081,
+      "x_meter_stop": 2.2766036336906184,
+      "y_meter_start": 9.482163055678406,
+      "y_meter_stop": 3.395594904842147
+    },
+    {
+      "id": 25675,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_120000_3525_4066_317.jpg",
+      "height": 833,
+      "width": 626,
+      "x_meter_start": -2.297455985065081,
+      "x_meter_stop": 2.2766036336906184,
+      "y_meter_start": 9.482163055678406,
+      "y_meter_stop": 3.395594904842147
+    },
+    {
+      "id": 25844,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_120000_3525_4066_486.jpg",
+      "height": 833,
+      "width": 626,
+      "x_meter_start": -2.297455985065081,
+      "x_meter_stop": 2.2766036336906184,
+      "y_meter_start": 9.482163055678406,
+      "y_meter_stop": 3.395594904842147
+    },
+    {
+      "id": 28669,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_2064_2605_434.jpg",
+      "height": 831,
+      "width": 624,
+      "x_meter_start": -2.293206169791425,
+      "x_meter_stop": 2.2723515603275644,
+      "y_meter_start": 9.483242372626446,
+      "y_meter_stop": 3.395832065801127
+    },
+    {
+      "id": 28713,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_2064_2605_478.jpg",
+      "height": 831,
+      "width": 624,
+      "x_meter_start": -2.293206169791425,
+      "x_meter_stop": 2.2723515603275644,
+      "y_meter_start": 9.483242372626446,
+      "y_meter_stop": 3.395832065801127
+    },
+    {
+      "id": 28263,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_2064_2605_28.jpg",
+      "height": 831,
+      "width": 624,
+      "x_meter_start": -2.293206169791425,
+      "x_meter_stop": 2.2723515603275644,
+      "y_meter_start": 9.483242372626446,
+      "y_meter_stop": 3.395832065801127
+    },
+    {
+      "id": 28404,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_2064_2605_169.jpg",
+      "height": 831,
+      "width": 624,
+      "x_meter_start": -2.293206169791425,
+      "x_meter_stop": 2.2723515603275644,
+      "y_meter_start": 9.483242372626446,
+      "y_meter_stop": 3.395832065801127
+    },
+    {
+      "id": 28430,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_2064_2605_195.jpg",
+      "height": 831,
+      "width": 624,
+      "x_meter_start": -2.293206169791425,
+      "x_meter_stop": 2.2723515603275644,
+      "y_meter_start": 9.483242372626446,
+      "y_meter_stop": 3.395832065801127
+    },
+    {
+      "id": 28605,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_2064_2605_370.jpg",
+      "height": 831,
+      "width": 624,
+      "x_meter_start": -2.293206169791425,
+      "x_meter_stop": 2.2723515603275644,
+      "y_meter_start": 9.483242372626446,
+      "y_meter_stop": 3.395832065801127
+    },
+    {
+      "id": 28360,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_2064_2605_125.jpg",
+      "height": 831,
+      "width": 624,
+      "x_meter_start": -2.293206169791425,
+      "x_meter_stop": 2.2723515603275644,
+      "y_meter_start": 9.483242372626446,
+      "y_meter_stop": 3.395832065801127
+    },
+    {
+      "id": 28750,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_2064_2605_515.jpg",
+      "height": 831,
+      "width": 624,
+      "x_meter_start": -2.293206169791425,
+      "x_meter_stop": 2.2723515603275644,
+      "y_meter_start": 9.483242372626446,
+      "y_meter_stop": 3.395832065801127
+    },
+    {
+      "id": 9301,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_2666_3207_216.jpg",
+      "height": 831,
+      "width": 624,
+      "x_meter_start": -2.293206169791425,
+      "x_meter_stop": 2.2723515603275644,
+      "y_meter_start": 9.483242372626446,
+      "y_meter_stop": 3.395832065801127
+    },
+    {
+      "id": 9452,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_2666_3207_367.jpg",
+      "height": 831,
+      "width": 624,
+      "x_meter_start": -2.293206169791425,
+      "x_meter_stop": 2.2723515603275644,
+      "y_meter_start": 9.483242372626446,
+      "y_meter_stop": 3.395832065801127
+    },
+    {
+      "id": 9446,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_2666_3207_361.jpg",
+      "height": 831,
+      "width": 624,
+      "x_meter_start": -2.293206169791425,
+      "x_meter_stop": 2.2723515603275644,
+      "y_meter_start": 9.483242372626446,
+      "y_meter_stop": 3.395832065801127
+    },
+    {
+      "id": 9125,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_2666_3207_40.jpg",
+      "height": 831,
+      "width": 624,
+      "x_meter_start": -2.293206169791425,
+      "x_meter_stop": 2.2723515603275644,
+      "y_meter_start": 9.483242372626446,
+      "y_meter_stop": 3.395832065801127
+    },
+    {
+      "id": 9503,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_2666_3207_418.jpg",
+      "height": 831,
+      "width": 624,
+      "x_meter_start": -2.293206169791425,
+      "x_meter_stop": 2.2723515603275644,
+      "y_meter_start": 9.483242372626446,
+      "y_meter_stop": 3.395832065801127
+    },
+    {
+      "id": 9290,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_2666_3207_205.jpg",
+      "height": 831,
+      "width": 624,
+      "x_meter_start": -2.293206169791425,
+      "x_meter_stop": 2.2723515603275644,
+      "y_meter_start": 9.483242372626446,
+      "y_meter_stop": 3.395832065801127
+    },
+    {
+      "id": 9430,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_2666_3207_345.jpg",
+      "height": 831,
+      "width": 624,
+      "x_meter_start": -2.293206169791425,
+      "x_meter_stop": 2.2723515603275644,
+      "y_meter_start": 9.483242372626446,
+      "y_meter_stop": 3.395832065801127
+    },
+    {
+      "id": 9499,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_2666_3207_414.jpg",
+      "height": 831,
+      "width": 624,
+      "x_meter_start": -2.293206169791425,
+      "x_meter_stop": 2.2723515603275644,
+      "y_meter_start": 9.483242372626446,
+      "y_meter_stop": 3.395832065801127
+    },
+    {
+      "id": 15788,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_476_1017_364.jpg",
+      "height": 831,
+      "width": 624,
+      "x_meter_start": -2.293206169791425,
+      "x_meter_stop": 2.2723515603275644,
+      "y_meter_start": 9.483242372626446,
+      "y_meter_stop": 3.395832065801127
+    },
+    {
+      "id": 15647,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_476_1017_223.jpg",
+      "height": 831,
+      "width": 624,
+      "x_meter_start": -2.293206169791425,
+      "x_meter_stop": 2.2723515603275644,
+      "y_meter_start": 9.483242372626446,
+      "y_meter_stop": 3.395832065801127
+    },
+    {
+      "id": 15888,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_476_1017_464.jpg",
+      "height": 831,
+      "width": 624,
+      "x_meter_start": -2.293206169791425,
+      "x_meter_stop": 2.2723515603275644,
+      "y_meter_start": 9.483242372626446,
+      "y_meter_stop": 3.395832065801127
+    },
+    {
+      "id": 15724,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_476_1017_300.jpg",
+      "height": 831,
+      "width": 624,
+      "x_meter_start": -2.293206169791425,
+      "x_meter_stop": 2.2723515603275644,
+      "y_meter_start": 9.483242372626446,
+      "y_meter_stop": 3.395832065801127
+    },
+    {
+      "id": 15844,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_476_1017_420.jpg",
+      "height": 831,
+      "width": 624,
+      "x_meter_start": -2.293206169791425,
+      "x_meter_stop": 2.2723515603275644,
+      "y_meter_start": 9.483242372626446,
+      "y_meter_stop": 3.395832065801127
+    },
+    {
+      "id": 15871,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_476_1017_447.jpg",
+      "height": 831,
+      "width": 624,
+      "x_meter_start": -2.293206169791425,
+      "x_meter_stop": 2.2723515603275644,
+      "y_meter_start": 9.483242372626446,
+      "y_meter_stop": 3.395832065801127
+    },
+    {
+      "id": 15790,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_476_1017_366.jpg",
+      "height": 831,
+      "width": 624,
+      "x_meter_start": -2.293206169791425,
+      "x_meter_stop": 2.2723515603275644,
+      "y_meter_start": 9.483242372626446,
+      "y_meter_stop": 3.395832065801127
+    },
+    {
+      "id": 15524,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_130000_476_1017_100.jpg",
+      "height": 831,
+      "width": 624,
+      "x_meter_start": -2.293206169791425,
+      "x_meter_stop": 2.2723515603275644,
+      "y_meter_start": 9.483242372626446,
+      "y_meter_stop": 3.395832065801127
+    },
+    {
+      "id": 23193,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_150000_1702_2243_253.jpg",
+      "height": 829,
+      "width": 622,
+      "x_meter_start": -2.2903839287516354,
+      "x_meter_stop": 2.2695310289810844,
+      "y_meter_start": 9.480109367688277,
+      "y_meter_stop": 3.3953353887201785
+    },
+    {
+      "id": 23057,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_150000_1702_2243_117.jpg",
+      "height": 829,
+      "width": 622,
+      "x_meter_start": -2.2903839287516354,
+      "x_meter_stop": 2.2695310289810844,
+      "y_meter_start": 9.480109367688277,
+      "y_meter_stop": 3.3953353887201785
+    },
+    {
+      "id": 23163,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_150000_1702_2243_223.jpg",
+      "height": 829,
+      "width": 622,
+      "x_meter_start": -2.2903839287516354,
+      "x_meter_stop": 2.2695310289810844,
+      "y_meter_start": 9.480109367688277,
+      "y_meter_stop": 3.3953353887201785
+    },
+    {
+      "id": 22990,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_150000_1702_2243_50.jpg",
+      "height": 829,
+      "width": 622,
+      "x_meter_start": -2.2903839287516354,
+      "x_meter_stop": 2.2695310289810844,
+      "y_meter_start": 9.480109367688277,
+      "y_meter_stop": 3.3953353887201785
+    },
+    {
+      "id": 23359,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_150000_1702_2243_419.jpg",
+      "height": 829,
+      "width": 622,
+      "x_meter_start": -2.2903839287516354,
+      "x_meter_stop": 2.2695310289810844,
+      "y_meter_start": 9.480109367688277,
+      "y_meter_stop": 3.3953353887201785
+    },
+    {
+      "id": 23141,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_150000_1702_2243_201.jpg",
+      "height": 829,
+      "width": 622,
+      "x_meter_start": -2.2903839287516354,
+      "x_meter_stop": 2.2695310289810844,
+      "y_meter_start": 9.480109367688277,
+      "y_meter_stop": 3.3953353887201785
+    },
+    {
+      "id": 23219,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_150000_1702_2243_279.jpg",
+      "height": 829,
+      "width": 622,
+      "x_meter_start": -2.2903839287516354,
+      "x_meter_stop": 2.2695310289810844,
+      "y_meter_start": 9.480109367688277,
+      "y_meter_stop": 3.3953353887201785
+    },
+    {
+      "id": 23034,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_150000_1702_2243_94.jpg",
+      "height": 829,
+      "width": 622,
+      "x_meter_start": -2.2903839287516354,
+      "x_meter_stop": 2.2695310289810844,
+      "y_meter_start": 9.480109367688277,
+      "y_meter_stop": 3.3953353887201785
+    },
+    {
+      "id": 20319,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_2515_3056_29.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2911227435126893,
+      "x_meter_stop": 2.270271662722413,
+      "y_meter_start": 9.48174361797585,
+      "y_meter_stop": 3.394995455314861
+    },
+    {
+      "id": 20483,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_2515_3056_193.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2911227435126893,
+      "x_meter_stop": 2.270271662722413,
+      "y_meter_start": 9.48174361797585,
+      "y_meter_stop": 3.394995455314861
+    },
+    {
+      "id": 20324,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_2515_3056_34.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2911227435126893,
+      "x_meter_stop": 2.270271662722413,
+      "y_meter_start": 9.48174361797585,
+      "y_meter_stop": 3.394995455314861
+    },
+    {
+      "id": 20769,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_2515_3056_479.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2911227435126893,
+      "x_meter_stop": 2.270271662722413,
+      "y_meter_start": 9.48174361797585,
+      "y_meter_stop": 3.394995455314861
+    },
+    {
+      "id": 20636,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_2515_3056_346.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2911227435126893,
+      "x_meter_stop": 2.270271662722413,
+      "y_meter_start": 9.48174361797585,
+      "y_meter_stop": 3.394995455314861
+    },
+    {
+      "id": 20649,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_2515_3056_359.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2911227435126893,
+      "x_meter_stop": 2.270271662722413,
+      "y_meter_start": 9.48174361797585,
+      "y_meter_stop": 3.394995455314861
+    },
+    {
+      "id": 20512,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_2515_3056_222.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2911227435126893,
+      "x_meter_stop": 2.270271662722413,
+      "y_meter_start": 9.48174361797585,
+      "y_meter_stop": 3.394995455314861
+    },
+    {
+      "id": 20674,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_2515_3056_384.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2911227435126893,
+      "x_meter_stop": 2.270271662722413,
+      "y_meter_start": 9.48174361797585,
+      "y_meter_stop": 3.394995455314861
+    },
+    {
+      "id": 5075,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_3096_3637_466.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2911227435126893,
+      "x_meter_stop": 2.270271662722413,
+      "y_meter_start": 9.48174361797585,
+      "y_meter_stop": 3.394995455314861
+    },
+    {
+      "id": 4926,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_3096_3637_317.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2911227435126893,
+      "x_meter_stop": 2.270271662722413,
+      "y_meter_start": 9.48174361797585,
+      "y_meter_stop": 3.394995455314861
+    },
+    {
+      "id": 4823,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_3096_3637_214.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2911227435126893,
+      "x_meter_stop": 2.270271662722413,
+      "y_meter_start": 9.48174361797585,
+      "y_meter_stop": 3.394995455314861
+    },
+    {
+      "id": 4787,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_3096_3637_178.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2911227435126893,
+      "x_meter_stop": 2.270271662722413,
+      "y_meter_start": 9.48174361797585,
+      "y_meter_stop": 3.394995455314861
+    },
+    {
+      "id": 5147,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_3096_3637_538.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2911227435126893,
+      "x_meter_stop": 2.270271662722413,
+      "y_meter_start": 9.48174361797585,
+      "y_meter_stop": 3.394995455314861
+    },
+    {
+      "id": 4744,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_3096_3637_135.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2911227435126893,
+      "x_meter_stop": 2.270271662722413,
+      "y_meter_start": 9.48174361797585,
+      "y_meter_stop": 3.394995455314861
+    },
+    {
+      "id": 5028,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_3096_3637_419.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2911227435126893,
+      "x_meter_stop": 2.270271662722413,
+      "y_meter_start": 9.48174361797585,
+      "y_meter_stop": 3.394995455314861
+    },
+    {
+      "id": 4700,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_3096_3637_91.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2911227435126893,
+      "x_meter_stop": 2.270271662722413,
+      "y_meter_start": 9.48174361797585,
+      "y_meter_stop": 3.394995455314861
+    },
+    {
+      "id": 17251,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_320_861_349.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2911227435126893,
+      "x_meter_stop": 2.270271662722413,
+      "y_meter_start": 9.48174361797585,
+      "y_meter_stop": 3.394995455314861
+    },
+    {
+      "id": 17076,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_320_861_174.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2911227435126893,
+      "x_meter_stop": 2.270271662722413,
+      "y_meter_start": 9.48174361797585,
+      "y_meter_stop": 3.394995455314861
+    },
+    {
+      "id": 17411,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_320_861_509.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2911227435126893,
+      "x_meter_stop": 2.270271662722413,
+      "y_meter_start": 9.48174361797585,
+      "y_meter_stop": 3.394995455314861
+    },
+    {
+      "id": 16913,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_320_861_11.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2911227435126893,
+      "x_meter_stop": 2.270271662722413,
+      "y_meter_start": 9.48174361797585,
+      "y_meter_stop": 3.394995455314861
+    },
+    {
+      "id": 17122,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_320_861_220.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2911227435126893,
+      "x_meter_stop": 2.270271662722413,
+      "y_meter_start": 9.48174361797585,
+      "y_meter_stop": 3.394995455314861
+    },
+    {
+      "id": 17150,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_320_861_248.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2911227435126893,
+      "x_meter_stop": 2.270271662722413,
+      "y_meter_start": 9.48174361797585,
+      "y_meter_stop": 3.394995455314861
+    },
+    {
+      "id": 17312,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_320_861_410.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2911227435126893,
+      "x_meter_stop": 2.270271662722413,
+      "y_meter_start": 9.48174361797585,
+      "y_meter_stop": 3.394995455314861
+    },
+    {
+      "id": 16916,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_160000_320_861_14.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2911227435126893,
+      "x_meter_stop": 2.270271662722413,
+      "y_meter_start": 9.48174361797585,
+      "y_meter_stop": 3.394995455314861
+    },
+    {
+      "id": 21789,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_170000_4781_5250_56.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2925998558333474,
+      "x_meter_stop": 2.27174815888492,
+      "y_meter_start": 9.485719539844316,
+      "y_meter_stop": 3.3950300668279785
+    },
+    {
+      "id": 22132,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_170000_4781_5250_399.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2925998558333474,
+      "x_meter_stop": 2.27174815888492,
+      "y_meter_start": 9.485719539844316,
+      "y_meter_stop": 3.3950300668279785
+    },
+    {
+      "id": 21777,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_170000_4781_5250_44.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2925998558333474,
+      "x_meter_stop": 2.27174815888492,
+      "y_meter_start": 9.485719539844316,
+      "y_meter_stop": 3.3950300668279785
+    },
+    {
+      "id": 21976,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_170000_4781_5250_243.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2925998558333474,
+      "x_meter_stop": 2.27174815888492,
+      "y_meter_start": 9.485719539844316,
+      "y_meter_stop": 3.3950300668279785
+    },
+    {
+      "id": 22165,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_170000_4781_5250_432.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2925998558333474,
+      "x_meter_stop": 2.27174815888492,
+      "y_meter_start": 9.485719539844316,
+      "y_meter_stop": 3.3950300668279785
+    },
+    {
+      "id": 22170,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_170000_4781_5250_437.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2925998558333474,
+      "x_meter_stop": 2.27174815888492,
+      "y_meter_start": 9.485719539844316,
+      "y_meter_stop": 3.3950300668279785
+    },
+    {
+      "id": 21796,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_170000_4781_5250_63.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2925998558333474,
+      "x_meter_stop": 2.27174815888492,
+      "y_meter_start": 9.485719539844316,
+      "y_meter_stop": 3.3950300668279785
+    },
+    {
+      "id": 21989,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_170000_4781_5250_256.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2925998558333474,
+      "x_meter_stop": 2.27174815888492,
+      "y_meter_start": 9.485719539844316,
+      "y_meter_stop": 3.3950300668279785
+    },
+    {
+      "id": 9003,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_170000_76_617_458.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2925998558333474,
+      "x_meter_stop": 2.27174815888492,
+      "y_meter_start": 9.485719539844316,
+      "y_meter_stop": 3.3950300668279785
+    },
+    {
+      "id": 8710,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_170000_76_617_165.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2925998558333474,
+      "x_meter_stop": 2.27174815888492,
+      "y_meter_start": 9.485719539844316,
+      "y_meter_stop": 3.3950300668279785
+    },
+    {
+      "id": 8593,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_170000_76_617_48.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2925998558333474,
+      "x_meter_stop": 2.27174815888492,
+      "y_meter_start": 9.485719539844316,
+      "y_meter_stop": 3.3950300668279785
+    },
+    {
+      "id": 8627,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_170000_76_617_82.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2925998558333474,
+      "x_meter_stop": 2.27174815888492,
+      "y_meter_start": 9.485719539844316,
+      "y_meter_stop": 3.3950300668279785
+    },
+    {
+      "id": 8709,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_170000_76_617_164.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2925998558333474,
+      "x_meter_stop": 2.27174815888492,
+      "y_meter_start": 9.485719539844316,
+      "y_meter_stop": 3.3950300668279785
+    },
+    {
+      "id": 8955,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_170000_76_617_410.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2925998558333474,
+      "x_meter_stop": 2.27174815888492,
+      "y_meter_start": 9.485719539844316,
+      "y_meter_stop": 3.3950300668279785
+    },
+    {
+      "id": 8626,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_170000_76_617_81.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2925998558333474,
+      "x_meter_stop": 2.27174815888492,
+      "y_meter_start": 9.485719539844316,
+      "y_meter_stop": 3.3950300668279785
+    },
+    {
+      "id": 8734,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_170000_76_617_189.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2925998558333474,
+      "x_meter_stop": 2.27174815888492,
+      "y_meter_start": 9.485719539844316,
+      "y_meter_stop": 3.3950300668279785
+    },
+    {
+      "id": 27832,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_190000_1440_1981_137.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2918654791603794,
+      "x_meter_stop": 2.271011913067187,
+      "y_meter_start": 9.484105284942624,
+      "y_meter_stop": 3.395378218143781
+    },
+    {
+      "id": 27751,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_190000_1440_1981_56.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2918654791603794,
+      "x_meter_stop": 2.271011913067187,
+      "y_meter_start": 9.484105284942624,
+      "y_meter_stop": 3.395378218143781
+    },
+    {
+      "id": 28112,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_190000_1440_1981_417.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2918654791603794,
+      "x_meter_stop": 2.271011913067187,
+      "y_meter_start": 9.484105284942624,
+      "y_meter_stop": 3.395378218143781
+    },
+    {
+      "id": 27932,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_190000_1440_1981_237.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2918654791603794,
+      "x_meter_stop": 2.271011913067187,
+      "y_meter_start": 9.484105284942624,
+      "y_meter_stop": 3.395378218143781
+    },
+    {
+      "id": 28116,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_190000_1440_1981_421.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2918654791603794,
+      "x_meter_stop": 2.271011913067187,
+      "y_meter_start": 9.484105284942624,
+      "y_meter_stop": 3.395378218143781
+    },
+    {
+      "id": 27808,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_190000_1440_1981_113.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2918654791603794,
+      "x_meter_stop": 2.271011913067187,
+      "y_meter_start": 9.484105284942624,
+      "y_meter_stop": 3.395378218143781
+    },
+    {
+      "id": 27704,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_190000_1440_1981_9.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2918654791603794,
+      "x_meter_stop": 2.271011913067187,
+      "y_meter_start": 9.484105284942624,
+      "y_meter_stop": 3.395378218143781
+    },
+    {
+      "id": 27947,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_190000_1440_1981_252.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2918654791603794,
+      "x_meter_stop": 2.271011913067187,
+      "y_meter_start": 9.484105284942624,
+      "y_meter_stop": 3.395378218143781
+    },
+    {
+      "id": 13194,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_190000_3993_4534_257.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2918654791603794,
+      "x_meter_stop": 2.271011913067187,
+      "y_meter_start": 9.484105284942624,
+      "y_meter_stop": 3.395378218143781
+    },
+    {
+      "id": 13120,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_190000_3993_4534_183.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2918654791603794,
+      "x_meter_stop": 2.271011913067187,
+      "y_meter_start": 9.484105284942624,
+      "y_meter_stop": 3.395378218143781
+    },
+    {
+      "id": 13438,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_190000_3993_4534_501.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2918654791603794,
+      "x_meter_stop": 2.271011913067187,
+      "y_meter_start": 9.484105284942624,
+      "y_meter_stop": 3.395378218143781
+    },
+    {
+      "id": 13175,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_190000_3993_4534_238.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2918654791603794,
+      "x_meter_stop": 2.271011913067187,
+      "y_meter_start": 9.484105284942624,
+      "y_meter_stop": 3.395378218143781
+    },
+    {
+      "id": 13134,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_190000_3993_4534_197.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2918654791603794,
+      "x_meter_stop": 2.271011913067187,
+      "y_meter_start": 9.484105284942624,
+      "y_meter_stop": 3.395378218143781
+    },
+    {
+      "id": 13245,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_190000_3993_4534_308.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2918654791603794,
+      "x_meter_stop": 2.271011913067187,
+      "y_meter_start": 9.484105284942624,
+      "y_meter_stop": 3.395378218143781
+    },
+    {
+      "id": 12948,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_190000_3993_4534_11.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2918654791603794,
+      "x_meter_stop": 2.271011913067187,
+      "y_meter_start": 9.484105284942624,
+      "y_meter_stop": 3.395378218143781
+    },
+    {
+      "id": 13204,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_190000_3993_4534_267.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2918654791603794,
+      "x_meter_stop": 2.271011913067187,
+      "y_meter_start": 9.484105284942624,
+      "y_meter_stop": 3.395378218143781
+    },
+    {
+      "id": 14349,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_210000_1556_2097_393.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2911227435126893,
+      "x_meter_stop": 2.270271662722413,
+      "y_meter_start": 9.48174361797585,
+      "y_meter_stop": 3.394995455314861
+    },
+    {
+      "id": 14450,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_210000_1556_2097_494.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2911227435126893,
+      "x_meter_stop": 2.270271662722413,
+      "y_meter_start": 9.48174361797585,
+      "y_meter_stop": 3.394995455314861
+    },
+    {
+      "id": 14136,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_210000_1556_2097_180.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2911227435126893,
+      "x_meter_stop": 2.270271662722413,
+      "y_meter_start": 9.48174361797585,
+      "y_meter_stop": 3.394995455314861
+    },
+    {
+      "id": 14488,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_210000_1556_2097_532.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2911227435126893,
+      "x_meter_stop": 2.270271662722413,
+      "y_meter_start": 9.48174361797585,
+      "y_meter_stop": 3.394995455314861
+    },
+    {
+      "id": 14117,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_210000_1556_2097_161.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2911227435126893,
+      "x_meter_stop": 2.270271662722413,
+      "y_meter_start": 9.48174361797585,
+      "y_meter_stop": 3.394995455314861
+    },
+    {
+      "id": 14361,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_210000_1556_2097_405.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2911227435126893,
+      "x_meter_stop": 2.270271662722413,
+      "y_meter_start": 9.48174361797585,
+      "y_meter_stop": 3.394995455314861
+    },
+    {
+      "id": 14452,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_210000_1556_2097_496.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2911227435126893,
+      "x_meter_stop": 2.270271662722413,
+      "y_meter_start": 9.48174361797585,
+      "y_meter_stop": 3.394995455314861
+    },
+    {
+      "id": 14129,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_210000_1556_2097_173.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2911227435126893,
+      "x_meter_stop": 2.270271662722413,
+      "y_meter_start": 9.48174361797585,
+      "y_meter_stop": 3.394995455314861
+    },
+    {
+      "id": 10872,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_210000_2467_3008_213.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2911227435126893,
+      "x_meter_stop": 2.270271662722413,
+      "y_meter_start": 9.48174361797585,
+      "y_meter_stop": 3.394995455314861
+    },
+    {
+      "id": 10800,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_210000_2467_3008_141.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2911227435126893,
+      "x_meter_stop": 2.270271662722413,
+      "y_meter_start": 9.48174361797585,
+      "y_meter_stop": 3.394995455314861
+    },
+    {
+      "id": 10923,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_210000_2467_3008_264.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2911227435126893,
+      "x_meter_stop": 2.270271662722413,
+      "y_meter_start": 9.48174361797585,
+      "y_meter_stop": 3.394995455314861
+    },
+    {
+      "id": 11034,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_210000_2467_3008_375.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2911227435126893,
+      "x_meter_stop": 2.270271662722413,
+      "y_meter_start": 9.48174361797585,
+      "y_meter_stop": 3.394995455314861
+    },
+    {
+      "id": 10740,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_210000_2467_3008_81.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2911227435126893,
+      "x_meter_stop": 2.270271662722413,
+      "y_meter_start": 9.48174361797585,
+      "y_meter_stop": 3.394995455314861
+    },
+    {
+      "id": 11193,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_210000_2467_3008_534.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2911227435126893,
+      "x_meter_stop": 2.270271662722413,
+      "y_meter_start": 9.48174361797585,
+      "y_meter_stop": 3.394995455314861
+    },
+    {
+      "id": 10835,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_210000_2467_3008_176.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2911227435126893,
+      "x_meter_stop": 2.270271662722413,
+      "y_meter_start": 9.48174361797585,
+      "y_meter_stop": 3.394995455314861
+    },
+    {
+      "id": 11036,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_210000_2467_3008_377.jpg",
+      "height": 830,
+      "width": 622,
+      "x_meter_start": -2.2911227435126893,
+      "x_meter_stop": 2.270271662722413,
+      "y_meter_start": 9.48174361797585,
+      "y_meter_stop": 3.394995455314861
+    },
+    {
+      "id": 20181,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_2954_3495_431.jpg",
+      "height": 829,
+      "width": 622,
+      "x_meter_start": -2.290384698116487,
+      "x_meter_stop": 2.269531791341218,
+      "y_meter_start": 9.480112552160309,
+      "y_meter_stop": 3.39533652925051
+    },
+    {
+      "id": 19846,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_2954_3495_96.jpg",
+      "height": 829,
+      "width": 622,
+      "x_meter_start": -2.290384698116487,
+      "x_meter_stop": 2.269531791341218,
+      "y_meter_start": 9.480112552160309,
+      "y_meter_stop": 3.39533652925051
+    },
+    {
+      "id": 19928,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_2954_3495_178.jpg",
+      "height": 829,
+      "width": 622,
+      "x_meter_start": -2.290384698116487,
+      "x_meter_stop": 2.269531791341218,
+      "y_meter_start": 9.480112552160309,
+      "y_meter_stop": 3.39533652925051
+    },
+    {
+      "id": 19794,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_2954_3495_44.jpg",
+      "height": 829,
+      "width": 622,
+      "x_meter_start": -2.290384698116487,
+      "x_meter_stop": 2.269531791341218,
+      "y_meter_start": 9.480112552160309,
+      "y_meter_stop": 3.39533652925051
+    },
+    {
+      "id": 19964,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_2954_3495_214.jpg",
+      "height": 829,
+      "width": 622,
+      "x_meter_start": -2.290384698116487,
+      "x_meter_stop": 2.269531791341218,
+      "y_meter_start": 9.480112552160309,
+      "y_meter_stop": 3.39533652925051
+    },
+    {
+      "id": 20061,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_2954_3495_311.jpg",
+      "height": 829,
+      "width": 622,
+      "x_meter_start": -2.290384698116487,
+      "x_meter_stop": 2.269531791341218,
+      "y_meter_start": 9.480112552160309,
+      "y_meter_stop": 3.39533652925051
+    },
+    {
+      "id": 19858,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_2954_3495_108.jpg",
+      "height": 829,
+      "width": 622,
+      "x_meter_start": -2.290384698116487,
+      "x_meter_stop": 2.269531791341218,
+      "y_meter_start": 9.480112552160309,
+      "y_meter_stop": 3.39533652925051
+    },
+    {
+      "id": 19774,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_2954_3495_24.jpg",
+      "height": 829,
+      "width": 622,
+      "x_meter_start": -2.290384698116487,
+      "x_meter_stop": 2.269531791341218,
+      "y_meter_start": 9.480112552160309,
+      "y_meter_stop": 3.39533652925051
+    },
+    {
+      "id": 30428,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_3706_4247_514.jpg",
+      "height": 829,
+      "width": 622,
+      "x_meter_start": -2.290384698116487,
+      "x_meter_stop": 2.269531791341218,
+      "y_meter_start": 9.480112552160309,
+      "y_meter_stop": 3.39533652925051
+    },
+    {
+      "id": 30078,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_3706_4247_164.jpg",
+      "height": 829,
+      "width": 622,
+      "x_meter_start": -2.290384698116487,
+      "x_meter_stop": 2.269531791341218,
+      "y_meter_start": 9.480112552160309,
+      "y_meter_stop": 3.39533652925051
+    },
+    {
+      "id": 30453,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_3706_4247_539.jpg",
+      "height": 829,
+      "width": 622,
+      "x_meter_start": -2.290384698116487,
+      "x_meter_stop": 2.269531791341218,
+      "y_meter_start": 9.480112552160309,
+      "y_meter_stop": 3.39533652925051
+    },
+    {
+      "id": 30010,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_3706_4247_96.jpg",
+      "height": 829,
+      "width": 622,
+      "x_meter_start": -2.290384698116487,
+      "x_meter_stop": 2.269531791341218,
+      "y_meter_start": 9.480112552160309,
+      "y_meter_stop": 3.39533652925051
+    },
+    {
+      "id": 30367,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_3706_4247_453.jpg",
+      "height": 829,
+      "width": 622,
+      "x_meter_start": -2.290384698116487,
+      "x_meter_stop": 2.269531791341218,
+      "y_meter_start": 9.480112552160309,
+      "y_meter_stop": 3.39533652925051
+    },
+    {
+      "id": 30098,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_3706_4247_184.jpg",
+      "height": 829,
+      "width": 622,
+      "x_meter_start": -2.290384698116487,
+      "x_meter_stop": 2.269531791341218,
+      "y_meter_start": 9.480112552160309,
+      "y_meter_stop": 3.39533652925051
+    },
+    {
+      "id": 30100,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_3706_4247_186.jpg",
+      "height": 829,
+      "width": 622,
+      "x_meter_start": -2.290384698116487,
+      "x_meter_stop": 2.269531791341218,
+      "y_meter_start": 9.480112552160309,
+      "y_meter_stop": 3.39533652925051
+    },
+    {
+      "id": 30021,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_3706_4247_107.jpg",
+      "height": 829,
+      "width": 622,
+      "x_meter_start": -2.290384698116487,
+      "x_meter_stop": 2.269531791341218,
+      "y_meter_start": 9.480112552160309,
+      "y_meter_stop": 3.39533652925051
+    },
+    {
+      "id": 20932,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_4972_5277_102.jpg",
+      "height": 829,
+      "width": 622,
+      "x_meter_start": -2.290384698116487,
+      "x_meter_stop": 2.269531791341218,
+      "y_meter_start": 9.480112552160309,
+      "y_meter_stop": 3.39533652925051
+    },
+    {
+      "id": 20941,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_4972_5277_111.jpg",
+      "height": 829,
+      "width": 622,
+      "x_meter_start": -2.290384698116487,
+      "x_meter_stop": 2.269531791341218,
+      "y_meter_start": 9.480112552160309,
+      "y_meter_stop": 3.39533652925051
+    },
+    {
+      "id": 20883,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_4972_5277_53.jpg",
+      "height": 829,
+      "width": 622,
+      "x_meter_start": -2.290384698116487,
+      "x_meter_stop": 2.269531791341218,
+      "y_meter_start": 9.480112552160309,
+      "y_meter_stop": 3.39533652925051
+    },
+    {
+      "id": 20868,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_4972_5277_38.jpg",
+      "height": 829,
+      "width": 622,
+      "x_meter_start": -2.290384698116487,
+      "x_meter_stop": 2.269531791341218,
+      "y_meter_start": 9.480112552160309,
+      "y_meter_stop": 3.39533652925051
+    },
+    {
+      "id": 20908,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_4972_5277_78.jpg",
+      "height": 829,
+      "width": 622,
+      "x_meter_start": -2.290384698116487,
+      "x_meter_stop": 2.269531791341218,
+      "y_meter_start": 9.480112552160309,
+      "y_meter_stop": 3.39533652925051
+    },
+    {
+      "id": 21051,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_4972_5277_221.jpg",
+      "height": 829,
+      "width": 622,
+      "x_meter_start": -2.290384698116487,
+      "x_meter_stop": 2.269531791341218,
+      "y_meter_start": 9.480112552160309,
+      "y_meter_stop": 3.39533652925051
+    },
+    {
+      "id": 20975,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_4972_5277_145.jpg",
+      "height": 829,
+      "width": 622,
+      "x_meter_start": -2.290384698116487,
+      "x_meter_stop": 2.269531791341218,
+      "y_meter_start": 9.480112552160309,
+      "y_meter_stop": 3.39533652925051
+    },
+    {
+      "id": 21073,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_4972_5277_243.jpg",
+      "height": 829,
+      "width": 622,
+      "x_meter_start": -2.290384698116487,
+      "x_meter_stop": 2.269531791341218,
+      "y_meter_start": 9.480112552160309,
+      "y_meter_stop": 3.39533652925051
+    },
+    {
+      "id": 7487,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_720_1261_402.jpg",
+      "height": 829,
+      "width": 622,
+      "x_meter_start": -2.290384698116487,
+      "x_meter_stop": 2.269531791341218,
+      "y_meter_start": 9.480112552160309,
+      "y_meter_stop": 3.39533652925051
+    },
+    {
+      "id": 7427,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_720_1261_342.jpg",
+      "height": 829,
+      "width": 622,
+      "x_meter_start": -2.290384698116487,
+      "x_meter_stop": 2.269531791341218,
+      "y_meter_start": 9.480112552160309,
+      "y_meter_stop": 3.39533652925051
+    },
+    {
+      "id": 7342,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_720_1261_257.jpg",
+      "height": 829,
+      "width": 622,
+      "x_meter_start": -2.290384698116487,
+      "x_meter_stop": 2.269531791341218,
+      "y_meter_start": 9.480112552160309,
+      "y_meter_stop": 3.39533652925051
+    },
+    {
+      "id": 7113,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_720_1261_28.jpg",
+      "height": 829,
+      "width": 622,
+      "x_meter_start": -2.290384698116487,
+      "x_meter_stop": 2.269531791341218,
+      "y_meter_start": 9.480112552160309,
+      "y_meter_stop": 3.39533652925051
+    },
+    {
+      "id": 7335,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_720_1261_250.jpg",
+      "height": 829,
+      "width": 622,
+      "x_meter_start": -2.290384698116487,
+      "x_meter_stop": 2.269531791341218,
+      "y_meter_start": 9.480112552160309,
+      "y_meter_stop": 3.39533652925051
+    },
+    {
+      "id": 7295,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_720_1261_210.jpg",
+      "height": 829,
+      "width": 622,
+      "x_meter_start": -2.290384698116487,
+      "x_meter_stop": 2.269531791341218,
+      "y_meter_start": 9.480112552160309,
+      "y_meter_stop": 3.39533652925051
+    },
+    {
+      "id": 7095,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_720_1261_10.jpg",
+      "height": 829,
+      "width": 622,
+      "x_meter_start": -2.290384698116487,
+      "x_meter_stop": 2.269531791341218,
+      "y_meter_start": 9.480112552160309,
+      "y_meter_stop": 3.39533652925051
+    },
+    {
+      "id": 7219,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_220000_720_1261_134.jpg",
+      "height": 829,
+      "width": 622,
+      "x_meter_start": -2.290384698116487,
+      "x_meter_stop": 2.269531791341218,
+      "y_meter_start": 9.480112552160309,
+      "y_meter_stop": 3.39533652925051
+    },
+    {
+      "id": 10,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_230000_4157_4372_10.jpg",
+      "height": 831,
+      "width": 624,
+      "x_meter_start": -2.296219767934963,
+      "x_meter_stop": 2.275367632101671,
+      "y_meter_start": 9.48340018401134,
+      "y_meter_stop": 3.395276579154862
+    },
+    {
+      "id": 103,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_230000_4157_4372_103.jpg",
+      "height": 831,
+      "width": 624,
+      "x_meter_start": -2.296219767934963,
+      "x_meter_stop": 2.275367632101671,
+      "y_meter_start": 9.48340018401134,
+      "y_meter_stop": 3.395276579154862
+    },
+    {
+      "id": 86,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_230000_4157_4372_86.jpg",
+      "height": 831,
+      "width": 624,
+      "x_meter_start": -2.296219767934963,
+      "x_meter_stop": 2.275367632101671,
+      "y_meter_start": 9.48340018401134,
+      "y_meter_stop": 3.395276579154862
+    },
+    {
+      "id": 158,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_230000_4157_4372_158.jpg",
+      "height": 831,
+      "width": 624,
+      "x_meter_start": -2.296219767934963,
+      "x_meter_stop": 2.275367632101671,
+      "y_meter_start": 9.48340018401134,
+      "y_meter_stop": 3.395276579154862
+    },
+    {
+      "id": 22,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_230000_4157_4372_22.jpg",
+      "height": 831,
+      "width": 624,
+      "x_meter_start": -2.296219767934963,
+      "x_meter_stop": 2.275367632101671,
+      "y_meter_start": 9.48340018401134,
+      "y_meter_stop": 3.395276579154862
+    },
+    {
+      "id": 71,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_230000_4157_4372_71.jpg",
+      "height": 831,
+      "width": 624,
+      "x_meter_start": -2.296219767934963,
+      "x_meter_stop": 2.275367632101671,
+      "y_meter_start": 9.48340018401134,
+      "y_meter_stop": 3.395276579154862
+    },
+    {
+      "id": 112,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_230000_4157_4372_112.jpg",
+      "height": 831,
+      "width": 624,
+      "x_meter_start": -2.296219767934963,
+      "x_meter_stop": 2.275367632101671,
+      "y_meter_start": 9.48340018401134,
+      "y_meter_stop": 3.395276579154862
+    },
+    {
+      "id": 206,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_230000_4157_4372_206.jpg",
+      "height": 831,
+      "width": 624,
+      "x_meter_start": -2.296219767934963,
+      "x_meter_stop": 2.275367632101671,
+      "y_meter_start": 9.48340018401134,
+      "y_meter_stop": 3.395276579154862
+    },
+    {
+      "id": 7729,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_230000_4637_5018_104.jpg",
+      "height": 831,
+      "width": 624,
+      "x_meter_start": -2.296219767934963,
+      "x_meter_stop": 2.275367632101671,
+      "y_meter_start": 9.48340018401134,
+      "y_meter_stop": 3.395276579154862
+    },
+    {
+      "id": 7982,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_230000_4637_5018_357.jpg",
+      "height": 831,
+      "width": 624,
+      "x_meter_start": -2.296219767934963,
+      "x_meter_stop": 2.275367632101671,
+      "y_meter_start": 9.48340018401134,
+      "y_meter_stop": 3.395276579154862
+    },
+    {
+      "id": 7975,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_230000_4637_5018_350.jpg",
+      "height": 831,
+      "width": 624,
+      "x_meter_start": -2.296219767934963,
+      "x_meter_stop": 2.275367632101671,
+      "y_meter_start": 9.48340018401134,
+      "y_meter_stop": 3.395276579154862
+    },
+    {
+      "id": 7641,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_230000_4637_5018_16.jpg",
+      "height": 831,
+      "width": 624,
+      "x_meter_start": -2.296219767934963,
+      "x_meter_stop": 2.275367632101671,
+      "y_meter_start": 9.48340018401134,
+      "y_meter_stop": 3.395276579154862
+    },
+    {
+      "id": 7910,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_230000_4637_5018_285.jpg",
+      "height": 831,
+      "width": 624,
+      "x_meter_start": -2.296219767934963,
+      "x_meter_stop": 2.275367632101671,
+      "y_meter_start": 9.48340018401134,
+      "y_meter_stop": 3.395276579154862
+    },
+    {
+      "id": 7977,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_230000_4637_5018_352.jpg",
+      "height": 831,
+      "width": 624,
+      "x_meter_start": -2.296219767934963,
+      "x_meter_stop": 2.275367632101671,
+      "y_meter_start": 9.48340018401134,
+      "y_meter_stop": 3.395276579154862
+    },
+    {
+      "id": 7731,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_230000_4637_5018_106.jpg",
+      "height": 831,
+      "width": 624,
+      "x_meter_start": -2.296219767934963,
+      "x_meter_stop": 2.275367632101671,
+      "y_meter_start": 9.48340018401134,
+      "y_meter_stop": 3.395276579154862
+    },
+    {
+      "id": 7992,
+      "file_name": "2018-06-03-JD154_LeftNear_Stratum1_Set1_LN_2018-06-03_230000_4637_5018_367.jpg",
+      "height": 831,
+      "width": 624,
+      "x_meter_start": -2.296219767934963,
+      "x_meter_stop": 2.275367632101671,
+      "y_meter_start": 9.48340018401134,
+      "y_meter_stop": 3.395276579154862
+    }
+  ],
+  "annotation_sha256": "db5cf0b0b09d5b9895d7baa5569493c4b06f1318c2094094e9abfb715f0133b8",
+  "negative_frames": 342,
+  "selection_uses_labels": false,
+  "site": "Kenai validation"
+}

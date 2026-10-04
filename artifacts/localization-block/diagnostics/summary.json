@@ -1,0 +1,68 @@
+[
+  {
+    "run": "det-finetune-r672-f010-s7-mb4",
+    "cpu_wall_seconds": 25.37587857246399,
+    "AP50": 0.5001146683756039,
+    "recall": 0.4823459651770794,
+    "false_positive_types": {
+      "duplicate": 165,
+      "localization": 2592,
+      "background": 1105
+    }
+  },
+  {
+    "run": "det-image-finetune-r672-f010-s7-mb4",
+    "cpu_wall_seconds": 32.410560131073,
+    "AP50": 0.5174099902084023,
+    "recall": 0.5031534688156972,
+    "false_positive_types": {
+      "duplicate": 147,
+      "localization": 2487,
+      "background": 1210
+    }
+  },
+  {
+    "run": "det-capacity-finetune-r672-f010-s7-mb4",
+    "cpu_wall_seconds": 6.338412761688232,
+    "AP50": 0.5105102395687281,
+    "recall": 0.49226456794781953,
+    "false_positive_types": {
+      "duplicate": 107,
+      "localization": 2350,
+      "background": 1099
+    }
+  },
+  {
+    "run": "det-b-finetune-r672-f010-s7-mb4",
+    "cpu_wall_seconds": 29.818395137786865,
+    "AP50": 0.48950158171313524,
+    "recall": 0.46099940704005177,
+    "false_positive_types": {
+      "duplicate": 105,
+      "localization": 2495,
+      "background": 891
+    }
+  },
+  {
+    "run": "det-finetune-r672-f001-s7-mb4",
+    "cpu_wall_seconds": 19.505406856536865,
+    "AP50": 0.14084219704641673,
+    "recall": 0.2309848525685947,
+    "false_positive_types": {
+      "duplicate": 65,
+      "localization": 2999,
+      "background": 8189
+    }
+  },
+  {
+    "run": "det-b-finetune-r672-f001-s7-mb4",
+    "cpu_wall_seconds": 24.794327974319458,
+    "AP50": 0.12019866870728303,
+    "recall": 0.19098700878658834,
+    "false_positive_types": {
+      "duplicate": 64,
+      "localization": 3821,
+      "background": 7214
+    }
+  }
+]

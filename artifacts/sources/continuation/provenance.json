@@ -1,0 +1,39 @@
+{
+  "retrieved_utc": "2026-10-02T23:20:20.5700076Z",
+  "motion_commit": "b3c2fb374b7c69f169de15774f371290a8736f56",
+  "motion_license": "No license reported by repository API or LICENSE path in retrieved tree; a reference copy was inspected, with no source incorporated into executable project code or executed",
+  "dinov2_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+  "dinov2_license": "Apache-2.0",
+  "sources": [
+    {
+      "file": "pixelumm.html",
+      "url": "https://arxiv.org/html/2609.38597v1",
+      "sha256": "445888e76c5d39f766bc9d0274edebca72f848ab166dc52aff2b9f284bb620ca",
+      "bytes": 700159
+    },
+    {
+      "file": "far.html",
+      "url": "https://arxiv.org/html/2609.34677v1",
+      "sha256": "24a4503c849274cf6891a4159f76dfc8d6bb6ae32bc486939e52fcbbb18b6dc2",
+      "bytes": 491762
+    },
+    {
+      "file": "slow-features.html",
+      "url": "https://arxiv.org/html/2211.10831v1",
+      "sha256": "2a32fe9427ca823c5a0eae3400c26a01a97fc5e70806073415b0e90e6de91ca8",
+      "bytes": 200437
+    },
+    {
+      "file": "motion-jepa-reference.py.txt",
+      "url": "https://raw.githubusercontent.com/mkarmann/motion-jepa/b3c2fb374b7c69f169de15774f371290a8736f56/src/models/motionjepa/jepa.py",
+      "sha256": "4cb7f746ac3f84db6def779fb6651070f91d47bcd32e95efc9eec4b0d1965f25",
+      "bytes": 3474
+    },
+    {
+      "file": "motion-jepa.html",
+      "url": "https://arxiv.org/html/2609.23881v1",
+      "sha256": "63f0284d9df568052abf32394c0d5af2658f693e13526eaaf97357a8bfc05f36",
+      "bytes": 834495
+    }
+  ]
+}

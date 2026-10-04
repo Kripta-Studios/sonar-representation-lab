@@ -1,0 +1,15 @@
+{
+  "arguments": [
+    "src/profile_batch.py",
+    "--finetune",
+    "--batch",
+    "8",
+    "--size",
+    "672",
+    "--allocation",
+    "C:\\Users\\\u00c1lvaro Schwiedop\\Desktop\\KriptaStudios\\sonar-representation-lab\\artifacts\\spatial_motion_allocation.json"
+  ],
+  "forecast_hours": 0.03,
+  "remaining_development_hours": 14.353793055555565,
+  "final_reserve_protected": true
+}

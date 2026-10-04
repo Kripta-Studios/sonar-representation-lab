@@ -1,0 +1,11 @@
+{
+  "available": {
+    "clips": 5,
+    "frames": 1952,
+    "annotations": 1782,
+    "negative_frames": 1016
+  },
+  "unique_images_seen": 1951,
+  "frame_presentations": 16000,
+  "successful_updates": 2000
+}

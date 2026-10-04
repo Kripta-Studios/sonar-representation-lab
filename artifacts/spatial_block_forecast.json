@@ -1,0 +1,10 @@
+{
+  "size": 672,
+  "ssl_hours": 2.602604166673215,
+  "frozen_hours": 0.745128124999994,
+  "fine_hours": 1.2111111111253396,
+  "validation_hours": 1.3521916666666582,
+  "whole_mandatory_block_hours": 9.826529513923862,
+  "remaining_development_hours": 14.337369444444455,
+  "reuse_published448_finetune": false
+}

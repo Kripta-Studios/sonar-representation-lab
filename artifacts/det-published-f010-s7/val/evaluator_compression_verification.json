@@ -1,0 +1,13 @@
+{
+  "source_filename": "coco_eval_images.json",
+  "compressed_filename": "coco_eval_images.json.gz",
+  "original_bytes": 2087790788,
+  "compressed_bytes": 112111059,
+  "original_sha256": "de3b6cf0af8c54fd2703575dc73679041a6c3cf5c8a3d0daf2093d4f60601e8f",
+  "decompressed_sha256": "de3b6cf0af8c54fd2703575dc73679041a6c3cf5c8a3d0daf2093d4f60601e8f",
+  "exact_byte_round_trip": true,
+  "compression_level": 1,
+  "cpu_wall_seconds": 98.78820300102234,
+  "source_retained": true,
+  "meaning": "Lossless storage verification of the already executed full COCO per-image evaluator output; scores and detections unchanged."
+}

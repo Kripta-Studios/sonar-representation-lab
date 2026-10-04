@@ -1,0 +1,7 @@
+{
+  "checkpoint_sha256": "ae87feaa719f90c59c38cb7221937a8512d058ce30f7670e9d48a4c5c24bcf3c",
+  "successful_detector_updates": 2000,
+  "published_encoder_tensor_count": 176,
+  "frozen_encoder_bitwise_unchanged": true,
+  "evaluation": "CPU artifact comparison, author-verified; not independent review"
+}

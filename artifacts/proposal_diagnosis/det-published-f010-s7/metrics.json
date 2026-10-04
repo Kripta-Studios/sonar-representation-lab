@@ -1,0 +1,33 @@
+{
+  "frames": 512,
+  "counts": {
+    "ground_truth": 314,
+    "covered_at_100_iou_0.5": 172,
+    "covered_at_100_iou_0.75": 21,
+    "covered_at_200_iou_0.5": 191,
+    "covered_at_200_iou_0.75": 25,
+    "proposal_covered_but_no_final_coverage": 162,
+    "no_proposal_coverage": 123,
+    "final_box_coverage": 29,
+    "negative_frames": 342,
+    "negative_proposals": 68400,
+    "negative_proposals_objectness_ge_0.5": 542,
+    "negative_final_detections_score_ge_0.5": 0
+  },
+  "proposal_recall": {
+    "covered_at_100_iou_0.5": 0.5477707006369427,
+    "covered_at_100_iou_0.75": 0.06687898089171974,
+    "covered_at_200_iou_0.5": 0.60828025477707,
+    "covered_at_200_iou_0.75": 0.07961783439490445
+  },
+  "checkpoint_sha256": "ae87feaa719f90c59c38cb7221937a8512d058ce30f7670e9d48a4c5c24bcf3c",
+  "subset_sha256": "50f7cf3bb2d1fb0a1c72270e6670880afa2e8c349cdd30003840d0c31cf8d5fc",
+  "instrumentation_sha256": "3664bea360a2b0153b28941f7c0f9c403bfd82ec71e66d299e9c6abd72626b96",
+  "model_inference_seconds": 3.520248300221283,
+  "latency_seconds_per_frame": 0.006875484961369693,
+  "latency_includes_hooks_and_cpu_proposal_copy": true,
+  "first_batch_hook_predictions_bitwise_equal": true,
+  "geometry": "xyxy on 448 canvas; same rounded GT scaling as production",
+  "roi_failure_definition": "GT with any RPN IoU>=0.5 proposal, but no final score>=0.5 box covering it; coverage is not one-to-one AP matching",
+  "status": "author diagnostic on fixed subset, not full validation AP"
+}

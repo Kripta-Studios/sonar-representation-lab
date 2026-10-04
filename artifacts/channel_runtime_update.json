@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-03T16:07:17Z",
+  "completed_models": 4,
+  "completed_final_charged_hours": 1.3464841666666487,
+  "observed_current_frames": 1008,
+  "observed_current_seconds": 176.68699999997625,
+  "conservative_each_remaining_model_hours": 0.9966934076002014,
+  "remaining_models_including_current": 3,
+  "updated_total_final_forecast_hours": 4.336564389467253,
+  "original_reserved_hours": 6,
+  "fits_original_reserve": true,
+  "model_roster_or_method_changed": false,
+  "basis": "Current logged frames extrapolated with25% margin plus0.20h scoring/output allowance per remaining model; only a runtime projection, never model or score settings.",
+  "initial_reporting_failure": "First CPU-only reporting command used system-default text decoding on a UTF-8 console log; corrected explicitly to UTF-8 without changing research source or outputs. No GPU work or charge."
+}

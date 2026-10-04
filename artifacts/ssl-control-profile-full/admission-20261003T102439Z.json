@@ -1,0 +1,17 @@
+{
+  "arguments": [
+    "src/adapt_motion.py",
+    "--parent",
+    "artifacts/ssl-B-s7/checkpoint.pt",
+    "--calibration",
+    "artifacts/motion-calibration/calibration.json",
+    "--seed",
+    "7",
+    "--profile",
+    "--out",
+    "artifacts/ssl-control-profile-full"
+  ],
+  "forecast_hours": 0.03,
+  "remaining_development_hours": 7.058033888888897,
+  "final_reserve_protected": true
+}

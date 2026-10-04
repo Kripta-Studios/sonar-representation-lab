@@ -1,0 +1,15 @@
+{
+  "arguments": [
+    "src/train_detector.py",
+    "predict",
+    "--checkpoint",
+    "artifacts\\det-b-finetune-r672-f010-s7\\checkpoint.pt",
+    "--out",
+    "artifacts\\det-b-finetune-r672-f010-s7\\val",
+    "--batch",
+    "8"
+  ],
+  "forecast_hours": 1.3521916666666582,
+  "remaining_development_hours": 9.98551666666668,
+  "final_reserve_protected": true
+}
