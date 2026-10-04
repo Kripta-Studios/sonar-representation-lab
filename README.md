@@ -6,6 +6,9 @@ predictions, evaluator outputs, interrupted attempts and pinned DINOv2 source ar
 independent ZIP volumes in the [research snapshot release](https://github.com/Kripta-Studios/sonar-representation-lab/releases/tag/research-2026-10-04).
 The release manifest records every included path, size and SHA-256. Raw CFC images and the Python
 environment are excluded; obtain the official data and use the pinned environment instructions below.
+There are 22 ZIP volumes: 21.93 GB to download and 32.17 GB of restored files, covering 1,807 paths.
+Allow at least 55 GB of free space for both archives and restored artifacts, separately from the data
+and Python environment.
 Cached third-party webpages and reference copies remain local; their original source links, factual
 provenance and license records are retained. The archive includes the licensed pinned DINOv2 source.
 
