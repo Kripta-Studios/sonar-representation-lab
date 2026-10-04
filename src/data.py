@@ -19,7 +19,16 @@ from PIL import Image
 
 from acquire import ROOT, save_json
 
-SIZE = 448
+DEFAULT_SIZE = 448
+SUPPORTED_SIZES = (448, 672)
+# Compatibility alias for callers that imported the original constant.
+SIZE = DEFAULT_SIZE
+
+
+def validate_size(size):
+    if size not in SUPPORTED_SIZES:
+        raise ValueError(f"Detector size must be one of {SUPPORTED_SIZES}, got {size}")
+    return size
 
 
 def clip_name(filename):
@@ -107,7 +116,8 @@ def prepare(root=ROOT):
     save_json(dest / "val.json", source["val"][0])
 
 
-def letterbox(image, size=SIZE):
+def letterbox(image, size=DEFAULT_SIZE):
+    validate_size(size)
     if image.mode != "L":
         raise ValueError(f"Expected official grayscale, got {image.mode}")
     w, h = image.size
@@ -137,11 +147,19 @@ def undo_boxes(boxes, scales, width, height):
     return out
 
 
-CACHE_FORMAT = "CFC-v1.1-L-PIL-bilinear-448-topleft-uint8-v1"
+def cache_format(size):
+    validate_size(size)
+    return f"CFC-v1.1-L-PIL-bilinear-{size}-topleft-uint8-v1"
 
 
-def prepare_cache(root=ROOT, location="kenai", workers=4):
+CACHE_FORMAT = cache_format(DEFAULT_SIZE)
+
+
+def prepare_cache(root=ROOT, location="kenai", workers=4, size=DEFAULT_SIZE):
     """CPU-only, bounded preparation of exactly the existing detector canvases."""
+    validate_size(size)
+    if size != DEFAULT_SIZE:
+        raise ValueError("The continuation prohibits a full 672 cache; read original JPEGs")
     sources = (
         ["manifests/train-100.json", "manifests/val.json"]
         if location == "kenai"
@@ -156,12 +174,12 @@ def prepare_cache(root=ROOT, location="kenai", workers=4):
     assert len({i["file_name"] for i in images}) == len(images)
     directory = root / "cache"
     directory.mkdir(exist_ok=True)
-    target = directory / f"{location}-gray448-u8.bin"
-    metadata = directory / f"{location}-gray448.json"
+    target = directory / f"{location}-gray{size}-u8.bin"
+    metadata = directory / f"{location}-gray{size}.json"
     temporary = target.with_suffix(".partial")
     if target.exists() or metadata.exists() or temporary.exists():
         raise RuntimeError("Cache output already exists; preserve it instead of silently rebuilding")
-    required = len(images) * SIZE * SIZE
+    required = len(images) * size * size
     if shutil.disk_usage(directory).free < required + 1024**3:
         raise RuntimeError(f"Insufficient cache space: need {required + 1024**3} bytes")
     started = time.time()
@@ -171,9 +189,9 @@ def prepare_cache(root=ROOT, location="kenai", workers=4):
             if image.mode != "L" or image.size != (info["width"], info["height"]):
                 raise ValueError(f"Cache grayscale/dimensions mismatch: {info['file_name']}")
             w, h = image.size
-            scale = SIZE / max(w, h)
+            scale = size / max(w, h)
             rw, rh = max(1, round(w * scale)), max(1, round(h * scale))
-            canvas = Image.new("L", (SIZE, SIZE), 0)
+            canvas = Image.new("L", (size, size), 0)
             canvas.paste(image.resize((rw, rh), Image.Resampling.BILINEAR), (0, 0))
             raw = canvas.tobytes()
         return raw, {"file_name": info["file_name"], "width": w, "height": h, "crc32": zlib.crc32(raw)}
@@ -186,7 +204,7 @@ def prepare_cache(root=ROOT, location="kenai", workers=4):
             for first in range(0, len(images), 128):
                 # map only this bounded window, never the complete dataset at once.
                 for raw, row in pool.map(convert, images[first : first + 128]):
-                    assert len(raw) == SIZE * SIZE
+                    assert len(raw) == size * size
                     stream.write(raw)
                     digest.update(raw)
                     rows.append(row)
@@ -209,9 +227,9 @@ def prepare_cache(root=ROOT, location="kenai", workers=4):
     save_json(
         metadata,
         {
-            "format": CACHE_FORMAT,
+            "format": cache_format(size),
             "location": location,
-            "size": SIZE,
+            "size": size,
             "source_sha256": source_hashes,
             "blob_sha256": digest.hexdigest(),
             "blob_bytes": required,
@@ -224,7 +242,9 @@ def prepare_cache(root=ROOT, location="kenai", workers=4):
 
 
 class DetectionData:
-    def __init__(self, manifest, root=ROOT, location="kenai", use_cache=True):
+    def __init__(self, manifest, root=ROOT, location="kenai", use_cache=True, size=DEFAULT_SIZE):
+        validate_size(size)
+        self.size = size
         self.manifest = Path(manifest)
         self.data = json.loads(self.manifest.read_text())
         self.images = self.data["images"]
@@ -234,12 +254,16 @@ class DetectionData:
             self.annotations[a["image_id"]].append(a)
         self.cache_identity = None
         self.cache_rows = {}
-        self.cache_blob = root / "cache" / f"{location}-gray448-u8.bin"
-        metadata = root / "cache" / f"{location}-gray448.json"
+        self.cache_blob = root / "cache" / f"{location}-gray{size}-u8.bin"
+        metadata = root / "cache" / f"{location}-gray{size}.json"
         if use_cache and metadata.exists():
             cached = json.loads(metadata.read_text())
-            if cached["format"] != CACHE_FORMAT or cached["size"] != SIZE or cached["location"] != location:
-                raise ValueError("Detector canvas cache format changed")
+            if (
+                cached["format"] != cache_format(size)
+                or cached["size"] != size
+                or cached["location"] != location
+            ):
+                raise ValueError("Detector canvas cache resolution or format changed")
             for name, expected in cached["source_sha256"].items():
                 if hashlib.sha256((root / name).read_bytes()).hexdigest() != expected:
                     raise ValueError("Detector cache source manifest changed")
@@ -247,7 +271,8 @@ class DetectionData:
                 raise ValueError("Detector canvas cache size changed")
             self.cache_rows = {row["file_name"]: (index, row) for index, row in enumerate(cached["rows"])}
             self.cache_identity = {
-                "format": CACHE_FORMAT,
+                "format": cache_format(size),
+                "size": size,
                 "manifest_sha256": hashlib.sha256(metadata.read_bytes()).hexdigest(),
                 "blob_sha256": cached["blob_sha256"],
             }
@@ -263,18 +288,18 @@ class DetectionData:
         if self.cache_identity is None:
             with Image.open(self.root / info["file_name"]) as im:
                 assert im.size == (info["width"], info["height"]), (im.size, info)
-                x, scales = letterbox(im)
+                x, scales = letterbox(im, self.size)
         else:
             index, row = self.cache_rows[info["file_name"]]
             with self.cache_blob.open("rb") as stream:
-                stream.seek(index * SIZE * SIZE)
-                raw = stream.read(SIZE * SIZE)
-            if len(raw) != SIZE * SIZE or zlib.crc32(raw) != row["crc32"]:
+                stream.seek(index * self.size * self.size)
+                raw = stream.read(self.size * self.size)
+            if len(raw) != self.size * self.size or zlib.crc32(raw) != row["crc32"]:
                 raise ValueError(f"Detector cache row integrity failed: {info['file_name']}")
-            canvas = np.frombuffer(raw, dtype=np.uint8).reshape(SIZE, SIZE)
+            canvas = np.frombuffer(raw, dtype=np.uint8).reshape(self.size, self.size)
             x = torch.from_numpy(canvas.copy()).float().div_(255).unsqueeze(0).repeat(3, 1, 1)
             w, h = info["width"], info["height"]
-            scale = SIZE / max(w, h)
+            scale = self.size / max(w, h)
             scales = (max(1, round(w * scale)) / w, max(1, round(h * scale)) / h)
         raw = torch.tensor([a["bbox"] for a in self.annotations[info["id"]]], dtype=torch.float32).reshape(
             -1, 4
@@ -292,9 +317,10 @@ def main():
     p = argparse.ArgumentParser()
     p.add_argument("--root", type=Path, default=ROOT)
     p.add_argument("--cache", choices=["kenai", "channel"])
+    p.add_argument("--size", type=int, choices=SUPPORTED_SIZES, default=DEFAULT_SIZE)
     args = p.parse_args()
     if args.cache:
-        prepare_cache(args.root, args.cache)
+        prepare_cache(args.root, args.cache, size=args.size)
     else:
         prepare(args.root)
 

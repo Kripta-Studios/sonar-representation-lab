@@ -15,6 +15,22 @@ from pycocotools.cocoeval import COCOeval
 
 from acquire import save_json
 
+EVALUATOR_VERSION = "cfc-coco-positive-annotation-ids-v2"
+
+
+def positive_annotation_ids(gt):
+    """COCO match matrices use zero as a sentinel; input annotation IDs may be zero."""
+    original = [row["id"] for row in gt["annotations"]]
+    if len(set(original)) != len(original):
+        raise ValueError("Duplicate input annotation IDs")
+    result = copy.deepcopy(gt)
+    mapping = []
+    if any(value <= 0 for value in original):
+        for index, row in enumerate(result["annotations"], 1):
+            mapping.append({"source_id": row["id"], "evaluator_id": index})
+            row["id"] = index
+    return result, mapping
+
 
 def iou_xywh(a, b):
     x = max(0, min(a[0] + a[2], b[0] + b[2]) - max(a[0], b[0]))
@@ -77,7 +93,7 @@ def score_predictions(gt, predictions, out=None):
     text = io.StringIO()
     with contextlib.redirect_stdout(text):
         coco = COCO()
-        coco.dataset = copy.deepcopy(gt)
+        coco.dataset, annotation_mapping = positive_annotation_ids(gt)
         coco.dataset.setdefault("info", {})
         coco.createIndex()
         if predictions:
@@ -112,6 +128,7 @@ def score_predictions(gt, predictions, out=None):
             "images_evaluated": len(ids),
             "detections": len(predictions),
             "status": "author-evaluated exploratory; not independently reviewed",
+            "evaluator_version": EVALUATOR_VERSION,
         }
     )
     if out:
@@ -143,6 +160,15 @@ def score_predictions(gt, predictions, out=None):
         save_json(
             out / "evaluator_params.json",
             {k: v.tolist() if isinstance(v, np.ndarray) else v for k, v in vars(ev.params).items()},
+        )
+        save_json(
+            out / "evaluator_identity.json",
+            {
+                "version": EVALUATOR_VERSION,
+                "annotation_id_mapping": annotation_mapping,
+                "image_category_box_coordinates_unchanged": True,
+                "reason": "COCO dtMatches zero sentinel must not collide with an annotation ID",
+            },
         )
         # Publish the completion marker only after every evaluator artifact is durable.
         save_json(out / "metrics.json", result)

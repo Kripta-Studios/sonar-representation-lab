@@ -1,4 +1,9 @@
 * text=auto eol=lf
+# Frozen scientific identities use exact bytes, including original line endings.
+*.py -text
+*.md -text
+artifacts/** -text
+github-artifact-manifest.json -text
 *.pt -text
 *.pth -text
 *.png -text

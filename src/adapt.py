@@ -1,4 +1,4 @@
-"""DINO-style Kenai TRAIN-only self-supervised adaptation, configuration A."""
+"""DINO-style image-only Kenai TRAIN adaptation: historical A and spatial B."""
 
 import argparse
 import json
@@ -13,6 +13,7 @@ from PIL import Image
 from torchvision import transforms as T
 
 from acquire import ROOT, save_json
+from spatial import PatchObjective, masked_patch_loss, patch_masks
 from models import (
     PRETRAINED,
     PRETRAINED_SHA256,
@@ -25,6 +26,7 @@ from models import (
 from runtime import (
     Resources,
     append_curve,
+    assert_state_equal,
     checkpoint,
     code_identity,
     file_sha,
@@ -64,6 +66,7 @@ def main():
     p = argparse.ArgumentParser()
     p.add_argument("--root", type=Path, default=ROOT)
     p.add_argument("--seed", type=int, default=7)
+    p.add_argument("--configuration", choices=["A", "B"], default="A")
     p.add_argument("--steps", type=int, default=2000)
     p.add_argument("--batch", type=int, default=16)
     p.add_argument("--accumulation", type=int, default=1)
@@ -76,6 +79,8 @@ def main():
         help="Four-update resource probe on available TRAIN files; never export encoder",
     )
     args = p.parse_args()
+    if (args.out / "checkpoint.pt").exists() and args.resume is None:
+        raise ValueError("Checkpoint already exists; explicit resume required")
     manifest = args.root / "manifests/ssl-train.json"
     image_list = json.loads(manifest.read_text())
     assert set(image_list) == {"split", "filenames"} and image_list["split"] == "official-kenai-train"
@@ -84,9 +89,9 @@ def main():
         names = [name for name in names if (args.root / "images/kenai" / name).exists()]
         if not names:
             raise ValueError("No real Kenai TRAIN image is available for profiling")
-        args.stop_after = 4
+        args.stop_after = args.stop_after or 4
     config = {
-        "adaptation_configuration": "A",
+        "adaptation_configuration": args.configuration,
         "steps": args.steps,
         "batch": args.batch,
         "accumulation": args.accumulation,
@@ -103,6 +108,25 @@ def main():
         "code_identity": code_identity(),
         "protocol_sha256": file_sha("PROTOCOL.md"),
     }
+    spatial = args.configuration == "B"
+    if spatial:
+        config["patch_objective"] = {
+            "mask_ratio": 0.4,
+            "masked_patches_per_image": 102,
+            "patches_per_crop": 256,
+            "mask_seed": args.seed + 20000,
+            "head_seed": args.seed + 30000,
+            "mask_token_initialization": "published checkpoint mask_token",
+            "out_dim": 4096,
+            "coefficient": 1.0,
+            "student_temperature": 0.1,
+            "teacher_temperature": "same scheduled temperature as CLS; distinct center",
+            "center_momentum": 0.9,
+            "reduction": "masked-patch mean per image, then mean over two global crops and effective batch",
+            "padding": "RandomResizedCrop has no padded region; every 224/14 patch is valid",
+            "correspondence": "same crop tensor, same row-major patch mask on student and unmasked teacher",
+            "global_path": "unchanged unmasked CLS; extra masked student forward",
+        }
     args.out.mkdir(parents=True, exist_ok=True)
     save_json(args.out / "config.json", config)
     seed_all(args.seed)
@@ -117,8 +141,33 @@ def main():
         # Do not optimize the weight-normalization scale; freeze output weights initially.
         sh.last_layer.weight_g.requires_grad_(False)
         objective = DinoObjective().cuda()
+        modules = [
+            ("student", student),
+            ("teacher", teacher),
+            ("student_head", sh),
+            ("teacher_head", th),
+            ("objective", objective),
+        ]
+        parameters = list(student.parameters()) + list(sh.parameters())
+        mask_gen = torch.Generator().manual_seed(args.seed + 20000)
+        if spatial:
+            with torch.random.fork_rng(devices=[]):
+                torch.manual_seed(args.seed + 30000)
+                sph, tph = projection().cuda(), projection().cuda()
+            tph.load_state_dict(sph.state_dict(), strict=True)
+            tph.requires_grad_(False).eval()
+            sph.last_layer.weight_g.requires_grad_(False)
+            patch_objective = PatchObjective().cuda()
+            modules.extend(
+                [
+                    ("student_patch_head", sph),
+                    ("teacher_patch_head", tph),
+                    ("patch_objective", patch_objective),
+                ]
+            )
+            parameters += list(sph.parameters())
         optimizer = torch.optim.AdamW(
-            [p for p in list(student.parameters()) + list(sh.parameters()) if p.requires_grad],
+            [p for p in parameters if p.requires_grad],
             lr=1e-5,
             weight_decay=0.04,
         )
@@ -126,33 +175,38 @@ def main():
         if args.resume:
             state = torch.load(args.resume, map_location="cpu", weights_only=True)
             assert state["config"] == config
-            for key, obj in [
-                ("student", student),
-                ("teacher", teacher),
-                ("student_head", sh),
-                ("teacher_head", th),
-                ("objective", objective),
-            ]:
+            for key, obj in modules:
                 obj.load_state_dict(state[key], strict=True)
             optimizer.load_state_dict(state["optimizer"])
             first = state["step"]
             exposures.update(state["exposures"])
             restore_rng(state["rng"], gen)
+            if spatial:
+                mask_gen.set_state(state["mask_rng"].cpu())
+            if args.profile:
+                for key, obj in modules:
+                    assert_state_equal(obj.state_dict(), state[key], key)
+                assert_state_equal(optimizer.state_dict(), state["optimizer"], "optimizer")
+                assert_state_equal(rng_state(gen), state["rng"], "rng")
+                if spatial:
+                    assert_state_equal(mask_gen.get_state(), state["mask_rng"], "mask_rng")
+                save_json(
+                    args.out / f"exact_reload_step{first}.json",
+                    {"step": first, "all_loaded_states_exact": True},
+                )
+            del state
 
         def save(step):
             checkpoint(
                 args.out / "checkpoint.pt",
                 {
-                    "student": student.state_dict(),
-                    "teacher": teacher.state_dict(),
-                    "student_head": sh.state_dict(),
-                    "teacher_head": th.state_dict(),
-                    "objective": objective.state_dict(),
+                    **{key: obj.state_dict() for key, obj in modules},
                     "optimizer": optimizer.state_dict(),
                     "step": step,
                     "config": config,
                     "exposures": dict(exposures),
                     "rng": rng_state(gen),
+                    **({"mask_rng": mask_gen.get_state()} if spatial else {}),
                 },
             )
 
@@ -173,6 +227,7 @@ def main():
                 optimizer.zero_grad(set_to_none=True)
                 raw_teacher, mean_loss, entropy, diversity = [], 0.0, 0.0, 0.0
                 feature_std, prototype_count = 0.0, 0.0
+                patch_means, mean_patch_loss = [], 0.0
                 for _ in range(args.accumulation):
                     indices = torch.randint(len(names), (args.batch,), generator=gen).tolist()
                     items = []
@@ -183,15 +238,33 @@ def main():
                     xx = [torch.stack([item[c] for item in items]).cuda() for c in range(4)]
                     with torch.autocast("cuda", dtype=torch.bfloat16):
                         with torch.no_grad():
-                            teacher_features = [
-                                teacher.forward_features(x)["x_norm_clstoken"] for x in xx[:2]
-                            ]
+                            teacher_outputs = [teacher.forward_features(x) for x in xx[:2]]
+                            teacher_features = [f["x_norm_clstoken"] for f in teacher_outputs]
                             tt = [th(f) for f in teacher_features]
                         ss = [sh(student.forward_features(x)["x_norm_clstoken"]) for x in xx]
                         loss, probs = objective(ss, tt, temp)
                     if not torch.isfinite(loss):
                         raise ValueError("Nonfinite DINO objective")
                     (loss / args.accumulation).backward()
+                    if spatial:
+                        for image, teacher_output in zip(xx[:2], teacher_outputs, strict=True):
+                            mask = patch_masks(args.batch, 256, mask_gen).cuda()
+                            with torch.autocast("cuda", dtype=torch.bfloat16):
+                                patch_loss, patch_mean = masked_patch_loss(
+                                    student,
+                                    teacher_output["x_norm_patchtokens"],
+                                    sph,
+                                    tph,
+                                    patch_objective,
+                                    image,
+                                    mask,
+                                    temp,
+                                )
+                            if not torch.isfinite(patch_loss):
+                                raise ValueError("Nonfinite masked-patch loss")
+                            (patch_loss / (2 * args.accumulation)).backward()
+                            mean_patch_loss += float(patch_loss.detach()) / (2 * args.accumulation)
+                            patch_means.append(patch_mean)
                     raw_teacher.extend([t.detach().float() for t in tt])
                     mean_loss += float(loss.detach()) / args.accumulation
                     pp = torch.cat(probs)
@@ -205,21 +278,34 @@ def main():
                 if step < 100:
                     for parameter in sh.last_layer.parameters():
                         parameter.grad = None
-                grad_norm = torch.nn.utils.clip_grad_norm_(
-                    list(student.parameters()) + list(sh.parameters()), 3
-                )
+                    if spatial:
+                        for parameter in sph.last_layer.parameters():
+                            parameter.grad = None
+                grad_norm = torch.nn.utils.clip_grad_norm_(parameters, 3)
                 if not torch.isfinite(grad_norm):
                     raise ValueError("Nonfinite DINO gradients")
                 optimizer.step()
                 ema_update(teacher, student, momentum)
                 ema_update(th, sh, momentum)
                 objective.update_center(raw_teacher)
+                if spatial:
+                    ema_update(tph, sph, momentum)
+                    patch_objective.update_center(patch_means)
                 last_step = step + 1
-                if step % 25 == 0 or last_step == args.steps:
+                if args.profile or step % 25 == 0 or last_step == args.steps:
                     torch.cuda.synchronize()
                     row = {
                         "step": last_step,
                         "loss": mean_loss,
+                        **(
+                            {
+                                "global_loss": mean_loss,
+                                "patch_loss": mean_patch_loss,
+                                "total_loss": mean_loss + mean_patch_loss,
+                            }
+                            if spatial
+                            else {}
+                        ),
                         "teacher_entropy": entropy,
                         "batch_marginal_entropy": diversity,
                         "teacher_feature_std": feature_std,

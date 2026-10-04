@@ -14,6 +14,8 @@ import psutil
 import torch
 
 from acquire import save_json
+from budget import allocation_limits
+from gpu_memory import physical_used_bytes
 
 ARTIFACTS = Path(__file__).resolve().parents[1] / "artifacts"
 LEDGER = ARTIFACTS / "resource_ledger.jsonl"
@@ -119,6 +121,22 @@ def checkpoint(path, state):
     tmp.replace(path)
 
 
+def assert_state_equal(left, right, path="state"):
+    """Exact loaded-state identity, independent of CPU/CUDA placement."""
+    if isinstance(left, torch.Tensor):
+        assert left.dtype == right.dtype and torch.equal(left.detach().cpu(), right.detach().cpu()), path
+    elif isinstance(left, dict):
+        assert left.keys() == right.keys(), path
+        for key in left:
+            assert_state_equal(left[key], right[key], f"{path}.{key}")
+    elif isinstance(left, (list, tuple)):
+        assert len(left) == len(right), path
+        for index, (a, b) in enumerate(zip(left, right, strict=True)):
+            assert_state_equal(a, b, f"{path}.{index}")
+    else:
+        assert left == right, path
+
+
 def file_sha(path):
     h = hashlib.sha256()
     with Path(path).open("rb") as f:
@@ -139,18 +157,26 @@ def used_hours():
 
 
 class Resources:
-    def __init__(self, name, directory):
+    def __init__(self, name, directory, allocation=None):
         self.name = name
         self.out = Path(directory)
         self.out.mkdir(parents=True, exist_ok=True)
         self.start = None
         self.base_hours = used_hours()
+        allocation = allocation or os.environ.get("SONAR_RESEARCH_ALLOCATION")
+        self.budget = allocation_limits(
+            LEDGER,
+            allocation,
+            os.environ.get("SONAR_RESEARCH_PHASE", "development"),
+            os.environ.get("SONAR_FINAL_FREEZE"),
+            os.environ.get("SONAR_ORIGINAL_BLOCK_OPERATION") == "1",
+        )
         self.peak_rss = 0
         self.peak_device_used = 0
 
     def __enter__(self):
-        if self.base_hours >= 24:
-            raise RuntimeError("Initial 24 GPU-hour allocation exhausted")
+        if self.base_hours >= self.budget["charge_ceiling_hours"] - 0.01:
+            raise RuntimeError("Research block limit or protected final reserve reached")
         ARTIFACTS.mkdir(exist_ok=True)
         fd = os.open(LOCK, os.O_CREAT | os.O_EXCL | os.O_WRONLY)
         os.write(fd, json.dumps({"pid": os.getpid(), "name": self.name}).encode())
@@ -169,6 +195,7 @@ class Resources:
                 "pid": os.getpid(),
                 "utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
                 "started_epoch": self.start_epoch,
+                **self.budget,
             }
         )
         return self
@@ -202,14 +229,7 @@ class Resources:
         rss = self.observe_owned_ram()
         free, total = torch.cuda.mem_get_info()
         # WDDM's CUDA memory view excludes some desktop allocations. Query the physical total too.
-        physical = (
-            int(
-                subprocess.check_output(
-                    ["nvidia-smi", "--query-gpu=memory.used", "--format=csv,noheader,nounits"], text=True
-                ).splitlines()[0]
-            )
-            * 1024**2
-        )
+        physical, physical_source = physical_used_bytes()
         self.peak_device_used = max(self.peak_device_used, physical)
         values = {
             "elapsed_seconds": elapsed,
@@ -221,11 +241,12 @@ class Resources:
             "cuda_peak_reserved": torch.cuda.max_memory_reserved(),
             "device_used_bytes": total - free,
             "physical_device_used_bytes": physical,
+            "physical_memory_source": physical_source,
         }
         if self.peak_rss >= 22 * 1024**3 or max(total - free, physical) >= 10 * 1024**3:
             raise RuntimeError(f"Resource ceiling reached: {values}")
-        if self.base_hours + active / 3600 >= 23.99:
-            raise RuntimeError("Initial allocation limit reached; preserve checkpoint")
+        if self.base_hours + active / 3600 >= self.budget["charge_ceiling_hours"] - 0.01:
+            raise RuntimeError("Research allocation/reserve limit reached; preserve checkpoint")
         return values
 
     def __exit__(self, typ, exc, tb):
@@ -247,8 +268,10 @@ class Resources:
             "cuda_peak_reserved_bytes": torch.cuda.max_memory_reserved(),
             "physical_device_used_peak_bytes": self.peak_device_used,
             "overall_remaining_hours": 100 - self.base_hours - active / 3600,
-            "block_remaining_hours": 24 - self.base_hours - active / 3600,
+            "block_remaining_hours": self.budget["block_ceiling_hours"] - self.base_hours - active / 3600,
+            **self.budget,
         }
+        result["remaining_development_hours"] = self.budget["remaining_development_hours"] - active / 3600
         self.event(result)
         save_json(self.out / "resources.json", result)
         LOCK.unlink(missing_ok=True)

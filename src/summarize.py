@@ -53,7 +53,7 @@ def size_errors(directory):
 
 def curves(directory):
     path = directory / "curve.jsonl"
-    if not path.exists():
+    if not path.exists() or (directory / "learning_curves.png").exists():
         return
     rows = [json.loads(s) for s in path.read_text().splitlines()]
     if not rows:
@@ -68,7 +68,7 @@ def curves(directory):
     for index, segment in enumerate(segments):
         axes[0].plot(
             [r["step"] for r in segment],
-            [r.get("loss", sum(r.get("losses", {}).values())) for r in segment],
+            [r.get("total_loss", r.get("loss", sum(r.get("losses", {}).values()))) for r in segment],
             label=f"Logged segment {index + 1}",
         )
     if len(segments) > 1:
@@ -97,10 +97,34 @@ def curves(directory):
     plt.close(fig)
 
 
+def recipe(config):
+    if not config.get("adapted"):
+        return "random" if config["kind"] == "random" else "published"
+    parent = Path(config["adapted"]).parent / "config.json"
+    metadata = json.loads(parent.read_text())
+    return metadata.get("adaptation_configuration", "A")
+
+
+def group_key(row):
+    return (
+        row["recipe"],
+        row["kind"],
+        row["detector_size"],
+        row["fraction"],
+        row["split"],
+        row.get("neck", "none"),
+        row.get("microbatch", 8),
+        row.get("accumulation", 1),
+        row.get("evaluator_version", "legacy-coco-v1"),
+    )
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--errors", action="store_true")
+    parser.add_argument("--out", type=Path, default=Path("artifacts/continuation-summary"))
     args = parser.parse_args()
+    args.out.mkdir(parents=True, exist_ok=True)
     results = []
     for directory in sorted(Path("artifacts").glob("det-*")):
         config = json.loads((directory / "config.json").read_text())
@@ -113,9 +137,15 @@ def main():
                     {
                         "run": directory.name,
                         "kind": config["kind"],
+                        "recipe": recipe(config),
+                        "detector_size": config.get("detector_size", 448),
                         "seed": config["seed"],
                         "fraction": config["fraction"],
+                        "neck": config.get("neck", "none"),
+                        "microbatch": config["batch"],
+                        "accumulation": config["accumulation"],
                         "split": split,
+                        "evaluator_version": metric.get("evaluator_version", "legacy-coco-v1"),
                         **{
                             k: metric[k]
                             for k in [
@@ -136,24 +166,42 @@ def main():
             and (directory / "val/predictions.json").exists()
         ):
             size_errors(directory)
-    for directory in Path("artifacts").glob("ssl-A-s*"):
+    for directory in Path("artifacts").glob("ssl-*"):
         curves(directory)
     if not results:
         raise RuntimeError("No executed saved detector evaluation exists")
-    with Path("artifacts/results.csv").open("w", encoding="utf8", newline="") as stream:
+    with (args.out / "results.csv").open("w", encoding="utf8", newline="") as stream:
         writer = csv.DictWriter(stream, fieldnames=list(results[0]))
         writer.writeheader()
         writer.writerows(results)
     groups = defaultdict(list)
     for row in results:
-        groups[(row["kind"], row["fraction"], row["split"])].append(row)
+        groups[group_key(row)].append(row)
     summaries = []
-    for (kind, fraction, split), rows in sorted(groups.items()):
+    for (
+        training_recipe,
+        kind,
+        size,
+        fraction,
+        split,
+        neck,
+        microbatch,
+        accumulation,
+        evaluator_version,
+    ), rows in sorted(groups.items()):
+        if len({row["seed"] for row in rows}) != len(rows):
+            raise ValueError("Duplicate seed in a summary group; preserve separate experiments")
         summaries.append(
             {
                 "kind": kind,
+                "recipe": training_recipe,
+                "detector_size": size,
                 "fraction": fraction,
                 "split": split,
+                "neck": neck,
+                "microbatch": microbatch,
+                "accumulation": accumulation,
+                "evaluator_version": evaluator_version,
                 "seeds": [r["seed"] for r in rows],
                 "n": len(rows),
                 "AP50_mean": statistics.mean(r["AP50"] for r in rows),
@@ -167,7 +215,7 @@ def main():
                 ),
             }
         )
-    save_json(Path("artifacts/results_summary.json"), summaries)
+    save_json(args.out / "results_summary.json", summaries)
     print(json.dumps({"per_seed": results, "summary": summaries}, indent=2))
 
 

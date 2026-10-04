@@ -15,6 +15,8 @@ from torchvision.models.detection import FasterRCNN
 from torchvision.models.detection.anchor_utils import AnchorGenerator
 from torchvision.ops import MultiScaleRoIAlign
 
+from localization import install_branch
+
 PROJECT = Path(__file__).resolve().parents[1]
 os.environ["XFORMERS_DISABLED"] = "1"
 sys.path.insert(0, str(PROJECT / "vendor/dinov2"))
@@ -84,18 +86,25 @@ class SpatialPyramid(nn.Module):
         )
 
 
-def detector(kind="published", adapted=None, frozen=True, seed=7):
+class LocalizationPyramid(SpatialPyramid):
+    def forward(self, x):
+        return self.localization_branch(x, super().forward(x))
+
+
+def detector(kind="published", adapted=None, frozen=True, seed=7, size=448, neck="none"):
+    if size not in (448, 672):
+        raise ValueError(f"Detector size must be 448 or 672, got {size}")
     # Independent encoder RNG cannot alter the matched head initialization.
     torch.manual_seed(seed + 10000)
     enc = encoder(kind, adapted)
     torch.manual_seed(seed)
-    backbone = SpatialPyramid(enc, frozen)
+    backbone = SpatialPyramid(enc, frozen) if neck == "none" else LocalizationPyramid(enc, frozen)
     anchors = AnchorGenerator(((16,), (32,), (64,), (128,)), ((0.5, 1.0, 2.0),) * 4)
-    return FasterRCNN(
+    model = FasterRCNN(
         backbone,
         num_classes=2,
-        min_size=448,
-        max_size=448,
+        min_size=size,
+        max_size=size,
         size_divisible=112,
         rpn_anchor_generator=anchors,
         box_roi_pool=MultiScaleRoIAlign(["0", "1", "2", "3"], 7, 2),
@@ -107,6 +116,7 @@ def detector(kind="published", adapted=None, frozen=True, seed=7):
         box_nms_thresh=0.5,
         box_detections_per_img=100,
     )
+    return install_branch(model, neck, seed)
 
 
 def projection():
